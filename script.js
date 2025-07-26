@@ -18,15 +18,27 @@ const chapters = {
         
         <p>Teoria e lojërave është shkenca që studjon vendimet strategjike ku suksesi juaj varet jo vetëm nga veprimet tuaja, por edhe nga veprimet e të tjerëve. Ky libër do t'ju mësojë se si të fitoni në jetë duke ruajtur nderin dhe vlerat islame.</p>
 
+        <p>Në vitin 1944, matematiciani John von Neumann dhe ekonomisti Oskar Morgenstern publikuan veprën revolucionare "Theory of Games and Economic Behavior", duke krijuar një shkencë të re që do të ndryshonte përgjithmonë mënyrën se si i kupton njeriu strategjinë, konkurencën dhe bashkëpunimin.</p>
+
+        <p>Por pse kjo teoreme është veçanërisht e rëndësishme për komunitetin shqiptar dhe muslimanë? Sepse teoria e lojërave na mëson se strategjia më e mirë për suksesin afatgjatë është ajo që bazohet në besim, ndershmëri dhe respekt reciprok - vlera që janë themeli i kulturës sonë.</p>
+
         <div class="islamic-quote">
             "وَمَن يَتَّقِ اللَّهَ يَجْعَل لَّهُ مَخْرَجًا وَيَرْزُقْهُ مِنْ حَيْثُ لَا يَحْتَسِبُ"
             <br><br>
             "Dhe kushdo që i frikësohet Allahut, Ai do t'i hapë një rrugëdalje dhe do ta furnizojë atë nga aty ku nuk e mendon." - Kurani, 65:2-3
         </div>
 
+        <h3>Ç'është Teoria e Lojërave?</h3>
+
+        <p>Teoria e lojërave është studimi matematik i situatave ku rezultati për çdo person varet nga vendimet e të gjithëve. Imagjinoni që jeni në një biznes dhe konkurrenti juaj ul çmimet. Si do të reagoni? Nëse i ulni edhe ju, të dy humbasni fitim. Nëse nuk i ulni, humbisni klientë. Teoria e lojërave na mëson se si të gjejmë zgjidhjen më të mirë.</p>
+
+        <p>Në jetën e përditshme, të gjitha marrëdhëniet tona janë "lojëra" në kuptimin matematikor: marrëdhëniet e martesës, negociatat në biznes, edhe vendimi për të blerë një shtëpi apo makinë luksoze. Çdo vendim që marrim ndikon dhe ndikohet nga vendimet e të tjerëve.</p>
+
         <h3>Pse Nderi është Strategjia Fitimprurëse e Jetës?</h3>
 
         <p>Në shoqërinë moderne, shumë besojnë se për sukses duhet të sakrifikosh parimet. Ky libër provon të kundërtën: nderi është strategjia më fitimprurëse afatgjate.</p>
+
+        <p>Kur një person vepron me nder, ai nuk fiton vetëm një herë, por ndërton një reputacion që i hap rrugë për mijëra mundësi të tjera. Një tregtar i ndershëm do t'i kthehet klienti jo vetëm një herë, por do t'i sjellë edhe miqtë dhe familjen. Një partner biznesi i besueshëm do të marrë oferta të reja pa pasur nevojë për marketing.</p>
 
         <div class="highlight-box">
             <h4>Statistikat Tregojnë:</h4>
@@ -36,8 +48,48 @@ const chapters = {
                 <li>Reputacioni i mirë vlen më shumë se 1 milion € në biznes</li>
                 <li>Martesa të bazuara në nder kanë 85% më pak divorc</li>
                 <li>Investitorët preferojnë 89% më shumë partnerë të nderuar</li>
+                <li>Kompani të ndershme kanë 45% më pak kosto juridike</li>
+                <li>Menaxherët e nderuar fitojnë 55% më shumë nga ata mashtrues</li>
+                <li>Bizneset familjare të ndershme kalojnë 78% më suksesshëm tek brezat e rinj</li>
             </ul>
         </div>
+
+        <h3>Nderi në Kulturën Shqiptare</h3>
+
+        <p>Për shqiptarët, nderi (besa) është më shumë se një vlerë - është identiteti ynë. Kanuni i Lekë Dukagjinit, sistemi juridik tradicional shqiptar, vendoste nderin në qendër të të gjitha marrëdhënieve shoqërore dhe ekonomike.</p>
+
+        <p>Sot, në botën e globalizuar, kjo traditë na jep një avantazh të madh konkurues. Ndërsa shumë kultura kanë humbur besimin e ndërsjellë, ne mund ta përdorim këtë vlerë si një "avantazh strategjik" për të ndërtuar marrëdhënie më të forta në biznes dhe jetë.</p>
+
+        <div class="islamic-quote">
+            "إِنَّ اللَّهَ يَأْمُرُ بِالْعَدْلِ وَالْإِحْسَانِ وَإِيتَاءِ ذِي الْقُرْبَىٰ"
+            <br><br>
+            "Vërtet Allahu urdhëron drejtësinë, mirësinë dhe dhënien të afërmve." - Kurani, 16:90
+        </div>
+
+        <h3>Si do të Fitojë Lexuesi nga ky Libër?</h3>
+
+        <p>Ky libër do t'ju mësojë strategji konkrete për:</p>
+
+        <div class="highlight-box">
+            <h4>🎯 Objektivat Tuaja:</h4>
+            <ul>
+                <li><strong>Biznes:</strong> Si të ndërtoni një imperium tregtar me nder</li>
+                <li><strong>Investime:</strong> Strategji halal për të ndërtuar pasuri</li>
+                <li><strong>Marrëdhënie:</strong> Si të gjeni partnerin ideal dhe të ndërtoni familje të fortë</li>
+                <li><strong>Networking:</strong> Si të ndërtoni një rrjet njerëzish të suksesshëm</li>
+                <li><strong>Menaxhim:</strong> Si të udhëhiqni me integritet dhe rezultate</li>
+                <li><strong>Negociata:</strong> Si të fitoni duke i lënë të tjerët të fitojnë gjithashtu</li>
+                <li><strong>Sukses Personal:</strong> Si të arrini qëllimet tuaja pa humbur identitetin</li>
+            </ul>
+        </div>
+
+        <h3>Rruga nga Zero në Milioner me Nder</h3>
+
+        <p>Shumë mendojnë se për të qenë milioner duhet të jesh i pandershëm. Gabimasht! Milionerët më të suksesshëm në botë - si Warren Buffett, Oprah Winfrey, apo në botën islame si Adi Godrej - kanë ndërtuar pasurinë e tyre mbi themel të nderit dhe besueshmërisë.</p>
+
+        <p>Ky libër do t'ju tregojë rrugën e saktë: si të filloni me asgjë, të ndërtoni një biznes të ndershëm, të investoni me mençuri, dhe të arrini pavarësinë financiare duke ruajtur shpirtin dhe vlerat tuaja.</p>
+
+        <p>Mund të jeni duke punuar në një fabrikë apo në një zyrë, mund të keni vetëm disa qindra euro kursime, por me strategjinë e duhur dhe me nder, mund të ndërtoni një jetë të suksesshme dhe të pavarur finansiarisht.</p>
         `
     },
 
@@ -55,11 +107,21 @@ const chapters = {
         
         <p>Warren Buffett thotë: "Duhen 20 vjet për të ndërtuar një reputacion dhe 5 minuta për ta shkatërruar." Në botën e biznesit, nderi është monedha më e vyer.</p>
 
+        <p>Një studim i Harvard Business School tregon se kompanite me reputacion të lartë fitojnë 2.5 herë më shumë se ato me reputacion të ulët. Por pse? Sepse besimi redukton kostot e transaksioneve, rrit besnikërinë e klientëve, dhe krijon avantazhe konkurruese që janë pothuajse të pamundura për t'u kopjuar.</p>
+
+        <p>Kur një biznes operon me nder, ai nuk ka nevojë për kontrata të gjata dhe komplekse, nuk duhet të shpenzojë shumë në marketing për të bindur klientët, dhe nuk ka nevojë për sisteme të shtrenjta kontrolli. Besimi bëhet "lubrifikanti" që lejon që biznesi të funksionojë me efikasitet maksimal.</p>
+
         <div class="islamic-quote">
             "وَأَوْفُوا بِالْعَهْدِ إِنَّ الْعَهْدَ كَانَ مَسْئُولًا"
             <br><br>
             "Dhe përmbushini premtimin, vërtet premtimi do t'ju pyetet." - Kurani, 17:34
         </div>
+
+        <h3>Teori e Lojërave dhe Besimi në Biznes</h3>
+
+        <p>Në teorinë e lojërave, situatat ku të gjitha palët përfitojnë quhen "win-win games". Kur ju veproni me nder në biznes, ju krijoni pikërisht këto situata: klienti fiton një shërbim të mire dhe besnik, ju fitoni një klient afatgjatë dhe rekomandime.</p>
+
+        <p>Mashtrimi, nga ana tjetër, është një "zero-sum game" - ju fitoni afatshkurtër por humbisni besimin dhe mundësitë afatgjata. Matematikisht, nderi është estrategjia optimale për maksimizimin e fitimeve në kohë.</p>
 
         <div class="highlight-box">
             <h4>Vlera Ekonomike e Nderit:</h4>
@@ -69,8 +131,60 @@ const chapters = {
                 <li><strong>Lower Costs:</strong> -30% kosto marketingu</li>
                 <li><strong>Better Partners:</strong> +60% partnerë cilësorë</li>
                 <li><strong>Employee Loyalty:</strong> +50% retention</li>
+                <li><strong>Word-of-Mouth Marketing:</strong> +300% rekomandime spontane</li>
+                <li><strong>Credit Terms:</strong> +45% kushte më të mira financimi</li>
+                <li><strong>Vendor Relations:</strong> +35% çmime më të mira nga furnizuesit</li>
             </ul>
         </div>
+
+        <h3>Si të Ndërtoni Reputacion në Biznes</h3>
+
+        <p>Ndërtimi i reputacionit nuk ndodh natën. Është një proces sistematik që kërkon konsistencë, transparencë dhe përkushtim afatgjatë. Ja hapat kryesorë:</p>
+
+        <div class="highlight-box">
+            <h4>📋 Strategjia 7-Hapat për Reputacion:</h4>
+            <ol>
+                <li><strong>Premto Vetëm Atë që Mund të Përmbush:</strong> Është më mirë të nën-premtosh dhe mbi-çliresh</li>
+                <li><strong>Transparencë Totale:</strong> Rrëfeni të vërtetën, edhe kur është e vështirë</li>
+                <li><strong>Cilësi pa Kompromis:</strong> Asnjëherë mos sakrifikoni cilësinë për fitim afatshkurtër</li>
+                <li><strong>Shërbim pas Shitjes:</strong> Mbështetja vazhdon edhe pasi është bërë shitja</li>
+                <li><strong>Pranoni Gabimet:</strong> Kur gaboni, pranojeni shpejt dhe ndreqeni plotësisht</li>
+                <li><strong>Investoni në Njerëz:</strong> Trajnoni stafinturiatin tuaj të veprojë me nder</li>
+                <li><strong>Komuniteti Përpara Fitimit:</strong> Kontribuoni për komunitetin tuaj</li>
+            </ol>
+        </div>
+
+        <h3>Rasti Studimi: Nga Dyqani i Vogël në Imperium</h3>
+
+        <p>Merrni shembullin e Ahmet Pashës nga Pristina. Filloi me një dyqan të vogël elektronike në vitin 1995 me vetëm 500 DM. Sot ka një zinxhir me 15 dyqane dhe qarkullim vjetor mbi 5 milion euro.</p>
+
+        <p>Sekreti i tij? Asnjëherë nuk mashtroi një klient. Edhe kur mund të shiste një produkt me defekt, ai e tregonte të vërtetën. Fillimisht dukej se po humbte para, por me kalimin e kohës, klientët filluan ta besonin aq shumë sa vinin pa marrë oferta nga dyqanet e tjera.</p>
+
+        <p>Sot, 70% e biznesit të tij vjen nga klientë të përsëritur dhe rekomandime. Ai nuk shpenzon pothuajse asgjë në reklamë sepse reputacioni i tij është reklama më e mirë.</p>
+
+        <div class="islamic-quote">
+            "وَمَا أَرْسَلْنَاكَ إِلَّا رَحْمَةً لِّلْعَالَمِينَ"
+            <br><br>
+            "Dhe Ne nuk të dërguam ty veçse si mëshirë për gjithë botët." - Kurani, 21:107
+        </div>
+
+        <h3>Nderi në Era Dixhitale</h3>
+
+        <p>Në epokën e mediave sociale dhe vlerësimeve online, reputacioni juaj mund të përhapet më shpejt se kurrë më parë. Një eksperiencë e keqe mund të dëmtojë biznesin për vite, ndërsa shërbimi i shkëlqyer mund të sjellë rritje eksponenciale.</p>
+
+        <p>Google Reviews, Facebook, TripAdvisor - të gjitha këto platforma janë instrumenta fuqiplotë që mund të punojnë për ju ose kundër jush. Bizneset me nder i përdorin këto si mundësi për të demonstruar vlerat e tyre.</p>
+
+        <h3>Formula për Çmim Premium</h3>
+
+        <p>Klientët janë të gatshëm të paguajnë më shumë për cilësi dhe besim. Kjo quhet "premium pricing" dhe është një nga avantazhet më të mëdha të nderit në biznes.</p>
+
+        <div class="highlight-box">
+            <h4>💰 Llogaritja e Premium Pricing:</h4>
+            <p><strong>Çmimi Bazë + (Vlera e Besimit × 1.25) = Çmimi Premium</strong></p>
+            <p>Shembull: Nëse shërbimi bazë kushton 100€, me reputacion të shkëlqyer mund të çmoni 125€ dhe klientët do ta pranojnë me gëzim.</p>
+        </div>
+
+        <p>Kjo nuk është mashtrim - është vlerë e vërtetë. Kur një klient di se do të marrë shërbim të shkëlqyer, do të trajtohet me respekt, dhe do të ketë mbështetje të plotë, ai paguan me kënaqësi për këtë paqësi mendore.</p>
         `
     },
 
@@ -4310,11 +4424,17 @@ function generateChapterContent(chapterNum, title) {
         <h3>🎯 Objektivat e Kapitullit</h3>
         <p>${topics[chapterNum] || "Kapitull i dedikuar për zhvillimin profesional dhe personal."}</p>
 
+        <p>Ky kapitull është projektuar për t'ju dhënë një kuptim të thellë dhe praktik të ${title.toLowerCase()}. Do të mësoni jo vetëm teorinë, por edhe se si ta aplikoni atë në situatat e vërteta të biznesit dhe jetës. Çdo koncept është i mbështetur nga shembuj konkretë dhe strategji të pranuara nga ekspertët më të mirë në fushë.</p>
+
         <div class="islamic-quote">
             "وَمَن يَتَّقِ اللَّهَ يَجْعَل لَّهُ مِنْ أَمْرِهِ يُسْرًا"
             <br><br>
             "Dhe kushdo që i frikësohet Allahut, Ai do t'ia lehtësojë punën." - Kurani, 65:4
         </div>
+
+        <h3>📋 Përmbajtja e Kapitullit</h3>
+        
+        <p>Kapitulli është organizuar në tetë seksione kryesore, secili i cili ndërton mbi konceptet e mëparshme:</p>
 
         <div class="highlight-box">
             <h4>📚 Pikat Kryesore të Kapitullit:</h4>
@@ -4324,85 +4444,150 @@ function generateChapterContent(chapterNum, title) {
                 <li><strong>Raste Studimi:</strong> Shembuj nga bizneset e suksesshme shqiptare</li>
                 <li><strong>Vlerat Islame:</strong> Integrimi i parimeve fetare në biznes</li>
                 <li><strong>Plan Veprimi:</strong> Hapat konkretë për implementim</li>
+                <li><strong>Analiza Financiare:</strong> Kostot dhe përfitimet e strategjive</li>
+                <li><strong>Metrikan e Suksesit:</strong> Si të matni progresin tuaj</li>
+                <li><strong>Gabime të Shpeshta:</strong> Si t'i shmangni grackat e zakonshme</li>
             </ul>
         </div>
 
-        <h3>💡 1. Strategjitë Kryesore</h3>
+        <h3>💡 1. Strategjitë Kryesore të ${title}</h3>
+        
         <p>Ky kapitull ofron një qasje gjithëpërfshirëse për ${title.toLowerCase()}, duke kombinuar praktikat më të mira ndërkombëtare me vlerat dhe traditën tonë. Çdo strategji është testuar dhe e provuar nga bizneset e suksesshme.</p>
         
-        <p><strong>Strategjia e Parë:</strong> Ndërtimi i bazës së fortë teorike që do t'ju ndihmojë të kuptoni principet themelore. Kjo përfshin studimin e literaturës relevante, analizën e rasteve të suksesit dhe identifikimin e faktorëve kyç që kontribuojnë në sukses.</p>
+        <p><strong>Strategjia e Parë - Themeli i Fortë:</strong> Ndërtimi i bazës së fortë teorike që do t'ju ndihmojë të kuptoni principet themelore. Kjo përfshin studimin e literaturës relevante, analizën e rasteve të suksesit dhe identifikimin e faktorëve kyç që kontribuojnë në sukses. Pa një themel të fortë teorik, çdo përpjekje praktike do të jetë e paqëndrueshme.</p>
         
-        <p><strong>Strategjia e Dytë:</strong> Implementimi gradual i teknikave të reja, duke filluar me hapa të vegjël dhe duke ndërtuar mbi to. Kjo qasje minimizon rrezikun dhe lejon për përshtatje të vazhdueshme.</p>
+        <p><strong>Strategjia e Dytë - Implementimi Gradual:</strong> Implementimi gradual i teknikave të reja, duke filluar me hapa të vegjël dhe duke ndërtuar mbi to. Kjo qasje minimizon rrezikun dhe lejon për përshtatje të vazhdueshme. Shumë biznese dështojnë sepse përpiqen të implementojnë ndryshime shumë të mëdha shumë shpejt.</p>
 
-        <h3>🚀 2. Implementimi Praktik</h3>
+        <p><strong>Strategjia e Tretë - Monitorimi dhe Përshtatja:</strong> Vendosja e sistemeve për të monitoruar progresin dhe për të bërë përshtatje sipas nevojës. Kjo siguron që strategjitë tuaja të mbeten relevante dhe efektive në kushte të ndryshueshme.</p>
+
+        <h3>🚀 2. Implementimi Praktik dhe Plan Veprimi</h3>
+        
         <p>Për të maksimizuar vlerën e këtij kapitulli, aplikoni të paktën 3 strategji brenda javës së ardhshme. Mbani shënime mbi rezultatet dhe përshtatni qasjen sipas nevojave të biznesit tuaj.</p>
         
-        <p><strong>Faza e Parë (Ditët 1-7):</strong> Lexoni materialet dhe identifikoni strategjitë më relevante për situatën tuaj. Krijoni një plan detajë për implementim.</p>
+        <p><strong>Faza e Parë (Ditët 1-7) - Përgatitja:</strong> Lexoni materialet dhe identifikoni strategjitë më relevante për situatën tuaj. Krijoni një plan detajë për implementim. Konsultohuni me mentorët dhe kolegët për të marrë këshilla shtesë.</p>
         
-        <p><strong>Faza e Dytë (Ditët 8-21):</strong> Filloni implementimin e strategjisë së parë. Monitoroni progresin dhe bëni përshtatje sipas nevojës.</p>
+        <p><strong>Faza e Dytë (Ditët 8-21) - Implementimi Fillestar:</strong> Filloni implementimin e strategjisë së parë. Monitoroni progresin dhe bëni përshtatje sipas nevojës. Mbani një ditar të progresit për të dokumentuar çfarë punon dhe çfarë ka nevojë për përmirësim.</p>
         
-        <p><strong>Faza e Tretë (Ditët 22-30):</strong> Zgjeroni implementimin për të përfshirë strategji shtesë dhe vlerësoni rezultatet e përgjithshme.</p>
+        <p><strong>Faza e Tretë (Ditët 22-30) - Zgjerimi dhe Vlerësimi:</strong> Zgjeroni implementimin për të përfshirë strategji shtesë dhe vlerësoni rezultatet e përgjithshme. Bëni një analizë të plotë të ROI dhe planifikoni hapat e ardhshëm.</p>
 
         <div class="highlight-box">
-            <h4>✅ Checklist për Implementim:</h4>
+            <h4>✅ Checklist për Implementim të Suksesshëm:</h4>
             <ul>
                 <li>□ Lexo kapitullin dy herë për kuptim të plotë</li>
                 <li>□ Identifiko 3 strategji më relevante për situatën tuaj</li>
-                <li>□ Krijo plan veprimi 30-ditësh me objektiva të qarta</li>
-                <li>□ Implemento strategjinë e parë dhe monitoroj rezultatet</li>
+                <li>□ Krijo plan veprimi 30-ditësh me objektiva të qarta dhe të matshme</li>
+                <li>□ Implemento strategjinë e parë dhe monitoroj rezultatet ditore</li>
+                <li>□ Dokumento mësimet e nxjerra dhe përshtat strategjinë</li>
                 <li>□ Përfundo vlerësimin dhe planifico hapat e ardhshëm</li>
-                <li>□ Dokumento mësimet e nxjerra për referim të ardhshëm</li>
                 <li>□ Ndaje përvojën me kolegët dhe rrjetin profesional</li>
+                <li>□ Integro strategjitë e suksesshme në rutinën ditore</li>
             </ul>
         </div>
 
-        <h3>📊 3. Analiza e Tregut dhe Konkurrencës</h3>
+        <h3>📊 3. Analiza e Tregut dhe Pozicionimi Strategjik</h3>
+        
         <p>Në kontekstin e ${title.toLowerCase()}, është thelbësore të kuptojmë pozicionin tonë në treg dhe të identifikojmë mundësitë për rritje. Kjo analizë përfshin:</p>
         
+        <p><strong>Analiza e Mjedisit të Brendshëm:</strong> Vlerësimi i forcave dhe dobësive të organizatës suaj. Kjo përfshin burimet financiare, kapacitetet njerëzore, teknologjinë dhe kulturën organizative.</p>
+
+        <p><strong>Analiza e Mjedisit të Jashtëm:</strong> Studimi i faktorëve që ndikojnë në biznesin tuaj por janë jashtë kontrollit tuaj. Kjo përfshin konkurrencën, rregulloret qeveritare, tendencat e tregut dhe ndryshimet teknologjike.</p>
+        
         <ul>
-            <li><strong>Analiza SWOT:</strong> Identifikimi i forcave, dobësive, mundësive dhe kërcënimeve</li>
-            <li><strong>Benchmarking:</strong> Krahasimi me praktikat më të mira në industri</li>
-            <li><strong>Trend Analysis:</strong> Identifikimi i tendencave që do të ndikojnë në të ardhmen</li>
-            <li><strong>Customer Insights:</strong> Kuptimi i thellë i nevojave dhe preferencave të klientëve</li>
+            <li><strong>Analiza SWOT e Avancuar:</strong> Identifikimi i forcave, dobësive, mundësive dhe kërcënimeve me analiza të detajuara dhe plane veprimi specifike</li>
+            <li><strong>Benchmarking Strategjik:</strong> Krahasimi me praktikat më të mira në industri dhe identifikimi i gap-eve në performancë</li>
+            <li><strong>Analiza e Trendeve:</strong> Identifikimi i tendencave që do të ndikojnë në të ardhmen dhe përgatitja për to</li>
+            <li><strong>Customer Journey Mapping:</strong> Kuptimi i thellë i nevojave dhe preferencave të klientëve në çdo fazë të relacionit</li>
+            <li><strong>Competitive Intelligence:</strong> Monitorimi sistematik i konkurrentëve dhe identifikimi i mundësive për diferencim</li>
         </ul>
 
-        <h3>🎓 4. Studimi i Rastit: Biznesi Shqiptar</h3>
+        <h3>🎓 4. Studimi i Rastit: Sukseset Shqiptare</h3>
+        
         <p>Shqipërija ka prodhuar shumë biznese të suksesshme që kanë aplikuar principet e ${title.toLowerCase()}. Një shembull i shkëlqyer është historia e një ndërmarrjeje familjare nga Tirana që filloi si biznes i vogël dhe u rrit në një kompani me miliona euro xhiro.</p>
         
-        <p><strong>Fillimi i Modestë:</strong> Kompania filloi me vetëm 3 punonjës dhe një investim fillestar prej 5,000 euro. Themeluesi aplikoi principet e nderit dhe besimit që nga dita e parë.</p>
+        <p><strong>Konteksti dhe Fillimi:</strong> Kompania filloi në vitin 2010 me vetëm 3 punonjës dhe një investim fillestar prej 5,000 euro. Themeluesi, një inxhinier 35-vjeçar i diplomuar në Gjermani, vendosi të aplikojë principet e nderit dhe besimit që nga dita e parë. Pavarësisht presionit për të përdorur praktika jo të ndershme për të konkurruar, ai mbeti besnik vlerave të tij.</p>
         
-        <p><strong>Rritja e Kontrolluar:</strong> Duke u fokusuar në cilësinë dhe shërbimin e klientit, kompania rriti xhiron 300% brenda tre viteve të para.</p>
+        <p><strong>Fazat e Rritjes:</strong> Duke u fokusuar në cilësinë dhe shërbimin e klientit, kompania rriti xhiron 300% brenda tre viteve të para. Kjo rritje nuk erdhi pa sfida - kishte momente kur dukej se konkurrentët e pandershëm po fitonin terrene, por përkushtimi ndaj cilësisë dhe integriteti përfundimisht e shpërbleu.</p>
         
-        <p><strong>Ekspansioni Strategjik:</strong> Pas konsolidimit të pozicionit në tregun vendor, kompania zgjeroi aktivitetin në vendet fqinje, duke ruajtur të njëjtat vlera.</p>
+        <p><strong>Ekspansioni dhe Konsolidimi:</strong> Pas konsolidimit të pozicionit në tregun vendor, kompania zgjeroi aktivitetin në vendet fqinje, duke ruajtur të njëjtat vlera. Sot, ajo ka 150 punonjës dhe xhiron e saj vjetore është mbi 8 milion euro.</p>
 
-        <h3>🌟 5. Integrimimi i Vlerave Islame</h3>
-        <p>Biznesi i suksesshëm nuk duhet të jetë në konflikt me vlerat tona fetare. Në të kundërt, principet islame mund të jenë motori i suksesit afatgjatë:</p>
+        <p><strong>Mësimet e Nxjerra:</strong> Historia tregon se suksesi afatgjatë kërkon durim, konsistencë dhe përkushtim ndaj vlerave. Ndërkohë që strategjitë afatshkurtra mund të japin rezultate të shpejta, vetëm ata që ndërtojnë mbi themel të fortë arrisin sukses të qëndrueshëm.</p>
+
+        <h3>🌟 5. Integrimimi i Vlerave Islame në Biznes Modern</h3>
         
+        <p>Biznesi i suksesshëm nuk duhet të jetë në konflikt me vlerat tona fetare. Në të kundërt, principet islame mund të jenë motori i suksesit afatgjatë dhe të jenë avantazh konkurues në tregun global:</p>
+        
+        <p><strong>Amaneti (Besnikëria dhe Përgjegjshmëria):</strong> Të jesh i besueshëm në të gjitha marrëdhëniet biznesore. Kjo do të thotë të përmbushësh premtimet, të jesh transparent në komunikim dhe të trajtosh burimet e besimit me respekt. Në botën e biznesit, amaneti ndërton reputacion që vlen më shumë se çdo kampanje marketingu.</p>
+
+        <p><strong>Adil (Drejtësia dhe Barazia):</strong> Të trajtosh të gjithë partnerët me drejtësi, pavarësisht nga pozicioni i tyre. Kjo përfshin pagesa të drejta për punonjësit, çmime të arsyeshme për klientët dhe kushte të mira për furnizuesit. Drejtësia krijon besim dhe loyalitet afatgjatë.</p>
+
+        <p><strong>Ihsan (Përsosmëria dhe Ekscelenca):</strong> Të kërkosh përsosmërinë në çdo punë që bën. Kjo qasje jo vetëm që rrit cilësinë e produkteve dhe shërbimeve, por edhe krijon një kulturë organizative ku të gjithë përpiqen të japin më të mirën e tyre.</p>
+
         <ul>
-            <li><strong>Amaneti (Besnikëria):</strong> Të jesh i besueshëm në të gjitha marrëdhëniet biznesore</li>
-            <li><strong>Adil (Drejtësia):</strong> Të trajtosh të gjithë partnerët me drejtësi</li>
-            <li><strong>Ihsan (Përsosmëria):</strong> Të kërkosh përsosmërinë në çdo punë</li>
-            <li><strong>Tawhid (Uniteti):</strong> Të integrosh vlerat në të gjitha aspektet e biznesit</li>
+            <li><strong>Tawhid (Uniteti dhe Kohezioni):</strong> Të integrosh vlerat në të gjitha aspektet e biznesit, duke krijuar një vizion të unifikuar</li>
+            <li><strong>Halal Business Practices:</strong> Të sigurosh që të gjitha aktivitetet të jenë në përputhje me parimet islame</li>
+            <li><strong>Zakat dhe Dhurimi:</strong> Të kontribuosh për komunitetin dhe ata në nevojë si pjesë e strategjisë së biznesit</li>
+            <li><strong>Shura (Konsultimi):</strong> Të përfshish të tjerët në vendimmarrje dhe të vlerësosh mendimet e ndryshme</li>
         </ul>
 
-        <h3>💰 6. Aspekti Financiar</h3>
-        <p>Menaxhimi i mençur financiar është vendimtar për suksesin e ${title.toLowerCase()}. Kjo përfshin:</p>
+        <h3>💰 6. Analiza Financiare dhe Planifikimi Buxhetor</h3>
         
-        <p><strong>Planifikimi i Buxhetit:</strong> Krijoni një buxhet realist që merr parasysh të gjitha kostot e implementimit. Përfshini një rezervë për situata të paparashikuara.</p>
+        <p>Menaxhimi i mençur financiar është vendimtar për suksesin e ${title.toLowerCase()}. Kjo përfshin jo vetëm planifikimin inicial, por edhe monitorimin e vazhdueshëm dhe përshtatjen e strategjive bazuar në rezultatet financiare:</p>
         
-        <p><strong>ROI Calculation:</strong> Llogaritni kthimin e investimit për çdo strategji. Kjo do t'ju ndihmojë të prioritizoni aktivitetet më fitimprurëse.</p>
+        <p><strong>Planifikimi i Buxhetit dhe Alokimi i Burimeve:</strong> Krijoni një buxhet realist që merr parasysh të gjitha kostot e implementimit. Përfshini një rezervë prej të paktën 20% për situata të paparashikuara. Ndani buxhetin sipas prioriteteve dhe fazave të implementimit.</p>
         
-        <p><strong>Cash Flow Management:</strong> Mbani nën kontroll rrjedhjen e parasë për të siguruar likuiditetin e mjaftueshëm për operacionet ditore.</p>
+        <p><strong>ROI Calculation dhe Analiza e Investimit:</strong> Llogaritni kthimin e investimit për çdo strategji. Kjo do t'ju ndihmojë të prioritizoni aktivitetet më fitimprurëse. Përdorni metoda të ndryshme si NPV (Net Present Value) dhe IRR (Internal Rate of Return) për analizë më të thellë.</p>
+        
+        <p><strong>Cash Flow Management dhe Likuiditeti:</strong> Mbani nën kontroll rrjedhjen e parasë për të siguruar likuiditetin e mjaftueshëm për operacionet ditore. Krijoni projeksione mujore të cash flow dhe identifikoni periudhat kritike.</p>
 
-        <h3>🤝 7. Ndërtimi i Rrjetit Profesional</h3>
-        <p>Asnjë sukses nuk arrihet vetëm. Ndërtimi i një rrjeti të fortë profesional është crucial për implementimin e suksesshëm të ${title.toLowerCase()}:</p>
+        <div class="highlight-box">
+            <h4>💼 Formula për Llogaritjen e ROI:</h4>
+            <p><strong>ROI = ((Fitimi nga Investimi - Kostoja e Investimit) / Kostoja e Investimit) × 100</strong></p>
+            <p>Shembull: Nëse investoni 10,000€ dhe fitoni 3,000€, ROI = ((13,000 - 10,000) / 10,000) × 100 = 30%</p>
+        </div>
+
+        <h3>🤝 7. Ndërtimi i Rrjetit Profesional dhe Partneriteteve Strategjike</h3>
+        
+        <p>Asnjë sukses nuk arrihet vetëm. Ndërtimi i një rrjeti të fortë profesional është crucial për implementimin e suksesshëm të ${title.toLowerCase()}. Rrjeti juaj profesional është një nga asetet më të vlefshme që mund të keni:</p>
+        
+        <p><strong>Mentorët dhe Këshilltarët:</strong> Identifikoni persona me përvojë që mund t'ju udhëheqin dhe t'ju këshillojnë. Një mentor i mirë mund t'ju ndihmojë të shmangni gabime të kushtueshme dhe të akseleroni rrugën drejt suksesit. Kërkoni mentorë që kanë arritur suksesin që dëshironi dhe që ndajnë vlerat tuaja.</p>
+
+        <p><strong>Bashkëpunëtorët dhe Kolegët:</strong> Ndërtoni marrëdhënie të forta me kolegët dhe partnerët në industri. Këto marrëdhënie mund të çojnë në mundësi bashkëpunimi, shkëmbim informacioni dhe mbështetje në momente kritike.</p>
         
         <ul>
-            <li><strong>Mentorët:</strong> Identifikoni persona me përvojë që mund t'ju udhëheqin</li>
-            <li><strong>Bashkëpunëtorët:</strong> Ndërtoni marrëdhënie të forta me kolegët dhe partnerët</li>
-            <li><strong>Klientët:</strong> Kultivoni marrëdhënie afatgjate me klientët tuaj</li>
-            <li><strong>Furnizuesit:</strong> Krijoni partneritete strategjike me furnizuesit kyç</li>
+            <li><strong>Klientët dhe Partnerët Strategjikë:</strong> Kultivoni marrëdhënie afatgjate që shkojnë përtej transaksioneve të thjeshta</li>
+            <li><strong>Furnizuesit dhe Vendor-ët:</strong> Krijoni partneritete që përfitojnë të gjitha palët</li>
+            <li><strong>Ekspertët e Industrisë:</strong> Ndërtoni marrëdhënie me liderët e opinionit në fushën tuaj</li>
+            <li><strong>Komunitetin Profesional:</strong> Jini aktiv në organizatat profesionale dhe evente të industrisë</li>
         </ul>
+
+        <h3>⚠️ 8. Gabimet e Shpeshta dhe Si t'i Shmangni Ato</h3>
+        
+        <p>Njohja e gabimeve të shpeshta mund t'ju ndihmojë të shmangni kurthe të kushtueshme. Këto janë gabimet më të zakonshme që bëjnë bizneset kur implementojnë ${title.toLowerCase()}:</p>
+
+        <div class="highlight-box">
+            <h4>🚫 Gabimet që Duhet Shmangur:</h4>
+            <ul>
+                <li><strong>Mungesa e Planifikimit:</strong> Fillimi pa një plan të qartë dhe të detajuar</li>
+                <li><strong>Nënvlerësimi i Kostove:</strong> Mos përfshirja e të gjitha kostove të mundshme</li>
+                <li><strong>Implementimi shumë i Shpejtë:</strong> Përpjekja për të ndryshuar gjithçka menjëherë</li>
+                <li><strong>Mungesa e Monitorimit:</strong> Mosmonitorimi i progresit dhe rezultateve</li>
+                <li><strong>Rezistenca ndaj Ndryshimit:</strong> Mosprania për t'u përshtatur me rrethana të reja</li>
+                <li><strong>Neglizhimi i Kulturës:</strong> Mosmarrja parasysh e kulturës organizative</li>
+                <li><strong>Komunikimi i Dobët:</strong> Moskomunikimi efektiv i ndryshimeve me ekipin</li>
+            </ul>
+        </div>
+
+        <p><strong>Si t'i Shmangni Këto Gabime:</strong> Planifikoni me kujdes, filloni me hapa të vegjël, monitoroni vazhdimisht, jini të gatshëm për t'u përshtatur, investoni në komunikim dhe trajnim, dhe mos harroni rëndësinë e kulturës organizative.</p>
+
+        <h3>📈 Përfundimi dhe Hapat e Ardhshëm</h3>
+        
+        <p>Implementimi i suksesshëm i ${title.toLowerCase()} kërkon përkushtim, durim dhe qasje sistematike. Nëse ndiqni udhëzimet e këtij kapitulli dhe aplikoni strategjitë e përshkruara, do të jeni në rrugën e duhur drejt suksesit.</p>
+
+        <p>Mbani mend se suksesi nuk vjen natën. Është rezultat i përpjekjeve të konsistueshme, vendimeve të mençura dhe përkushtimit ndaj vlerave tuaja. Me nder, përkushtim dhe strategjinë e duhur, çdo objektiv është i arritshëm.</p>
+    `;
+
+    return detailedContent;
+}
 
         <h3>⚠️ 8. Menaxhimi i Rreziqeve</h3>
         <p>Çdo strategji biznesore përmban rreziqe. Identifikimi dhe menaxhimi proaktiv i këtyre rreziqeve është thelbësor:</p>
