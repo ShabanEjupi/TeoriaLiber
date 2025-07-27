@@ -1,13 +1,34 @@
 // CONSOLIDATED DOWNLOAD FIX - Single working version
 // This replaces all conflicting downloadBook functions
 
+// Function to wait for required dependencies
+function waitForDependencies() {
+    return new Promise((resolve, reject) => {
+        let attempts = 0;
+        const maxAttempts = 50; // 5 seconds max wait
+        
+        function check() {
+            attempts++;
+            if (typeof window.chapters !== 'undefined' && typeof window.totalChapters !== 'undefined') {
+                console.log('✅ All dependencies loaded successfully');
+                resolve();
+            } else if (attempts >= maxAttempts) {
+                reject(new Error('Dependencies failed to load within timeout'));
+            } else {
+                setTimeout(check, 100);
+            }
+        }
+        check();
+    });
+}
+
 // Override any existing functions when this script loads
 window.addEventListener('DOMContentLoaded', function() {
     console.log('🔄 Overriding download functions...');
 });
 
 // Main download function - working version
-function downloadBook() {
+async function downloadBook() {
     console.log('🔄 Starting downloadBook function...');
     
     try {
@@ -23,17 +44,11 @@ function downloadBook() {
         
         console.log('✅ Loading state set');
         
-        // Check if required data exists
-        if (typeof chapters === 'undefined') {
-            throw new Error('Chapters data not found. Make sure script.js is loaded first.');
-        }
-        
-        if (typeof totalChapters === 'undefined') {
-            throw new Error('totalChapters variable not found.');
-        }
+        // Wait for dependencies to load
+        await waitForDependencies();
         
         console.log('✅ Required data found');
-        console.log('Total chapters:', totalChapters);
+        console.log('Total chapters:', window.totalChapters);
         
         // Generate book content with a delay to allow UI update
         setTimeout(() => {
@@ -68,7 +83,7 @@ function downloadBook() {
                 setTimeout(() => {
                     alert(`✅ LIBRI U SHKARKUA ME SUKSES!
 
-📖 Libri përfshin të gjithë ${totalChapters} kapitujt (400+ faqe).
+📖 Libri përfshin të gjithë ${window.totalChapters} kapitujt (400+ faqe).
 
 🔄 PËR TA KONVERTUAR NË PDF:
 1. Hapeni file-in HTML në Chrome/Firefox/Edge
@@ -98,6 +113,13 @@ function downloadBook() {
     } catch (error) {
         console.error('❌ Download error:', error);
         
+        // Reset buttons on error
+        const downloadBtns = document.querySelectorAll('[onclick*="downloadBook"]');
+        downloadBtns.forEach((btn, index) => {
+            btn.textContent = originalTexts[index] || 'Shkarko Librin e Plotë 📚';
+            btn.disabled = false;
+        });
+        
         // Show user-friendly error message
         alert(`❌ Gabim në shkarkimin e librit!
 
@@ -109,13 +131,6 @@ Detajet e gabimit: ${error.message}
 3. Provoni me shfletues tjetër (Chrome, Firefox, Edge)
 
 Nëse problemi vazhdon, kontaktoni mbështetjen.`);
-        
-        // Reset buttons on error
-        const downloadBtns = document.querySelectorAll('[onclick*="downloadBook"]');
-        downloadBtns.forEach(btn => {
-            btn.textContent = 'Shkarko Librin e Plotë 📚';
-            btn.disabled = false;
-        });
     }
 }
 
@@ -223,7 +238,7 @@ function generateCompleteBookHTML() {
     <div class="book-header">
         <h1 class="book-title">Teoria e Lojërave: Nderi dhe Suksesi</h1>
         <p class="book-subtitle">Udhëzuesi i Plotë për Suksesin e Nderuar dhe Pasurinë Halal</p>
-        <p style="margin-top: 20px; color: #666;">300+ Faqe • ${totalChapters} Kapituj • Në Gjuhën Shqipe</p>
+        <p style="margin-top: 20px; color: #666;">300+ Faqe • ${window.totalChapters} Kapituj • Në Gjuhën Shqipe</p>
     </div>
 `;
 
@@ -237,7 +252,7 @@ function generateCompleteBookHTML() {
             <ol>`;
     
     // Generate table of contents
-    for (let i = 1; i <= totalChapters; i++) {
+    for (let i = 1; i <= window.totalChapters; i++) {
         let title = getChapterTitle(i);
         bookHTML += `<li>Kapitulli ${i}: ${title}</li>`;
     }
@@ -250,7 +265,7 @@ function generateCompleteBookHTML() {
     console.log('✅ Table of contents generated');
     
     // Add all chapters
-    for (let i = 1; i <= totalChapters; i++) {
+    for (let i = 1; i <= window.totalChapters; i++) {
         try {
             let title = getChapterTitle(i);
             let content = generateChapterContent(i);
@@ -261,11 +276,11 @@ function generateCompleteBookHTML() {
         <div class="chapter-content">
             ${content}
         </div>
-        <div class="page-number">Faqe ${i * 5} | Kapitulli ${i} nga ${totalChapters}</div>
+        <div class="page-number">Faqe ${i * 5} | Kapitulli ${i} nga ${window.totalChapters}</div>
     </div>`;
             
             if (i % 10 === 0) {
-                console.log(`✅ Generated chapter ${i}/${totalChapters}`);
+                console.log(`✅ Generated chapter ${i}/${window.totalChapters}`);
             }
             
         } catch (chapterError) {
@@ -291,8 +306,8 @@ function generateCompleteBookHTML() {
 // Helper function to safely get chapter title
 function getChapterTitle(chapterNum) {
     try {
-        if (chapters && chapters[chapterNum] && chapters[chapterNum].title) {
-            return chapters[chapterNum].title;
+        if (window.chapters && window.chapters[chapterNum] && window.chapters[chapterNum].title) {
+            return window.chapters[chapterNum].title;
         }
         // Fallback titles for chapters without defined titles
         const fallbackTitles = {
@@ -312,8 +327,8 @@ function getChapterTitle(chapterNum) {
 // Helper function to safely generate chapter content
 function generateChapterContent(chapterNum) {
     try {
-        if (chapters && chapters[chapterNum] && chapters[chapterNum].content) {
-            return chapters[chapterNum].content;
+        if (window.chapters && window.chapters[chapterNum] && window.chapters[chapterNum].content) {
+            return window.chapters[chapterNum].content;
         }
         
         // Fallback content for chapters without defined content

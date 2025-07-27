@@ -5,6 +5,29 @@
 document.addEventListener('DOMContentLoaded', function() {
     console.log('🚀 Enhanced content system loading...');
     
+    // Verify that required variables are accessible
+    setTimeout(() => {
+        console.log('🔄 Testing required variables...');
+        if (typeof window.chapters !== 'undefined') {
+            console.log('✅ chapters variable found');
+        } else {
+            console.log('❌ chapters variable NOT found');
+        }
+        
+        if (typeof window.totalChapters !== 'undefined') {
+            console.log('✅ totalChapters variable found');
+        } else {
+            console.log('❌ totalChapters variable NOT found');
+        }
+        
+        // Test if generateChapterContent function exists
+        if (typeof window.generateChapterContent === 'function') {
+            console.log('✅ generateChapterContent function exists');
+        } else {
+            console.log('❌ generateChapterContent function NOT found');
+        }
+    }, 100);
+    
     // Verify that advanced content generators are loaded
     if (typeof generateAdvancedChapterContent === 'function') {
         console.log('✅ Advanced content generator loaded');

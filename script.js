@@ -5247,3 +5247,7 @@ function generateSimpleBookHTML() {
 }
 
 console.log('Fixed download functions loaded successfully!');
+
+// Make variables globally accessible for download functions
+window.chapters = chapters;
+window.totalChapters = totalChapters;
