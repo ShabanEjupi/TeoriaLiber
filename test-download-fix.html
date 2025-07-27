@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="sq">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Download Fix</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        button {
+            background: #2E8B57;
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            margin: 10px;
+        }
+        button:hover {
+            background: #006400;
+        }
+        button:disabled {
+            background: #ccc;
+            cursor: not-allowed;
+        }
+        .console {
+            background: #f5f5f5;
+            border: 1px solid #ddd;
+            padding: 15px;
+            margin: 20px 0;
+            max-height: 300px;
+            overflow-y: auto;
+            font-family: monospace;
+        }
+    </style>
+</head>
+<body>
+    <h1>Test Download Functionality</h1>
+    <p>This page tests if the download function is working properly.</p>
+    
+    <button onclick="testDownloadFunction()">Test Download Function</button>
+    <button onclick="testVariables()">Test Required Variables</button>
+    <button onclick="downloadBook()">Download Book (Real Test)</button>
+    <button onclick="clearConsole()">Clear Console</button>
+    
+    <div id="console" class="console">
+        <strong>Console Output:</strong><br>
+    </div>
+
+    <!-- Load required scripts -->
+    <script src="script.js"></script>
+    <script src="download-fix-consolidated.js"></script>
+    
+    <script>
+        // Test functions
+        function logToConsole(message) {
+            const console = document.getElementById('console');
+            const time = new Date().toLocaleTimeString();
+            console.innerHTML += `[${time}] ${message}<br>`;
+            console.scrollTop = console.scrollHeight;
+        }
+        
+        function testDownloadFunction() {
+            logToConsole('🔄 Testing download function...');
+            
+            if (typeof downloadBook === 'function') {
+                logToConsole('✅ downloadBook function exists');
+            } else {
+                logToConsole('❌ downloadBook function NOT found');
+                return;
+            }
+            
+            if (typeof generateCompleteBookHTML === 'function') {
+                logToConsole('✅ generateCompleteBookHTML function exists');
+            } else {
+                logToConsole('❌ generateCompleteBookHTML function NOT found');
+            }
+            
+            if (typeof getChapterTitle === 'function') {
+                logToConsole('✅ getChapterTitle function exists');
+            } else {
+                logToConsole('❌ getChapterTitle function NOT found');
+            }
+            
+            if (typeof generateChapterContent === 'function') {
+                logToConsole('✅ generateChapterContent function exists');
+            } else {
+                logToConsole('❌ generateChapterContent function NOT found');
+            }
+        }
+        
+        function testVariables() {
+            logToConsole('🔄 Testing required variables...');
+            
+            if (typeof chapters !== 'undefined') {
+                logToConsole(`✅ chapters variable exists (${Object.keys(chapters).length} chapters)`);
+            } else {
+                logToConsole('❌ chapters variable NOT found');
+            }
+            
+            if (typeof totalChapters !== 'undefined') {
+                logToConsole(`✅ totalChapters variable exists (${totalChapters})`);
+            } else {
+                logToConsole('❌ totalChapters variable NOT found');
+            }
+        }
+        
+        function clearConsole() {
+            document.getElementById('console').innerHTML = '<strong>Console Output:</strong><br>';
+        }
+        
+        // Override console.log to show in our console
+        const originalConsoleLog = console.log;
+        const originalConsoleError = console.error;
+        const originalConsoleWarn = console.warn;
+        
+        console.log = function(...args) {
+            originalConsoleLog.apply(console, args);
+            logToConsole('LOG: ' + args.join(' '));
+        };
+        
+        console.error = function(...args) {
+            originalConsoleError.apply(console, args);
+            logToConsole('ERROR: ' + args.join(' '));
+        };
+        
+        console.warn = function(...args) {
+            originalConsoleWarn.apply(console, args);
+            logToConsole('WARN: ' + args.join(' '));
+        };
+        
+        // Test on page load
+        window.onload = function() {
+            logToConsole('🚀 Page loaded, running initial tests...');
+            testVariables();
+            testDownloadFunction();
+        };
+    </script>
+</body>
+</html>

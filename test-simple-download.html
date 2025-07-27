@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="sq">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Download Only</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        button {
+            background: #2E8B57;
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            margin: 10px;
+        }
+        button:hover {
+            background: #006400;
+        }
+        button:disabled {
+            background: #ccc;
+            cursor: not-allowed;
+        }
+    </style>
+</head>
+<body>
+    <h1>Test Download Function Only</h1>
+    <p>This page tests the download function with minimal dependencies.</p>
+    
+    <button onclick="downloadBook()">Download Book</button>
+    <button onclick="showPrintInstructions()">Print Instructions</button>
+    
+    <div id="status"></div>
+
+    <!-- Minimal script definition to make download work -->
+    <script>
+        // Define minimal required variables and functions
+        const totalChapters = 60;
+        
+        const chapters = {
+            1: {
+                title: "Hyrje në Teorinë e Lojërave dhe Nderin",
+                content: "<h3>Kapitulli 1</h3><p>Test content for chapter 1.</p>"
+            },
+            2: {
+                title: "Parimet Themelore të Strategjisë së Nderuar", 
+                content: "<h3>Kapitulli 2</h3><p>Test content for chapter 2.</p>"
+            }
+        };
+        
+        // Simple test functions
+        function updateStatus(message) {
+            document.getElementById('status').innerHTML = message;
+        }
+        
+        updateStatus('✅ Page loaded. Ready to test download.');
+    </script>
+    
+    <!-- Load only the consolidated download fix -->
+    <script src="download-fix-consolidated.js"></script>
+    
+    <script>
+        // Test that functions are loaded
+        setTimeout(() => {
+            if (typeof downloadBook === 'function') {
+                updateStatus('✅ downloadBook function loaded successfully.');
+            } else {
+                updateStatus('❌ downloadBook function NOT found.');
+            }
+        }, 100);
+    </script>
+</body>
+</html>

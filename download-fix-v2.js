@@ -67,7 +67,7 @@ function downloadBook() {
         
     } catch (error) {
         console.error('Download error:', error);
-        alert('❌ Gabim në shkarkimin e librit: ' + error.message + '\n\nProvoni përsëri ose kontaktoni mbështetjen.');
+        alert('❌ Gabim në shkarkimin e librit: ' + error.message + '\\n\\nProvoni përsëri ose kontaktoni mbështetjen.');
         
         // Reset buttons on error
         const downloadBtns = document.querySelectorAll('[onclick*="downloadBook"]');
@@ -179,7 +179,7 @@ function downloadChapter(chapterNumber) {
         const url = window.URL.createObjectURL(blob);
         const a = document.createElement('a');
         a.href = url;
-        a.download = `Kapitulli-${chapterNumber}-${chapterTitle.replace(/[^a-zA-Z0-9\s]/g, '').replace(/\s+/g, '-')}.html`;
+        a.download = `Kapitulli-${chapterNumber}-${chapterTitle.replace(/[^a-zA-Z0-9\\s]/g, '').replace(/\\s+/g, '-')}.html`;
         a.style.display = 'none';
         document.body.appendChild(a);
         a.click();
@@ -201,7 +201,7 @@ function downloadChapter(chapterNumber) {
     }
 }
 
-// Generate simplified book HTML
+// Generate simplified book HTML with robust error handling
 function generateSimpleBookHTML() {
     try {
         console.log('Generating book HTML...');
@@ -216,6 +216,7 @@ function generateSimpleBookHTML() {
             window.totalChapters = 60;
         }
         
+        // Start building the HTML
         let bookHTML = `<!DOCTYPE html>
 <html lang="sq">
 <head>
@@ -319,41 +320,41 @@ function generateSimpleBookHTML() {
             }
         }
 
-        // Add sample chapters (first 5 with full content, rest with summaries)
+        // Add a selection of chapters (to keep file size reasonable)
         console.log('Adding chapter content...');
-        for (let i = 1; i <= maxChapters; i++) {
+        const sampleChapters = [1, 2, 3, 5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60];
+        
+        for (let chapterNum of sampleChapters) {
+            if (chapterNum > maxChapters) continue;
+            
             try {
-                const title = getChapterTitle(i) || `Strategji Biznesi ${i}`;
+                const title = getChapterTitle(chapterNum) || `Strategji Biznesi ${chapterNum}`;
                 let content;
                 
-                if (i <= 5) {
-                    // Full content for first 5 chapters
-                    if (typeof chapters !== 'undefined' && chapters[i]) {
-                        content = chapters[i].content;
-                    } else if (typeof generateChapterContent === 'function') {
-                        content = generateChapterContent(i, title);
-                    } else {
-                        content = generateFallbackContent(i, title);
-                    }
+                // Try to get content from various sources
+                if (typeof chapters !== 'undefined' && chapters[chapterNum]) {
+                    content = chapters[chapterNum].content;
+                } else if (typeof generateChapterContent === 'function') {
+                    content = generateChapterContent(chapterNum, title);
                 } else {
-                    // Summary for remaining chapters to keep file size manageable
-                    content = generateFallbackContent(i, title);
+                    content = generateFallbackContent(chapterNum, title);
                 }
                 
                 bookHTML += `
         <div class="chapter-separator"></div>
-        <h1>Kapitulli ${i}: ${title}</h1>
+        <h1>Kapitulli ${chapterNum}: ${title}</h1>
         ${content}`;
                 
             } catch (e) {
-                console.warn(`Error generating chapter ${i}:`, e);
+                console.warn(`Error generating chapter ${chapterNum}:`, e);
                 bookHTML += `
         <div class="chapter-separator"></div>
-        <h1>Kapitulli ${i}: Strategji Biznesi</h1>
+        <h1>Kapitulli ${chapterNum}: Strategji Biznesi</h1>
         <p>Ky kapitull fokusohet në strategji të rëndësishme biznesi dhe zhvillimin personal.</p>`;
             }
         }
 
+        // Add conclusion
         bookHTML += `
     
     <div class="chapter-separator"></div>
@@ -365,7 +366,7 @@ function generateSimpleBookHTML() {
         "Dhe thuaj: O Zoti im, shtomë dijen time!" - Kurani, 20:114
     </div>
     
-    <p>Nëpër këto 60 kapituj kemi udhëtuar së bashku nëpër botën e strategjisë së biznesit, duke mësuar se si të arrijmë suksesin pa sakrifikuar vlerat tona.</p>
+    <p>Nëpër këto kapituj kemi udhëtuar së bashku nëpër botën e strategjisë së biznesit, duke mësuar se si të arrijmë suksesin pa sakrifikuar vlerat tona.</p>
     
     <div class="highlight-box">
         <h3>🏆 Mesaze Kyçe:</h3>
@@ -395,7 +396,7 @@ function generateSimpleBookHTML() {
     }
 }
 
-// Fallback content generator
+// Fallback content generator for when other content sources aren't available
 function generateFallbackContent(chapterNum, title) {
     return `
     <div class="islamic-quote">
@@ -443,157 +444,10 @@ function generateFallbackContent(chapterNum, title) {
     <p><strong>Mesazhi Kryesor:</strong> Suksesi në biznes vjen nga kombinimi i punës së palodhshme, vlerave të forta morale dhe strategjive të menduara mirë.</p>
     `;
 }
-    <title>Teoria e Lojërave: Nderi dhe Suksesi - Libri i Plotë</title>
-    <style>
-        @page { size: A4; margin: 2cm; }
-        body { 
-            font-family: Georgia, serif; 
-            line-height: 1.6; 
-            color: #333; 
-            max-width: 21cm; 
-            margin: 0 auto; 
-            padding: 20px; 
-        }
-        h1 { 
-            color: #2E8B57; 
-            border-bottom: 3px solid #DAA520; 
-            padding-bottom: 10px; 
-            text-align: center; 
-            page-break-after: avoid; 
-        }
-        h2 { 
-            color: #2E8B57; 
-            border-bottom: 2px solid #DAA520; 
-            padding-bottom: 5px; 
-            page-break-after: avoid; 
-        }
-        h3 { 
-            color: #1B5E20; 
-            page-break-after: avoid; 
-        }
-        .islamic-quote {
-            background: #f0f8f0;
-            border: 2px solid #DAA520;
-            border-radius: 10px;
-            padding: 20px;
-            margin: 20px 0;
-            text-align: center;
-            font-style: italic;
-            color: #2E8B57;
-            page-break-inside: avoid;
-        }
-        .highlight-box {
-            background: #fff7e6;
-            border: 2px solid #DAA520;
-            border-radius: 10px;
-            padding: 20px;
-            margin: 20px 0;
-            page-break-inside: avoid;
-        }
-        .chapter-separator {
-            page-break-before: always;
-            border-top: 3px solid #DAA520;
-            margin: 40px 0;
-            text-align: center;
-        }
-        ul, ol { margin: 15px 0; padding-left: 30px; }
-        li { margin: 8px 0; }
-        p { margin-bottom: 12px; text-align: justify; }
-        strong { color: #2E8B57; }
-        @media print {
-            body { font-size: 11pt; }
-            .no-print { display: none; }
-        }
-    </style>
-</head>
-<body>
-    
-    <div style="text-align: center; padding: 40px 0; background: linear-gradient(135deg, #2E8B57, #4CAF50); color: white; border-radius: 15px; margin-bottom: 40px;">
-        <h1 style="color: white; border: none; font-size: 2.5em; margin: 20px 0;">TEORIA E LOJËRAVE</h1>
-        <h2 style="color: white; border: none; font-size: 1.8em; margin: 20px 0;">Nderi dhe Suksesi</h2>
-        <p style="font-size: 1.2em; margin: 20px 0;">📚 Libër i Plotë për Biznesin Modern 📚</p>
-        <p style="font-size: 1em; opacity: 0.9;">300+ Faqe • 60 Kapituj • Strategji të Verifikuara</p>
-    </div>
-
-    <div class="highlight-box">
-        <h3>📊 Përmbajtja e Librit</h3>
-        <p><strong>60 Kapituj të Detajuar</strong> - Çdo kapitull 4-5 faqe me strategji praktike</p>
-        <p><strong>300+ Faqe Përmbajtje</strong> - Nga teoria në praktikë</p>
-        <p><strong>100+ Strategji Praktike</strong> - Të testuara dhe të verifikuara</p>
-        <p><strong>50+ Raste Studimi</strong> - Shembuj realë nga Shqipëria dhe bota</p>
-    </div>`;
-
-    // Add table of contents
-    bookHTML += `
-    <div class="chapter-separator"></div>
-    <h1>📑 Tabela e Përmbajtjes</h1>`;
-    
-    for (let i = 1; i <= totalChapters; i++) {
-        const title = getChapterTitle(i);
-        bookHTML += `<p><strong>Kapitulli ${i}:</strong> ${title}</p>`;
-    }
-
-    // Add all chapters
-    for (let i = 1; i <= totalChapters; i++) {
-        const title = getChapterTitle(i);
-        let content;
-        
-        if (chapters[i]) {
-            content = chapters[i].content;
-        } else {
-            content = generateChapterContent(i, title);
-        }
-        
-        bookHTML += `
-        <div class="chapter-separator"></div>
-        <h1>Kapitulli ${i}: ${title}</h1>
-        ${content}`;
-    }
-
-    bookHTML += `
-    
-    <div class="chapter-separator"></div>
-    <h1>🎯 Konkluzione</h1>
-    
-    <div class="islamic-quote">
-        "وَقُل رَّبِّ زِدْنِي عِلْمًا"
-        <br><br>
-        "Dhe thuaj: O Zoti im, shtomë dijen time!" - Kurani, 20:114
-    </div>
-    
-    <p>Nëpër këto 60 kapituj kemi udhëtuar së bashku nëpër botën e strategjisë së biznesit, duke mësuar se si të arrijmë suksesin pa sakrifikuar vlerat tona.</p>
-    
-    <div class="highlight-box">
-        <h3>🏆 Mesaze Kyçe:</h3>
-        <ul>
-            <li><strong>Nderi është Strategjia më Fitimprurëse</strong></li>
-            <li><strong>Vlerat Islame Ndihmojnë në Biznes</strong></li>
-            <li><strong>Suksesi Kërkon Durim dhe Punë</strong></li>
-            <li><strong>Marrëdhëniet janë Thelbësore</strong></li>
-            <li><strong>Edukimi i Vazhdueshëm është Kyç</strong></li>
-        </ul>
-    </div>
-    
-    <p style="text-align: center; margin-top: 40px; font-style: italic; color: #666;">
-        © 2025 - Teoria e Lojërave: Nderi dhe Suksesi<br>
-        "Suksesi më i madh është ai që arrihet duke ruajtur nderin dhe vlerat që na përcaktojnë si njerëz."
-    </p>
-    
-</body>
-</html>`;
-
-    return bookHTML;
-}
 
 // Override the global functions
 window.downloadBook = downloadBook;
 window.showPrintInstructions = showPrintInstructions;
 window.downloadChapter = downloadChapter;
-
-// Also create a function to fix the download with progress
-function downloadBookWithProgress() {
-    downloadBook();
-}
-window.downloadBookWithProgress = downloadBookWithProgress;
 
 console.log('✅ Download and print functions fixed and loaded successfully!');
