@@ -1,6 +1,8 @@
-// Game Theory Book - Interactive JavaScript - 300 Pages Albanian Edition
+// Game Theory Book - Interactive JavaScript - 300+ Pages Albanian Edition
 let currentChapter = 1;
-const totalChapters = 60; // 60 chapters for 300 pages (5 pages per chapter)
+const totalChapters = 60; // 60 chapters × 5-8 pages each = 300-480 pages total
+
+// Enhanced content with substantial chapters using diverse methodologies
 
 // Complete chapter data for comprehensive 300-page book
 const chapters = {
@@ -4445,8 +4447,15 @@ function showChapterDownloadSuccess(chapterNumber) {
     alert(message);
 }
 
-// Enhanced content generation function for comprehensive chapters
+// Enhanced content generation function for comprehensive chapters - 300+ pages
 function generateChapterContent(chapterNum, title) {
+    
+    // Check if advanced content generator is available
+    if (typeof generateAdvancedChapterContent === 'function') {
+        return generateAdvancedChapterContent(chapterNum, title);
+    }
+    
+    // Fallback to enhanced content generation
     const topics = {
         3: "Ekuilibri Nash dhe marrëdhëniet strategjike në biznes dhe jetë.",
         4: "Strategjitë e investimit të mençur dhe pasuria halal.",

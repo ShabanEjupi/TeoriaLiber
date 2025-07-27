@@ -68,7 +68,7 @@ function downloadBook() {
                 setTimeout(() => {
                     alert(`✅ LIBRI U SHKARKUA ME SUKSES!
 
-📖 Libri përfshin të gjithë ${totalChapters} kapitujt (300+ faqe).
+📖 Libri përfshin të gjithë ${totalChapters} kapitujt (400+ faqe).
 
 🔄 PËR TA KONVERTUAR NË PDF:
 1. Hapeni file-in HTML në Chrome/Firefox/Edge
