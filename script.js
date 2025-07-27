@@ -3623,29 +3623,75 @@ function printChapter() {
 // Download complete book with comprehensive PDF-ready formatting
 function downloadBook() {
     try {
-        // Show loading message
-        const loadingMsg = alert('🔄 Po krijohet libri i plotë... Kjo mund të marrë disa sekonda.');
+        // Show progress indicator
+        const downloadBtn = document.querySelector('[onclick="downloadBook()"]');
+        const originalText = downloadBtn ? downloadBtn.textContent : '';
+        if (downloadBtn) {
+            downloadBtn.textContent = '⏳ Po krijohet libri...';
+            downloadBtn.disabled = true;
+        }
         
-        // Generate complete book content
-        let completeBook = generateCompleteBookContent();
+        // Use setTimeout to allow UI to update
+        setTimeout(() => {
+            try {
+                // Generate complete book content
+                let completeBook = generateCompleteBookContent();
+                
+                // Create and download as HTML file
+                const blob = new Blob([completeBook], { type: 'text/html;charset=utf-8' });
+                const url = window.URL.createObjectURL(blob);
+                const a = document.createElement('a');
+                a.href = url;
+                a.download = 'Teoria-e-Lojrave-Nderi-dhe-Suksesi-Libri-i-Plote.html';
+                a.style.display = 'none';
+                document.body.appendChild(a);
+                a.click();
+                document.body.removeChild(a);
+                window.URL.revokeObjectURL(url);
+                
+                // Show success message
+                showDownloadSuccessMessage();
+                
+            } catch (innerError) {
+                console.error('Gabim në gjenerimin e librit:', innerError);
+                alert('❌ Ka ndodhur një gabim në gjenerimin e librit. Ju lutem provoni përsëri.');
+            } finally {
+                // Reset button
+                if (downloadBtn) {
+                    downloadBtn.textContent = originalText || 'Shkarko Librin e Plotë 📚';
+                    downloadBtn.disabled = false;
+                }
+            }
+        }, 100);
         
-        // Create and download as HTML file
-        const blob = new Blob([completeBook], { type: 'text/html' });
-        const url = window.URL.createObjectURL(blob);
-        const a = document.createElement('a');
-        a.href = url;
-        a.download = 'Teoria-e-Lojrave-Nderi-dhe-Suksesi-Libri-i-Plote.html';
-        document.body.appendChild(a);
-        a.click();
-        document.body.removeChild(a);
-        window.URL.revokeObjectURL(url);
-        
-        // Show detailed success message with PDF conversion instructions
-        alert(`✅ Libri i plotë u shkarkua me sukses!\n\n📖 Libri përfshin të gjithë 60 kapitujt me përmbajtje të detajuar.\n\n🔄 Për ta konvertuar në PDF:\n1. Hapeni file-in HTML në Chrome/Edge\n2. Shtypni Ctrl+P (Print)\n3. Në Destination zgjidhni "Save as PDF"\n4. Në More Settings:\n   • Aktivizoni "Background graphics"\n   • Zgjidhni "Margins: Minimum"\n   • Paper size: A4\n5. Klikoni "Save"\n\n📄 Do të merrni një PDF profesional të gatshëm për lexim ose printim!`);
     } catch (error) {
         console.error('Gabim në shkarkimin e librit:', error);
         alert('❌ Ka ndodhur një gabim në shkarkimin e librit. Ju lutem provoni përsëri.');
     }
+}
+
+// Show success message for download
+function showDownloadSuccessMessage() {
+    const message = `✅ LIBRI U SHKARKUA ME SUKSES!
+
+📖 Libri përfshin të gjithë 60 kapitujt me përmbajtje të detajuar (300+ faqe).
+
+🔄 PËR TA KONVERTUAR NË PDF:
+1. Hapeni file-in HTML në Chrome, Firefox, ose Edge
+2. Shtypni Ctrl+P (ose Cmd+P në Mac)
+3. Në "Destination" zgjidhni "Save as PDF"
+4. Në "More Settings":
+   ✓ Paper size: A4
+   ✓ Margins: Default ose Minimum
+   ✓ Background graphics: ✓ (e aktivizuar)
+   ✓ Headers and footers: sipas preferencës
+5. Klikoni "Save"
+
+📄 Do të merrni një PDF profesional të gatshëm për lexim ose printim!
+
+💡 SUGJERIM: Printoni vetëm kapitujt që ju interesojnë për të kursyer letër.`;
+
+    alert(message);
 }
 
 // Generate complete book content as comprehensive HTML with enhanced formatting
@@ -4133,12 +4179,60 @@ function generateCompleteBookContent() {
 // Download individual chapter with enhanced PDF-ready formatting
 function downloadChapter(chapterNumber) {
     try {
+        // Show progress
+        const downloadBtn = event ? event.target : null;
+        const originalText = downloadBtn ? downloadBtn.textContent : '';
+        if (downloadBtn) {
+            downloadBtn.textContent = '⏳ Po përgatitet...';
+            downloadBtn.disabled = true;
+        }
+        
         const chapterTitle = getChapterTitle(chapterNumber);
         const chapterContent = chapters[chapterNumber] ? chapters[chapterNumber].content : generateChapterContent(chapterNumber, chapterTitle);
         
         // Create HTML content for the chapter with enhanced PDF formatting
-        const chapterHTML = `
-<!DOCTYPE html>
+        const chapterHTML = generateChapterHTML(chapterNumber, chapterTitle, chapterContent);
+
+        // Create and download
+        const blob = new Blob([chapterHTML], { type: 'text/html;charset=utf-8' });
+        const url = window.URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = `Kapitulli-${chapterNumber}-${chapterTitle.replace(/[^a-zA-Z0-9\s]/g, '').replace(/\s+/g, '-')}.html`;
+        a.style.display = 'none';
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+        window.URL.revokeObjectURL(url);
+        
+        // Show success message
+        setTimeout(() => {
+            showChapterDownloadSuccess(chapterNumber);
+        }, 100);
+        
+        // Reset button
+        if (downloadBtn) {
+            setTimeout(() => {
+                downloadBtn.textContent = originalText || '💾 Shkarko';
+                downloadBtn.disabled = false;
+            }, 500);
+        }
+        
+    } catch (error) {
+        console.error('Gabim në shkarkimin e kapitullit:', error);
+        alert('❌ Ka ndodhur një gabim në shkarkimin e kapitullit. Ju lutem provoni përsëri.');
+        
+        // Reset button on error
+        if (downloadBtn) {
+            downloadBtn.textContent = originalText || '💾 Shkarko';
+            downloadBtn.disabled = false;
+        }
+    }
+}
+
+// Generate HTML for individual chapter
+function generateChapterHTML(chapterNumber, chapterTitle, chapterContent) {
+    return `<!DOCTYPE html>
 <html lang="sq">
 <head>
     <meta charset="UTF-8">
@@ -4331,23 +4425,24 @@ function downloadChapter(chapterNumber) {
     </div>
 </body>
 </html>`;
+}
 
-        // Create and download
-        const blob = new Blob([chapterHTML], { type: 'text/html' });
-        const url = window.URL.createObjectURL(blob);
-        const a = document.createElement('a');
-        a.href = url;
-        a.download = `Kapitulli-${chapterNumber}-${chapterTitle.replace(/[^a-zA-Z0-9\s]/g, '').replace(/\s+/g, '-')}.html`;
-        document.body.appendChild(a);
-        a.click();
-        document.body.removeChild(a);
-        window.URL.revokeObjectURL(url);
-        
-        alert(`✅ Kapitulli ${chapterNumber} u shkarkua me sukses!\n\n📋 Udhëzime për konvertim në PDF:\n1. Hapeni file-in HTML në browser\n2. Printoni (Ctrl+P)\n3. Zgjidhni "Save as PDF"\n4. Në Page Setup zgjidhni "More settings"\n5. Aktivizoni "Background graphics"\n6. Zgjidhni "Margins: Minimum"\n7. Klikoni "Save"`);
-    } catch (error) {
-        console.error('Gabim në shkarkimin e kapitullit:', error);
-        alert('❌ Ka ndodhur një gabim në shkarkimin e kapitullit. Ju lutem provoni përsëri.');
-    }
+// Show success message for chapter download
+function showChapterDownloadSuccess(chapterNumber) {
+    const message = `✅ Kapitulli ${chapterNumber} u shkarkua me sukses!
+
+📋 Udhëzime për konvertim në PDF:
+1. Hapeni file-in HTML në browser
+2. Printoni (Ctrl+P)
+3. Zgjidhni "Save as PDF"
+4. Në Page Setup zgjidhni "More settings"
+5. Aktivizoni "Background graphics"
+6. Zgjidhni "Margins: Minimum"
+7. Klikoni "Save"
+
+✨ Do të merrni një PDF të formatuar profesionalisht!`;
+
+    alert(message);
 }
 
 // Enhanced content generation function for comprehensive chapters
@@ -4696,8 +4791,7 @@ function searchContent(query) {
 
 // Show print instructions
 function showPrintInstructions() {
-    const instructions = `
-🖨️ UDHËZIME PËR PRINTIMIN SI PDF
+    const instructions = `🖨️ UDHËZIME PËR PRINTIMIN SI PDF
 
 1️⃣ SHKARKONI LIBRIN:
    • Klikoni "Shkarko Librin e Plotë"
@@ -4729,9 +4823,122 @@ function showPrintInstructions() {
 
 Dëshironi të shkarkoni librin tani?`;
 
-    if (confirm(instructions)) {
+    // Use a custom modal instead of confirm for better user experience
+    showCustomModal('Udhëzime për Printim', instructions, function() {
         downloadBook();
-    }
+    });
+}
+
+// Custom modal function for better user experience
+function showCustomModal(title, message, onConfirm) {
+    // Create modal elements
+    const modal = document.createElement('div');
+    modal.style.cssText = `
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0,0,0,0.7);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 10000;
+        font-family: Arial, sans-serif;
+    `;
+    
+    const modalContent = document.createElement('div');
+    modalContent.style.cssText = `
+        background: white;
+        padding: 30px;
+        border-radius: 15px;
+        max-width: 600px;
+        max-height: 80vh;
+        overflow-y: auto;
+        box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+        margin: 20px;
+    `;
+    
+    const modalTitle = document.createElement('h3');
+    modalTitle.textContent = title;
+    modalTitle.style.cssText = `
+        color: #2E8B57;
+        margin-bottom: 20px;
+        text-align: center;
+        font-size: 1.5rem;
+    `;
+    
+    const modalMessage = document.createElement('pre');
+    modalMessage.textContent = message;
+    modalMessage.style.cssText = `
+        white-space: pre-wrap;
+        font-family: inherit;
+        line-height: 1.6;
+        margin-bottom: 25px;
+        font-size: 0.95rem;
+    `;
+    
+    const buttonContainer = document.createElement('div');
+    buttonContainer.style.cssText = `
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+        flex-wrap: wrap;
+    `;
+    
+    const confirmBtn = document.createElement('button');
+    confirmBtn.textContent = '✅ Po, Shkarko Librin';
+    confirmBtn.style.cssText = `
+        background: #2E8B57;
+        color: white;
+        border: none;
+        padding: 12px 24px;
+        border-radius: 25px;
+        cursor: pointer;
+        font-weight: bold;
+        font-size: 1rem;
+    `;
+    
+    const cancelBtn = document.createElement('button');
+    cancelBtn.textContent = '❌ Mbyll';
+    cancelBtn.style.cssText = `
+        background: #ccc;
+        color: #333;
+        border: none;
+        padding: 12px 24px;
+        border-radius: 25px;
+        cursor: pointer;
+        font-weight: bold;
+        font-size: 1rem;
+    `;
+    
+    // Event listeners
+    confirmBtn.onclick = function() {
+        document.body.removeChild(modal);
+        if (onConfirm) onConfirm();
+    };
+    
+    cancelBtn.onclick = function() {
+        document.body.removeChild(modal);
+    };
+    
+    // Close on background click
+    modal.onclick = function(e) {
+        if (e.target === modal) {
+            document.body.removeChild(modal);
+        }
+    };
+    
+    // Assemble modal
+    buttonContainer.appendChild(confirmBtn);
+    buttonContainer.appendChild(cancelBtn);
+    modalContent.appendChild(modalTitle);
+    modalContent.appendChild(modalMessage);
+    modalContent.appendChild(buttonContainer);
+    modal.appendChild(modalContent);
+    
+    // Show modal
+    document.body.appendChild(modal);
 }
 
 // Additional utility function for better chapter management
@@ -4781,3 +4988,253 @@ function downloadBookWithProgress() {
         }
     }, 500);
 }
+
+// FIXED DOWNLOAD FUNCTIONS - Override any previous broken versions
+
+// Fixed download full book function
+window.downloadBook = function() {
+    try {
+        console.log('Starting book download...');
+        
+        // Show loading state
+        const downloadBtns = document.querySelectorAll('[onclick*="downloadBook"]');
+        downloadBtns.forEach(btn => {
+            btn.textContent = '⏳ Po krijohet libri...';
+            btn.disabled = true;
+        });
+        
+        // Generate book content
+        let completeBook = generateSimpleBookHTML();
+        
+        // Create download
+        const blob = new Blob([completeBook], { type: 'text/html;charset=utf-8' });
+        const url = window.URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = 'Teoria-e-Lojrave-Libri-i-Plote.html';
+        a.style.display = 'none';
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+        window.URL.revokeObjectURL(url);
+        
+        // Reset buttons and show success
+        downloadBtns.forEach(btn => {
+            btn.textContent = '✅ E Shkarkuar!';
+            setTimeout(() => {
+                btn.textContent = 'Shkarko Librin e Plotë 📚';
+                btn.disabled = false;
+            }, 2000);
+        });
+        
+        // Show success message
+        setTimeout(() => {
+            alert(`✅ LIBRI U SHKARKUA ME SUKSES!
+
+📖 Libri përfshin të gjithë 60 kapitujt (300+ faqe).
+
+🔄 PËR TA KONVERTUAR NË PDF:
+1. Hapeni file-in HTML në Chrome/Firefox/Edge
+2. Shtypni Ctrl+P (ose Cmd+P në Mac)
+3. Zgjidhni "Save as PDF"
+4. Në "More Settings":
+   ✓ Paper size: A4
+   ✓ Background graphics: ✓
+   ✓ Margins: Default
+5. Klikoni "Save"
+
+🎯 Rezultat: PDF profesional i gatshëm për lexim!`);
+        }, 500);
+        
+    } catch (error) {
+        console.error('Download error:', error);
+        alert('❌ Gabim në shkarkimin e librit. Provoni përsëri.');
+    }
+};
+
+// Fixed print instructions function
+window.showPrintInstructions = function() {
+    const message = `🖨️ UDHËZIME PËR PRINTIMIN SI PDF
+
+1️⃣ SHKARKONI LIBRIN:
+   • Klikoni "Shkarko Librin e Plotë"
+   • Do të shkarkoni një file HTML
+
+2️⃣ HAPNI FILE-IN:
+   • Hapni file-in HTML në Chrome, Firefox, ose Edge
+   • Libri do të shihet me formatim profesional
+
+3️⃣ PRINTONI SI PDF:
+   • Shtypni Ctrl+P (ose Cmd+P në Mac)
+   • Zgjidhni "Save as PDF" si printer
+   • Në "More settings":
+     ✓ Paper size: A4
+     ✓ Margins: Default
+     ✓ Background graphics: ✓
+   • Klikoni "Save"
+
+4️⃣ REZULTATI:
+   • PDF profesional 300+ faqe
+   • Të gjitha format dhe ngjyrat
+   • Gati për printim ose lexim
+
+💡 ALTERNATIVA:
+   Mund të printoni edhe kapituj të veçantë
+
+Dëshironi të shkarkoni librin tani?`;
+
+    if (confirm(message)) {
+        downloadBook();
+    }
+};
+
+// Generate simplified book HTML
+function generateSimpleBookHTML() {
+    let bookHTML = `<!DOCTYPE html>
+<html lang="sq">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teoria e Lojërave: Nderi dhe Suksesi - Libri i Plotë</title>
+    <style>
+        @page { size: A4; margin: 2cm; }
+        body { 
+            font-family: Georgia, serif; 
+            line-height: 1.6; 
+            color: #333; 
+            max-width: 21cm; 
+            margin: 0 auto; 
+            padding: 20px; 
+        }
+        h1 { 
+            color: #2E8B57; 
+            border-bottom: 3px solid #DAA520; 
+            padding-bottom: 10px; 
+            text-align: center; 
+            page-break-after: avoid; 
+        }
+        h2 { 
+            color: #2E8B57; 
+            border-bottom: 2px solid #DAA520; 
+            padding-bottom: 5px; 
+            page-break-after: avoid; 
+        }
+        h3 { 
+            color: #1B5E20; 
+            page-break-after: avoid; 
+        }
+        .islamic-quote {
+            background: #f0f8f0;
+            border: 2px solid #DAA520;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 20px 0;
+            text-align: center;
+            font-style: italic;
+            color: #2E8B57;
+            page-break-inside: avoid;
+        }
+        .highlight-box {
+            background: #fff7e6;
+            border: 2px solid #DAA520;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 20px 0;
+            page-break-inside: avoid;
+        }
+        .chapter-separator {
+            page-break-before: always;
+            border-top: 3px solid #DAA520;
+            margin: 40px 0;
+            text-align: center;
+        }
+        ul, ol { margin: 15px 0; padding-left: 30px; }
+        li { margin: 8px 0; }
+        p { margin-bottom: 12px; text-align: justify; }
+        strong { color: #2E8B57; }
+        @media print {
+            body { font-size: 11pt; }
+            .no-print { display: none; }
+        }
+    </style>
+</head>
+<body>
+    
+    <div style="text-align: center; padding: 40px 0; background: linear-gradient(135deg, #2E8B57, #4CAF50); color: white; border-radius: 15px; margin-bottom: 40px;">
+        <h1 style="color: white; border: none; font-size: 2.5em; margin: 20px 0;">TEORIA E LOJËRAVE</h1>
+        <h2 style="color: white; border: none; font-size: 1.8em; margin: 20px 0;">Nderi dhe Suksesi</h2>
+        <p style="font-size: 1.2em; margin: 20px 0;">📚 Libër i Plotë për Biznesin Modern 📚</p>
+        <p style="font-size: 1em; opacity: 0.9;">300+ Faqe • 60 Kapituj • Strategji të Verifikuara</p>
+    </div>
+
+    <div class="highlight-box">
+        <h3>📊 Përmbajtja e Librit</h3>
+        <p><strong>60 Kapituj të Detajuar</strong> - Çdo kapitull 4-5 faqe me strategji praktike</p>
+        <p><strong>300+ Faqe Përmbajtje</strong> - Nga teoria në praktikë</p>
+        <p><strong>100+ Strategji Praktike</strong> - Të testuara dhe të verifikuara</p>
+        <p><strong>50+ Raste Studimi</strong> - Shembuj realë nga Shqipëria dhe bota</p>
+    </div>`;
+
+    // Add table of contents
+    bookHTML += `
+    <div class="chapter-separator"></div>
+    <h1>📑 Tabela e Përmbajtjes</h1>`;
+    
+    for (let i = 1; i <= totalChapters; i++) {
+        const title = getChapterTitle(i);
+        bookHTML += `<p><strong>Kapitulli ${i}:</strong> ${title}</p>`;
+    }
+
+    // Add all chapters
+    for (let i = 1; i <= totalChapters; i++) {
+        const title = getChapterTitle(i);
+        let content;
+        
+        if (chapters[i]) {
+            content = chapters[i].content;
+        } else {
+            content = generateChapterContent(i, title);
+        }
+        
+        bookHTML += `
+        <div class="chapter-separator"></div>
+        <h1>Kapitulli ${i}: ${title}</h1>
+        ${content}`;
+    }
+
+    bookHTML += `
+    
+    <div class="chapter-separator"></div>
+    <h1>🎯 Konkluzione</h1>
+    
+    <div class="islamic-quote">
+        "وَقُل رَّبِّ زِدْنِي عِلْمًا"
+        <br><br>
+        "Dhe thuaj: O Zoti im, shtomë dijen time!" - Kurani, 20:114
+    </div>
+    
+    <p>Nëpër këto 60 kapituj kemi udhëtuar së bashku nëpër botën e strategjisë së biznesit, duke mësuar se si të arrijmë suksesin pa sakrifikuar vlerat tona.</p>
+    
+    <div class="highlight-box">
+        <h3>🏆 Mesaze Kyçe:</h3>
+        <ul>
+            <li><strong>Nderi është Strategjia më Fitimprurëse</strong></li>
+            <li><strong>Vlerat Islame Ndihmojnë në Biznes</strong></li>
+            <li><strong>Suksesi Kërkon Durim dhe Punë</strong></li>
+            <li><strong>Marrëdhëniet janë Thelbësore</strong></li>
+            <li><strong>Edukimi i Vazhdueshëm është Kyç</strong></li>
+        </ul>
+    </div>
+    
+    <p style="text-align: center; margin-top: 40px; font-style: italic; color: #666;">
+        © 2025 - Teoria e Lojërave: Nderi dhe Suksesi<br>
+        "Suksesi më i madh është ai që arrihet duke ruajtur nderin dhe vlerat që na përcaktojnë si njerëz."
+    </p>
+    
+</body>
+</html>`;
+
+    return bookHTML;
+}
+
+console.log('Fixed download functions loaded successfully!');
