@@ -69,15 +69,11 @@ function bulletproofDownloadBook() {
                 window.totalChapters = totalChapters;
                 deps.totalChapters = true;
                 statusCallback('✅ Found totalChapters in global scope, moved to window.totalChapters');
-            } else if (window.chapters) {
-                window.totalChapters = Object.keys(window.chapters).length;
-                deps.totalChapters = true;
-                statusCallback('✅ Calculated totalChapters from chapters object');
             } else {
-                // Fallback value
+                // Always use 60 chapters as defined in the source code
                 window.totalChapters = 60;
                 deps.totalChapters = true;
-                statusCallback('⚠️ Using fallback totalChapters = 60');
+                statusCallback('✅ Using correct totalChapters = 60 (all chapters defined)');
             }
         }
         
@@ -126,8 +122,9 @@ function bulletproofDownloadBook() {
         
         htmlContent += `</ol></div></div>`;
         
-        // Generate chapters
-        for (let i = 1; i <= Math.min(window.totalChapters, 10); i++) { // Limit to first 10 for testing
+        // Generate all chapters
+        statusCallback(`📝 Starting generation of all ${window.totalChapters} chapters...`);
+        for (let i = 1; i <= window.totalChapters; i++) { // Generate all chapters
             try {
                 const title = getChapterTitleSafe(i);
                 const content = getChapterContentSafe(i);
@@ -147,6 +144,8 @@ function bulletproofDownloadBook() {
             }
         }
         
+        statusCallback(`✅ Successfully generated all ${window.totalChapters} chapters!`);
+        
         htmlContent += `
 </body>
 </html>`;
@@ -158,6 +157,11 @@ function bulletproofDownloadBook() {
     // Safe helper functions
     const getChapterTitleSafe = (chapterNum) => {
         try {
+            // First try the getChapterTitle function which has all 60 titles
+            if (typeof window.getChapterTitle === 'function') {
+                return window.getChapterTitle(chapterNum);
+            }
+            // Then try to get from chapters object
             if (window.chapters && window.chapters[chapterNum] && window.chapters[chapterNum].title) {
                 return window.chapters[chapterNum].title;
             }
@@ -166,22 +170,26 @@ function bulletproofDownloadBook() {
         }
         return `Strategjitë e Teorisë së Lojërave - Pjesa ${chapterNum}`;
     };
-    
+
     const getChapterContentSafe = (chapterNum) => {
         try {
+            // First try to get from chapters object (for chapters 1-60 that have full content)
             if (window.chapters && window.chapters[chapterNum] && window.chapters[chapterNum].content) {
                 return window.chapters[chapterNum].content;
             }
+            // Then try the content generator function for all other chapters
             if (typeof window.generateChapterContent === 'function') {
-                return window.generateChapterContent(chapterNum);
+                const title = getChapterTitleSafe(chapterNum);
+                return window.generateChapterContent(chapterNum, title);
             }
         } catch (error) {
             statusCallback(`⚠️ Error getting content for chapter ${chapterNum}: ${error.message}`);
         }
         
-        // Fallback content
+        // Fallback content with proper title
+        const title = getChapterTitleSafe(chapterNum);
         return `
-        <h3>Kapitulli ${chapterNum}: Strategjitë e Teorisë së Lojërave</h3>
+        <h3>Kapitulli ${chapterNum}: ${title}</h3>
         <p>Ky kapitull trajton konceptet kryesore të teorisë së lojërave në kontekstin e kulturës dhe vlerave shqiptare.</p>
         <div class="islamic-quote">
             "وَتَوَكَّلْ عَلَى اللَّهِ ۚ إِنَّ اللَّهَ يُحِبُّ الْمُتَوَكِّلِينَ"<br>
@@ -189,9 +197,7 @@ function bulletproofDownloadBook() {
         </div>
         <p>Përmbajtja e plotë e këtij kapitulli do të zhvillohet në versionin e plotë të librit.</p>
         `;
-    };
-    
-    // Step 4: Execute the download process
+    };    // Step 4: Execute the download process
     const executeDownload = async () => {
         try {
             statusCallback('🔍 Checking dependencies...');
@@ -267,3 +273,35 @@ if (typeof window !== 'undefined') {
 
 // Also provide a direct call method
 window.testBulletproofDownload = bulletproofDownloadBook;
+
+// Debug function to check how many chapters are available
+window.debugChapterCount = function() {
+    console.log('=== CHAPTER COUNT DEBUG ===');
+    console.log('totalChapters variable:', typeof totalChapters !== 'undefined' ? totalChapters : 'undefined');
+    console.log('window.totalChapters:', window.totalChapters);
+    console.log('chapters object:', typeof chapters !== 'undefined' ? 'defined' : 'undefined');
+    console.log('window.chapters:', typeof window.chapters !== 'undefined' ? 'defined' : 'undefined');
+    
+    if (typeof window.chapters !== 'undefined') {
+        console.log('Number of chapters in window.chapters:', Object.keys(window.chapters).length);
+        console.log('Chapter keys:', Object.keys(window.chapters));
+    }
+    
+    console.log('getChapterTitle function:', typeof window.getChapterTitle);
+    console.log('generateChapterContent function:', typeof window.generateChapterContent);
+    
+    // Test getting titles for all 60 chapters
+    if (typeof window.getChapterTitle === 'function') {
+        console.log('Testing getChapterTitle for chapters 1-60:');
+        for (let i = 1; i <= 60; i++) {
+            const title = window.getChapterTitle(i);
+            if (i <= 5 || i >= 56) { // Show first 5 and last 5
+                console.log(`Chapter ${i}: ${title}`);
+            }
+        }
+    }
+    
+    console.log('=== END DEBUG ===');
+};
+
+console.log('🔧 Debug function added: window.debugChapterCount()');

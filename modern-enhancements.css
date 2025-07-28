@@ -1,0 +1,434 @@
+/* Enhanced Modern Styles for Game Theory Book */
+
+/* Additional animations and effects */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideInLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes pulse {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+}
+
+/* Enhanced chapter navigation */
+.chapter-navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 4rem;
+    padding: 2rem;
+    background: linear-gradient(135deg, #f8fafc 0%, #ffffff 100%);
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+}
+
+.nav-btn {
+    background: linear-gradient(45deg, #0f172a, #1e293b);
+    color: white;
+    border: none;
+    padding: 16px 32px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 1.1rem;
+    font-weight: 600;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    box-shadow: 0 8px 25px rgba(15,23,42,0.2);
+    position: relative;
+    overflow: hidden;
+}
+
+.nav-btn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+    transition: left 0.5s;
+}
+
+.nav-btn:hover::before {
+    left: 100%;
+}
+
+.nav-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 12px 35px rgba(15,23,42,0.3);
+    background: linear-gradient(45deg, #1e293b, #334155);
+}
+
+.nav-btn:disabled {
+    background: linear-gradient(45deg, #9ca3af, #6b7280);
+    cursor: not-allowed;
+    transform: none;
+    box-shadow: none;
+}
+
+/* Enhanced back button */
+.back-btn {
+    background: linear-gradient(45deg, #dc2626, #b91c1c);
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    margin-bottom: 2rem;
+    box-shadow: 0 8px 20px rgba(220,38,38,0.2);
+}
+
+.back-btn:hover {
+    background: linear-gradient(45deg, #b91c1c, #dc2626);
+    transform: translateY(-2px);
+    box-shadow: 0 12px 30px rgba(220,38,38,0.3);
+}
+
+/* Enhanced chapter header */
+.chapter-header {
+    background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+    color: white;
+    padding: 3rem 2rem;
+    border-radius: 24px;
+    margin-bottom: 3rem;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.chapter-header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: 
+        radial-gradient(circle at 20% 20%, rgba(251,191,36,0.1) 0%, transparent 50%),
+        radial-gradient(circle at 80% 80%, rgba(168,85,247,0.1) 0%, transparent 50%);
+}
+
+.chapter-header > * {
+    position: relative;
+    z-index: 2;
+}
+
+.chapter-info h1 {
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
+    background: linear-gradient(45deg, #fbbf24, #f59e0b);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.chapter-number {
+    font-size: 1.2rem;
+    color: #fbbf24;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+/* Enhanced download buttons */
+.download-section {
+    background: linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #334155 100%);
+    padding: 6rem 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.download-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: 
+        radial-gradient(circle at 30% 30%, rgba(251,191,36,0.05) 0%, transparent 70%),
+        radial-gradient(circle at 70% 70%, rgba(168,85,247,0.05) 0%, transparent 70%);
+}
+
+.download-section > * {
+    position: relative;
+    z-index: 2;
+}
+
+.download-card {
+    background: rgba(255,255,255,0.1);
+    backdrop-filter: blur(20px);
+    border: 1px solid rgba(255,255,255,0.2);
+    border-radius: 24px;
+    padding: 2.5rem;
+    transition: all 0.3s ease;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+}
+
+.download-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 30px 60px rgba(0,0,0,0.2);
+    border-color: rgba(251,191,36,0.3);
+}
+
+.download-card h4 {
+    color: white;
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+.download-card p {
+    color: rgba(255,255,255,0.9);
+    margin-bottom: 1.5rem;
+    text-indent: 0;
+}
+
+.download-card button {
+    background: linear-gradient(45deg, #fbbf24, #f59e0b);
+    color: #0f172a;
+    border: none;
+    padding: 14px 28px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+    width: 100%;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    box-shadow: 0 10px 25px rgba(251,191,36,0.3);
+}
+
+.download-card button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 15px 35px rgba(251,191,36,0.4);
+    background: linear-gradient(45deg, #f59e0b, #fbbf24);
+}
+
+/* Enhanced filter buttons */
+.filter-btn {
+    background: rgba(15,23,42,0.1);
+    color: #1e293b;
+    border: 2px solid rgba(15,23,42,0.2);
+    padding: 10px 20px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 0.95rem;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.filter-btn:hover,
+.filter-btn.active {
+    background: linear-gradient(45deg, #0f172a, #1e293b);
+    color: white;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(15,23,42,0.2);
+}
+
+/* Enhanced success message */
+.success-message {
+    background: linear-gradient(135deg, #dcfce7 0%, #bbf7d0 100%);
+    color: #166534;
+    padding: 1.5rem 2rem;
+    border: 2px solid #86efac;
+    border-radius: 16px;
+    margin: 2rem 0;
+    font-weight: 600;
+    box-shadow: 0 10px 25px rgba(34,197,94,0.1);
+}
+
+/* Enhanced loading animation */
+.loading {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    border: 3px solid rgba(251,191,36,0.2);
+    border-top: 3px solid #fbbf24;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+/* Progress bar for reading */
+.reading-progress {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 4px;
+    background: linear-gradient(90deg, #fbbf24, #f59e0b);
+    z-index: 9999;
+    transition: width 0.3s ease;
+}
+
+/* Scroll to top button */
+.scroll-to-top {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    background: linear-gradient(45deg, #0f172a, #1e293b);
+    color: white;
+    border: none;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 1.5rem;
+    transition: all 0.3s ease;
+    box-shadow: 0 10px 25px rgba(15,23,42,0.2);
+    z-index: 1000;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.scroll-to-top.visible {
+    opacity: 1;
+    visibility: visible;
+}
+
+.scroll-to-top:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 15px 35px rgba(15,23,42,0.3);
+}
+
+/* Table of contents */
+.table-of-contents {
+    background: linear-gradient(135deg, #f8fafc 0%, #ffffff 100%);
+    border: 2px solid #e5e7eb;
+    border-radius: 20px;
+    padding: 2rem;
+    margin: 3rem 0;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.05);
+}
+
+.table-of-contents h3 {
+    color: #0f172a;
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    font-weight: 700;
+}
+
+.table-of-contents ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.table-of-contents li {
+    padding: 0.75rem 0;
+    border-bottom: 1px solid #e5e7eb;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.table-of-contents li:hover {
+    background: rgba(251,191,36,0.1);
+    padding-left: 1rem;
+    border-radius: 10px;
+}
+
+.table-of-contents li:last-child {
+    border-bottom: none;
+}
+
+/* Modern responsive typography */
+@media (max-width: 1024px) {
+    .hero-content h1 {
+        font-size: 3.5rem;
+    }
+    
+    .chapters h2 {
+        font-size: 2.8rem;
+    }
+    
+    .chapter-grid {
+        grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+        gap: 2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero-content h1 {
+        font-size: 2.8rem;
+    }
+    
+    .chapters h2 {
+        font-size: 2.2rem;
+    }
+    
+    .chapter-header {
+        padding: 2rem 1rem;
+    }
+    
+    .chapter-info h1 {
+        font-size: 1.8rem;
+    }
+    
+    .download-section {
+        padding: 4rem 0;
+    }
+    
+    .download-card {
+        padding: 2rem;
+    }
+}
+
+/* Dark mode support */
+@media (prefers-color-scheme: dark) {
+    .chapter-card {
+        background: linear-gradient(145deg, #1e293b 0%, #334155 100%);
+        color: white;
+    }
+    
+    .chapter-title {
+        color: #f1f5f9;
+    }
+    
+    .book-content {
+        background: linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #334155 100%);
+        color: #f1f5f9;
+    }
+    
+    .book-content h2,
+    .book-content h3,
+    .book-content h4 {
+        color: #fbbf24;
+    }
+    
+    .book-content p {
+        color: #e2e8f0;
+    }
+}

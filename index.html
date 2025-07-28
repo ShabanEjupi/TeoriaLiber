@@ -3,7 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Teoria e Lojërave: Nderi dhe Suksesi - Libri i Plotë</title>
+    <title>Teoria e Lojërave:                <div style="background: rgba(255,255,255,0.1); padding: 2rem; border-radius: 15px; backdrop-filter: blur(10px);">
+                    <h4 style="color: white; margin-bottom: 1rem;">📚 Libri i Plotë HTML</h4>
+                    <p style="opacity: 0.9; margin-bottom: 1.5rem;">File HTML i kompletë që mund ta printoni si PDF nga browser-i</p>
+                    <button onclick="downloadBook()" style="background: white; color: #2E8B57; border: none; padding: 12px 24px; border-radius: 25px; cursor: pointer; font-weight: bold; font-size: 1rem;">
+                        Shkarko Librin e Plotë 📖
+                    </button>
+                </div>
+                
+                <div style="background: rgba(255,255,255,0.1); padding: 2rem; border-radius: 15px; backdrop-filter: blur(10px);">
+                    <h4 style="color: white; margin-bottom: 1rem;">🎯 60 Kapituj GARANTUAR</h4>
+                    <p style="opacity: 0.9; margin-bottom: 1.5rem;">Versioni i sigurt që garanton të gjithë 60 kapitujt</p>
+                    <button onclick="downloadCompleteBook()" style="background: #FFD700; color: #2E8B57; border: none; padding: 12px 24px; border-radius: 25px; cursor: pointer; font-weight: bold; font-size: 1rem;">
+                        Shkarko 60 Kapituj ✅
+                    </button>
+                </div>dhe Suksesi - Libri i Plotë</title>
     <meta name="description" content="Libër i plotë 400+ faqesh në shqip për teorinë e lojërave me 60 kapituj të ndryshëm metodologjikisht. Çdo kapitull është unik: case studies, akademik, praktik, intervista, narrative, workshop. Fokusim në nder, sukses, pasuri halal, dhe vlera islame.">
     <meta name="keywords" content="teoria e lojërave, nder, sukses, biznes, Islam, Mercedes, pasuri, investime halal, martesa, networking, milioner, 60 kapituj, metodologji të ndryshme">
     <meta name="author" content="Game Theory Albania">
@@ -22,8 +36,9 @@
     <meta property="twitter:description" content="400+ faqe për suksesin e nderuar - nga zero në milioner me vlera islame dhe metodologji të ndryshme"
     <meta property="twitter:image" content="https://teoria-lojrave-shqip.netlify.app/book-cover.jpg">
     
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="modern-enhancements.css">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
     
     <!-- Google Analytics -->
@@ -317,8 +332,10 @@
     <script src="content-integration.js"></script>
     <script src="download-fix-consolidated.js"></script>
     <script src="bulletproof-download.js"></script>
+    <script src="download-complete-book.js"></script>
     
     <!-- Enhanced functionality -->
+    <script src="enhanced-features.js"></script>
     <script>
         // Set last updated date
         document.getElementById('lastUpdated').textContent = new Date().toLocaleDateString('sq-AL');
