@@ -4693,65 +4693,6 @@ function generateChapterContent(chapterNum, title) {
     return detailedContent;
 }
 
-        <h3>⚠️ 8. Menaxhimi i Rreziqeve</h3>
-        <p>Çdo strategji biznesore përmban rreziqe. Identifikimi dhe menaxhimi proaktiv i këtyre rreziqeve është thelbësor:</p>
-        
-        <p><strong>Risk Assessment:</strong> Vlerësoni mundësinë dhe impaktin e çdo rreziku të identifikuar. Krijoni një matricë rreziku për prioritizim.</p>
-        
-        <p><strong>Mitigation Strategies:</strong> Zhvilloni strategji specifike për të minimizuar ose eliminuar rreziqet më kritike.</p>
-        
-        <p><strong>Contingency Planning:</strong> Përgatitni plane alternative për situata kur gjërat nuk shkojnë sipas planit.</p>
-
-        <h3>🎯 9. Qëllimet Afatgjata</h3>
-        <p>Mbani mend se suksesi i vërtetë vjen nga implementimi i vazhdueshëm i parimeve të mësuara. Ky kapitull është një mjet që do t'ju shërbejë gjatë gjithë karrierës suaj.</p>
-        
-        <p><strong>Vizioni 5-Vjeçar:</strong> Krijoni një vizion të qartë për atë që dëshironi të arrini në 5 vitet e ardhshme. Ky vizion duhet të jetë specifik, i matshëm dhe i arritshëm.</p>
-        
-        <p><strong>Milestone Planning:</strong> Ndani qëllimet afatgjata në objektiva më të vegjël që mund të arrihen brenda 6-12 muajve.</p>
-        
-        <p><strong>Regular Review:</strong> Planifikoni rishikime të rregullta për të vlerësuar progresin dhe për të bërë përshtatje sipas nevojës.</p>
-
-        <h3>📈 10. Matja e Suksesit</h3>
-        <p>Për të ditur nëse strategjitë tuaja po funksionojnë, duhet të përcaktoni metrika të qarta për matjen e suksesit:</p>
-        
-        <div class="highlight-box">
-            <h4>🔍 Key Performance Indicators (KPIs):</h4>
-            <ul>
-                <li><strong>Financiare:</strong> Xhiro, fitim, ROI, cash flow</li>
-                <li><strong>Klientë:</strong> Satisfaction score, retention rate, acquisition cost</li>
-                <li><strong>Operacionale:</strong> Eficienca, cilësia, koha e përgjigjes</li>
-                <li><strong>Punonjës:</strong> Engagement, retention, produktiviteti</li>
-                <li><strong>Inovacioni:</strong> Produkte të reja, procese të përmirësuara</li>
-            </ul>
-        </div>
-
-        <h3>🔄 11. Përmirësimi i Vazhdueshëm</h3>
-        <p>Botë biznesore ndryshon shpejt, dhe strategjitë që funksionojnë sot mund të mos jenë efektive nesër. Prandaj, është thelbësore të adoptojë filozofinë e përmirësimit të vazhdueshëm:</p>
-        
-        <ul>
-            <li><strong>Feedback Loops:</strong> Krijoni mekanizma për të marrë feedback të rregullt</li>
-            <li><strong>Experimentation:</strong> Testoni gjëra të reja në shkallë të vogël para se t'i implementoni plotësisht</li>
-            <li><strong>Learning Culture:</strong> Kultivoni një kulturë ku të gjithë janë të hapur për të mësuar</li>
-            <li><strong>Innovation Mindset:</strong> Mendoni gjithmonë për mënyra të reja për të bërë gjërat</li>
-        </ul>
-
-        <h3>💪 12. Konkluzione dhe Hapat e Ardhshëm</h3>
-        <p>Implementimi i suksesshëm i ${title.toLowerCase()} kërkon përkushtim, durim dhe qëndrueshmëri. Çelësi është të fillosh me hapa të vegjël dhe të ndërtosh gradualisht mbi to.</p>
-        
-        <p><strong>Mesazhi Kryesor:</strong> Suksesi nuk vjen për një natë, por është rezultat i punës së përditshme dhe përkushtimit ndaj përsosmërisë.</p>
-        
-        <p><strong>Thirrja për Veprim:</strong> Filloni sot implementimin e të paktën një strategjie nga ky kapitull. Çdo udhëtim i gjatë fillon me një hap të parë.</p>
-
-        <div class="islamic-quote">
-            "وَقُل رَّبِّ زِدْنِي عِلْمًا"
-            <br><br>
-            "Dhe thuaj: O Zoti im, shtomë dijen time!" - Kurani, 20:114
-        </div>
-    `;
-
-    return detailedContent;
-}
-
 // Search functionality
 function searchContent(query) {
     if (!query || query.trim() === '') {
