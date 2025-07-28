@@ -263,13 +263,14 @@ body {
 .chapter-number {
     font-size: 2.8rem;
     font-weight: 900;
+    color: #0f172a !important;
+    margin-bottom: 1.5rem;
+    text-shadow: 2px 2px 6px rgba(251,191,36,0.5);
+    font-family: 'Inter', sans-serif;
     background: linear-gradient(45deg, #0f172a, #1e293b);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-    margin-bottom: 1.5rem;
-    text-shadow: 2px 2px 8px rgba(0,0,0,0.1);
-    font-family: 'Inter', sans-serif;
 }
 
 .chapter-title {
@@ -277,10 +278,11 @@ body {
     font-weight: 700;
     margin-bottom: 2rem;
     line-height: 1.6;
-    color: #1e293b;
+    color: #0f172a !important;
     min-height: 4rem;
     font-family: 'Inter', sans-serif;
     letter-spacing: -0.025em;
+    text-shadow: 2px 2px 4px rgba(251,191,36,0.2);
 }
 
 .read-btn {
@@ -308,14 +310,17 @@ body {
 }
 
 .chapter-card h3 {
-    color: #2E8B57;
+    color: #000000 !important;
     font-size: 1.4rem;
     margin-bottom: 1rem;
+    text-shadow: 1px 1px 2px rgba(255,255,255,0.8);
+    font-weight: 700;
 }
 
 .chapter-card p {
-    color: #666;
+    color: #333333 !important;
     line-height: 1.6;
+    text-shadow: 1px 1px 1px rgba(255,255,255,0.6);
 }
 
 /* Book Content */
@@ -746,4 +751,138 @@ footer .footer-brand {
         box-shadow: none;
         border: 1px solid #ddd;
     }
+}
+
+/* Additional styles to ensure text visibility and consistency */
+.chapter-card *:not(.read-btn) {
+    color: #0f172a !important;
+}
+
+.chapter-card h2,
+.chapter-card h3,
+.chapter-card p,
+.chapter-card span {
+    color: #0f172a !important;
+    text-shadow: 1px 1px 2px rgba(251,191,36,0.2) !important;
+    font-weight: 600 !important;
+    line-height: 1.7 !important;
+}
+
+/* Strong contrast for chapter content */
+.chapter-card .chapter-preview h2 {
+    color: #0f172a !important;
+    font-weight: 700 !important;
+    margin-bottom: 1rem !important;
+}
+
+.chapter-card .chapter-preview p {
+    color: #1e293b !important;
+    font-weight: 500 !important;
+    margin-bottom: 1rem !important;
+}
+
+/* Ensure buttons are visible */
+.read-btn {
+    background: linear-gradient(45deg, #0f172a, #1e293b) !important;
+    color: #ffffff !important;
+    text-shadow: none !important;
+    border: 2px solid #fbbf24 !important;
+    font-weight: 700 !important;
+}
+
+.read-btn:hover {
+    background: linear-gradient(45deg, #fbbf24, #f59e0b) !important;
+    color: #0f172a !important;
+    transform: translateY(-2px) scale(1.05) !important;
+    box-shadow: 0 15px 35px rgba(251,191,36,0.4) !important;
+}
+
+/* Content area text visibility */
+#content-area {
+    color: #0f172a !important;
+}
+
+#content-area h1,
+#content-area h2,
+#content-area h3,
+#content-area h4,
+#content-area h5,
+#content-area h6 {
+    color: #0f172a !important;
+    font-weight: 700 !important;
+    margin-bottom: 1.5rem !important;
+    text-shadow: 1px 1px 2px rgba(251,191,36,0.2) !important;
+}
+
+#content-area p {
+    color: #1e293b !important;
+    font-weight: 500 !important;
+    line-height: 1.8 !important;
+    margin-bottom: 1.2rem !important;
+}
+
+#content-area strong {
+    color: #0f172a !important;
+    font-weight: 700 !important;
+}
+
+/* Reading view improvements */
+.reading-view {
+    background: rgba(255, 255, 255, 0.95) !important;
+    color: #0f172a !important;
+    padding: 2rem !important;
+    border-radius: 16px !important;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.1) !important;
+}
+
+.reading-view * {
+    color: inherit !important;
+}
+
+.reading-view h2 {
+    color: #0f172a !important;
+    border-bottom: 3px solid #fbbf24 !important;
+    padding-bottom: 0.5rem !important;
+    margin-bottom: 2rem !important;
+}
+
+/* Fix any blue text issues completely */
+* {
+    color: inherit;
+}
+
+.chapter-card .chapter-number {
+    color: #0f172a !important;
+    background: linear-gradient(45deg, #0f172a, #1e293b);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-shadow: none !important;
+}
+
+.chapter-card .chapter-title {
+    color: #0f172a !important;
+    text-shadow: 1px 1px 2px rgba(251,191,36,0.2) !important;
+}
+
+/* Make sure all text is readable */
+.chapter-card h2,
+.chapter-card h3,
+.chapter-card h4,
+.chapter-card h5,
+.chapter-card h6 {
+    color: #0f172a !important;
+    font-weight: 700 !important;
+}
+
+.chapter-card p,
+.chapter-card span,
+.chapter-card div {
+    color: #1e293b !important;
+    font-weight: 500 !important;
+}
+
+/* Override any blue colors that might still exist */
+.blue, .text-blue, [style*="color: blue"], [style*="color: #2563eb"] {
+    color: #0f172a !important;
 }

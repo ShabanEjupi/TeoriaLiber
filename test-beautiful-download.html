@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="sq">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Beautiful Book Download</title>
+    <style>
+        body { 
+            font-family: Arial, sans-serif; 
+            margin: 20px; 
+            background: #f5f5f5;
+        }
+        .test-container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+        }
+        .test-btn {
+            background: linear-gradient(45deg, #4299e1, #667eea);
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            border-radius: 50px;
+            cursor: pointer;
+            font-size: 1.1rem;
+            font-weight: 600;
+            margin: 10px;
+            box-shadow: 0 4px 15px rgba(66,153,225,0.3);
+            transition: all 0.3s ease;
+        }
+        .test-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(66,153,225,0.4);
+        }
+        .status {
+            background: #f8f9fa;
+            border: 1px solid #dee2e6;
+            border-radius: 10px;
+            padding: 15px;
+            margin: 20px 0;
+            min-height: 200px;
+            overflow-y: auto;
+        }
+        h1 {
+            color: #2d3748;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        h2 {
+            color: #4a5568;
+            border-bottom: 2px solid #e2e8f0;
+            padding-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="test-container">
+        <h1>🎨 Test Beautiful Book Download System</h1>
+        
+        <h2>📚 Available Download Options</h2>
+        
+        <button class="test-btn" onclick="testBeautifulDownload()">
+            ✨ Test Beautiful Book Download
+        </button>
+        
+        <button class="test-btn" onclick="testStandardDownload()">
+            📖 Test Standard Download
+        </button>
+        
+        <button class="test-btn" onclick="testConsolidatedDownload()">
+            🔧 Test Consolidated Download
+        </button>
+        
+        <button class="test-btn" onclick="testSystemStatus()">
+            🔍 Check System Status
+        </button>
+        
+        <h2>📊 Test Status</h2>
+        <div id="status" class="status">
+            Click the buttons above to test different download systems...
+        </div>
+    </div>
+
+    <!-- Load all required scripts -->
+    <script src="script.js"></script>
+    <script src="download-fix-consolidated.js"></script>
+    <script src="bulletproof-download.js"></script>
+    <script src="download-complete-book.js"></script>
+    <script src="beautiful-book-download.js"></script>
+    
+    <script>
+        function logStatus(message) {
+            const status = document.getElementById('status');
+            const time = new Date().toLocaleTimeString();
+            status.innerHTML += `<div>[${time}] ${message}</div>`;
+            status.scrollTop = status.scrollHeight;
+            console.log(message);
+        }
+        
+        function clearStatus() {
+            document.getElementById('status').innerHTML = '';
+        }
+        
+        function testBeautifulDownload() {
+            clearStatus();
+            logStatus('🎨 Testing Beautiful Book Download...');
+            
+            if (typeof window.downloadBeautifulBook === 'function') {
+                logStatus('✅ Beautiful download function found');
+                
+                try {
+                    logStatus('📚 Generating beautiful book...');
+                    const book = downloadBeautifulBook();
+                    logStatus(`✨ Beautiful book generated! Size: ${book.length} characters`);
+                    
+                    // Create download
+                    const blob = new Blob([book], { type: 'text/html;charset=utf-8' });
+                    const url = window.URL.createObjectURL(blob);
+                    const a = document.createElement('a');
+                    a.href = url;
+                    a.download = 'Test-Beautiful-Book.html';
+                    a.click();
+                    window.URL.revokeObjectURL(url);
+                    
+                    logStatus('🎉 Beautiful book download completed!');
+                } catch (error) {
+                    logStatus(`❌ Error: ${error.message}`);
+                }
+            } else {
+                logStatus('❌ Beautiful download function not found');
+            }
+        }
+        
+        function testStandardDownload() {
+            clearStatus();
+            logStatus('📖 Testing Standard Download...');
+            
+            if (typeof window.downloadBook === 'function') {
+                logStatus('✅ Standard download function found');
+                downloadBook();
+            } else {
+                logStatus('❌ Standard download function not found');
+            }
+        }
+        
+        function testConsolidatedDownload() {
+            clearStatus();
+            logStatus('🔧 Testing Consolidated Download...');
+            
+            if (typeof window.generateCompleteBookHTML === 'function') {
+                logStatus('✅ Consolidated function found');
+                
+                try {
+                    const book = generateCompleteBookHTML();
+                    logStatus(`✅ Book generated! Size: ${book.length} characters`);
+                    
+                    // Create download
+                    const blob = new Blob([book], { type: 'text/html;charset=utf-8' });
+                    const url = window.URL.createObjectURL(blob);
+                    const a = document.createElement('a');
+                    a.href = url;
+                    a.download = 'Test-Consolidated-Book.html';
+                    a.click();
+                    window.URL.revokeObjectURL(url);
+                    
+                    logStatus('🎉 Consolidated download completed!');
+                } catch (error) {
+                    logStatus(`❌ Error: ${error.message}`);
+                }
+            } else {
+                logStatus('❌ Consolidated function not found');
+            }
+        }
+        
+        function testSystemStatus() {
+            clearStatus();
+            logStatus('🔍 Checking system status...');
+            
+            // Check variables
+            logStatus(`📊 totalChapters: ${typeof window.totalChapters !== 'undefined' ? window.totalChapters : 'undefined'}`);
+            logStatus(`📚 chapters: ${typeof window.chapters !== 'undefined' ? 'defined' : 'undefined'}`);
+            
+            // Check functions
+            const functions = [
+                'downloadBook',
+                'downloadBeautifulBook', 
+                'generateCompleteBookHTML',
+                'getChapterTitle',
+                'generateChapterContent'
+            ];
+            
+            functions.forEach(func => {
+                const exists = typeof window[func] === 'function';
+                logStatus(`${exists ? '✅' : '❌'} ${func}: ${exists ? 'available' : 'not found'}`);
+            });
+            
+            // Try to generate a sample chapter
+            if (typeof window.getChapterTitle === 'function') {
+                try {
+                    const title = getChapterTitle(1);
+                    logStatus(`📖 Sample chapter title: "${title}"`);
+                } catch (error) {
+                    logStatus(`⚠️ Error getting chapter title: ${error.message}`);
+                }
+            }
+            
+            logStatus('✅ System status check completed');
+        }
+        
+        // Initialize when page loads
+        window.onload = function() {
+            logStatus('🚀 Test page loaded');
+            logStatus('💡 Click the buttons above to test different download systems');
+        };
+    </script>
+</body>
+</html>

@@ -97,9 +97,9 @@ window.addEventListener('DOMContentLoaded', function() {
     console.log('✅ downloadBook function overridden');
 });
 
-// Main download function - working version
+// Main download function - working version with beautiful design
 async function downloadBook() {
-    console.log('🔄 Starting downloadBook function...');
+    console.log('🎨 Starting beautiful book download...');
     
     try {
         // Show loading state
@@ -108,11 +108,11 @@ async function downloadBook() {
         
         downloadBtns.forEach((btn, index) => {
             originalTexts[index] = btn.textContent;
-            btn.textContent = '⏳ Po krijohet libri...';
+            btn.textContent = '✨ Po krijohet libri i bukur...';
             btn.disabled = true;
         });
         
-        console.log('✅ Loading state set');
+        console.log('✅ Loading state set for beautiful book');
         
         // Try to wait for dependencies, but continue even if they fail
         try {
@@ -137,17 +137,26 @@ async function downloadBook() {
         // Generate book content with a delay to allow UI update
         setTimeout(() => {
             try {
-                console.log('🔄 Generating book content...');
+                console.log('🎨 Generating beautiful book content...');
                 
-                let completeBook = generateCompleteBookHTML();
-                console.log('✅ Book content generated, size:', completeBook.length, 'characters');
+                // Use beautiful book generator if available, otherwise fallback
+                let completeBook;
+                if (typeof window.downloadBeautifulBook === 'function') {
+                    completeBook = downloadBeautifulBook();
+                    console.log('✨ Beautiful book generated!');
+                } else {
+                    completeBook = generateCompleteBookHTML();
+                    console.log('✅ Standard book generated (beautiful system not loaded)');
+                }
+                
+                console.log('📊 Book content size:', completeBook.length, 'characters');
                 
                 // Create and trigger download
                 const blob = new Blob([completeBook], { type: 'text/html;charset=utf-8' });
                 const url = window.URL.createObjectURL(blob);
                 const a = document.createElement('a');
                 a.href = url;
-                a.download = 'Teoria-e-Lojrave-Libri-i-Plote.html';
+                a.download = 'Teoria-e-Lojrave-Libri-Premium.html';
                 a.style.display = 'none';
                 
                 document.body.appendChild(a);
@@ -155,19 +164,24 @@ async function downloadBook() {
                 document.body.removeChild(a);
                 window.URL.revokeObjectURL(url);
                 
-                console.log('✅ Download triggered successfully');
+                console.log('✅ Beautiful book download triggered successfully');
                 
                 // Reset buttons with success state
                 downloadBtns.forEach((btn, index) => {
-                    btn.textContent = '✅ E Shkarkuar!';
+                    btn.textContent = '✨ Libri Premium u Shkarkua!';
                     btn.disabled = false;
                 });
                 
-                // Show success message
+                // Show enhanced success message
                 setTimeout(() => {
-                    alert(`✅ LIBRI U SHKARKUA ME SUKSES!
+                    alert(`✨ LIBRI PREMIUM U SHKARKUA ME SUKSES!
 
-📖 Libri përfshin të gjithë ${window.totalChapters} kapitujt (400+ faqe).
+🎨 Libri përfshin dizajn modern dhe elegant me:
+📖 ${window.totalChapters} kapituj të plotë (480+ faqe)
+🎯 Styling profesional dhe të bukur
+📱 Dizajn responsive për të gjitha pajisjet
+🖨️ Optimizuar për printim PDF
+🏆 Cilësi Premium
 
 🔄 PËR TA KONVERTUAR NË PDF:
 1. Hapeni file-in HTML në Chrome/Firefox/Edge
@@ -175,46 +189,36 @@ async function downloadBook() {
 3. Zgjidhni "Save as PDF"
 4. Në "More Settings":
    ✓ Paper size: A4
-   ✓ Background graphics: ✓
+   ✓ Background graphics: ✓ (SHUMË E RËNDËSISHME!)
    ✓ Margins: Default
 5. Klikoni "Save"
 
-🎯 Rezultat: PDF profesional i gatshëm për lexim!`);
+🎯 Rezultat: PDF premium i bukur dhe profesional!`);
                     
                     // Restore original button text
                     downloadBtns.forEach((btn, index) => {
-                        btn.textContent = originalTexts[index] || 'Shkarko Librin e Plotë 📚';
+                        btn.textContent = originalTexts[index] || 'Shkarko Librin Premium 📚';
                     });
                     
                 }, 500);
                 
             } catch (innerError) {
-                console.error('❌ Error generating book content:', innerError);
+                console.error('❌ Error generating beautiful book:', innerError);
                 throw innerError;
             }
         }, 100);
+
         
     } catch (error) {
-        console.error('❌ Download error:', error);
+        console.error('❌ Beautiful book download error:', error);
+        alert('❌ Gabim në shkarkimin e librit: ' + error.message + '\n\nProvoni përsëri ose kontaktoni mbështetjen.');
         
         // Reset buttons on error
         const downloadBtns = document.querySelectorAll('[onclick*="downloadBook"]');
-        downloadBtns.forEach((btn, index) => {
-            btn.textContent = originalTexts[index] || 'Shkarko Librin e Plotë 📚';
+        downloadBtns.forEach(btn => {
+            btn.textContent = 'Shkarko Librin Premium 📚';
             btn.disabled = false;
         });
-        
-        // Show user-friendly error message
-        alert(`❌ Gabim në shkarkimin e librit!
-
-Detajet e gabimit: ${error.message}
-
-🔄 Zgjidhje të mundshme:
-1. Rifreskoni faqen (F5) dhe provoni përsëri
-2. Kontrolloni që të gjitha skriptet janë ngarkuar saktë
-3. Provoni me shfletues tjetër (Chrome, Firefox, Edge)
-
-Nëse problemi vazhdon, kontaktoni mbështetjen.`);
     }
 }
 

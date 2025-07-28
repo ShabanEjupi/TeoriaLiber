@@ -406,29 +406,33 @@
     }
 }
 
-/* Dark mode support */
-@media (prefers-color-scheme: dark) {
-    .chapter-card {
-        background: linear-gradient(145deg, #1e293b 0%, #334155 100%);
-        color: white;
-    }
-    
-    .chapter-title {
-        color: #f1f5f9;
-    }
-    
-    .book-content {
-        background: linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #334155 100%);
-        color: #f1f5f9;
-    }
-    
-    .book-content h2,
-    .book-content h3,
-    .book-content h4 {
-        color: #fbbf24;
-    }
-    
-    .book-content p {
-        color: #e2e8f0;
-    }
+/* Light mode support - Force light colors for better visibility */
+.chapter-card {
+    background: linear-gradient(145deg, #ffffff 0%, #f8fafc 100%) !important;
+    color: #000000 !important;
+}
+
+.chapter-title {
+    color: #000000 !important;
+    text-shadow: 1px 1px 2px rgba(255,255,255,0.8) !important;
+}
+
+.chapter-number {
+    color: #2563eb !important;
+    text-shadow: 1px 1px 2px rgba(255,255,255,0.8) !important;
+}
+
+.book-content {
+    background: linear-gradient(135deg, #f8fafc 0%, #ffffff 50%, #f1f5f9 100%) !important;
+    color: #000000 !important;
+}
+
+.book-content h2,
+.book-content h3,
+.book-content h4 {
+    color: #1e40af !important;
+}
+
+.book-content p {
+    color: #374151 !important;
 }
