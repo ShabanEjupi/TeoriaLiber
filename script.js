@@ -1,8 +1,47 @@
 // Game Theory Book - Interactive JavaScript - 300+ Pages Albanian Edition
 let currentChapter = 1;
-const totalChapters = 60; // 60 chapters × 5-8 pages each = 300-480 pages total
+const totalChapters = 66; // 66 chapters × 5-8 pages each = 330-528 pages total
 
 // Enhanced content with substantial chapters using diverse methodologies
+
+// --- Kapitulli: Fuqia e Shikimit dhe Vetëbesimi ---
+/*
+Ky kapitull trajton rëndësinë e të mos u frikësuar për të shikuar të tjerët në sy, sidomos kur ndihesh i vëzhguar për shkak të një veture të mirë si BMW 530d. Shikimi i drejtë tregon karakter të fortë dhe vetëbesim. Mos e ul shikimin, sepse njerëzit e ndjejnë dobësinë. Nëse të shikojnë gjatë, mendo që ndoshta e kanë për të mirë, por mos u prek shpejt nga komentet apo vështrimet e të tjerëve. Kjo është një lojë psikologjike që fiton ai që ruan qetësinë dhe vetëbesimin.
+*/
+
+// --- Kapitulli: Lufta e Shikimeve dhe Koncentrimi ---
+/*
+Kur je i fokusuar në "luftën e shikimeve", mund të harrosh qëllimin kryesor, si p.sh. të ndalosh në një market apo barnatore për të blerë diçka. Mos lejo që vështrimet e të tjerëve të të shpërqendrojnë nga detyrat e tua të përditshme. Ruaj fokusin dhe mos u ndiko nga presioni social.
+*/
+
+// --- Kapitulli: Syzet Anti-Refleks dhe Syzet e Diellit ---
+/*
+Vendosja e syzeve anti-refleks ose syzeve të diellit mund të ndihmojë në menaxhimin e vështrimeve të të tjerëve. Kjo të jep një pamje më të sigurt dhe të distancuar, duke e bërë më të vështirë për të tjerët të "lexojnë" emocionet e tua. Syzet janë një barrierë psikologjike dhe vizuale.
+*/
+
+// --- Kapitulli: Ndërrimi i Logos së Veturës ---
+/*
+Nëse ndihesh i vëzhguar për shkak të logos së veturës, mund ta ndërroni logon e BMW-së me atë të Toyotës ose Lexus. Në Kosovë, shumë njerëz nuk i njohin modelet e vërteta, dhe shpesh fokusohen vetëm te logoja. Kjo mund të ulë vëmendjen e panevojshme dhe të të bëjë të ndihesh më rehat.
+*/
+
+// --- Kapitulli: Xhamat e Zi dhe Lejet Zyrtare ---
+/*
+Vendosja e xhamave të zinj ose me ngjyrë të lehtë (p.sh. 30% trashësi, sa është e lejuar) ndihmon të ruash privatësinë dhe të mbrosh veten nga vështrimet e tepërta. Për xhama më të errët, mund të kërkosh leje nga ministria për përdorim të veçantë. Kjo të jep më shumë kontroll mbi hapësirën tënde personale.
+*/
+
+// --- Kapitulli: Mos u Prek nga Komentet dhe Vështrimet ---
+/*
+Është e rëndësishme të mos prekem lehtë nga komentet apo vështrimet e të tjerëve. Shpesh, njerëzit nuk kanë qëllim të keq, ose thjesht janë kureshtarë. Ruaj qetësinë, fol me vetëbesim dhe mos lejo që opinionet e të tjerëve të ndikojnë në vetëvlerësimin tënd.
+*/
+
+// --- Kapitulli: Këshilla të Tjera Relevante ---
+/*
+- Mos u krahaso vazhdimisht me të tjerët; secili ka rrugën e vet.
+- Praktiko ushtrime të vetëbesimit para pasqyrës.
+- Kujdesu për shëndetin mendor dhe emocional.
+- Rretho veten me njerëz pozitivë që të mbështesin.
+- Nëse ndihesh i shqetësuar, bisedo me dikë të besuar ose profesionist.
+*/
 
 // Complete chapter data for comprehensive 300-page book
 const chapters = {
