@@ -527,6 +527,11 @@ function generateBeautifulChapterContent(chapterNum, title) {
         '"وَأَن لَّيْسَ لِلْإِنسَانِ إِلَّا مَا سَعَىٰ" - Njeriu merr vetëm atë për të cilën përpiqet',
         '"وَتَوَكَّلْ عَلَى اللَّهِ" - Mbështetuni tek Allahu',
         '"وَقُل رَّبِّ زِدْنِي عِلْمًا" - O Zoti im, shtomë dijen time',
+        '"وَلَا تَمُدَّنَّ عَيْنَيْكَ إِلَىٰ مَا مَتَّعْنَا بِهِ أَزْوَاجًا مِّنْهُمْ زَهْرَةَ الْحَيَاةِ الدُّنْيَا لِنَفْتِنَهُمْ فِيهِ" - Dhe mos i ngjit sytë tek ajo që Ne ua kemi dhënë disa prej tyre si stoli të jetës së kësaj bote, që t\'i sprovojmë me të. (Kurani, 20:131)',
+        '"قُل لِّلْمُؤْمِنِينَ يَغُضُّوا مِنْ أَبْصَارِهِمْ وَيَحْفَظُوا فُرُوجَهُمْ ۚ ذَٰلِكَ أَزْكَىٰ لَهُمْ" - Thuaju besimtarëve t\'i ulin sytë dhe t\'i ruajnë nderin e tyre. Kjo është më e pastër për ta. (Kurani, 24:30)',
+        '"وَمَا خَلَقْتُ الْجِنَّ وَالْإِنسَ إِلَّا لِيَعْبُدُونِ" - Dhe nuk i krijova xhinët dhe njerëzit veçse që të më adhurojnë. (Kurani, 51:56)',
+        '"وَمَن قَتَلَ نَفْسًا بِغَيْرِ نَفْسٍ أَوْ فَسَادٍ فِي الْأَرْضِ فَكَأَنَّمَا قَتَلَ النَّاسَ جَمِيعًا" - Dhe kush vret një njeri pa vrarë një njeri (tjetër) ose pa bërë çrregullim në tokë, është sikur të ketë vrarë tërë njerëzimin. (Kurani, 5:32)',
+        '"وَجَعَلْنَا مِنْهُمْ أَئِمَّةً يَهْدُونَ بِأَمْرِنَا لَمَّا صَبَرُوا وَكَانُوا بِآيَاتِنَا يُوقِنُونَ" - Dhe bëmë prej tyre udhëheqës që udhëzonin me urdhrin Tonë kur duruan dhe ishin të bindur për shenjat Tona. (Kurani, 32:24)'
     ];
     
     const randomQuote = islamicQuotes[Math.floor(Math.random() * islamicQuotes.length)];

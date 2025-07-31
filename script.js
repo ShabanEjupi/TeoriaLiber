@@ -322,6 +322,24 @@ const chapters = {
                 <li><strong>Vlera e përbashkët:</strong> Gjeni pika të përbashkëta</li>
             </ul>
         </div>
+
+        <h3>Vlerat Islame në Marrëdhënie</h3>
+        
+        <p>Vlerat islame na mësojnë rëndësinë e nënçmimit të shikimit dhe fokusimit në atë që vërtet ka rëndësi në jetë. Kjo ka një vlerë të madhe strategjike në ndërtimin e marrëdhënieve të qëndrueshme.</p>
+
+        <div class="islamic-quote">
+            "وَلَا تَمُدَّنَّ عَيْنَيْكَ إِلَىٰ مَا مَتَّعْنَا بِهِ أَزْوَاجًا مِّنْهُمْ زَهْرَةَ الْحَيَاةِ الدُّنْيَا لِنَفْتِنَهُمْ فِيهِ"
+            <br><br>
+            "Dhe mos i ngjit sytë tek ajo që Ne ua kemi dhënë disa prej tyre si stoli të jetës së kësaj bote, që t'i sprovojmë me të." - Kurani, 20:131
+        </div>
+
+        <div class="islamic-quote">
+            "قُل لِّلْمُؤْمِنِينَ يَغُضُّوا مِنْ أَبْصَارِهِمْ وَيَحْفَظُوا فُرُوجَهُمْ ۚ ذَٰلِكَ أَزْكَىٰ لَهُمْ"
+            <br><br>
+            "Thuaju besimtarëve t'i ulin sytë dhe t'i ruajnë nderin e tyre. Kjo është më e pastër për ta." - Kurani, 24:30
+        </div>
+
+        <p>Këto ajete na mësojnë se fokusimi në atë që kemi dhe ruajtja e nderit personal janë elementë kyç për suksesin e qëndrueshëm. Kur nuk jemi të shpërqendruar nga materialet e të tjerëve, mund të përqendrohemi në ndërtimin e pasurisë dhe marrëdhënieve tona.</p>
         `
     },
 
@@ -533,9 +551,102 @@ const chapters = {
     },
 
     12: {
+        title: "Drejtësia, Përgjegjësia Shoqërore dhe Ndihmimi i të Shtypurve",
+        content: `
+        <h2>Kapitulli 12: Drejtësia, Përgjegjësia Shoqërore dhe Ndihmimi i të Shtypurve</h2>
+        
+        <div class="ai-prompt-box">
+            <h4>🤖 Prompt për ChatGPT:</h4>
+            <p>"Create justice and humanitarian scene: Albanian professional working with international documents for Palestine, scales of justice, Islamic symbols, maps showing strategic locations, golden light representing hope and justice. Style: serious, compassionate, strategic."</p>
+        </div>
+
+        <h3>Jeta në Tokë: Ibadeti dhe Përgjegjësia</h3>
+        
+        <p>Jeta në këtë botë nuk është vetëm për suksesin personal - është për ibadet dhe për ndihmimin e atyre që vuajnë. Ne kemi përgjegjësi ndaj komunitetit tonë dhe ndaj njerëzimit në përgjithësi.</p>
+
+        <div class="islamic-quote">
+            "وَمَا خَلَقْتُ الْجِنَّ وَالْإِنسَ إِلَّا لِيَعْبُدُونِ"
+            <br><br>
+            "Dhe nuk i krijova xhinët dhe njerëzit veçse që të më adhurojnë." - Kurani, 51:56
+        </div>
+
+        <p>Ibadeti nuk përfshin vetëm namazin dhe agjërimin - përfshin edhe drejtësinë, ndihmimin e të varfërve, dhe mbrojtjen e të pafajshmëve. Kur përdorim njohuritë dhe aftësitë tona për të ndihmuar të tjerët, kjo është forma më e lartë e ibadetit.</p>
+
+        <h3>Kriza në Palestinë: Një Thirrje për Veprim</h3>
+        
+        <p>Palestinezët po vriten çdo ditë, dhe ne si muslimanë dhe njerëz me nder kemi përgjegjësi të veprimit. Duhet të gjejmë mënyra strategjike për t'i ndihmuar, duke përdorur njohuritë e teorisë së lojërave për të krijuar zgjidhje efektive.</p>
+
+        <div class="islamic-quote">
+            "وَمَن قَتَلَ نَفْسًا بِغَيْرِ نَفْسٍ أَوْ فَسَادٍ فِي الْأَرْضِ فَكَأَنَّمَا قَتَلَ النَّاسَ جَمِيعًا"
+            <br><br>
+            "Dhe kush vret një njeri pa vrarë një njeri (tjetër) ose pa bërë çrregullim në tokë, është sikur të ketë vrarë tërë njerëzimin." - Kurani, 5:32
+        </div>
+
+        <h3>Strategjitë Juridike: Mësimi nga Kosova</h3>
+        
+        <p>Shembulli i Kosovës na mëson se si mund të përdoren mekanizmat juridikë ndërkombëtarë për drejtësi. Letra e Ahtisarit që hapi Gjykatën Speciale në Kosovë, edhe pse kontroverse dhe jo e nevojshme për ne, na tregon se si mund të përdoren instrumentet juridike ndërkombëtarë.</p>
+
+        <div class="highlight-box">
+            <h4>🏛️ Strategji për Drejtësi Ndërkombëtare:</h4>
+            <ul>
+                <li><strong>Dokumentimi Juridik:</strong> Regjistrimi i krimit të luftës dhe gjenocidit</li>
+                <li><strong>Gjykata Ndërkombëtare e Drejtësisë:</strong> Paraqitja e rasteve</li>
+                <li><strong>Gjykata Penale Ndërkombëtare:</strong> Ndjekja e kriminelëve të luftës</li>
+                <li><strong>Këshilli i Sigurimit i OKB:</strong> Presioni diplomatik</li>
+                <li><strong>Gjykatat Europiane:</strong> Përdorimi i sistemit juridik europian</li>
+                <li><strong>Arbitrazhi Ndërkombëtar:</strong> Zgjidhje alternative konfliktesh</li>
+            </ul>
+        </div>
+
+        <h3>Si Mund të Ndihmojmë Praktikisht</h3>
+        
+        <p>Ne si individë dhe si komunitet mund të kontribuojmë në mënyra konkrete:</p>
+
+        <div class="highlight-box">
+            <h4>🤝 Veprime të Mundshme:</h4>
+            <ol>
+                <li><strong>Dokumentimi dhe Dëshmitë:</strong> Mbledhja e provave për krimet</li>
+                <li><strong>Lobimi Juridik:</strong> Kontaktimi i avokatëve dhe juristëve ndërkombëtarë</li>
+                <li><strong>Financimi i OJQ-ve:</strong> Mbështetja e organizatave humanitare</li>
+                <li><strong>Ndërgjegjësimi Publik:</strong> Përdorimi i mediave sociale dhe tradicionale</li>
+                <li><strong>Presioni Ekonomik:</strong> Bojkotimi i kompanive që mbështesin shtypjen</li>
+                <li><strong>Angazhimi Politik:</strong> Presioni mbi politikanët dhe diplomatët</li>
+                <li><strong>Rrjetëzimi Strategjik:</strong> Krijimi i koalicioneve ndërkombëtare</li>
+            </ol>
+        </div>
+
+        <h3>Modeli i Kosovës: Të Mërat dhe Mësimet</h3>
+        
+        <p>Procesi i Kosovës na jep shembull se si mund të funksionojnë mekanizmat juridikë:</p>
+        
+        <ul>
+            <li><strong>UNMIK dhe Administratat Ndërkombëtare:</strong> Si mund të vendoset administrata e përkohshme</li>
+            <li><strong>Gjykata Speciale:</strong> Si krijohen gjykata për krime specifike</li>
+            <li><strong>Procesi i Statusit:</strong> Si mund të arrihet pavarësia juridike</li>
+            <li><strong>Ndërmjetësimi Ndërkombëtar:</strong> Roli i ndërmjetësuesve neutralë</li>
+        </ul>
+
+        <div class="islamic-quote">
+            "وَجَعَلْنَا مِنْهُمْ أَئِمَّةً يَهْدُونَ بِأَمْرِنَا لَمَّا صَبَرُوا وَكَانُوا بِآيَاتِنَا يُوقِنُونَ"
+            <br><br>
+            "Dhe bëmë prej tyre udhëheqës që udhëzonin me urdhrin Tonë kur duruan dhe ishin të bindur për shenjat Tona." - Kurani, 32:24
+        </div>
+
+        <h3>Përfundimi: Vlerat në Veprim</h3>
+        
+        <p>Teoria e lojërave na mëson se strategjia më e mirë është ajo që krijon përfitime për të gjithë. Kur ndihmojmë palestinezët, ne nuk ndihmojmë vetëm ta, por kontribuojmë për një botë më të drejtë. Kjo është strategjia afatgjate e suksesit të vërtetë.</p>
+
+        <div class="highlight-box">
+            <h4>💡 Mesazhi Kyç:</h4>
+            <p><strong>Suksesi i vërtetë nuk është vetëm personal - ai përfshin përgjegjësinë për drejtësinë dhe ndihmimin e atyre që vuajnë. Kur përdorim njohuritë dhe aftësitë tona për të mirën e njerëzimit, arrijmë përmbushjen e vërtetë të qëllimit tonë në jetë.</strong></p>
+        </div>
+        `
+    },
+
+    13: {
         title: "Rrjetëzimi Strategjik dhe Ndërtimi i Marrëdhënieve",
         content: `
-        <h2>Kapitulli 12: Rrjetëzimi Strategjik dhe Ndërtimi i Marrëdhënieve</h2>
+        <h2>Kapitulli 13: Rrjetëzimi Strategjik dhe Ndërtimi i Marrëdhënieve</h2>
         
         <div class="ai-prompt-box">
             <h4>🤖 Prompt për ChatGPT:</h4>
@@ -574,10 +685,10 @@ const chapters = {
         `
     },
 
-    13: {
+    14: {
         title: "Menaxhimi i Kohës dhe Produktiviteti Maksimal",
         content: `
-        <h2>Kapitulli 13: Menaxhimi i Kohës dhe Produktiviteti Maksimal</h2>
+        <h2>Kapitulli 14: Menaxhimi i Kohës dhe Produktiviteti Maksimal</h2>
         
         <div class="ai-prompt-box">
             <h4>🤖 Prompt për ChatGPT:</h4>
