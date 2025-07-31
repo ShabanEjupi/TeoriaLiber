@@ -6918,11 +6918,6 @@ function showChapter(chapterNumber) {
             <div class="chapter-content">
                 ${chapter.content}
             </div>
-            
-            <div class="chapter-navigation">
-                ${chapterNumber > 1 ? `<button onclick="showChapter(${chapterNumber - 1})" class="nav-btn prev-btn">⬅️ Kapitulli ${chapterNumber - 1}</button>` : ''}
-                ${chapterNumber < totalChapters ? `<button onclick="showChapter(${chapterNumber + 1})" class="nav-btn next-btn">➡️ Kapitulli ${chapterNumber + 1}</button>` : ''}
-            </div>
         `;
     } else {
         chapterContent.innerHTML = `
@@ -6940,11 +6935,6 @@ function showChapter(chapterNumber) {
             
             <div class="chapter-content">
                 ${showPlaceholderChapter ? showPlaceholderChapter(chapterNumber) : generateChapterContent(chapterNumber, getChapterTitle(chapterNumber))}
-            </div>
-            
-            <div class="chapter-navigation">
-                ${chapterNumber > 1 ? `<button onclick="showChapter(${chapterNumber - 1})" class="nav-btn prev-btn">⬅️ Kapitulli ${chapterNumber - 1}</button>` : ''}
-                ${chapterNumber < totalChapters ? `<button onclick="showChapter(${chapterNumber + 1})" class="nav-btn next-btn">➡️ Kapitulli ${chapterNumber + 1}</button>` : ''}
             </div>
         `;
     }

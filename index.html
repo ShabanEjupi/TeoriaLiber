@@ -46,6 +46,7 @@
             <ul class="nav-menu">
                 <li><a href="#home">🏠 Fillimi</a></li>
                 <li><a href="#chapters">📖 111 Kapitujt</a></li>
+                <li><a href="#gallery">🎨 Galeria</a></li>
                 <li><a href="#about">ℹ️ Rreth Librit</a></li>
                 <li><a href="#testimonials">💬 Testimoniale</a></li>
                 <li><a href="#download">📥 Shkarko PDF</a></li>
@@ -236,9 +237,6 @@
             </div>
         </div>
     </section>
-            </div>
-        </div>
-    </section>
 
     <section id="book-content" class="book-content" style="display: none;">
         <div class="container">
@@ -249,6 +247,119 @@
                 <button id="prev-btn" onclick="previousChapter()">← Kapitulli i mëparshëm</button>
                 <span id="current-chapter-display">Kapitulli 1 nga 111</span>
                 <button id="next-btn" onclick="nextChapter()">Kapitulli tjetër →</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Image Gallery Section -->
+    <section id="gallery" style="padding: 5rem 0; background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);">
+        <div class="container">
+            <h2 style="text-align: center; margin-bottom: 3rem; color: #1e293b; font-size: 2.5rem; font-weight: 800;">
+                🎨 Galeria e Imazheve të Librit
+            </h2>
+            <p style="text-align: center; margin-bottom: 3rem; font-size: 1.2rem; color: #64748b; max-width: 800px; margin-left: auto; margin-right: auto;">
+                Eksploroni imazhet e krijuara për librin "Teoria e Lojërave: Nderi dhe Suksesi" - nga kapaku elegant deri te skenat e biznesit dhe suksesit
+            </p>
+            
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); gap: 2rem; margin-bottom: 3rem;">
+                <!-- Book Cover -->
+                <div class="gallery-card" style="background: white; border-radius: 20px; overflow: hidden; box-shadow: 0 10px 30px rgba(0,0,0,0.1); transition: transform 0.3s ease;" onclick="openImageModal('book-cover')">
+                    <img src="imazhet/Create an elegant book cover for 'Teoria e Lojërave Nderi dhe Suksesi'. Feature chess pieces on a marble board with golden Islamic geometric patterns. Include luxury cars (Mercedes, BMW) in the background and traditional A.png" 
+                         alt="Kapaku i Librit - Teoria e Lojërave" 
+                         style="width: 100%; height: 250px; object-fit: cover;">
+                    <div style="padding: 1.5rem;">
+                        <h4 style="margin: 0 0 0.5rem 0; color: #1e293b; font-weight: 700;">📖 Kapaku i Librit</h4>
+                        <p style="margin: 0; color: #64748b; font-size: 0.9rem;">Dizajn elegant me copa shahu, modele islamike dhe vetura luksoze</p>
+                    </div>
+                </div>
+
+                <!-- Wedding Scene -->
+                <div class="gallery-card" style="background: white; border-radius: 20px; overflow: hidden; box-shadow: 0 10px 30px rgba(0,0,0,0.1); transition: transform 0.3s ease;" onclick="openImageModal('wedding')">
+                    <img src="imazhet/Create beautiful Albanian wedding scene with modern luxury elements, traditional and Islamic ceremony elements, successful couple with bright future symbols, golden love and prosperity symbols. Style elegant, traditional,.png" 
+                         alt="Skena Dasme Shqiptare me Elemente Luksoze" 
+                         style="width: 100%; height: 250px; object-fit: cover;">
+                    <div style="padding: 1.5rem;">
+                        <h4 style="margin: 0 0 0.5rem 0; color: #1e293b; font-weight: 700;">💒 Martesa e Suksesshme</h4>
+                        <p style="margin: 0; color: #64748b; font-size: 0.9rem;">Skena dasme me elemente traditionale dhe moderne, simbole prosperiteti</p>
+                    </div>
+                </div>
+
+                <!-- Business Honor -->
+                <div class="gallery-card" style="background: white; border-radius: 20px; overflow: hidden; box-shadow: 0 10px 30px rgba(0,0,0,0.1); transition: transform 0.3s ease;" onclick="openImageModal('business')">
+                    <img src="imazhet/Create business honor visualization Albanian entrepreneur shaking hands in front of growing business charts, luxury office with Islamic calligraphy, trust and integrity symbols, golden success aura. Style professional, tru.png" 
+                         alt="Nderi në Biznes - Sipërmarrës Shqiptar" 
+                         style="width: 100%; height: 250px; object-fit: cover;">
+                    <div style="padding: 1.5rem;">
+                        <h4 style="margin: 0 0 0.5rem 0; color: #1e293b; font-weight: 700;">🤝 Nderi në Biznes</h4>
+                        <p style="margin: 0; color: #64748b; font-size: 0.9rem;">Sipërmarrës shqiptar në biznes me vlera islame dhe sukses</p>
+                    </div>
+                </div>
+
+                <!-- Digital Business -->
+                <div class="gallery-card" style="background: white; border-radius: 20px; overflow: hidden; box-shadow: 0 10px 30px rgba(0,0,0,0.1); transition: transform 0.3s ease;" onclick="openImageModal('digital')">
+                    <img src="imazhet/Create modern digital business scene Albanian entrepreneur working on laptop, multiple screens showing online business growth, luxury car in garage visible through window, Islamic geometric patterns on wall, golden digital.png" 
+                         alt="Biznesi Dixhital Modern" 
+                         style="width: 100%; height: 250px; object-fit: cover;">
+                    <div style="padding: 1.5rem;">
+                        <h4 style="margin: 0 0 0.5rem 0; color: #1e293b; font-weight: 700;">💻 Biznesi Dixhital</h4>
+                        <p style="margin: 0; color: #64748b; font-size: 0.9rem;">Sipërmarrës në biznesin online me rritje dhe sukses dixhital</p>
+                    </div>
+                </div>
+
+                <!-- Networking -->
+                <div class="gallery-card" style="background: white; border-radius: 20px; overflow: hidden; box-shadow: 0 10px 30px rgba(0,0,0,0.1); transition: transform 0.3s ease;" onclick="openImageModal('networking')">
+                    <img src="imazhet/Create networking event scene Albanian professionals connecting at luxury venue, handshakes and business cards exchange, cultural diversity, Islamic and Albanian symbols, golden connection networks. Style social, professio.png" 
+                         alt="Event Networking Profesional" 
+                         style="width: 100%; height: 250px; object-fit: cover;">
+                    <div style="padding: 1.5rem;">
+                        <h4 style="margin: 0 0 0.5rem 0; color: #1e293b; font-weight: 700;">🌐 Networking Profesional</h4>
+                        <p style="margin: 0; color: #64748b; font-size: 0.9rem;">Event networking me profesionistë shqiptarë në ambiente luksoze</p>
+                    </div>
+                </div>
+
+                <!-- Mindset -->
+                <div class="gallery-card" style="background: white; border-radius: 20px; overflow: hidden; box-shadow: 0 10px 30px rgba(0,0,0,0.1); transition: transform 0.3s ease;" onclick="openImageModal('mindset')">
+                    <img src="imazhet/Create powerful mindset visualization Albanian professional in meditation pose, surrounded by symbols of success (Mercedes, beautiful home, happy family), golden light emanating from their mind, Islamic geometric patterns.png" 
+                         alt="Mendësia e Fuqishme e Suksesit" 
+                         style="width: 100%; height: 250px; object-fit: cover;">
+                    <div style="padding: 1.5rem;">
+                        <h4 style="margin: 0 0 0.5rem 0; color: #1e293b; font-weight: 700;">🧠 Mendësia e Suksesit</h4>
+                        <p style="margin: 0; color: #64748b; font-size: 0.9rem;">Vizualizim i mendësisë së fuqishme me simbole suksesi dhe prosperiteti</p>
+                    </div>
+                </div>
+
+                <!-- Investment -->
+                <div class="gallery-card" style="background: white; border-radius: 20px; overflow: hidden; box-shadow: 0 10px 30px rgba(0,0,0,0.1); transition: transform 0.3s ease;" onclick="openImageModal('investment')">
+                    <img src="imazhet/Create smart investment scene Albanian investor analyzing charts on multiple screens, luxury cars and real estate in background, Islamic finance symbols, golden growth arrows. Style analytical, prosperous, halal-focused..png" 
+                         alt="Investime të Mençura Halal" 
+                         style="width: 100%; height: 250px; object-fit: cover;">
+                    <div style="padding: 1.5rem;">
+                        <h4 style="margin: 0 0 0.5rem 0; color: #1e293b; font-weight: 700;">📈 Investime të Mençura</h4>
+                        <p style="margin: 0; color: #64748b; font-size: 0.9rem;">Investor shqiptar duke analizuar tregjet me fokus në financa halal</p>
+                    </div>
+                </div>
+
+                <!-- Startup Journey -->
+                <div class="gallery-card" style="background: white; border-radius: 20px; overflow: hidden; box-shadow: 0 10px 30px rgba(0,0,0,0.1); transition: transform 0.3s ease;" onclick="openImageModal('startup')">
+                    <img src="imazhet/Create startup journey visualization Albanian entrepreneur's journey from idea sketch to successful company, progression showing growth stages, luxury office evolution, Islamic values integrated. Style inspirational, growt.png" 
+                         alt="Rrugëtimi i Startup-it" 
+                         style="width: 100%; height: 250px; object-fit: cover;">
+                    <div style="padding: 1.5rem;">
+                        <h4 style="margin: 0 0 0.5rem 0; color: #1e293b; font-weight: 700;">🚀 Rrugëtimi Startup</h4>
+                        <p style="margin: 0; color: #64748b; font-size: 0.9rem;">Evolucioni nga ideja deri te kompania e suksesshme</p>
+                    </div>
+                </div>
+
+                <!-- Strategic Equilibrium -->
+                <div class="gallery-card" style="background: white; border-radius: 20px; overflow: hidden; box-shadow: 0 10px 30px rgba(0,0,0,0.1); transition: transform 0.3s ease;" onclick="openImageModal('strategy')">
+                    <img src="imazhet/Create strategic equilibrium visualization chess-like board showing business relationships, Albanian business leaders in strategic positions, mathematical equations in background, golden balance symbols. Style intelligent,.png" 
+                         alt="Ekuilibri Strategjik në Biznes" 
+                         style="width: 100%; height: 250px; object-fit: cover;">
+                    <div style="padding: 1.5rem;">
+                        <h4 style="margin: 0 0 0.5rem 0; color: #1e293b; font-weight: 700;">♟️ Strategji Biznesi</h4>
+                        <p style="margin: 0; color: #64748b; font-size: 0.9rem;">Vizualizim i ekuilibrit strategjik si në shah për liderët e biznesit</p>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -329,6 +440,65 @@
     
     <!-- Enhanced functionality -->
     <script src="enhanced-features.js"></script>
+    
+    <!-- Image Gallery Modal and Functionality -->
+    <div id="imageModal" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.9); z-index: 10000; justify-content: center; align-items: center;">
+        <div style="position: relative; max-width: 90%; max-height: 90%;">
+            <img id="modalImage" style="max-width: 100%; max-height: 100%; border-radius: 10px;">
+            <button onclick="closeImageModal()" style="position: absolute; top: -40px; right: 0; background: white; border: none; border-radius: 50%; width: 35px; height: 35px; cursor: pointer; font-size: 18px; font-weight: bold;">×</button>
+        </div>
+    </div>
+    
+    <script>
+        // Image gallery functionality
+        function openImageModal(imageType) {
+            const modal = document.getElementById('imageModal');
+            const modalImage = document.getElementById('modalImage');
+            
+            // Map image types to their file paths
+            const imageMap = {
+                'book-cover': 'imazhet/Create an elegant book cover for \'Teoria e Lojërave Nderi dhe Suksesi\'. Feature chess pieces on a marble board with golden Islamic geometric patterns. Include luxury cars (Mercedes, BMW) in the background and traditional A.png',
+                'wedding': 'imazhet/Create beautiful Albanian wedding scene with modern luxury elements, traditional and Islamic ceremony elements, successful couple with bright future symbols, golden love and prosperity symbols. Style elegant, traditional,.png',
+                'business': 'imazhet/Create business honor visualization Albanian entrepreneur shaking hands in front of growing business charts, luxury office with Islamic calligraphy, trust and integrity symbols, golden success aura. Style professional, tru.png',
+                'digital': 'imazhet/Create modern digital business scene Albanian entrepreneur working on laptop, multiple screens showing online business growth, luxury car in garage visible through window, Islamic geometric patterns on wall, golden digital.png',
+                'networking': 'imazhet/Create networking event scene Albanian professionals connecting at luxury venue, handshakes and business cards exchange, cultural diversity, Islamic and Albanian symbols, golden connection networks. Style social, professio.png',
+                'mindset': 'imazhet/Create powerful mindset visualization Albanian professional in meditation pose, surrounded by symbols of success (Mercedes, beautiful home, happy family), golden light emanating from their mind, Islamic geometric patterns.png',
+                'investment': 'imazhet/Create smart investment scene Albanian investor analyzing charts on multiple screens, luxury cars and real estate in background, Islamic finance symbols, golden growth arrows. Style analytical, prosperous, halal-focused..png',
+                'startup': 'imazhet/Create startup journey visualization Albanian entrepreneur\'s journey from idea sketch to successful company, progression showing growth stages, luxury office evolution, Islamic values integrated. Style inspirational, growt.png',
+                'strategy': 'imazhet/Create strategic equilibrium visualization chess-like board showing business relationships, Albanian business leaders in strategic positions, mathematical equations in background, golden balance symbols. Style intelligent,.png'
+            };
+            
+            modalImage.src = imageMap[imageType];
+            modal.style.display = 'flex';
+        }
+        
+        function closeImageModal() {
+            document.getElementById('imageModal').style.display = 'none';
+        }
+        
+        // Close modal when clicking outside the image
+        document.getElementById('imageModal').addEventListener('click', function(e) {
+            if (e.target === this) {
+                closeImageModal();
+            }
+        });
+        
+        // Add hover effects to gallery cards
+        document.addEventListener('DOMContentLoaded', function() {
+            const galleryCards = document.querySelectorAll('.gallery-card');
+            galleryCards.forEach(card => {
+                card.addEventListener('mouseenter', function() {
+                    this.style.transform = 'translateY(-10px)';
+                    this.style.boxShadow = '0 20px 40px rgba(0,0,0,0.15)';
+                });
+                
+                card.addEventListener('mouseleave', function() {
+                    this.style.transform = 'translateY(0)';
+                    this.style.boxShadow = '0 10px 30px rgba(0,0,0,0.1)';
+                });
+            });
+        });
+    </script>
     <script>
         // Set last updated date
         document.getElementById('lastUpdated').textContent = new Date().toLocaleDateString('sq-AL');
