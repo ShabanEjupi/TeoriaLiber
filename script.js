@@ -3456,6 +3456,606 @@ const chapters = {
         </div>
         `
     },
+
+    61: {
+        title: "Krijaliteti dhe Inovacioni në Epokën Digjitale",
+        content: `
+        <h2>Kapitulli 61: Krijaliteti dhe Inovacioni në Epokën Digjitale</h2>
+        
+        <div class="ai-prompt-box">
+            <h4>🤖 Prompt për ChatGPT:</h4>
+            <p>"Create innovation workspace: Albanian tech entrepreneur in modern office with multiple screens, AI interfaces, blockchain visualizations, luxury car in parking visible through window, Islamic geometric patterns on walls, creative brainstorming boards with Arabic calligraphy. Style: futuristic, creative, technologically advanced."</p>
+        </div>
+
+        <h3>Rivolucioni Digjital dhe Mundësitë e Reja</h3>
+        
+        <p>Steve Jobs tha: "Innovation distinguishes between a leader and a follower." Në epokën digjitale, krijaliteti dhe inovacioni janë çelësi për të qëndruar në krye të lojës. Ky kapitull eksploron si të përdorni teknologjinë moderne për të krijuar zgjidhje inovative.</p>
+
+        <div class="islamic-quote">
+            "وَهُوَ الَّذِي خَلَقَ السَّمَاوَاتِ وَالْأَرْضَ بِالْحَقِّ ۖ وَيَوْمَ يَقُولُ كُن فَيَكُونُ ۚ قَوْلُهُ الْحَقُّ"
+            <br><br>
+            "Dhe Ai është që i ka krijuar qiejt dhe tokën me të drejtën. Dhe ditën kur thotë: 'Bëhu!' dhe ajo bëhet. Fjala e Tij është e vërteta." - Kurani, 6:73
+        </div>
+
+        <div class="highlight-box">
+            <h4>Fushat Kryesore të Inovacionit:</h4>
+            <ul>
+                <li><strong>Artificial Intelligence:</strong> Inteligjenca artificiale</li>
+                <li><strong>Blockchain Technology:</strong> Teknologjia blockchain</li>
+                <li><strong>Internet of Things:</strong> Interneti i sendeve</li>
+                <li><strong>Virtual Reality:</strong> Realiteti virtual</li>
+                <li><strong>Biotechnology:</strong> Bioteknologjia</li>
+                <li><strong>Renewable Energy:</strong> Energjia e rinovueshme</li>
+            </ul>
+        </div>
+
+        <h3>Principet e Inovacionit Islam</h3>
+        <ol>
+            <li><strong>Creation with Purpose:</strong> Krijimi me qëllim</li>
+            <li><strong>Benefit to Humanity:</strong> Dobi për njerëzimin</li>
+            <li><strong>Ethical Innovation:</strong> Inovacion etik</li>
+            <li><strong>Sustainable Solutions:</strong> Zgjidhje të qëndrueshme</li>
+            <li><strong>Knowledge Sharing:</strong> Ndarja e dijes</li>
+            <li><strong>Community Impact:</strong> Ndikimi në komunitet</li>
+        </ol>
+
+        <h3>Metodologjitë e Kreativitetit</h3>
+        <ul>
+            <li><strong>Design Thinking:</strong> Mendimi në dizajn</li>
+            <li><strong>Lean Startup:</strong> Startup i hollë</li>
+            <li><strong>Agile Development:</strong> Zhvillimi agile</li>
+            <li><strong>Human-Centered Design:</strong> Dizajni i centruar te njeriu</li>
+            <li><strong>Systems Thinking:</strong> Mendimi sistemik</li>
+            <li><strong>Cross-Pollination:</strong> Ndërpllenim i ideve</li>
+        </ul>
+
+        <h3>Teknologjitë Emergjente dhe Mundësitë</h3>
+        <ul>
+            <li><strong>AI dhe Machine Learning:</strong> Automatizimi inteligjent</li>
+            <li><strong>Blockchain për Transparencë:</strong> Sisteme të besueshme</li>
+            <li><strong>IoT për Efikasitet:</strong> Shtëpitë dhe qytetet inteligjente</li>
+            <li><strong>Biotech për Shëndetësi:</strong> Zgjidhje mjekësore</li>
+            <li><strong>Clean Energy:</strong> Zgjidhje mjedisore</li>
+            <li><strong>Space Technology:</strong> Eksplorimi kozmik</li>
+        </ul>
+
+        <h3>Ndërtimi i Ecosistemit të Inovacionit</h3>
+        <ul>
+            <li><strong>Innovation Labs:</strong> Laboratorët e inovacionit</li>
+            <li><strong>Startup Incubators:</strong> Inkubatorët e startup-eve</li>
+            <li><strong>Tech Communities:</strong> Komunitetet teknologjike</li>
+            <li><strong>Research Partnerships:</strong> Partneritete kërkimore</li>
+            <li><strong>International Collaborations:</strong> Bashkëpunimet ndërkombëtare</li>
+            <li><strong>Government Support:</strong> Mbështetja qeveritare</li>
+        </ul>
+
+        <h3>Strategjitë e Implementimit</h3>
+        <ul>
+            <li><strong>Prototype Development:</strong> Zhvillimi i prototipeve</li>
+            <li><strong>Market Validation:</strong> Validimi i tregut</li>
+            <li><strong>Scaling Strategies:</strong> Strategjitë e skalimit</li>
+            <li><strong>IP Protection:</strong> Mbrojtja e pronësisë intelektuale</li>
+            <li><strong>Global Expansion:</strong> Ekspansioni global</li>
+            <li><strong>Exit Planning:</strong> Planifikimi i daljes</li>
+        </ul>
+        `
+    },
+
+    62: {
+        title: "Diplomacia e Biznesit dhe Marrëdhëniet Ndërkombëtare",
+        content: `
+        <h2>Kapitulli 62: Diplomacia e Biznesit dhe Marrëdhëniet Ndërkombëtare</h2>
+        
+        <div class="ai-prompt-box">
+            <h4>🤖 Prompt për ChatGPT:</h4>
+            <p>"Create international business scene: Albanian business delegation in elegant conference room with global flags, luxury handshakes between diverse professionals, world map with trade routes, Islamic architecture elements, expensive suits and traditional Albanian elements. Style: diplomatic, prestigious, internationally respected."</p>
+        </div>
+
+        <h3>Arti i Diplomacisë në Biznesin Modern</h3>
+        
+        <p>Henry Kissinger tha: "The task of the leader is to get his people from where they are to where they have not been." Diplomacia e biznesit është arti i ndërtimit të marrëdhënieve ndërkombëtare që krijojnë vlera të përbashkëta dhe mundësi të reja.</p>
+
+        <div class="islamic-quote">
+            "يَا أَيُّهَا النَّاسُ إِنَّا خَلَقْنَاكُم مِّن ذَكَرٍ وَأُنثَىٰ وَجَعَلْنَاكُمْ شُعُوبًا وَقَبَائِلَ لِتَعَارَفُوا"
+            <br><br>
+            "O njerëz! Ne ju krijuam nga mashkull dhe femër dhe ju bëmë popuj e fise që të njiheni me njëri-tjetrin." - Kurani, 49:13
+        </div>
+
+        <div class="highlight-box">
+            <h4>Dimensionet e Diplomacisë së Biznesit:</h4>
+            <ul>
+                <li><strong>Cultural Intelligence:</strong> Inteligjenca kulturore</li>
+                <li><strong>Protocol Mastery:</strong> Zotërimi i protokollit</li>
+                <li><strong>Language Skills:</strong> Aftësitë gjuhësore</li>
+                <li><strong>Negotiation Excellence:</strong> Shkëlqimi në negocim</li>
+                <li><strong>Network Building:</strong> Ndërtimi i rrjeteve</li>
+                <li><strong>Conflict Resolution:</strong> Zgjidhja e konflikteve</li>
+            </ul>
+        </div>
+
+        <h3>Protokolli Ndërkombëtar i Biznesit</h3>
+        <ol>
+            <li><strong>Etiquette dhe Manners:</strong> Sjellja dhe manierat</li>
+            <li><strong>Dress Code Mastery:</strong> Zotërimi i kodit të veshjes</li>
+            <li><strong>Dining Protocol:</strong> Protokolli i ngrënies</li>
+            <li><strong>Gift Giving:</strong> Dhënia e dhuratave</li>
+            <li><strong>Business Card Exchange:</strong> Shkëmbimi i kartave të biznesit</li>
+            <li><strong>Meeting Procedures:</strong> Procedurat e takimeve</li>
+        </ol>
+
+        <h3>Inteligjenca Kulturore dhe Ndjeshmëria</h3>
+        <ul>
+            <li><strong>Cultural Awareness:</strong> Vetëdija kulturore</li>
+            <li><strong>Religious Sensitivity:</strong> Ndjeshmëria fetare</li>
+            <li><strong>Historical Context:</strong> Konteksti historik</li>
+            <li><strong>Communication Styles:</strong> Stilet e komunikimit</li>
+            <li><strong>Time Orientation:</strong> Orientimi kohor</li>
+            <li><strong>Power Distance:</strong> Distanca e pushtetit</li>
+        </ul>
+
+        <h3>Ndërtimi i Partneriteteve Strategjike</h3>
+        <ul>
+            <li><strong>Joint Ventures:</strong> Bashkëpunimet</li>
+            <li><strong>Strategic Alliances:</strong> Aleancat strategjike</li>
+            <li><strong>Distribution Partnerships:</strong> Partneritetet e shpërndarjes</li>
+            <li><strong>Technology Transfer:</strong> Transferimi i teknologjisë</li>
+            <li><strong>Cross-Border Investments:</strong> Investimet ndërkufitare</li>
+            <li><strong>Cultural Exchanges:</strong> Shkëmbimet kulturore</li>
+        </ul>
+
+        <h3>Menaxhimi i Riskut Gjeopolitik</h3>
+        <ul>
+            <li><strong>Political Risk Assessment:</strong> Vlerësimi i riskut politik</li>
+            <li><strong>Economic Instability:</strong> Paqëndrueshmëria ekonomike</li>
+            <li><strong>Currency Fluctuations:</strong> Luhatjet valutore</li>
+            <li><strong>Regulatory Changes:</strong> Ndryshimet rregullatore</li>
+            <li><strong>Trade War Impact:</strong> Ndikimi i luftrave tregtare</li>
+            <li><strong>Sanctions Compliance:</strong> Përputhshmëria me sanksionet</li>
+        </ul>
+
+        <h3>Diplomacia Digjitale dhe Virtual</h3>
+        <ul>
+            <li><strong>Virtual Meetings:</strong> Takimet virtuale</li>
+            <li><strong>Digital Presentations:</strong> Prezantimet digjitale</li>
+            <li><strong>Online Networking:</strong> Rrjetëzimi online</li>
+            <li><strong>Social Media Diplomacy:</strong> Diplomacia në media sociale</li>
+            <li><strong>Cybersecurity Awareness:</strong> Vetëdija për sigurinë kibernetike</li>
+            <li><strong>Digital Etiquette:</strong> Etiketa digjitale</li>
+        </ul>
+
+        <h3>Implementimi i Strategjisë Diplomatike</h3>
+        <ul>
+            <li><strong>Market Entry Strategy:</strong> Strategjia e hyrjes në treg</li>
+            <li><strong>Stakeholder Mapping:</strong> Hartëzimi i palëve të interesuara</li>
+            <li><strong>Government Relations:</strong> Marrëdhëniet me qeverinë</li>
+            <li><strong>Media Strategy:</strong> Strategjia e mediave</li>
+            <li><strong>Crisis Communication:</strong> Komunikimi gjatë krizës</li>
+            <li><strong>Reputation Management:</strong> Menaxhimi i reputacionit</li>
+        </ul>
+        `
+    },
+
+    63: {
+        title: "Teknologjia Blockchain dhe Kripto-Ekonomia",
+        content: `
+        <h2>Kapitulli 63: Teknologjia Blockchain dhe Kripto-Ekonomia</h2>
+        
+        <div class="ai-prompt-box">
+            <h4>🤖 Prompt për ChatGPT:</h4>
+            <p>"Create blockchain visualization: Albanian tech expert analyzing crypto markets on multiple monitors, digital currency symbols floating, blockchain network visualizations, luxury office with Islamic geometric patterns, expensive cars visible through window, golden digital connections. Style: high-tech, futuristic, wealthy."</p>
+        </div>
+
+        <h3>Revolucioni i Decentralizimit dhe Transparencës</h3>
+        
+        <p>Satoshi Nakamoto krijoi Bitcoin-in me vizionin e një sistemi financiar decentralizuar. Blockchain-u nuk është vetëm teknologji, por një filozofi e re e besimit dhe transparencës që përputhet me vlerat islame të drejtësisë dhe transparencës.</p>
+
+        <div class="islamic-quote">
+            "وَأَوْفُوا بِالْعَهْدِ ۖ إِنَّ الْعَهْدَ كَانَ مَسْئُولًا"
+            <br><br>
+            "Dhe mbajeni besën, se për besën do të jepet llogari." - Kurani, 17:34
+        </div>
+
+        <div class="highlight-box">
+            <h4>Karakteristikat Kryesore të Blockchain:</h4>
+            <ul>
+                <li><strong>Decentralization:</strong> Decentralizimi</li>
+                <li><strong>Transparency:</strong> Transparenca</li>
+                <li><strong>Immutability:</strong> Pandryshueshwëria</li>
+                <li><strong>Security:</strong> Siguria</li>
+                <li><strong>Consensus:</strong> Consensusi</li>
+                <li><strong>Smart Contracts:</strong> Kontratat inteligjente</li>
+            </ul>
+        </div>
+
+        <h3>Aplikimet e Blockchain në Biznes</h3>
+        <ol>
+            <li><strong>Supply Chain Management:</strong> Menaxhimi i zinxhirit të furnizimit</li>
+            <li><strong>Digital Identity:</strong> Identiteti digjital</li>
+            <li><strong>Smart Contracts:</strong> Kontratat inteligjente</li>
+            <li><strong>Decentralized Finance (DeFi):</strong> Financat decentralizuara</li>
+            <li><strong>Non-Fungible Tokens (NFTs):</strong> Token-et jo-zëvendësueshëm</li>
+            <li><strong>Voting Systems:</strong> Sistemet e votimit</li>
+        </ol>
+
+        <h3>Kripto-Valuta dhe Investimet</h3>
+        <ul>
+            <li><strong>Bitcoin (BTC):</strong> Rezerva digjitale e vlerës</li>
+            <li><strong>Ethereum (ETH):</strong> Platforma e kontratave inteligjente</li>
+            <li><strong>Stablecoins:</strong> Valuta të qëndrueshme</li>
+            <li><strong>DeFi Tokens:</strong> Token-et e financave decentralizuara</li>
+            <li><strong>Utility Tokens:</strong> Token-et e shërbimit</li>
+            <li><strong>Security Tokens:</strong> Token-et e sigurisë</li>
+        </ul>
+
+        <h3>Strategjitë e Investimit në Kripto</h3>
+        <ul>
+            <li><strong>Dollar-Cost Averaging:</strong> Mesatarja e kostos</li>
+            <li><strong>HODLing Strategy:</strong> Strategjia e mbajtjes afatgjate</li>
+            <li><strong>Diversification:</strong> Diversifikimi</li>
+            <li><strong>Risk Management:</strong> Menaxhimi i riskut</li>
+            <li><strong>Technical Analysis:</strong> Analiza teknike</li>
+            <li><strong>Fundamental Analysis:</strong> Analiza fundamentale</li>
+        </ul>
+
+        <h3>Aspektet Ligjore dhe Rregullatore</h3>
+        <ul>
+            <li><strong>Regulatory Compliance:</strong> Përputhshmëria rregullatore</li>
+            <li><strong>Tax Implications:</strong> Pasojat tatimore</li>
+            <li><strong>AML/KYC Requirements:</strong> Kërkesat AML/KYC</li>
+            <li><strong>Securities Classification:</strong> Klasifikimi i letrave me vlerë</li>
+            <li><strong>Cross-Border Regulations:</strong> Rregulloret ndërkufitare</li>
+            <li><strong>Banking Relationships:</strong> Marrëdhëniet bankare</li>
+        </ul>
+
+        <h3>Ndërtimi i Infrastrukturës Blockchain</h3>
+        <ul>
+            <li><strong>Node Operation:</strong> Operimi i nyjeve</li>
+            <li><strong>Mining/Staking:</strong> Minimi/Staking</li>
+            <li><strong>Wallet Security:</strong> Siguria e portofolit</li>
+            <li><strong>Exchange Integration:</strong> Integrimi i shkëmbimeve</li>
+            <li><strong>API Development:</strong> Zhvillimi i API-ve</li>
+            <li><strong>Security Audits:</strong> Auditimi i sigurisë</li>
+        </ul>
+
+        <h3>E Ardhmja e Blockchain dhe Web3</h3>
+        <ul>
+            <li><strong>Metaverse Integration:</strong> Integrimi i metaverse</li>
+            <li><strong>Central Bank Digital Currencies (CBDCs):</strong> Valuta digjitale të bankave qendrore</li>
+            <li><strong>Interoperability:</strong> Ndërveprimi</li>
+            <li><strong>Scalability Solutions:</strong> Zgjidhjet e skalabilitetit</li>
+            <li><strong>Green Blockchain:</strong> Blockchain i gjelbër</li>
+            <li><strong>Quantum Resistance:</strong> Rezistenca kuantike</li>
+        </ul>
+        `
+    },
+
+    64: {
+        title: "Menaxhimi i Krizave dhe Përshtatja e Shpejtë",
+        content: `
+        <h2>Kapitulli 64: Menaxhimi i Krizave dhe Përshtatja e Shpejtë</h2>
+        
+        <div class="ai-prompt-box">
+            <h4>🤖 Prompt për ChatGPT:</h4>
+            <p>"Create crisis management scene: Albanian business leader in modern command center with multiple screens showing market data, team coordinating emergency response, luxury office with Islamic calligraphy providing spiritual strength, expensive cars in garage visible, determined and calm leadership. Style: intense, professional, resilient."</p>
+        </div>
+
+        <h3>Transformimi i Krizës në Mundësi</h3>
+        
+        <p>Winston Churchill tha: "Never let a good crisis go to waste." Krizohet janë pjesë e pandarë e jetës së biznesit. Atëherë kur të tjerët panikojnë, liderët e vërtetë gjejnë mundësi dhe dalin më të fortë nga çdo krizë.</p>
+
+        <div class="islamic-quote">
+            "وَمَن يَتَّقِ اللَّهَ يَجْعَل لَّهُ مَخْرَجًا وَيَرْزُقْهُ مِنْ حَيْثُ لَا يَحْتَسِبُ"
+            <br><br>
+            "Dhe ai që i frikësohet Allahut, Ai do t'i bëjë një dalje (nga vështirësia) dhe do ta furnizojë atë nga aty ku nuk e pret." - Kurani, 65:2-3
+        </div>
+
+        <div class="highlight-box">
+            <h4>Llojet e Krizave në Biznes:</h4>
+            <ul>
+                <li><strong>Financial Crisis:</strong> Kriza financiare</li>
+                <li><strong>Operational Crisis:</strong> Kriza operacionale</li>
+                <li><strong>Reputational Crisis:</strong> Kriza e reputacionit</li>
+                <li><strong>Technology Crisis:</strong> Kriza teknologjike</li>
+                <li><strong>Human Resources Crisis:</strong> Kriza e burimeve njerëzore</li>
+                <li><strong>Natural Disasters:</strong> Fatkeqësitë natyrore</li>
+            </ul>
+        </div>
+
+        <h3>Faza të Menaxhimit të Krizës</h3>
+        <ol>
+            <li><strong>Crisis Preparation:</strong> Përgatitja për krizën</li>
+            <li><strong>Early Detection:</strong> Zbulimi i hershëm</li>
+            <li><strong>Immediate Response:</strong> Përgjigja e menjëhershme</li>
+            <li><strong>Damage Control:</strong> Kontrolli i dëmeve</li>
+            <li><strong>Recovery Phase:</strong> Faza e rikuperimit</li>
+            <li><strong>Learning and Improvement:</strong> Mësimi dhe përmirësimi</li>
+        </ol>
+
+        <h3>Strategjitë e Komunikimit gjatë Krizës</h3>
+        <ul>
+            <li><strong>Transparency:</strong> Transparenca</li>
+            <li><strong>Speed of Response:</strong> Shpejtësia e përgjigjes</li>
+            <li><strong>Consistency:</strong> Konsistenca</li>
+            <li><strong>Empathy:</strong> Empatia</li>
+            <li><strong>Accountability:</strong> Përgjegjshmëria</li>
+            <li><strong>Action Plans:</strong> Planet e veprimit</li>
+        </ul>
+
+        <h3>Teknologjitë e Menaxhimit të Krizës</h3>
+        <ul>
+            <li><strong>Crisis Management Software:</strong> Software-i i menaxhimit të krizës</li>
+            <li><strong>Real-time Monitoring:</strong> Monitorimi në kohë reale</li>
+            <li><strong>Communication Platforms:</strong> Platformat e komunikimit</li>
+            <li><strong>Data Analytics:</strong> Analitika e të dhënave</li>
+            <li><strong>Social Media Monitoring:</strong> Monitorimi i mediave sociale</li>
+            <li><strong>Emergency Notification Systems:</strong> Sistemet e njoftimeve të emergjencës</li>
+        </ul>
+
+        <h3>Përshtatja dhe Fleksibiliteti</h3>
+        <ul>
+            <li><strong>Agile Operations:</strong> Operacione të zhdërvjellëta</li>
+            <li><strong>Scenario Planning:</strong> Planifikimi i skenarëve</li>
+            <li><strong>Rapid Prototyping:</strong> Prototipimi i shpejtë</li>
+            <li><strong>Flexible Business Models:</strong> Modele të zhdërvjellëta biznesi</li>
+            <li><strong>Remote Work Capabilities:</strong> Aftësitë e punës së largët</li>
+            <li><strong>Supply Chain Resilience:</strong> Rezistenca e zinxhirit të furnizimit</li>
+        </ul>
+
+        <h3>Udhëheqja gjatë Krizës</h3>
+        <ul>
+            <li><strong>Calm Leadership:</strong> Udhëheqje e qetë</li>
+            <li><strong>Quick Decision Making:</strong> Marrja e shpejtë e vendimeve</li>
+            <li><strong>Team Coordination:</strong> Koordinimi i ekipit</li>
+            <li><strong>Resource Allocation:</strong> Alokimi i burimeve</li>
+            <li><strong>Stress Management:</strong> Menaxhimi i stresit</li>
+            <li><strong>Motivation Maintenance:</strong> Ruajtja e motivimit</li>
+        </ul>
+
+        <h3>Mësimet nga Krizohet e Mëdha</h3>
+        <ul>
+            <li><strong>2008 Financial Crisis:</strong> Kriza financiare e 2008-ës</li>
+            <li><strong>COVID-19 Pandemic:</strong> Pandemia COVID-19</li>
+            <li><strong>Dot-com Bubble:</strong> Bulla dot-com</li>
+            <li><strong>9/11 Impact:</strong> Ndikimi i 11 shtatorit</li>
+            <li><strong>Brexit Uncertainty:</strong> Pasiguria e Brexit</li>
+            <li><strong>Supply Chain Disruptions:</strong> Ndërprerjet e zinxhirit të furnizimit</li>
+        </ul>
+
+        <h3>Ndërtimi i Rezistencës Organizative</h3>
+        <ul>
+            <li><strong>Diversification:</strong> Diversifikimi</li>
+            <li><strong>Financial Reserves:</strong> Rezervat financiare</li>
+            <li><strong>Strong Partnerships:</strong> Partneritete të forta</li>
+            <li><strong>Employee Training:</strong> Trajnimi i punonjësve</li>
+            <li><strong>Technology Infrastructure:</strong> Infrastruktura teknologjike</li>
+            <li><strong>Cultural Resilience:</strong> Rezistenca kulturore</li>
+        </ul>
+        `
+    },
+
+    65: {
+        title: "Të Ardhmat e Biznesit dhe Teknologjisë",
+        content: `
+        <h2>Kapitulli 65: Të Ardhmat e Biznesit dhe Teknologjisë</h2>
+        
+        <div class="ai-prompt-box">
+            <h4>🤖 Prompt për ChatGPT:</h4>
+            <p>"Create futuristic business scene: Albanian tech visionary in ultra-modern office with holographic displays, AI assistants, flying cars visible through smart glass windows, Islamic geometric patterns integrated with future tech, quantum computers, space technology displays. Style: sci-fi, visionary, ultra-modern."</p>
+        </div>
+
+        <h3>Parashikimi i së Ardhmes dhe Përgatitja për të</h3>
+        
+        <p>Bill Gates tha: "We always overestimate the change that will occur in the next two years and underestimate the change that will occur in the next ten." Të kuptosh trendet e së ardhmes është çelësi për të qenë në krye të lojës.</p>
+
+        <div class="islamic-quote">
+            "وَاللَّهُ يَعْلَمُ وَأَنتُمْ لَا تَعْلَمُونَ"
+            <br><br>
+            "Dhe Allahu di, kurse ju nuk dini." - Kurani, 2:216
+        </div>
+
+        <div class="highlight-box">
+            <h4>Teknologjitë Emergjente të 2030-ës:</h4>
+            <ul>
+                <li><strong>Quantum Computing:</strong> Kompjuteri kuantik</li>
+                <li><strong>Advanced AI/AGI:</strong> Inteligjenca artificiale e avancuar</li>
+                <li><strong>Brain-Computer Interfaces:</strong> Ndërfaqet tru-kompjuter</li>
+                <li><strong>Space Economy:</strong> Ekonomia e hapësirës</li>
+                <li><strong>Synthetic Biology:</strong> Biologjia sintetike</li>
+                <li><strong>Fusion Energy:</strong> Energjia fuzive</li>
+            </ul>
+        </div>
+
+        <h3>Trendet e Konsumit të së Ardhmes</h3>
+        <ol>
+            <li><strong>Personalization at Scale:</strong> Personalizimi në shkallë të gjerë</li>
+            <li><strong>Sustainable Consumption:</strong> Konsumi i qëndrueshëm</li>
+            <li><strong>Experience Economy:</strong> Ekonomia e përvojës</li>
+            <li><strong>Digital-Physical Blend:</strong> Përzierja digjital-fizike</li>
+            <li><strong>Health and Longevity:</strong> Shëndeti dhe jetëgjatësia</li>
+            <li><strong>Virtual Relationships:</strong> Marrëdhëniet virtuale</li>
+        </ol>
+
+        <h3>Industritë e Ardhshme</h3>
+        <ul>
+            <li><strong>Space Tourism and Mining:</strong> Turizmi dhe minimi kozmik</li>
+            <li><strong>Life Extension Services:</strong> Shërbimet e zgjatjes së jetës</li>
+            <li><strong>Climate Engineering:</strong> Inxhinieringa klimatike</li>
+            <li><strong>Virtual Reality Worlds:</strong> Botët e realitetit virtual</li>
+            <li><strong>Neuroenhancement:</strong> Përmirësimi neuronal</li>
+            <li><strong>Ocean Farming:</strong> Bujqësia oqeanike</li>
+        </ul>
+
+        <h3>Modelet e Reja të Biznesit</h3>
+        <ul>
+            <li><strong>DAO (Decentralized Autonomous Organizations):</strong> Organizata autonome decentralizuara</li>
+            <li><strong>Platform Cooperatives:</strong> Kooperativat e platformave</li>
+            <li><strong>Subscription Everything:</strong> Abonimi për gjithçka</li>
+            <li><strong>Circular Economy Models:</strong> Modelet e ekonomisë rrethore</li>
+            <li><strong>Stakeholder Capitalism:</strong> Kapitalizmi i palëve të interesuara</li>
+            <li><strong>Impact-First Business:</strong> Biznesi me fokus te ndikimi</li>
+        </ul>
+
+        <h3>Aftësitë e Nevojshme për të Ardhmen</h3>
+        <ul>
+            <li><strong>Complex Problem Solving:</strong> Zgjidhja e problemeve komplekse</li>
+            <li><strong>Emotional Intelligence:</strong> Inteligjenca emocionale</li>
+            <li><strong>Creative Thinking:</strong> Mendimi kreativ</li>
+            <li><strong>Cultural Fluency:</strong> Fluiditeti kulturor</li>
+            <li><strong>Systems Thinking:</strong> Mendimi sistemik</li>
+            <li><strong>Continuous Learning:</strong> Mësimi i vazhdueshëm</li>
+        </ul>
+
+        <h3>Përgatitja për Ndryshimet</h3>
+        <ul>
+            <li><strong>Trend Monitoring:</strong> Monitorimi i trendeve</li>
+            <li><strong>Scenario Planning:</strong> Planifikimi i skenarëve</li>
+            <li><strong>Innovation Labs:</strong> Laboratorët e inovacionit</li>
+            <li><strong>Strategic Partnerships:</strong> Partneritete strategjike</li>
+            <li><strong>Talent Development:</strong> Zhvillimi i talenteve</li>
+            <li><strong>Technology Adoption:</strong> Adoptimi i teknologjisë</li>
+        </ul>
+
+        <h3>Çështjet Etike të së Ardhmes</h3>
+        <ul>
+            <li><strong>AI Ethics:</strong> Etika e AI-së</li>
+            <li><strong>Data Privacy:</strong> Privatësia e të dhënave</li>
+            <li><strong>Genetic Engineering:</strong> Inxhinieringa gjenetike</li>
+            <li><strong>Surveillance Capitalism:</strong> Kapitalizmi i mbikëqyrjes</li>
+            <li><strong>Digital Divide:</strong> Përçarja digjitale</li>
+            <li><strong>Environmental Impact:</strong> Ndikimi mjedisore</li>
+        </ul>
+
+        <h3>Investimet e së Ardhmes</h3>
+        <ul>
+            <li><strong>Deep Tech Startups:</strong> Startup-et e teknologjisë së thellë</li>
+            <li><strong>Space Ventures:</strong> Ndërmarrjet kozmike</li>
+            <li><strong>Longevity Research:</strong> Kërkimi i jetëgjatësisë</li>
+            <li><strong>Climate Solutions:</strong> Zgjidhjet klimatike</li>
+            <li><strong>Education Technology:</strong> Teknologjia arsimore</li>
+            <li><strong>Healthcare Innovation:</strong> Inovacioni shëndetësor</li>
+        </ul>
+        `
+    },
+
+    66: {
+        title: "Konkluzioni: Udhëtimi nga Teoria në Praktikë",
+        content: `
+        <h2>Kapitulli 66: Konkluzioni: Udhëtimi nga Teoria në Praktikë</h2>
+        
+        <div class="ai-prompt-box">
+            <h4>🤖 Prompt për ChatGPT:</h4>
+            <p>"Create graduation scene: Successful Albanian businessman on top of mountain looking at beautiful vista, expensive car journey in background, Islamic architectural elements, family proud watching, golden sunset representing completion of journey, holding diploma or book, traditional and modern success symbols. Style: triumphant, accomplished, inspiring."</p>
+        </div>
+
+        <h3>Nga Teoria në Veprim: Transformimi Juaj Personal</h3>
+        
+        <p>Nelson Mandela tha: "Education is the most powerful weapon which you can use to change the world." Ju keni udhëtuar përmes 66 kapitujve të teorisë së lojërave, strategjisë së biznesit dhe jetës së nderuar. Tani koha ka ardhur për implementim.</p>
+
+        <div class="islamic-quote">
+            "وَقُل رَّبِّ زِدْنِي عِلْمًا"
+            <br><br>
+            "Dhe thuaj: O Zoti im, shtomë dijen time!" - Kurani, 20:114
+        </div>
+
+        <div class="highlight-box">
+            <h4>Përmbledhja e Udhëtimit Tonë:</h4>
+            <ul>
+                <li><strong>66 Kapituj Strategjish:</strong> Nga teoria bazë te praktikat e avancuara</li>
+                <li><strong>300+ Faqe Dije:</strong> Koncepte të thella dhe praktike</li>
+                <li><strong>100+ Strategji të Verifikuara:</strong> Të testuara në jetën reale</li>
+                <li><strong>50+ Raste Studimi:</strong> Shembuj realë suksesi</li>
+                <li><strong>Integrim me Vlera Islame:</strong> Nderi dhe suksesi së bashku</li>
+                <li><strong>Fokus te Komuniteti Shqiptar:</strong> Adaptuar për kulturën tonë</li>
+            </ul>
+        </div>
+
+        <h3>Rikujtimi i Principeve Themelore</h3>
+        <ol>
+            <li><strong>Nderi mbi Fitimin:</strong> Gjithmonë ruani integritetin tuaj</li>
+            <li><strong>Vlerat Islame:</strong> Udhëzohen nga parimet e fesë</li>
+            <li><strong>Marrëdhëniet mbi Transaksionet:</strong> Investoni te njerëzit</li>
+            <li><strong>Mësimi i Vazhdueshëm:</strong> Mos ndaloni kurrë të mësoni</li>
+            <li><strong>Shërbimi ndaj Komunitetit:</strong> Jepni mbrapa atë që merrni</li>
+            <li><strong>Qëndrueshmëria:</strong> Mos heqni dorë nga ëndrrat tuaja</li>
+        </ol>
+
+        <h3>Plani Juaj i Veprimit për 90 Ditët e Para</h3>
+        <div class="highlight-box">
+            <h4>Ditët 1-30: Themelimi</h4>
+            <ul>
+                <li>Përcaktoni vizionin dhe misionin tuaj personal</li>
+                <li>Krijoni planin tuaj të biznesit për 5 vjet</li>
+                <li>Vendosni sistemin tuaj të të mësuarit të vazhdueshëm</li>
+                <li>Filloni të ndërtoni rrjetin tuaj profesional</li>
+                <li>Implementoni një sistem menaxhimi financiar</li>
+            </ul>
+        </div>
+
+        <div class="highlight-box">
+            <h4>Ditët 31-60: Zhvillimi</h4>
+            <ul>
+                <li>Lansoni produktin ose shërbimin tuaj të parë</li>
+                <li>Krijoni prezencën tuaj digjitale dhe branding</li>
+                <li>Ndërtoni marrëdhënie me partnerë strategjikë</li>
+                <li>Implementoni sistemet e marketingut dhe shitjeve</li>
+                <li>Filloni të mblini dhe analizoni të dhënat</li>
+            </ul>
+        </div>
+
+        <div class="highlight-box">
+            <h4>Ditët 61-90: Optimizimi</h4>
+            <ul>
+                <li>Analizoni performancën dhe bëni rregullime</li>
+                <li>Shkallëzoni operacionet e suksesshme</li>
+                <li>Diversifikoni burimet e të ardhurave</li>
+                <li>Investoni në zhvillimin e ekipit tuaj</li>
+                <li>Planifikoni ekspansionin për tremujorin tjetër</li>
+            </ul>
+        </div>
+
+        <h3>Resurset për Vazhdimin e Udhëtimit</h3>
+        <ul>
+            <li><strong>Libra të Rekomanduar:</strong> Lista e leximit për thellim</li>
+            <li><strong>Kurse Online:</strong> Platformat e mësimit të vazhdueshëm</li>
+            <li><strong>Mentorë dhe Coaches:</strong> Udhëzuesit që ju nevojiten</li>
+            <li><strong>Komunitete dhe Networking:</strong> Grupet për t'u bashkuar</li>
+            <li><strong>Konferenca dhe Evente:</strong> Mundësitë për të mësuar</li>
+            <li><strong>Platformat Digjitale:</strong> Mjetet për sukses</li>
+        </ul>
+
+        <h3>Mesazhi Final: Trashëgimia Juaj</h3>
+        <p>Kur Hazreti Ali (r.a.) tha: "Edukohu veten sikur do të jetosh përgjithmonë, por vepro sikur do të vdesësh nesër," ai na mësoi ekuilibrin midis planifikimit afatgjatë dhe veprimit të menjëhershëm.</p>
+
+        <div class="islamic-quote">
+            "وَمَن يَتَّقِ اللَّهَ يَجْعَل لَّهُ مِنْ أَمْرِهِ يُسْرًا"
+            <br><br>
+            "Dhe ai që i frikësohet Allahut, Ai do t'ia lehtësojë punën e tij." - Kurani, 65:4
+        </div>
+
+        <h3>Thirrja Juaj për Veprim</h3>
+        <p><strong>Sot është dita juaj e parë si një strateg i vërtetë biznesi.</strong> Ju keni dijën, keni strategjitë, dhe më e rëndësishmja, keni vlerat që do t'ju udhëzojnë në rrugën drejt suksesit të nderuar.</p>
+
+        <p>Mos u kënaqni me të qenët thjesht një lexues - bëhuni një zbatues. Mos u kënaqni me të ditur - filloni të veproni. Bota po pret kontributin tuaj të veçantë.</p>
+
+        <div class="highlight-box">
+            <h4>Urimi Final:</h4>
+            <p><em>"Allahu ju bekoftë në të gjitha përpjekjet tuaja. Allahu ju shtoftë pasurinë me bereqet. Allahu ju dhëntë sukses që i sjell dobi të gjithë komunitetit. Dhe Allahu ju ruajë në rrugën e së drejtës dhe nderit."</em></p>
+            
+            <p><strong>Amin ya Rabbil Alameen!</strong></p>
+            
+            <p style="text-align: center; margin-top: 30px; font-size: 1.2em; color: #2E8B57;">
+                <strong>🎓 Udhëtimi përfundon këtu, por historia juaj e suksesit sapo fillon! 🚀</strong>
+            </p>
+        </div>
+
+        <div style="text-align: center; margin-top: 40px; padding: 20px; border: 2px solid #2E8B57; border-radius: 15px;">
+            <h4>Të Përfunduarit e Studimit</h4>
+            <p>🏆 <strong>Përgëzime!</strong> Ju keni përfunduar me sukses studimin e "Teorisë së Lojërave: Nderi dhe Suksesi"</p>
+            <p>📚 66 Kapituj × 300+ Faqe = Një Jetë më e Përgatitur për Sukses</p>
+            <p>🤝 Tani është koha të ndani këtë dije me të tjerët dhe të ndihmonį komunitetin tonë të rritet së bashku</p>
+        </div>
+        `
+    }
 };
 
 // Functions remain the same as before
