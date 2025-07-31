@@ -66,7 +66,13 @@ function filterChapters(category) {
                 shouldShow = chapterNum >= 31 && chapterNum <= 40;
                 break;
             case 'advanced':
-                shouldShow = chapterNum >= 41 && chapterNum <= 50;
+                shouldShow = chapterNum >= 41 && chapterNum <= 60;
+                break;
+            case 'ai-tech':
+                shouldShow = chapterNum >= 61 && chapterNum <= 70;
+                break;
+            case 'geopolitics':
+                shouldShow = chapterNum >= 71 && chapterNum <= 76;
                 break;
         }
         
