@@ -487,8 +487,21 @@ body {
 .navigation {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin-top: 4rem;
     gap: 1.5rem;
+}
+
+#current-chapter-display {
+    font-weight: 600;
+    font-size: 1.1rem;
+    color: #1a237e;
+    text-align: center;
+    padding: 10px 20px;
+    background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+    border-radius: 20px;
+    border: 2px solid #1a237e;
+    min-width: 200px;
 }
 
 .navigation button {

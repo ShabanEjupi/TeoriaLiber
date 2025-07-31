@@ -70,10 +70,10 @@ function bulletproofDownloadBook() {
                 deps.totalChapters = true;
                 statusCallback('✅ Found totalChapters in global scope, moved to window.totalChapters');
             } else {
-                // Always use 60 chapters as defined in the source code
-                window.totalChapters = 60;
+                // Always use 111 chapters as defined in the source code
+                window.totalChapters = 111;
                 deps.totalChapters = true;
-                statusCallback('✅ Using correct totalChapters = 60 (all chapters defined)');
+                statusCallback('✅ Using correct totalChapters = 111 (all chapters defined)');
             }
         }
         

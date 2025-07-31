@@ -5,7 +5,7 @@ function downloadBeautifulBook() {
     console.log('🎨 Creating beautiful book with modern design...');
     
     // Ensure we have all required data
-    window.totalChapters = 60;
+    window.totalChapters = 111;
     
     const statusCallback = (message, isError = false) => {
         console.log(message);
@@ -397,7 +397,7 @@ function downloadBeautifulBook() {
         <ol>`;
     
     // Generate table of contents
-    for (let i = 1; i <= 60; i++) {
+    for (let i = 1; i <= 111; i++) {
         const title = getChapterTitleSafe(i);
         htmlContent += `            <li>${title}</li>\n`;
     }
@@ -407,7 +407,7 @@ function downloadBeautifulBook() {
     
     // Generate all chapters with beautiful content
     statusCallback('🎨 Generating beautifully styled chapters...');
-    for (let i = 1; i <= 60; i++) {
+    for (let i = 1; i <= 111; i++) {
         try {
             const title = getChapterTitleSafe(i);
             const content = getEnhancedChapterContent(i, title);
@@ -417,7 +417,7 @@ function downloadBeautifulBook() {
         <h2 class="chapter-title">Kapitulli ${i}: ${title}</h2>
         <div class="chapter-content">${content}</div>
         <div class="page-number">
-            📄 Faqe ${i * 8} | Kapitulli ${i} nga 60 | 📚 Teoria e Lojërave: Nderi dhe Suksesi
+            📄 Faqe ${i * 8} | Kapitulli ${i} nga 111 | 📚 Teoria e Lojërave: Nderi dhe Suksesi
         </div>
     </div>`;
             

@@ -6953,6 +6953,9 @@ function showChapter(chapterNumber) {
     bookContentSection.style.display = 'block';
     window.scrollTo(0, 0);
     
+    // Update navigation buttons
+    updateNavigationButtons();
+    
     // Update browser history
     history.pushState({chapter: chapterNumber}, '', `#chapter-${chapterNumber}`);
 }
@@ -8687,7 +8690,7 @@ window.totalChapters = totalChapters;
 function previousChapter() {
     if (currentChapter > 1) {
         currentChapter--;
-        loadChapter(currentChapter);
+        showChapter(currentChapter);
         updateNavigationButtons();
     }
 }
@@ -8695,7 +8698,7 @@ function previousChapter() {
 function nextChapter() {
     if (currentChapter < totalChapters) {
         currentChapter++;
-        loadChapter(currentChapter);
+        showChapter(currentChapter);
         updateNavigationButtons();
     }
 }
@@ -8703,15 +8706,30 @@ function nextChapter() {
 function updateNavigationButtons() {
     const prevBtn = document.getElementById('prev-btn');
     const nextBtn = document.getElementById('next-btn');
+    const currentDisplay = document.getElementById('current-chapter-display');
     
     if (prevBtn) {
         prevBtn.disabled = currentChapter <= 1;
         prevBtn.style.opacity = currentChapter <= 1 ? '0.5' : '1';
+        if (currentChapter > 1) {
+            prevBtn.innerHTML = `← Kapitulli ${currentChapter - 1}`;
+        } else {
+            prevBtn.innerHTML = '← Kapitulli i mëparshëm';
+        }
     }
     
     if (nextBtn) {
         nextBtn.disabled = currentChapter >= totalChapters;
         nextBtn.style.opacity = currentChapter >= totalChapters ? '0.5' : '1';
+        if (currentChapter < totalChapters) {
+            nextBtn.innerHTML = `Kapitulli ${currentChapter + 1} →`;
+        } else {
+            nextBtn.innerHTML = 'Kapitulli tjetër →';
+        }
+    }
+    
+    if (currentDisplay) {
+        currentDisplay.innerHTML = `Kapitulli ${currentChapter} nga ${totalChapters}`;
     }
 }
 
@@ -8719,3 +8737,9 @@ function updateNavigationButtons() {
 window.previousChapter = previousChapter;
 window.nextChapter = nextChapter;
 window.updateNavigationButtons = updateNavigationButtons;
+
+// Initialize navigation on page load
+document.addEventListener('DOMContentLoaded', function() {
+    // Initialize navigation buttons when page loads
+    updateNavigationButtons();
+});
