@@ -3458,601 +3458,812 @@ const chapters = {
     },
 
     61: {
-        title: "Krijaliteti dhe Inovacioni në Epokën Digjitale",
+        title: "Strategji të Nderuara: Fuqia e Shikimit dhe Vetëbesimi",
         content: `
-        <h2>Kapitulli 61: Krijaliteti dhe Inovacioni në Epokën Digjitale</h2>
+        <h2>Kapitulli 61: Strategji të Nderuara - Fuqia e Shikimit dhe Vetëbesimi</h2>
         
         <div class="ai-prompt-box">
             <h4>🤖 Prompt për ChatGPT:</h4>
-            <p>"Create innovation workspace: Albanian tech entrepreneur in modern office with multiple screens, AI interfaces, blockchain visualizations, luxury car in parking visible through window, Islamic geometric patterns on walls, creative brainstorming boards with Arabic calligraphy. Style: futuristic, creative, technologically advanced."</p>
+            <p>"Create confident Albanian businessman making strong eye contact while standing next to BMW 530d, expensive suit, confident posture, Islamic geometric patterns in background, luxury office or upscale location, demonstrating powerful presence and self-assurance. Style: confident, wealthy, respectful, powerful."</p>
         </div>
 
-        <h3>Rivolucioni Digjital dhe Mundësitë e Reja</h3>
+        <h3>Arti i Shikimit të Drejtë dhe Karakter i Fortë</h3>
         
-        <p>Steve Jobs tha: "Innovation distinguishes between a leader and a follower." Në epokën digjitale, krijaliteti dhe inovacioni janë çelësi për të qëndruar në krye të lojës. Ky kapitull eksploron si të përdorni teknologjinë moderne për të krijuar zgjidhje inovative.</p>
+        <p>Napoleon Hill tha: "The eyes are the windows of the soul." Shikimi është një nga mjetet më të fuqishme të komunikimit nonverbal. Kur zotëroni një veturë luksoze si BMW 530d, ju automatikisht bëheni objekt vëmendjeje. Ky kapitull ju mëson se si të menaxhoni këtë vëmendje me vetëbesim dhe dinjitet.</p>
 
         <div class="islamic-quote">
-            "وَهُوَ الَّذِي خَلَقَ السَّمَاوَاتِ وَالْأَرْضَ بِالْحَقِّ ۖ وَيَوْمَ يَقُولُ كُن فَيَكُونُ ۚ قَوْلُهُ الْحَقُّ"
+            "وَلَا تُصَعِّرْ خَدَّكَ لِلنَّاسِ وَلَا تَمْشِ فِي الْأَرْضِ مَرَحًا ۖ إِنَّ اللَّهَ لَا يُحِبُّ كُلَّ مُخْتَالٍ فَخُورٍ"
             <br><br>
-            "Dhe Ai është që i ka krijuar qiejt dhe tokën me të drejtën. Dhe ditën kur thotë: 'Bëhu!' dhe ajo bëhet. Fjala e Tij është e vërteta." - Kurani, 6:73
+            "Mos ia kthe faqen njerëzve me krenari dhe mos ec në tokë me mburrje, se Allahu nuk i do ata që janë krenarë e mburrës." - Kurani, 31:18
         </div>
 
         <div class="highlight-box">
-            <h4>Fushat Kryesore të Inovacionit:</h4>
+            <h4>Rregullat e Artë të Shikimit të Fuqishëm:</h4>
             <ul>
-                <li><strong>Artificial Intelligence:</strong> Inteligjenca artificiale</li>
-                <li><strong>Blockchain Technology:</strong> Teknologjia blockchain</li>
-                <li><strong>Internet of Things:</strong> Interneti i sendeve</li>
-                <li><strong>Virtual Reality:</strong> Realiteti virtual</li>
-                <li><strong>Biotechnology:</strong> Bioteknologjia</li>
-                <li><strong>Renewable Energy:</strong> Energjia e rinovueshme</li>
+                <li><strong>Mos ul kurrë shikimin e pari:</strong> Ruaj dinjitetin tënd</li>
+                <li><strong>Shikoj direkt në sy:</strong> Tregon besim dhe transparencë</li>
+                <li><strong>Mos u prek shpejt:</strong> Qetësia është forcë</li>
+                <li><strong>Mendo pozitivisht:</strong> Ndoshta e kanë për të mirë</li>
+                <li><strong>Ruan fokusinë:</strong> Mos lejo shpërqendrim nga detyrat</li>
+                <li><strong>Praktiko vetëbesimin:</strong> Karakter i fortë fitimin gjithmonë</li>
             </ul>
         </div>
 
-        <h3>Principet e Inovacionit Islam</h3>
+        <h3>Psikologjia e Shikimit dhe Prezencës</h3>
         <ol>
-            <li><strong>Creation with Purpose:</strong> Krijimi me qëllim</li>
-            <li><strong>Benefit to Humanity:</strong> Dobi për njerëzimin</li>
-            <li><strong>Ethical Innovation:</strong> Inovacion etik</li>
-            <li><strong>Sustainable Solutions:</strong> Zgjidhje të qëndrueshme</li>
-            <li><strong>Knowledge Sharing:</strong> Ndarja e dijes</li>
-            <li><strong>Community Impact:</strong> Ndikimi në komunitet</li>
+            <li><strong>Shikimi Dominues:</strong> Dërgon mesazh për fuqi dhe vetëbesim</li>
+            <li><strong>Qëndrimi i Trupit:</strong> Qëndroni drejt, shpatullat të hapura</li>
+            <li><strong>Kontrolli i Frymëmarrjes:</strong> Frymëmarrja e thellë çlodhë nervat</li>
+            <li><strong>Veshja e Duhur:</strong> Kostumi i mirë rrit vetëbesimin</li>
+            <li><strong>Lëvizja e Sigurt:</strong> Çdo veprim duhet të jetë i qëllimshëm</li>
+            <li><strong>Zëri i Qetë:</strong> Fol ngadalë dhe me autoritet</li>
         </ol>
 
-        <h3>Metodologjitë e Kreativitetit</h3>
+        <h3>Strategjitë e Menaxhimit të Vëmendjes</h3>
         <ul>
-            <li><strong>Design Thinking:</strong> Mendimi në dizajn</li>
-            <li><strong>Lean Startup:</strong> Startup i hollë</li>
-            <li><strong>Agile Development:</strong> Zhvillimi agile</li>
-            <li><strong>Human-Centered Design:</strong> Dizajni i centruar te njeriu</li>
-            <li><strong>Systems Thinking:</strong> Mendimi sistemik</li>
-            <li><strong>Cross-Pollination:</strong> Ndërpllenim i ideve</li>
+            <li><strong>Prania Magnetike:</strong> Tërheqni respekt, jo frikë</li>
+            <li><strong>Komunikimi Nonverbal:</strong> 93% e komunikimit është joverbal</li>
+            <li><strong>Konfidenca e Natyrshme:</strong> Mos u përpiqni të mbivlerësoheni</li>
+            <li><strong>Respekti Reciprok:</strong> Jepni respekt për të marrë respekt</li>
+            <li><strong>Lidershipi i Qetë:</strong> Udhëheqni me shembull, jo me zë</li>
+            <li><strong>Integritet i Palëkundur:</strong> Ruani vlerat tuaja gjithmonë</li>
         </ul>
 
-        <h3>Teknologjitë Emergjente dhe Mundësitë</h3>
+        <h3>Teknikat e Vetëbesimit të Lartë</h3>
         <ul>
-            <li><strong>AI dhe Machine Learning:</strong> Automatizimi inteligjent</li>
-            <li><strong>Blockchain për Transparencë:</strong> Sisteme të besueshme</li>
-            <li><strong>IoT për Efikasitet:</strong> Shtëpitë dhe qytetet inteligjente</li>
-            <li><strong>Biotech për Shëndetësi:</strong> Zgjidhje mjekësore</li>
-            <li><strong>Clean Energy:</strong> Zgjidhje mjedisore</li>
-            <li><strong>Space Technology:</strong> Eksplorimi kozmik</li>
+            <li><strong>Ushtrime Dite:</strong> Praktiko shikimin në pasqyrë çdo mëngjes</li>
+            <li><strong>Pozicioni i Pushtetit:</strong> Qëndroni me këmbë të hapura</li>
+            <li><strong>Vizualizimi Pozitiv:</strong> Parashikoni skenarin e suksesit</li>
+            <li><strong>Afirmacionet:</strong> "Unë jam i denjë për respekt"</li>
+            <li><strong>Stërvitja e Situatave:</strong> Praktikoni në ambiente të ndryshme</li>
+            <li><strong>Mësimi nga Liderët:</strong> Studioni personalitetet e forta</li>
         </ul>
 
-        <h3>Ndërtimi i Ecosistemit të Inovacionit</h3>
+        <h3>Përballimi i Vëzhgimeve të Tepërta</h3>
         <ul>
-            <li><strong>Innovation Labs:</strong> Laboratorët e inovacionit</li>
-            <li><strong>Startup Incubators:</strong> Inkubatorët e startup-eve</li>
-            <li><strong>Tech Communities:</strong> Komunitetet teknologjike</li>
-            <li><strong>Research Partnerships:</strong> Partneritete kërkimore</li>
-            <li><strong>International Collaborations:</strong> Bashkëpunimet ndërkombëtare</li>
-            <li><strong>Government Support:</strong> Mbështetja qeveritare</li>
+            <li><strong>Ruani Qetësinë:</strong> Mos reagoni emocjonalisht</li>
+            <li><strong>Mendoni Pozitivisht:</strong> Admirimi nuk është gjithmonë negativë</li>
+            <li><strong>Mos Personalizoni:</strong> Jo çdo shikim ka qëllim të keq</li>
+            <li><strong>Fokusi te Objektivat:</strong> Mbani në mend pse jeni aty</li>
+            <li><strong>Përgjigju me Elegancë:</strong> Një buzëqeshje e thjeshtë mjafton</li>
+            <li><strong>Ruani Perspektivën:</strong> Kjo është kalimtare</li>
         </ul>
 
-        <h3>Strategjitë e Implementimit</h3>
+        <h3>Ndërtimi i Reputacionit të Respektuar</h3>
         <ul>
-            <li><strong>Prototype Development:</strong> Zhvillimi i prototipeve</li>
-            <li><strong>Market Validation:</strong> Validimi i tregut</li>
-            <li><strong>Scaling Strategies:</strong> Strategjitë e skalimit</li>
-            <li><strong>IP Protection:</strong> Mbrojtja e pronësisë intelektuale</li>
-            <li><strong>Global Expansion:</strong> Ekspansioni global</li>
-            <li><strong>Exit Planning:</strong> Planifikimi i daljes</li>
+            <li><strong>Konsistenca në Sjellje:</strong> Jini të njëjtë në çdo ambiente</li>
+            <li><strong>Ndershmëria:</strong> Bëni atë që premtoni</li>
+            <li><strong>Dashamirësia:</strong> Ndihmoni ata që kanë nevojë</li>
+            <li><strong>Përulësia:</strong> Suksesi nuk do të thotë arrogancë</li>
+            <li><strong>Profesionalizma:</strong> Në çdo marrëdhënie biznesi</li>
+            <li><strong>Kujdesi Familjar:</strong> Familja dhe komuniteti para së gjithash</li>
         </ul>
+
+        <h3>Mësime nga Liderët e Suksesshëm</h3>
+        <ul>
+            <li><strong>Steve Jobs:</strong> Prezantimi me pasion dhe besim</li>
+            <li><strong>Oprah Winfrey:</strong> Lidhja e vërtetë me audiencën</li>
+            <li><strong>Elon Musk:</strong> Vizionari i qetë dhe i vendosur</li>
+            <li><strong>Warren Buffett:</strong> Thjeshtësia dhe modestia</li>
+            <li><strong>Richard Branson:</strong> Karizmi i natyrshëm</li>
+            <li><strong>Tony Robbins:</strong> Energjia pozitive dhe fokusi</li>
+        </ul>
+
+        <h3>Ushtrime Praktike për Çdo Ditë</h3>
+        <div class="highlight-box">
+            <h4>Rutina 15-Minutëshe e Mëngjesit:</h4>
+            <ol>
+                <li>5 minuta: Ushtrime frymëmarrjeje dhe meditim</li>
+                <li>3 minuta: Praktikë shikimi në pasqyrë</li>
+                <li>2 minuta: Afirmacione pozitive</li>
+                <li>3 minuta: Planifikimi i ditës me vetëbesim</li>
+                <li>2 minuta: Vizualizimi i suksesit të ditës</li>
+            </ol>
+        </div>
         `
     },
 
     62: {
-        title: "Diplomacia e Biznesit dhe Marrëdhëniet Ndërkombëtare",
+        title: "Strategji të Nderuara: Lufta e Shikimeve dhe Koncentrimi",
         content: `
-        <h2>Kapitulli 62: Diplomacia e Biznesit dhe Marrëdhëniet Ndërkombëtare</h2>
+        <h2>Kapitulli 62: Strategji të Nderuara - Lufta e Shikimeve dhe Koncentrimi</h2>
         
         <div class="ai-prompt-box">
             <h4>🤖 Prompt për ChatGPT:</h4>
-            <p>"Create international business scene: Albanian business delegation in elegant conference room with global flags, luxury handshakes between diverse professionals, world map with trade routes, Islamic architecture elements, expensive suits and traditional Albanian elements. Style: diplomatic, prestigious, internationally respected."</p>
+            <p>"Create focused businessman in BMW 530d, concentrated on important task while aware of surroundings, expensive shopping area or business district, maintaining focus despite attention from others, Islamic patterns subtly in background, demonstrating mental discipline and priority management. Style: determined, focused, wealthy, disciplined."</p>
         </div>
 
-        <h3>Arti i Diplomacisë në Biznesin Modern</h3>
+        <h3>Ruajtja e Fokusit në Mes të Presionit Social</h3>
         
-        <p>Henry Kissinger tha: "The task of the leader is to get his people from where they are to where they have not been." Diplomacia e biznesit është arti i ndërtimit të marrëdhënieve ndërkombëtare që krijojnë vlera të përbashkëta dhe mundësi të reja.</p>
+        <p>Marcus Aurelius tha: "You have power over your mind - not outside events. Realize this, and you will find strength." Kur jeni në qendër të vëmendjes për shkak të statusit tuaj, është kritike të ruani fokusin te objektivat tuaja të vërteta dhe të mos lejoni që "lufta e shikimeve" t'ju shpërqendrojë nga detyrat e rëndësishme.</p>
 
         <div class="islamic-quote">
-            "يَا أَيُّهَا النَّاسُ إِنَّا خَلَقْنَاكُم مِّن ذَكَرٍ وَأُنثَىٰ وَجَعَلْنَاكُمْ شُعُوبًا وَقَبَائِلَ لِتَعَارَفُوا"
+            "وَلَا تَمُدَّنَّ عَيْنَيْكَ إِلَىٰ مَا مَتَّعْنَا بِهِ أَزْوَاجًا مِّنْهُمْ زَهْرَةَ الْحَيَاةِ الدُّنْيَا لِنَفْتِنَهُمْ فِيهِ"
             <br><br>
-            "O njerëz! Ne ju krijuam nga mashkull dhe femër dhe ju bëmë popuj e fise që të njiheni me njëri-tjetrin." - Kurani, 49:13
+            "Dhe mos i ngjit sytë tek ajo që Ne ua kemi dhënë disa prej tyre si stoli të jetës së kësaj bote, që t'i sprovojmë me të." - Kurani, 20:131
         </div>
 
         <div class="highlight-box">
-            <h4>Dimensionet e Diplomacisë së Biznesit:</h4>
+            <h4>Skenarët Tipikë të Shpërqendrimit:</h4>
             <ul>
-                <li><strong>Cultural Intelligence:</strong> Inteligjenca kulturore</li>
-                <li><strong>Protocol Mastery:</strong> Zotërimi i protokollit</li>
-                <li><strong>Language Skills:</strong> Aftësitë gjuhësore</li>
-                <li><strong>Negotiation Excellence:</strong> Shkëlqimi në negocim</li>
-                <li><strong>Network Building:</strong> Ndërtimi i rrjeteve</li>
-                <li><strong>Conflict Resolution:</strong> Zgjidhja e konflikteve</li>
+                <li><strong>Te Marketi/Dyqani:</strong> Harron çfarë ke ardhur të blesh</li>
+                <li><strong>Te Barnatorja:</strong> Harron ilaçin që të nevojitet</li>
+                <li><strong>Te Banketë/Restoranti:</strong> Fokus te menyja, jo te vështrimet</li>
+                <li><strong>Në Parkim Publik:</strong> Parkimi me vetëbesim dhe qetësi</li>
+                <li><strong>Në Rrugë Kryesore:</strong> Vozitja e sigurt pa ankth</li>
+                <li><strong>Te Takimet e Biznesit:</strong> Fokus te diskutimi, jo te audienca</li>
             </ul>
         </div>
 
-        <h3>Protokolli Ndërkombëtar i Biznesit</h3>
+        <h3>Teknikat e Menaxhimit të Vëmendjes</h3>
         <ol>
-            <li><strong>Etiquette dhe Manners:</strong> Sjellja dhe manierat</li>
-            <li><strong>Dress Code Mastery:</strong> Zotërimi i kodit të veshjes</li>
-            <li><strong>Dining Protocol:</strong> Protokolli i ngrënies</li>
-            <li><strong>Gift Giving:</strong> Dhënia e dhuratave</li>
-            <li><strong>Business Card Exchange:</strong> Shkëmbimi i kartave të biznesit</li>
-            <li><strong>Meeting Procedures:</strong> Procedurat e takimeve</li>
+            <li><strong>Lista e Qëllimeve:</strong> Shkruaj pse ke ardhur para daljes</li>
+            <li><strong>Meditimi para Veprimit:</strong> 30 sekonda qetësi para daljes nga vetura</li>
+            <li><strong>Frymëmarrja 4-7-8:</strong> Frymëmarrja e kontrolluar për qetësi</li>
+            <li><strong>Skanimi i Mjedisit:</strong> Vëzhgo, por mos u fiksoj</li>
+            <li><strong>Përsëritja e Objektivit:</strong> "Jam këtu për..." </li>
+            <li><strong>Lëvizja e Qëllimshme:</strong> Çdo hap ka drejtim</li>
         </ol>
 
-        <h3>Inteligjenca Kulturore dhe Ndjeshmëria</h3>
+        <h3>Psikologjia e Fokusit nën Presion</h3>
         <ul>
-            <li><strong>Cultural Awareness:</strong> Vetëdija kulturore</li>
-            <li><strong>Religious Sensitivity:</strong> Ndjeshmëria fetare</li>
-            <li><strong>Historical Context:</strong> Konteksti historik</li>
-            <li><strong>Communication Styles:</strong> Stilet e komunikimit</li>
-            <li><strong>Time Orientation:</strong> Orientimi kohor</li>
-            <li><strong>Power Distance:</strong> Distanca e pushtetit</li>
+            <li><strong>Sindroma e Vëzhguesit:</strong> Ndjenjat kur ndihesh i vëzhguar</li>
+            <li><strong>Ankth Performance:</strong> Friksira e gabimit para të tjerëve</li>
+            <li><strong>Ego vs. Objektivi:</strong> Mos lejo egon ta kapërcejë qëllimin</li>
+            <li><strong>Lavdiprimshmëria Sociale:</strong> Mos u përpiq të impresionosh</li>
+            <li><strong>Kthimi i Vëmendjes:</strong> Teknika për kthim në objektiv</li>
+            <li><strong>Pranuan e Situatës:</strong> "Po, po më shikojnë, dhe?"</li>
         </ul>
 
-        <h3>Ndërtimi i Partneriteteve Strategjike</h3>
+        <h3>Strategjitë e Ruajtjes së Fokusit</h3>
         <ul>
-            <li><strong>Joint Ventures:</strong> Bashkëpunimet</li>
-            <li><strong>Strategic Alliances:</strong> Aleancat strategjike</li>
-            <li><strong>Distribution Partnerships:</strong> Partneritetet e shpërndarjes</li>
-            <li><strong>Technology Transfer:</strong> Transferimi i teknologjisë</li>
-            <li><strong>Cross-Border Investments:</strong> Investimet ndërkufitare</li>
-            <li><strong>Cultural Exchanges:</strong> Shkëmbimet kulturore</li>
+            <li><strong>Teknika 5-4-3-2-1:</strong> 5 gjëra që shikon, 4 që prek, 3 që dëgjon, 2 që aromat, 1 që shijon</li>
+            <li><strong>Repeating Mantra:</strong> "Qëllimi im është..."</li>
+            <li><strong>Vizualizimi i Suksesit:</strong> Shiko veten duke kryer detyrën</li>
+            <li><strong>Koha e Kufizuar:</strong> Vëri vetes një afat kohor</li>
+            <li><strong>Shpërblimi i Planifikuar:</strong> Premto vetes diçka pas mbarimit</li>
+            <li><strong>Përgjegjshmëria Sociale:</strong> Njofto dikë për objektivin tënd</li>
         </ul>
 
-        <h3>Menaxhimi i Riskut Gjeopolitik</h3>
+        <h3>Menaxhimi i Situatave të Vështira</h3>
         <ul>
-            <li><strong>Political Risk Assessment:</strong> Vlerësimi i riskut politik</li>
-            <li><strong>Economic Instability:</strong> Paqëndrueshmëria ekonomike</li>
-            <li><strong>Currency Fluctuations:</strong> Luhatjet valutore</li>
-            <li><strong>Regulatory Changes:</strong> Ndryshimet rregullatore</li>
-            <li><strong>Trade War Impact:</strong> Ndikimi i luftrave tregtare</li>
-            <li><strong>Sanctions Compliance:</strong> Përputhshmëria me sanksionet</li>
+            <li><strong>Staring Contest:</strong> Mos hyj në garë shikimesh</li>
+            <li><strong>Komentet e Hapura:</strong> Mos reago emocjonalisht</li>
+            <li><strong>Fotografimi i Fshehtë:</strong> Ruaj qetësinë dhe dinjitetin</li>
+            <li><strong>Grumbullimi i Njerëzve:</strong> Vazhdo me punët e tua</li>
+            <li><strong>Përpjekja për Kontakt:</strong> Jep përgjegjje të shkurtër dhe profesionale</li>
+            <li><strong>Kritikat e Zëshme:</strong> "Respektoj mendimin tuaj"</li>
         </ul>
 
-        <h3>Diplomacia Digjitale dhe Virtual</h3>
+        <h3>Teknika të Orientimit të Objektit</h3>
         <ul>
-            <li><strong>Virtual Meetings:</strong> Takimet virtuale</li>
-            <li><strong>Digital Presentations:</strong> Prezantimet digjitale</li>
-            <li><strong>Online Networking:</strong> Rrjetëzimi online</li>
-            <li><strong>Social Media Diplomacy:</strong> Diplomacia në media sociale</li>
-            <li><strong>Cybersecurity Awareness:</strong> Vetëdija për sigurinë kibernetike</li>
-            <li><strong>Digital Etiquette:</strong> Etiketa digjitale</li>
+            <li><strong>Pre-Planning:</strong> Planifiko rrugën dhe veprimet</li>
+            <li><strong>Time-Boxing:</strong> Cakto kohë specifike për çdo detyrë</li>
+            <li><strong>Priority Matrix:</strong> Rënditja e detyrave sipas rëndësisë</li>
+            <li><strong>Batch Processing:</strong> Grupo detyrat e ngjashme</li>
+            <li><strong>Environmental Design:</strong> Krijo mjedis mbështetës</li>
+            <li><strong>Accountability Partner:</strong> Gjej dikë që të mbajë përgjegjës</li>
         </ul>
 
-        <h3>Implementimi i Strategjisë Diplomatike</h3>
+        <h3>Ruajtja e Ekuilibrit Mental</h3>
         <ul>
-            <li><strong>Market Entry Strategy:</strong> Strategjia e hyrjes në treg</li>
-            <li><strong>Stakeholder Mapping:</strong> Hartëzimi i palëve të interesuara</li>
-            <li><strong>Government Relations:</strong> Marrëdhëniet me qeverinë</li>
-            <li><strong>Media Strategy:</strong> Strategjia e mediave</li>
-            <li><strong>Crisis Communication:</strong> Komunikimi gjatë krizës</li>
-            <li><strong>Reputation Management:</strong> Menaxhimi i reputacionit</li>
+            <li><strong>Meditimi i Përditshëm:</strong> 10 minuta në ditë për qetësi mendore</li>
+            <li><strong>Ushtrime Fizike:</strong> Aktivisht për çlirim stresi</li>
+            <li><strong>Koha e Familjes:</strong> Momento pa presion publikë</li>
+            <li><strong>Hobi Personalë:</strong> Aktivitete që të bëjnë të lumtur</li>
+            <li><strong>Dhoma e Qetësisë:</strong> Vend ku mund të relaksohesh</li>
+            <li><strong>Konsulenca Profesionale:</strong> Kur të nevojitet mbështetje</li>
         </ul>
+
+        <h3>Ushtrime Praktike për Fortësimin e Fokusit</h3>
+        <div class="highlight-box">
+            <h4>Stërvitja e Përqendrimit 21-Ditore:</h4>
+            <p><strong>Java 1:</strong> Praktiko në mjedise të sigurta (shtëpia, zyra)</p>
+            <p><strong>Java 2:</strong> Testo në mjedise me vëmendje mesatare (qendre tregtare)</p>
+            <p><strong>Java 3:</strong> Zbato në situata me vëmendje të lartë (evente, tubime)</p>
+            
+            <h4>Ushtrime të Përditshme:</h4>
+            <ol>
+                <li><strong>Mëngjesi:</strong> 5 minuta meditim fokusi</li>
+                <li><strong>Dreka:</strong> 3 minuta frymëmarrje të thellë</li>
+                <li><strong>Mbrëmja:</strong> Reflektim mbi sukseset e ditës</li>
+            </ol>
+        </div>
         `
     },
 
     63: {
-        title: "Teknologjia Blockchain dhe Kripto-Ekonomia",
+        title: "Strategji të Nderuara: Syzet Anti-Refleks dhe Mbrojtja Vizuale",
         content: `
-        <h2>Kapitulli 63: Teknologjia Blockchain dhe Kripto-Ekonomia</h2>
+        <h2>Kapitulli 63: Strategji të Nderuara - Syzet Anti-Refleks dhe Mbrojtja Vizuale</h2>
         
         <div class="ai-prompt-box">
             <h4>🤖 Prompt për ChatGPT:</h4>
-            <p>"Create blockchain visualization: Albanian tech expert analyzing crypto markets on multiple monitors, digital currency symbols floating, blockchain network visualizations, luxury office with Islamic geometric patterns, expensive cars visible through window, golden digital connections. Style: high-tech, futuristic, wealthy."</p>
+            <p>"Create stylish Albanian businessman wearing elegant anti-reflective glasses or sunglasses, standing confidently next to BMW 530d, sophisticated appearance, expensive suit, Islamic geometric patterns reflected in glasses, modern business environment, demonstrating visual protection and style. Style: sophisticated, protected, mysterious, wealthy."</p>
         </div>
 
-        <h3>Revolucioni i Decentralizimit dhe Transparencës</h3>
+        <h3>Mbrojtja Vizuale si Mjet Strategjik i Vetëbesimit</h3>
         
-        <p>Satoshi Nakamoto krijoi Bitcoin-in me vizionin e një sistemi financiar decentralizuar. Blockchain-u nuk është vetëm teknologji, por një filozofi e re e besimit dhe transparencës që përputhet me vlerat islame të drejtësisë dhe transparencës.</p>
+        <p>Coco Chanel tha: "Elegance is refusal." Syzet nuk janë thjesht mbeturinë e modës, por mjet strategjik për të kontrolluar mënyrën se si të tjerët ju perceptojnë dhe ndërveprojnë me ju. Ky kapitull eksploron si të përdorni syzet si mburoja psikologjike dhe mjet dominimi.</p>
 
         <div class="islamic-quote">
-            "وَأَوْفُوا بِالْعَهْدِ ۖ إِنَّ الْعَهْدَ كَانَ مَسْئُولًا"
+            "قُل لِّلْمُؤْمِنِينَ يَغُضُّوا مِنْ أَبْصَارِهِمْ وَيَحْفَظُوا فُرُوجَهُمْ ۚ ذَٰلِكَ أَزْكَىٰ لَهُمْ"
             <br><br>
-            "Dhe mbajeni besën, se për besën do të jepet llogari." - Kurani, 17:34
+            "Thuaju besimtarëve t'i ulin sytë dhe t'i ruajnë nderin e tyre. Kjo është më e pastër për ta." - Kurani, 24:30
         </div>
 
         <div class="highlight-box">
-            <h4>Karakteristikat Kryesore të Blockchain:</h4>
+            <h4>Llojet e Syzeve dhe Efektet e Tyre:</h4>
             <ul>
-                <li><strong>Decentralization:</strong> Decentralizimi</li>
-                <li><strong>Transparency:</strong> Transparenca</li>
-                <li><strong>Immutability:</strong> Pandryshueshwëria</li>
-                <li><strong>Security:</strong> Siguria</li>
-                <li><strong>Consensus:</strong> Consensusi</li>
-                <li><strong>Smart Contracts:</strong> Kontratat inteligjente</li>
+                <li><strong>Syze Anti-Refleks:</strong> Mbrojnë nga drita dhe reflektimi</li>
+                <li><strong>Syze Dielli Premium:</strong> Ray-Ban, Oakley, Maui Jim</li>
+                <li><strong>Syze Prescription Me Filtër:</strong> Kombinim funksioni dhe mbrojtjeje</li>
+                <li><strong>Syze Transition:</strong> Adaptohen me dritën e mjedisit</li>
+                <li><strong>Syze Blue Light:</strong> Mbrojtja nga drita artificiale</li>
+                <li><strong>Syze Polarized:</strong> Eliminon reflektimin nga sipërfaqet</li>
             </ul>
         </div>
 
-        <h3>Aplikimet e Blockchain në Biznes</h3>
+        <h3>Psikologjia e Syzeve dhe Perceptimi</h3>
         <ol>
-            <li><strong>Supply Chain Management:</strong> Menaxhimi i zinxhirit të furnizimit</li>
-            <li><strong>Digital Identity:</strong> Identiteti digjital</li>
-            <li><strong>Smart Contracts:</strong> Kontratat inteligjente</li>
-            <li><strong>Decentralized Finance (DeFi):</strong> Financat decentralizuara</li>
-            <li><strong>Non-Fungible Tokens (NFTs):</strong> Token-et jo-zëvendësueshëm</li>
-            <li><strong>Voting Systems:</strong> Sistemet e votimit</li>
+            <li><strong>Bariera Psikologjike:</strong> Krijon distancë të kontrolluar</li>
+            <li><strong>Misteri dhe Autoriteti:</strong> Nuk mund të "lexohen" emocionet</li>
+            <li><strong>Konfidenca e Shtuar:</strong> Ndjenjat më e sigurt dhe e mbrojtur</li>
+            <li><strong>Fokusi i Përqendruar:</strong> Vëmendja drejtohet te personaliteti</li>
+            <li><strong>Status-Signaling:</strong> Syzet cilësore tregojnë sukses</li>
+            <li><strong>Profesionalizma:</strong> Pamje më serioze dhe e besuesme</li>
         </ol>
 
-        <h3>Kripto-Valuta dhe Investimet</h3>
+        <h3>Zgjidhja e Syzeve sipas Formës së Fytyrës</h3>
         <ul>
-            <li><strong>Bitcoin (BTC):</strong> Rezerva digjitale e vlerës</li>
-            <li><strong>Ethereum (ETH):</strong> Platforma e kontratave inteligjente</li>
-            <li><strong>Stablecoins:</strong> Valuta të qëndrueshme</li>
-            <li><strong>DeFi Tokens:</strong> Token-et e financave decentralizuara</li>
-            <li><strong>Utility Tokens:</strong> Token-et e shërbimit</li>
-            <li><strong>Security Tokens:</strong> Token-et e sigurisë</li>
+            <li><strong>Fytyra Ovale:</strong> Pothuajse çdo stil i përshtatet</li>
+            <li><strong>Fytyra Rrethore:</strong> Korniza katrore për kontrast</li>
+            <li><strong>Fytyra Katrore:</strong> Korniza rrethore për zbutje</li>
+            <li><strong>Fytyra në Formë Zemre:</strong> Aviator ose cat-eye</li>
+            <li><strong>Fytyra e Gjatë:</strong> Korniza të gjera dhe të mëdha</li>
+            <li><strong>Fytyra Diamant:</strong> Korniza oval ose cat-eye</li>
         </ul>
 
-        <h3>Strategjitë e Investimit në Kripto</h3>
+        <h3>Stilet Premium të Syzeve për Biznes</h3>
         <ul>
-            <li><strong>Dollar-Cost Averaging:</strong> Mesatarja e kostos</li>
-            <li><strong>HODLing Strategy:</strong> Strategjia e mbajtjes afatgjate</li>
-            <li><strong>Diversification:</strong> Diversifikimi</li>
-            <li><strong>Risk Management:</strong> Menaxhimi i riskut</li>
-            <li><strong>Technical Analysis:</strong> Analiza teknike</li>
-            <li><strong>Fundamental Analysis:</strong> Analiza fundamentale</li>
+            <li><strong>Ray-Ban Aviator Classic:</strong> Ikona e stilit dhe klasës</li>
+            <li><strong>Oliver Peoples Finley:</strong> Elegancë diskrete</li>
+            <li><strong>Tom Ford Henry:</strong> Luksuriar modern</li>
+            <li><strong>Persol Steve McQueen:</strong> Karizëm dhe stil</li>
+            <li><strong>Oakley Holbrook:</strong> Sportive por elegante</li>
+            <li><strong>Cartier Santos:</strong> Luksuriar dhe prestizhë</li>
         </ul>
 
-        <h3>Aspektet Ligjore dhe Rregullatore</h3>
+        <h3>Teknikat e Përdorimit Strategjik</h3>
         <ul>
-            <li><strong>Regulatory Compliance:</strong> Përputhshmëria rregullatore</li>
-            <li><strong>Tax Implications:</strong> Pasojat tatimore</li>
-            <li><strong>AML/KYC Requirements:</strong> Kërkesat AML/KYC</li>
-            <li><strong>Securities Classification:</strong> Klasifikimi i letrave me vlerë</li>
-            <li><strong>Cross-Border Regulations:</strong> Rregulloret ndërkufitare</li>
-            <li><strong>Banking Relationships:</strong> Marrëdhëniet bankare</li>
+            <li><strong>Timing i Vendosjes:</strong> Kur t'i vësh dhe kur t'i heqësh</li>
+            <li><strong>Eye Contact e Kontrolluar:</strong> Lëvizja e syzeve për efekt</li>
+            <li><strong>Gesture Authority:</strong> Heqja e syzeve për theksim</li>
+            <li><strong>Light Management:</strong> Pozicionimi sipas dritës</li>
+            <li><strong>Mirror Effect:</strong> Reflektimi i vëmendjes te kundërshtari</li>
+            <li><strong>Professional Switching:</strong> Ndërrimi midis stileve</li>
         </ul>
 
-        <h3>Ndërtimi i Infrastrukturës Blockchain</h3>
+        <h3>Etiketat e Syzeve në Biznes</h3>
         <ul>
-            <li><strong>Node Operation:</strong> Operimi i nyjeve</li>
-            <li><strong>Mining/Staking:</strong> Minimi/Staking</li>
-            <li><strong>Wallet Security:</strong> Siguria e portofolit</li>
-            <li><strong>Exchange Integration:</strong> Integrimi i shkëmbimeve</li>
-            <li><strong>API Development:</strong> Zhvillimi i API-ve</li>
-            <li><strong>Security Audits:</strong> Auditimi i sigurisë</li>
+            <li><strong>Indoor/Outdoor Rules:</strong> Kur është e përshtatshme</li>
+            <li><strong>Meeting Protocol:</strong> Respektimi i normave</li>
+            <li><strong>Cultural Sensitivity:</strong> Përshtatja me kontekstin</li>
+            <li><strong>Age Appropriateness:</strong> Zgjidhja sipas moshës</li>
+            <li><strong>Industry Standards:</strong> Normat e industrisë</li>
+            <li><strong>Personal Branding:</strong> Konsistenca me imazhin</li>
         </ul>
 
-        <h3>E Ardhmja e Blockchain dhe Web3</h3>
+        <h3>Kombinimi me Veshjen dhe Stilin</h3>
         <ul>
-            <li><strong>Metaverse Integration:</strong> Integrimi i metaverse</li>
-            <li><strong>Central Bank Digital Currencies (CBDCs):</strong> Valuta digjitale të bankave qendrore</li>
-            <li><strong>Interoperability:</strong> Ndërveprimi</li>
-            <li><strong>Scalability Solutions:</strong> Zgjidhjet e skalabilitetit</li>
-            <li><strong>Green Blockchain:</strong> Blockchain i gjelbër</li>
-            <li><strong>Quantum Resistance:</strong> Rezistenca kuantike</li>
+            <li><strong>Kostum Formal:</strong> Syze klasike, të thjeshta</li>
+            <li><strong>Business Casual:</strong> Më shumë liri në zgjidhje</li>
+            <li><strong>Casual Elegant:</strong> Syze më të guximshme</li>
+            <li><strong>Evening/Social:</strong> Stilet më ekskluzive</li>
+            <li><strong>Outdoor Business:</strong> Syze sportive elegante</li>
+            <li><strong>Travel/International:</strong> Versatile dhe praktike</li>
+        </ul>
+
+        <h3>Avantazhet Psikolgjike dhe Praktike</h3>
+        <ul>
+            <li><strong>Reduktimi i Ankthit:</strong> Ndjenjat më i mbrojtur</li>
+            <li><strong>Kontrolli i Emocioneve:</strong> Më pak ekspozim i ndjenjave</li>
+            <li><strong>Fokusi i Përmirësuar:</strong> Më pak shpërqendrim vizual</li>
+            <li><strong>Karizmi i Shtuar:</strong> Prania më me ndikim</li>
+            <li><strong>Versatiliteti:</strong> Ndryshimi i imazhit me ease</li>
+            <li><strong>Mbrojtja Fizike:</strong> Mbrojtja nga UV dhe drita artificiale</li>
+        </ul>
+
+        <h3>Krahasimet dhe Alternativat</h3>
+        <div class="highlight-box">
+            <h4>Syze Dielli vs. Anti-Refleks vs. Prescription:</h4>
+            
+            <p><strong>Syze Dielli:</strong></p>
+            <ul>
+                <li>✅ Mbrojtje maximale nga shikim</li>
+                <li>✅ Stil dhe karizëm</li>
+                <li>❌ E kufizuar për përdorim në mjedise të mbyllura</li>
+            </ul>
+            
+            <p><strong>Syze Anti-Refleks:</strong></p>
+            <ul>
+                <li>✅ Përdorimi i pakufizuar</li>
+                <li>✅ Profesional për çdo ambient</li>
+                <li>❌ Mbrojtja e pjesshme vizuale</li>
+            </ul>
+            
+            <p><strong>Syze Prescription Me Filtër:</strong></p>
+            <ul>
+                <li>✅ Funkcional dhe mbrojtes</li>
+                <li>✅ Natyral dhe diskret</li>
+                <li>❌ Nevojitet prescriptim mjekësor</li>
+            </ul>
+        </div>
+
+        <h3>Udhëzime për Blerje dhe Investim</h3>
+        <ul>
+            <li><strong>Budgeti dhe Vlera:</strong> Investoni në cilësi, jo sasi</li>
+            <li><strong>Garantia dhe Shërbimi:</strong> Zgjidhni marka me përkrahje</li>
+            <li><strong>Fitting profesional:</strong> Konsultohuni me specialist</li>
+            <li><strong>Maintenance Plan:</strong> Ruajtja dhe pastrim i rregullt</li>
+            <li><strong>Multiple Pairs:</strong> Koleksion për situata të ndryshme</li>
+            <li><strong>Insurance Coverage:</strong> Sigurim për objekte të vlefshme</li>
         </ul>
         `
     },
 
     64: {
-        title: "Menaxhimi i Krizave dhe Përshtatja e Shpejtë",
+        title: "Strategji të Nderuara: Ndërrimi i Logos dhe Strategjia e Kamuflimit",
         content: `
-        <h2>Kapitulli 64: Menaxhimi i Krizave dhe Përshtatja e Shpejtë</h2>
+        <h2>Kapitulli 64: Strategji të Nderuara - Ndërrimi i Logos dhe Strategjia e Kamuflimit</h2>
         
         <div class="ai-prompt-box">
             <h4>🤖 Prompt për ChatGPT:</h4>
-            <p>"Create crisis management scene: Albanian business leader in modern command center with multiple screens showing market data, team coordinating emergency response, luxury office with Islamic calligraphy providing spiritual strength, expensive cars in garage visible, determined and calm leadership. Style: intense, professional, resilient."</p>
+            <p>"Create automotive customization scene: BMW 530d with subtle logo modifications, Toyota/Lexus badges in elegant setting, Albanian businessman overseeing vehicle customization, luxury garage workshop with Islamic architectural details, sophisticated camouflage strategy, professional and discreet. Style: strategic, understated, intelligent, wealthy."</p>
         </div>
 
-        <h3>Transformimi i Krizës në Mundësi</h3>
+        <h3>Arti i Strategjisë së Kamuflimit dhe Menaxhimit të Perceptimit</h3>
         
-        <p>Winston Churchill tha: "Never let a good crisis go to waste." Krizohet janë pjesë e pandarë e jetës së biznesit. Atëherë kur të tjerët panikojnë, liderët e vërtetë gjejnë mundësi dhe dalin më të fortë nga çdo krizë.</p>
+        <p>Sun Tzu tha: "All warfare is based on deception." Në "luftën" e përditshme të vëmendjes sociale, ndërrimi strategjik i simboleve mund të jetë mjet i fuqishëm për të kontrolluar mënyrën se si ju perceptohen dhe për të reduktuar vëmendjen e panevojshme. Kjo nuk është mashtrim, por strategji inteligjente e menaxhimit të imazhit.</p>
 
         <div class="islamic-quote">
-            "وَمَن يَتَّقِ اللَّهَ يَجْعَل لَّهُ مَخْرَجًا وَيَرْزُقْهُ مِنْ حَيْثُ لَا يَحْتَسِبُ"
+            "وَلَا تُبَذِّرْ تَبْذِيرًا إِنَّ الْمُبَذِّرِينَ كَانُوا إِخْوَانَ الشَّيَاطِينِ"
             <br><br>
-            "Dhe ai që i frikësohet Allahut, Ai do t'i bëjë një dalje (nga vështirësia) dhe do ta furnizojë atë nga aty ku nuk e pret." - Kurani, 65:2-3
+            "Dhe mos shpenzo në mënyrë ekstravagante, se ata që shpenzojnë ekstravagantë janë vëllezër të djajve." - Kurani, 17:26
         </div>
 
         <div class="highlight-box">
-            <h4>Llojet e Krizave në Biznes:</h4>
+            <h4>Strategjitë e Ndërrimit të Logos:</h4>
             <ul>
-                <li><strong>Financial Crisis:</strong> Kriza financiare</li>
-                <li><strong>Operational Crisis:</strong> Kriza operacionale</li>
-                <li><strong>Reputational Crisis:</strong> Kriza e reputacionit</li>
-                <li><strong>Technology Crisis:</strong> Kriza teknologjike</li>
-                <li><strong>Human Resources Crisis:</strong> Kriza e burimeve njerëzore</li>
-                <li><strong>Natural Disasters:</strong> Fatkeqësitë natyrore</li>
+                <li><strong>BMW → Toyota:</strong> Reduktim vëmendjeje, pamje modest</li>
+                <li><strong>BMW → Lexus:</strong> Luksuriar por më diskret</li>
+                <li><strong>BMW → Mercedes:</strong> Ndërrimi i klasës por ruajtja e stilit</li>
+                <li><strong>BMW → Audi:</strong> Elegancë alternative</li>
+                <li><strong>BMW → Genesis:</strong> Luksuriar i panjohur gjerësisht</li>
+                <li><strong>BMW → Volvo:</strong> Siguria dhe respektabilitet</li>
             </ul>
         </div>
 
-        <h3>Faza të Menaxhimit të Krizës</h3>
+        <h3>Psikologjia e Perceptimit të Markës në Kosovë</h3>
         <ol>
-            <li><strong>Crisis Preparation:</strong> Përgatitja për krizën</li>
-            <li><strong>Early Detection:</strong> Zbulimi i hershëm</li>
-            <li><strong>Immediate Response:</strong> Përgjigja e menjëhershme</li>
-            <li><strong>Damage Control:</strong> Kontrolli i dëmeve</li>
-            <li><strong>Recovery Phase:</strong> Faza e rikuperimit</li>
-            <li><strong>Learning and Improvement:</strong> Mësimi dhe përmirësimi</li>
+            <li><strong>Njohja e Logos:</strong> BMW është shumë e njohur dhe tërheq vëmendje</li>
+            <li><strong>Asocacionet Sociale:</strong> Lidhja automatike me pasurinë</li>
+            <li><strong>Ekspektimet e Sjelljes:</strong> Pritje për demonstrim statusi</li>
+            <li><strong>Interpretimi Kulturor:</strong> Komente dhe gjykime sociale</li>
+            <li><strong>Hierarkia e Markave:</strong> Renditja mentale e prestigjit</li>
+            <li><strong>Njohuritë e Kufizuara:</strong> Fokusi te logot, jo modelet</li>
         </ol>
 
-        <h3>Strategjitë e Komunikimit gjatë Krizës</h3>
+        <h3>Teknikat e Implementimit të Ndërrimit</h3>
         <ul>
-            <li><strong>Transparency:</strong> Transparenca</li>
-            <li><strong>Speed of Response:</strong> Shpejtësia e përgjigjes</li>
-            <li><strong>Consistency:</strong> Konsistenca</li>
-            <li><strong>Empathy:</strong> Empatia</li>
-            <li><strong>Accountability:</strong> Përgjegjshmëria</li>
-            <li><strong>Action Plans:</strong> Planet e veprimit</li>
+            <li><strong>Ndërrimi Profesional:</strong> Instalimet nga specialistë të certificuar</li>
+            <li><strong>Cilësia e Logos:</strong> OEM ose aftermarket me cilësi të lartë</li>
+            <li><strong>Konsistenca Vizuale:</strong> Të gjitha elementet të koordinuara</li>
+            <li><strong>Removable Options:</strong> Mundësia e kthimit në origjinal</li>
+            <li><strong>Legal Compliance:</strong> Respektimi i rregulloreve vendore</li>
+            <li><strong>Documentation:</strong> Ruajtja e komponentëve origjinalë</li>
         </ul>
 
-        <h3>Teknologjitë e Menaxhimit të Krizës</h3>
+        <h3>Alternativat e Logos dhe Efektet e Tyre</h3>
         <ul>
-            <li><strong>Crisis Management Software:</strong> Software-i i menaxhimit të krizës</li>
-            <li><strong>Real-time Monitoring:</strong> Monitorimi në kohë reale</li>
-            <li><strong>Communication Platforms:</strong> Platformat e komunikimit</li>
-            <li><strong>Data Analytics:</strong> Analitika e të dhënave</li>
-            <li><strong>Social Media Monitoring:</strong> Monitorimi i mediave sociale</li>
-            <li><strong>Emergency Notification Systems:</strong> Sistemet e njoftimeve të emergjencës</li>
+            <li><strong>Toyota Logo:</strong> Besueshmëri, ekonomi, modestia</li>
+            <li><strong>Lexus Logo:</strong> Luksuriar but more subtle than BMW</li>
+            <li><strong>Honda Logo:</strong> Praktikiteti dhe eficiencia</li>
+            <li><strong>Acura Logo:</strong> Performance plus reliability</li>
+            <li><strong>Infiniti Logo:</strong> Luksuriar japonez</li>
+            <li><strong>Generic Badges:</strong> Plotësisht neutral</li>
         </ul>
 
-        <h3>Përshtatja dhe Fleksibiliteti</h3>
+        <h3>Analizimi Koshtù-Dobì i Ndërrimit</h3>
+        <div class="highlight-box">
+            <h4>Dobìtë e Ndërrimit të Logos:</h4>
+            <ul>
+                <li>✅ Reduktimi i vëmendjes së padëshiruar</li>
+                <li>✅ Menaxhimi më i mirë i perceptimit publik</li>
+                <li>✅ Fleksibiliteti në ambiente të ndryshme</li>
+                <li>✅ Kontrolli i narrative sociale</li>
+                <li>✅ Zvoglimi i presionit psikologjik</li>
+                <li>✅ Mundësi më të mira parkimi dhe lëvizje</li>
+            </ul>
+            
+            <h4>Kostot dhe Rreziqet:</h4>
+            <ul>
+                <li>❌ Kostoja financiare e ndërrimit</li>
+                <li>❌ Kompleksiteti teknik i instalimit</li>
+                <li>❌ Humbja e identitetit të markës origjinale</li>
+                <li>❌ Mundësi për konfuzion tek eksperkët</li>
+                <li>❌ Impakti në vlerën e rivshitjes</li>
+                <li>❌ Pasojat ligjore të mundshme</li>
+            </ul>
+        </div>
+
+        <h3>Strategjitë Alternative për Reduktimin e Vëmendjes</h3>
         <ul>
-            <li><strong>Agile Operations:</strong> Operacione të zhdërvjellëta</li>
-            <li><strong>Scenario Planning:</strong> Planifikimi i skenarëve</li>
-            <li><strong>Rapid Prototyping:</strong> Prototipimi i shpejtë</li>
-            <li><strong>Flexible Business Models:</strong> Modele të zhdërvjellëta biznesi</li>
-            <li><strong>Remote Work Capabilities:</strong> Aftësitë e punës së largët</li>
-            <li><strong>Supply Chain Resilience:</strong> Rezistenca e zinxhirit të furnizimit</li>
+            <li><strong>De-badging:</strong> Heqja e të gjitha logos-eve</li>
+            <li><strong>Neutral Colors:</strong> Ngjyra të qeta dhe diskrete</li>
+            <li><strong>Wheel Modifications:</strong> Bandazhe më të thjeshta</li>
+            <li><strong>Window Tints:</strong> Xhama të zinj për privatësi</li>
+            <li><strong>Subtle Modifications:</strong> Ndryshime të padukshme</li>
+            <li><strong>Timing Strategies:</strong> Kohët dhe vendet e zgjidhjes</li>
         </ul>
 
-        <h3>Udhëheqja gjatë Krizës</h3>
+        <h3>Konsideratat Kulturore dhe Sociale</h3>
         <ul>
-            <li><strong>Calm Leadership:</strong> Udhëheqje e qetë</li>
-            <li><strong>Quick Decision Making:</strong> Marrja e shpejtë e vendimeve</li>
-            <li><strong>Team Coordination:</strong> Koordinimi i ekipit</li>
-            <li><strong>Resource Allocation:</strong> Alokimi i burimeve</li>
-            <li><strong>Stress Management:</strong> Menaxhimi i stresit</li>
-            <li><strong>Motivation Maintenance:</strong> Ruajtja e motivimit</li>
+            <li><strong>Respektimi i Tradites:</strong> Mos cenojmë vlerat familjare</li>
+            <li><strong>Transparenca me Familjen:</strong> Diskuto ndryshimet me partnerin</li>
+            <li><strong>Edukimi i Komunitetit:</strong> Shpjego strategjinë nëse të pyesin</li>
+            <li><strong>Ruajtja e Nderit:</strong> Mos bëj mashtrime, por qëro strategji</li>
+            <li><strong>Balancimi Publk-Privat:</strong> Ambiente të ndryshme, strategji të ndryshme</li>
+            <li><strong>Long-term Planning:</strong> Planifiko efektet afatgjate</li>
         </ul>
 
-        <h3>Mësimet nga Krizohet e Mëdha</h3>
-        <ul>
-            <li><strong>2008 Financial Crisis:</strong> Kriza financiare e 2008-ës</li>
-            <li><strong>COVID-19 Pandemic:</strong> Pandemia COVID-19</li>
-            <li><strong>Dot-com Bubble:</strong> Bulla dot-com</li>
-            <li><strong>9/11 Impact:</strong> Ndikimi i 11 shtatorit</li>
-            <li><strong>Brexit Uncertainty:</strong> Pasiguria e Brexit</li>
-            <li><strong>Supply Chain Disruptions:</strong> Ndërprerjet e zinxhirit të furnizimit</li>
-        </ul>
+        <h3>Implementimi Praktik Hap-për-Hap</h3>
+        <div class="highlight-box">
+            <h4>Faza 1: Planifikimi (Java 1-2)</h4>
+            <ol>
+                <li>Kërkimi i opsioneve të logos-eve alternative</li>
+                <li>Analiza e kostos dhe përfitimeve</li>
+                <li>Konsultimi me ekspert automobilash</li>
+                <li>Ngritja e budget-it për ndryshim</li>
+            </ol>
+            
+            <h4>Faza 2: Përzgjidhja (Java 3)</h4>
+            <ol>
+                <li>Testimi vizual i logos-eve të ndryshme</li>
+                <li>Vlerësimi i përputhjes me ngjyrën e veturës</li>
+                <li>Kontrolli i availability dhe cilësisë</li>
+                <li>Finalizimi i vendimit</li>
+            </ol>
+            
+            <h4>Faza 3: Implementimi (Java 4)</h4>
+            <ol>
+                <li>Porositja e komponentëve të cilësisë</li>
+                <li>Programimi i instalimit profesional</li>
+                <li>Inspektimi i punës dhe cilësisë</li>
+                <li>Testing në situata të përditshme</li>
+            </ol>
+        </div>
 
-        <h3>Ndërtimi i Rezistencës Organizative</h3>
+        <h3>Menaxhimi i Situatave të Vështira</h3>
         <ul>
-            <li><strong>Diversification:</strong> Diversifikimi</li>
-            <li><strong>Financial Reserves:</strong> Rezervat financiare</li>
-            <li><strong>Strong Partnerships:</strong> Partneritete të forta</li>
-            <li><strong>Employee Training:</strong> Trajnimi i punonjësve</li>
-            <li><strong>Technology Infrastructure:</strong> Infrastruktura teknologjike</li>
-            <li><strong>Cultural Resilience:</strong> Rezistenca kulturore</li>
+            <li><strong>Kur Të Pyesin Për Modelin:</strong> "Është model i specializuar"</li>
+            <li><strong>Kur Ekspertë Automobilash Vënë Re:</strong> Jini të sinqertë për strategjinë</li>
+            <li><strong>Probleme me Dokumentacion:</strong> Ruani të gjitha dokumentet origjinale</li>
+            <li><strong>Kur Familjaret Kundërshtojnë:</strong> Shpjego arsyet e qarta</li>
+            <li><strong>Në Raste Aksidentesh:</strong> Informoni sigurimim për ndryshimet</li>
+            <li><strong>Për Riparime:</strong> Kthenjeni në original kur duhet servis</li>
         </ul>
         `
     },
 
     65: {
-        title: "Të Ardhmat e Biznesit dhe Teknologjisë",
+        title: "Strategji të Nderuara: Xhamat e Zi dhe Lejet Zyrtare",
         content: `
-        <h2>Kapitulli 65: Të Ardhmat e Biznesit dhe Teknologjisë</h2>
+        <h2>Kapitulli 65: Strategji të Nderuara - Xhamat e Zi dhe Lejet Zyrtare</h2>
         
         <div class="ai-prompt-box">
             <h4>🤖 Prompt për ChatGPT:</h4>
-            <p>"Create futuristic business scene: Albanian tech visionary in ultra-modern office with holographic displays, AI assistants, flying cars visible through smart glass windows, Islamic geometric patterns integrated with future tech, quantum computers, space technology displays. Style: sci-fi, visionary, ultra-modern."</p>
+            <p>"Create luxury BMW 530d with professional window tinting, elegant dark windows reflecting surroundings, Albanian businessman next to vehicle in official government or business setting, Islamic geometric patterns in background, demonstrating privacy and sophistication. Style: official, private, prestigious, legally compliant."</p>
         </div>
 
-        <h3>Parashikimi i së Ardhmes dhe Përgatitja për të</h3>
+        <h3>Privatësia dhe Sigurinë përmes Xhamave të Zi</h3>
         
-        <p>Bill Gates tha: "We always overestimate the change that will occur in the next two years and underestimate the change that will occur in the next ten." Të kuptosh trendet e së ardhmes është çelësi për të qenë në krye të lojës.</p>
+        <p>Benjamin Franklin tha: "Those who would give up essential Liberty, to purchase a little temporary Safety, deserve neither Liberty nor Safety." Xhamat e zinj në veturë nuk janë thjesht për pamje, por mjet strategjik për ruajtjen e privatësisë, sigurisë, dhe kontrollin e interaksioneve sociale.</p>
 
         <div class="islamic-quote">
-            "وَاللَّهُ يَعْلَمُ وَأَنتُمْ لَا تَعْلَمُونَ"
+            "يَا أَيُّهَا الَّذِينَ آمَنُوا لَا تَدْخُلُوا بُيُوتًا غَيْرَ بُيُوتِكُمْ حَتَّىٰ تَسْتَأْنِسُوا وَتُسَلِّمُوا عَلَىٰ أَهْلِهَا"
             <br><br>
-            "Dhe Allahu di, kurse ju nuk dini." - Kurani, 2:216
+            "O ju që besuat! Mos hyni në shtëpi të tjera përveç shtëpive tuaja derisa të kërkoni leje dhe t'u jepni selam banorëve të tyre." - Kurani, 24:27
         </div>
 
         <div class="highlight-box">
-            <h4>Teknologjitë Emergjente të 2030-ës:</h4>
+            <h4>Llojet e Xhamave dhe Nivelet e Errët:</h4>
             <ul>
-                <li><strong>Quantum Computing:</strong> Kompjuteri kuantik</li>
-                <li><strong>Advanced AI/AGI:</strong> Inteligjenca artificiale e avancuar</li>
-                <li><strong>Brain-Computer Interfaces:</strong> Ndërfaqet tru-kompjuter</li>
-                <li><strong>Space Economy:</strong> Ekonomia e hapësirës</li>
-                <li><strong>Synthetic Biology:</strong> Biologjia sintetike</li>
-                <li><strong>Fusion Energy:</strong> Energjia fuzive</li>
+                <li><strong>30% Transparency:</strong> I lejuar ligjërisht, diskret</li>
+                <li><strong>20% Transparency:</strong> Kufiri i sigurisë dhe privatësisë</li>
+                <li><strong>15% Transparency:</strong> Të errëta, nevojitet leje</li>
+                <li><strong>5% Transparency:</strong> Pothuajse të zeza, leje speciale</li>
+                <li><strong>Ceramic Tints:</strong> Teknologji e avancuar me clarity</li>
+                <li><strong>Carbon Film:</strong> Performancë dhe qëndrueshmëri</li>
             </ul>
         </div>
 
-        <h3>Trendet e Konsumit të së Ardhmes</h3>
+        <h3>Ligji Kosovar për Xhamat e Veturave</h3>
         <ol>
-            <li><strong>Personalization at Scale:</strong> Personalizimi në shkallë të gjerë</li>
-            <li><strong>Sustainable Consumption:</strong> Konsumi i qëndrueshëm</li>
-            <li><strong>Experience Economy:</strong> Ekonomia e përvojës</li>
-            <li><strong>Digital-Physical Blend:</strong> Përzierja digjital-fizike</li>
-            <li><strong>Health and Longevity:</strong> Shëndeti dhe jetëgjatësia</li>
-            <li><strong>Virtual Relationships:</strong> Marrëdhëniet virtuale</li>
+            <li><strong>Xhamat Përpara:</strong> Duhet të jenë transparent në 70%</li>
+            <li><strong>Xhamat Anës:</strong> Duhet të jenë transparent në 70%</li>
+            <li><strong>Xhami Prapa:</strong> Më pak të rrepta, lejohen më të errëta</li>
+            <li><strong>Lejet Speciale:</strong> Mund të merren nga Ministria e Transportit</li>
+            <li><strong>Arsyet Mjekësore:</strong> Leje për sensilkë ndaj dritës</li>
+            <li><strong>Arsyet e Sigurisë:</strong> Leje për rreziq personal</li>
         </ol>
 
-        <h3>Industritë e Ardhshme</h3>
+        <h3>Procedura e Marrjes së Lejes Zyrtare</h3>
         <ul>
-            <li><strong>Space Tourism and Mining:</strong> Turizmi dhe minimi kozmik</li>
-            <li><strong>Life Extension Services:</strong> Shërbimet e zgjatjes së jetës</li>
-            <li><strong>Climate Engineering:</strong> Inxhinieringa klimatike</li>
-            <li><strong>Virtual Reality Worlds:</strong> Botët e realitetit virtual</li>
-            <li><strong>Neuroenhancement:</strong> Përmirësimi neuronal</li>
-            <li><strong>Ocean Farming:</strong> Bujqësia oqeanike</li>
+            <li><strong>Aplikimi te Ministria:</strong> Ministria e Infrastrukturës</li>
+            <li><strong>Dokumentacioni i Nevojshëm:</strong> ID, regjistrimi i veturës, arsyet</li>
+            <li><strong>Arsyetimi i Kërkesës:</strong> Medicinal, siguria, privati</li>
+            <li><strong>Taksa Administrative:</strong> Pagesat e nevojshme zyrtare</li>
+            <li><strong>Kontrolli Teknik:</strong> Verifikimi i xhamave</li>
+            <li><strong>Certifikata e Lejes:</strong> Dokumenti zyrtar për transport</li>
         </ul>
 
-        <h3>Modelet e Reja të Biznesit</h3>
+        <h3>Arsyet e Pështjete për Leje Speciale</h3>
         <ul>
-            <li><strong>DAO (Decentralized Autonomous Organizations):</strong> Organizata autonome decentralizuara</li>
-            <li><strong>Platform Cooperatives:</strong> Kooperativat e platformave</li>
-            <li><strong>Subscription Everything:</strong> Abonimi për gjithçka</li>
-            <li><strong>Circular Economy Models:</strong> Modelet e ekonomisë rrethore</li>
-            <li><strong>Stakeholder Capitalism:</strong> Kapitalizmi i palëve të interesuara</li>
-            <li><strong>Impact-First Business:</strong> Biznesi me fokus te ndikimi</li>
+            <li><strong>Probleme Medicinal:</strong> Sensitivë ndaj dritës së diellit</li>
+            <li><strong>Siguria Personale:</strong> Kërcënimi i mprepretruar</li>
+            <li><strong>Privaci i Biznesit:</strong> Takime konfidenciale</li>
+            <li><strong>Pozitat Publike:</strong> Zírtar politiker ose personalità në público</li>
+            <li><strong>Transporte të Vlefshme:</strong> Transportimi i objekteve të çmuara</li>
+            <li><strong>Status Diplomatik:</strong> Personnel diplomatik</li>
         </ul>
 
-        <h3>Aftësitë e Nevojshme për të Ardhmen</h3>
+        <h3>Avantazhet e Xhamave të Zi</h3>
+        <div class="highlight-box">
+            <h4>Avantazhet e Privatësisë:</h4>
+            <ul>
+                <li>✅ Privatësia për familjen dhe miqtë</li>
+                <li>✅ Parandalimi i vëzhgimeve të tepërta</li>
+                <li>✅ Mbrojtja nga fotografimi i padëshiruar</li>
+                <li>✅ Siguria për takime private në veturë</li>
+                <li>✅ Kontrolli i ekspozimit publikë</li>
+                <li>✅ Strehimi për çanta dhe objekte të vlefshme</li>
+            </ul>
+            
+            <h4>Avantazhet e Sigurisë:</h4>
+            <ul>
+                <li>✅ Mbrojtja nga rrezët UV dëmtuese</li>
+                <li>✅ Reduktimi i glare-it dhe përqendrimi në drejtim</li>
+                <li>✅ Mbrojtja e drunjtë dhe interior-it nga dfkimi</li>
+                <li>✅ Rrit sigurinë në rast aksident (anti-shatter)</li>
+                <li>✅ Kontrolli i temperaturës në kabinë</li>
+                <li>✅ Reduktimi i fading të materialeve</li>
+            </ul>
+        </div>
+
+        <h3>Pastellimet dhe Teknologjitë e Instalimit</h3>
         <ul>
-            <li><strong>Complex Problem Solving:</strong> Zgjidhja e problemeve komplekse</li>
-            <li><strong>Emotional Intelligence:</strong> Inteligjenca emocionale</li>
-            <li><strong>Creative Thinking:</strong> Mendimi kreativ</li>
-            <li><strong>Cultural Fluency:</strong> Fluiditeti kulturor</li>
-            <li><strong>Systems Thinking:</strong> Mendimi sistemik</li>
-            <li><strong>Continuous Learning:</strong> Mësimi i vazhdueshëm</li>
+            <li><strong>3M Crystalline:</strong> Teknologji premium me clarity të lartë</li>
+            <li><strong>LLumar CTX:</strong> Ceramic tecnologie për performancë</li>
+            <li><strong>SunTek CXP:</strong> Carbon+ me qëndrueshmëri</li>
+            <li><strong>XPEL XR:</strong> Hybrid me rejeksi nxehtësirë</li>
+            <li><strong>Avery Dennison:</strong> professional-grade film</li>
+            <li><strong>Madico Wincos:</strong> Commercial window films</li>
         </ul>
 
-        <h3>Përgatitja për Ndryshimet</h3>
+        <h3>Menaxhimi i Kontroleve Policore</h3>
         <ul>
-            <li><strong>Trend Monitoring:</strong> Monitorimi i trendeve</li>
-            <li><strong>Scenario Planning:</strong> Planifikimi i skenarëve</li>
-            <li><strong>Innovation Labs:</strong> Laboratorët e inovacionit</li>
-            <li><strong>Strategic Partnerships:</strong> Partneritete strategjike</li>
-            <li><strong>Talent Development:</strong> Zhvillimi i talenteve</li>
-            <li><strong>Technology Adoption:</strong> Adoptimi i teknologjisë</li>
+            <li><strong>Dokumenti i Lejes:</strong> Mbajeni gjithmonë me ju</li>
+            <li><strong>Transparenca me Autoritet:</strong> Jini të hapur dhe respektues</li>
+            <li><strong>Shpjegimi i Arsyeve:</strong> Qartësoni nevojën për xhama të zi</li>
+            <li><strong>Bashkëpunimi:</strong> Lejoji policinë të kontrollojë</li>
+            <li><strong>Gjuha e Respektit:</strong> Communicate with officials</li>
+            <li><strong>Legal Backup:</strong> Kontakt avokateur nëse jojt nevojë</li>
         </ul>
 
-        <h3>Çështjet Etike të së Ardhmes</h3>
+        <h3>Kostot dhe Investicionale</h3>
         <ul>
-            <li><strong>AI Ethics:</strong> Etika e AI-së</li>
-            <li><strong>Data Privacy:</strong> Privatësia e të dhënave</li>
-            <li><strong>Genetic Engineering:</strong> Inxhinieringa gjenetike</li>
-            <li><strong>Surveillance Capitalism:</strong> Kapitalizmi i mbikëqyrjes</li>
-            <li><strong>Digital Divide:</strong> Përçarja digjitale</li>
-            <li><strong>Environmental Impact:</strong> Ndikimi mjedisore</li>
+            <li><strong>Installation Cost:</strong> 200-800€ varësisht nga tecnologia</li>
+            <li><strong>Permit Fees:</strong> 30-100€ për leje specialize</li>
+            <li><strong>Maintenance Cost:</strong> Ruajtje dhe pastrimi special</li>
+            <li><strong>Removal Cost:</strong> Nëse duhet hequr ose zëvendësuar</li>
+            <li><strong>Insurance Impact:</strong> Mundësi ulje premie për sigurina shtesë</li>
+            <li><strong>Resale Value:</strong> Mund të shtoj vleftë ne disa merkato</li>
         </ul>
 
-        <h3>Investimet e së Ardhmes</h3>
+        <h3>Alternative për Xhamat e Zi</h3>
         <ul>
-            <li><strong>Deep Tech Startups:</strong> Startup-et e teknologjisë së thellë</li>
-            <li><strong>Space Ventures:</strong> Ndërmarrjet kozmike</li>
-            <li><strong>Longevity Research:</strong> Kërkimi i jetëgjatësisë</li>
-            <li><strong>Climate Solutions:</strong> Zgjidhjet klimatike</li>
-            <li><strong>Education Technology:</strong> Teknologjia arsimore</li>
-            <li><strong>Healthcare Innovation:</strong> Inovacioni shëndetësor</li>
+            <li><strong>Cortina te Brendshme:</strong> Removable window screens</li>
+            <li><strong>Parasolar Premium:</strong> Retractable sunshades</li>
+            <li><strong>Electrocromic Glass:</strong> Smart windows që ndryshojnë transparency</li>
+            <li><strong>Polarized Windows:</strong> Light control përmes polarization</li>
+            <li><strong>Gradient Tints:</strong> Nga transparent në të errët</li>
+            <li><strong>Decoratíva Patterns:</strong> Islamic geometric në window film</li>
         </ul>
+
+        <h3>Planifikimi Strategjik për Implementim</h3>
+        <div class="highlight-box">
+            <h4>Faza 1: Hulumtimi dhe Planifikimi</h4>
+            <ol>
+                <li>Studimi i ligjeve dhe rregulloreve</li>
+                <li>Identifikimi i arsyeve të forta për aplikim</li>
+                <li>Krahasimi i teknologjive të ndryshme</li>
+                <li>Budget planning për instalim dhe lejen</li>
+            </ol>
+            
+            <h4>Faza 2: Aplikimi Zyrtar</h4>
+            <ol>
+                <li>Përgatitjen e dokumentacionit</li>
+                <li>Aplikimi formal te autoritetet</li>
+                <li>Ndjekja e procesit të aprovar</li>
+                <li>Marrja e certificates së lejes</li>
+            </ol>
+            
+            <h4>Faza 3: Implementimi Profesional</h4>
+            <ol>
+                <li>Zgjedhja e instaluesit professional</li>
+                <li>Programimi i instalacija</li>
+                <li>Quality check pas instalacije</li>
+                <li>Testing për transparentí dhe performance</li>
+            </ol>
+        </div>
         `
     },
 
     66: {
-        title: "Konkluzioni: Udhëtimi nga Teoria në Praktikë",
+        title: "Strategji të Nderuara: Këshilla të Tjera Relevante dhe Konkluzione",
         content: `
-        <h2>Kapitulli 66: Konkluzioni: Udhëtimi nga Teoria në Praktikë</h2>
+        <h2>Kapitulli 66: Strategji të Nderuara - Këshilla të Tjera Relevante dhe Konkluzione</h2>
         
         <div class="ai-prompt-box">
             <h4>🤖 Prompt për ChatGPT:</h4>
-            <p>"Create graduation scene: Successful Albanian businessman on top of mountain looking at beautiful vista, expensive car journey in background, Islamic architectural elements, family proud watching, golden sunset representing completion of journey, holding diploma or book, traditional and modern success symbols. Style: triumphant, accomplished, inspiring."</p>
+            <p>"Create comprehensive success scene: Confident Albanian businessman with BMW 530d, family support in background, community respect, Islamic calligraphy suggesting spiritual grounding, modern business success symbols, elegant tinted windows, sophisticated appearance with anti-reflective glasses. Style: complete, successful, respected, spiritually grounded."</p>
         </div>
 
-        <h3>Nga Teoria në Veprim: Transformimi Juaj Personal</h3>
+        <h3>Integrimi i Strategjive dhe Jetesa e Nderuar</h3>
         
-        <p>Nelson Mandela tha: "Education is the most powerful weapon which you can use to change the world." Ju keni udhëtuar përmes 66 kapitujve të teorisë së lojërave, strategjisë së biznesit dhe jetës së nderuar. Tani koha ka ardhur për implementim.</p>
-
-        <div class="islamic-quote">
-            "وَقُل رَّبِّ زِدْنِي عِلْمًا"
-            <br><br>
-            "Dhe thuaj: O Zoti im, shtomë dijen time!" - Kurani, 20:114
-        </div>
-
-        <div class="highlight-box">
-            <h4>Përmbledhja e Udhëtimit Tonë:</h4>
-            <ul>
-                <li><strong>66 Kapituj Strategjish:</strong> Nga teoria bazë te praktikat e avancuara</li>
-                <li><strong>300+ Faqe Dije:</strong> Koncepte të thella dhe praktike</li>
-                <li><strong>100+ Strategji të Verifikuara:</strong> Të testuara në jetën reale</li>
-                <li><strong>50+ Raste Studimi:</strong> Shembuj realë suksesi</li>
-                <li><strong>Integrim me Vlera Islame:</strong> Nderi dhe suksesi së bashku</li>
-                <li><strong>Fokus te Komuniteti Shqiptar:</strong> Adaptuar për kulturën tonë</li>
-            </ul>
-        </div>
-
-        <h3>Rikujtimi i Principeve Themelore</h3>
-        <ol>
-            <li><strong>Nderi mbi Fitimin:</strong> Gjithmonë ruani integritetin tuaj</li>
-            <li><strong>Vlerat Islame:</strong> Udhëzohen nga parimet e fesë</li>
-            <li><strong>Marrëdhëniet mbi Transaksionet:</strong> Investoni te njerëzit</li>
-            <li><strong>Mësimi i Vazhdueshëm:</strong> Mos ndaloni kurrë të mësoni</li>
-            <li><strong>Shërbimi ndaj Komunitetit:</strong> Jepni mbrapa atë që merrni</li>
-            <li><strong>Qëndrueshmëria:</strong> Mos heqni dorë nga ëndrrat tuaja</li>
-        </ol>
-
-        <h3>Plani Juaj i Veprimit për 90 Ditët e Para</h3>
-        <div class="highlight-box">
-            <h4>Ditët 1-30: Themelimi</h4>
-            <ul>
-                <li>Përcaktoni vizionin dhe misionin tuaj personal</li>
-                <li>Krijoni planin tuaj të biznesit për 5 vjet</li>
-                <li>Vendosni sistemin tuaj të të mësuarit të vazhdueshëm</li>
-                <li>Filloni të ndërtoni rrjetin tuaj profesional</li>
-                <li>Implementoni një sistem menaxhimi financiar</li>
-            </ul>
-        </div>
-
-        <div class="highlight-box">
-            <h4>Ditët 31-60: Zhvillimi</h4>
-            <ul>
-                <li>Lansoni produktin ose shërbimin tuaj të parë</li>
-                <li>Krijoni prezencën tuaj digjitale dhe branding</li>
-                <li>Ndërtoni marrëdhënie me partnerë strategjikë</li>
-                <li>Implementoni sistemet e marketingut dhe shitjeve</li>
-                <li>Filloni të mblini dhe analizoni të dhënat</li>
-            </ul>
-        </div>
-
-        <div class="highlight-box">
-            <h4>Ditët 61-90: Optimizimi</h4>
-            <ul>
-                <li>Analizoni performancën dhe bëni rregullime</li>
-                <li>Shkallëzoni operacionet e suksesshme</li>
-                <li>Diversifikoni burimet e të ardhurave</li>
-                <li>Investoni në zhvillimin e ekipit tuaj</li>
-                <li>Planifikoni ekspansionin për tremujorin tjetër</li>
-            </ul>
-        </div>
-
-        <h3>Resurset për Vazhdimin e Udhëtimit</h3>
-        <ul>
-            <li><strong>Libra të Rekomanduar:</strong> Lista e leximit për thellim</li>
-            <li><strong>Kurse Online:</strong> Platformat e mësimit të vazhdueshëm</li>
-            <li><strong>Mentorë dhe Coaches:</strong> Udhëzuesit që ju nevojiten</li>
-            <li><strong>Komunitete dhe Networking:</strong> Grupet për t'u bashkuar</li>
-            <li><strong>Konferenca dhe Evente:</strong> Mundësitë për të mësuar</li>
-            <li><strong>Platformat Digjitale:</strong> Mjetet për sukses</li>
-        </ul>
-
-        <h3>Mesazhi Final: Trashëgimia Juaj</h3>
-        <p>Kur Hazreti Ali (r.a.) tha: "Edukohu veten sikur do të jetosh përgjithmonë, por vepro sikur do të vdesësh nesër," ai na mësoi ekuilibrin midis planifikimit afatgjatë dhe veprimit të menjëhershëm.</p>
+        <p>Hazreti Ali (r.a.) tha: "Vlera e njeriut është në atë që di të bëjë mirë." Kapitujt e fundit na kanë mësuar strategji specifike për menaxhimin e vëmendjes sociale kur jemi në pozitë të dukshme. Ky kapitull përmbyll me këshilla shtesë dhe integron të gjitha strategjitë në një filozofi jete të nderuar.</p>
 
         <div class="islamic-quote">
             "وَمَن يَتَّقِ اللَّهَ يَجْعَل لَّهُ مِنْ أَمْرِهِ يُسْرًا"
             <br><br>
-            "Dhe ai që i frikësohet Allahut, Ai do t'ia lehtësojë punën e tij." - Kurani, 65:4
+            "Dhe kush i frikësohet Allahut, Ai do t'ia lehtësojë punën." - Kurani, 65:4
         </div>
-
-        <h3>Thirrja Juaj për Veprim</h3>
-        <p><strong>Sot është dita juaj e parë si një strateg i vërtetë biznesi.</strong> Ju keni dijën, keni strategjitë, dhe më e rëndësishmja, keni vlerat që do t'ju udhëzojnë në rrugën drejt suksesit të nderuar.</p>
-
-        <p>Mos u kënaqni me të qenët thjesht një lexues - bëhuni një zbatues. Mos u kënaqni me të ditur - filloni të veproni. Bota po pret kontributin tuaj të veçantë.</p>
 
         <div class="highlight-box">
-            <h4>Urimi Final:</h4>
-            <p><em>"Allahu ju bekoftë në të gjitha përpjekjet tuaja. Allahu ju shtoftë pasurinë me bereqet. Allahu ju dhëntë sukses që i sjell dobi të gjithë komunitetit. Dhe Allahu ju ruajë në rrugën e së drejtës dhe nderit."</em></p>
-            
-            <p><strong>Amin ya Rabbil Alameen!</strong></p>
-            
-            <p style="text-align: center; margin-top: 30px; font-size: 1.2em; color: #2E8B57;">
-                <strong>🎓 Udhëtimi përfundon këtu, por historia juaj e suksesit sapo fillon! 🚀</strong>
-            </p>
+            <h4>Përmbledhje e Strategjive të Mësuara:</h4>
+            <ul>
+                <li><strong>Kapitulli 61:</strong> Fuqia e shikimit dhe vetëbesimi</li>
+                <li><strong>Kapitulli 62:</strong> Lufta e shikimeve dhe koncentrimi</li>
+                <li><strong>Kapitulli 63:</strong> Syzet anti-refleks dhe mbrojtja vizuale</li>
+                <li><strong>Kapitulli 64:</strong> Ndërrimi i logos dhe strategjia e kamuflimit</li>
+                <li><strong>Kapitulli 65:</strong> Xhamat e zi dhe lejet zyrtare</li>
+                <li><strong>Kapitulli 66:</strong> Integrimi dhe jetesa e nderuar</li>
+            </ul>
         </div>
 
-        <div style="text-align: center; margin-top: 40px; padding: 20px; border: 2px solid #2E8B57; border-radius: 15px;">
-            <h4>Të Përfunduarit e Studimit</h4>
-            <p>🏆 <strong>Përgëzime!</strong> Ju keni përfunduar me sukses studimin e "Teorisë së Lojërave: Nderi dhe Suksesi"</p>
-            <p>📚 66 Kapituj × 300+ Faqe = Një Jetë më e Përgatitur për Sukses</p>
-            <p>🤝 Tani është koha të ndani këtë dije me të tjerët dhe të ndihmonį komunitetin tonë të rritet së bashku</p>
+        <h3>Këshilla të Tjera të Rëndësishme</h3>
+        <ol>
+            <li><strong>Mos u Krahaso me të Tjerët:</strong> Secili ka rrugën e vet drejt suksesit</li>
+            <li><strong>Praktiko Vetëbesimin:</strong> 15 minuta para pasqyrës çdo mëngjes</li>
+            <li><strong>Kujdesu për Shëndetin Mendor:</strong> Meditimi dhe lutjet e rregullta</li>
+            <li><strong>Rretho Veten me Pozitivitet:</strong> Shoqërohu me njerëz që të mbështesin</li>
+            <li><strong>Kër Ndihmë Profesionale:</strong> Nëse ndihesh i mbingarkuar, fol me dikë</li>
+            <li><strong>Mbaj Balancë:</strong> Jeta private, familjare dhe profesionale</li>
+        </ol>
+
+        <h3>Strategjitë e Komunikimit dhe Marrëdhënieve</h3>
+        <ul>
+            <li><strong>Përgjigjja me Elegancë:</strong> "Faleminderit për vëmendjen"</li>
+            <li><strong>Redirigimi i Bisedës:</strong> Nga vetura tek biznesi ose familja</li>
+            <li><strong>Edukimi i Komunitetit:</strong> Shpjego se suksesi vjen nga puna e fortë</li>
+            <li><strong>Modestia e Kontrolluar:</strong> Pranofka pa mburrje</li>
+            <li><strong>Shëndrrimi në Motivim:</strong> "Nëse unë munda, ju mundeni edhe ju"</li>
+            <li><strong>Promovimi i Vlerave:</strong> Thekso rëndësinë e edukim dhe punës</li>
+        </ul>
+
+        <h3>Menaxhimi i Presionit Familjar dhe Social</h3>
+        <ul>
+            <li><strong>Transparenca me Familjen:</strong> Shpjego strategjitë dhe arsyet</li>
+            <li><strong>Edukimi i Fëmijëve:</strong> Mëso ata për vlerat e vërteta të suksesit</li>
+            <li><strong>Mbështetja e Bashkëshortit:</strong> Partner i plotë në vendime</li>
+            <li><strong>Komunikimi me Prindërit:</strong> Respekto eksperiencën e tyre</li>
+            <li><strong>Marrëdhëniet me Komshijtë:</strong> Ruaj respektin dhe dashamirinë</li>
+            <li><strong>Involvement në Komunitet:</strong> Jep mbrapa atë që ke marrë</li>
+        </ul>
+
+        <h3>Teknologjitë e Reja për Privatësi dhe Siguri</h3>
+        <ul>
+            <li><strong>GPS Tracker Detection:</strong> Apps për zbulimi e pajisjeve spiunuese</li>
+            <li><strong>Privacy Screen Protectors:</strong> Për telefon dhe laptop</li>
+            <li><strong>Signal Blocking Cases:</strong> Anti-surveillance për telefon</li>
+            <li><strong>Dashcam Security:</strong> Kamera sigurie për veturë</li>
+            <li><strong>Home Security Systems:</strong> Sisteme shtëpie inteligjente</li>
+            <li><strong>Encrypted Communication:</strong> Signal, WhatsApp, Telegram</li>
+        </ul>
+
+        <h3>Planifikimi Financiar dhe Investimet</h3>
+        <ul>
+            <li><strong>Diversifikimi i Portofolit:</strong> Mos vëru të gjitha vezët në një shportë</li>
+            <li><strong>Emergency Fund:</strong> 6-12 muaj shpenzime të rregullta</li>
+            <li><strong>Investment in Education:</strong> Kurse, trajnime, certifikime</li>
+            <li><strong>Property Investment:</strong> Patundshmëria si bazë e pasurisë</li>
+            <li><strong>Business Expansion:</strong> Rrit bizneset ekzistuese para se të fillosh të reja</li>
+            <li><strong>Retirement Planning:</strong> Planifiko për të ardhmen</li>
+        </ul>
+
+        <h3>Shëndeti Fizik dhe Mendor</h3>
+        <ul>
+            <li><strong>Ushtrime të Rregullta:</strong> 30 minuta në ditë minimumi</li>
+            <li><strong>Ushqimi i Shëndetshëm:</strong> Dieta e ekuilibruar dhe halal</li>
+            <li><strong>Gjumi i Cilësisë:</strong> 7-8 orë çdo natë</li>
+            <li><strong>Check-up Mjekësor:</strong> Kontrolle të rregullta shëndetësore</li>
+            <li><strong>Stress Management:</strong> Teknika relaximi dhe meditimi</li>
+            <li><strong>Hobi dhe Relaksim:</strong> Aktivitete që të bëjnë të lumtur</li>
+        </ul>
+
+        <h3>Integrimi i Vlerave Islame në Jetë</h3>
+        <ul>
+            <li><strong>Namazi i Rregullt:</strong> 5 namazet si bazë e ditës</li>
+            <li><strong>Zeqati dhe Sadaqaja:</strong> Ndihmo ata në nevojë</li>
+            <li><strong>Leximi i Kuranit:</strong> Udhëzim spiritual i përditshëm</li>
+            <li><strong>Dhikri dhe Duaja:</strong> Lidhja e vazhdueshme me Allahun</li>
+            <li><strong>Morali në Biznes:</strong> Çdo marrëveshje të jetë e ndershme</li>
+            <li><strong>Shërbimi i Komunitetit:</strong> Kontribut për shoqërinë</li>
+        </ul>
+
+        <h3>Plani i Integrimit për 90 Ditët e Ardhshme</h3>
+        <div class="highlight-box">
+            <h4>Java 1-4: Vendosja e Bazave</h4>
+            <ul>
+                <li>Implemento rutinën e përditshme të vetëbesimit</li>
+                <li>Apliko për leje xhamash nëse e dëshiron</li>
+                <li>Porosis syzet e duhura për stilin tënd</li>
+                <li>Vendos sistemi komunikimi me familjen</li>
+            </ul>
+            
+            <h4>Java 5-8: Testimi dhe Përshtatja</h4>
+            <ul>
+                <li>Testo strategjitë në situata të vërteta</li>
+                <li>Rishiko dhe përshtat qasjen sipas rezultateve</li>
+                <li>Merr feedback nga familja dhe miqtë</li>
+                <li>Dokumento çka punon dhe çka jo</li>
+            </ul>
+            
+            <h4>Java 9-12: Optimizimi dhe Integrimi</h4>
+            <ul>
+                <li>Optimizo strategjitë më të suksesshme</li>
+                <li>Integro të gjitha elementet në një qasje të përbashkët</li>
+                <li>Mëso të tjerët nga eksperienca jote</li>
+                <li>Planifiko për zhvillim të mëtejshëm</li>
+            </ul>
+        </div>
+
+        <h3>Mesazhi Final: Jeta e Nderuar dhe e Suksesshme</h3>
+        <p>Mbani mend: Suksesi i vërtetë nuk matet vetëm nga ajo që keni, por nga ajo që jepni. Një BMW 530d ose çdo simbol tjetër i suksesit duhet të jetë mjet për të bërë mirë, jo për të krijuar distancë me të tjerët.</p>
+
+        <div class="islamic-quote">
+            "إِنَّ اللَّهَ لَا يُغَيِّرُ مَا بِقَوْمٍ حَتَّىٰ يُغَيِّرُوا مَا بِأَنفُسِهِمْ"
+            <br><br>
+            "Allahu nuk e ndryshon gjendjen e një populli derisa ata të ndryshojnë atë që është në vetvete." - Kurani, 13:11
+        </div>
+
+        <h3>Konkluzioni: Rruga Drejt Ekuilibrit</h3>
+        <p>Këto strategji nuk janë për të fshehur suksesi tuaj, por për ta menaxhuar atë me urtësi. Qëllimi është që të jetoni jetën tuaj me dinjitet, të ruani marrëdhëniet e shëndosha me komunitetin, dhe të jeni shembull pozitiv për të tjerët.</p>
+
+        <div class="highlight-box">
+            <h4>Formula e Suksesit të Nderuar:</h4>
+            <p><strong>Vetëbesimi + Modestia + Strategjia + Vlerat Islame = Jetë e Suksesshme dhe e Nderuar</strong></p>
+            
+            <p>🚗 <em>Vetura juaj është mjet, jo qëllim.</em></p>
+            <p>👥 <em>Njerëzit janë më të rëndësishëm se perceptimet.</em></p>
+            <p>🤲 <em>Allahu është burimi i të gjitha bekimeve.</em></p>
+            <p>❤️ <em>Familja dhe komuniteti janë pasuria e vërtetë.</em></p>
+            
+            <p style="text-align: center; margin-top: 30px; font-size: 1.3em; color: #2E8B57;">
+                <strong>بارك الله فيكم ووفقكم الله في جميع أموركم</strong><br>
+                <em>Allahu ju bekoftë dhe ju dhëntë sukses në të gjitha punët tuaja!</em>
+            </p>
         </div>
         `
     }
