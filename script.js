@@ -327,19 +327,7 @@ const chapters = {
         
         <p>Vlerat islame na mësojnë rëndësinë e nënçmimit të shikimit dhe fokusimit në atë që vërtet ka rëndësi në jetë. Kjo ka një vlerë të madhe strategjike në ndërtimin e marrëdhënieve të qëndrueshme.</p>
 
-        <div class="islamic-quote">
-            "وَلَا تَمُدَّنَّ عَيْنَيْكَ إِلَىٰ مَا مَتَّعْنَا بِهِ أَزْوَاجًا مِّنْهُمْ زَهْرَةَ الْحَيَاةِ الدُّنْيَا لِنَفْتِنَهُمْ فِيهِ"
-            <br><br>
-            "Dhe mos i ngjit sytë tek ajo që Ne ua kemi dhënë disa prej tyre si stoli të jetës së kësaj bote, që t'i sprovojmë me të." - Kurani, 20:131
-        </div>
-
-        <div class="islamic-quote">
-            "قُل لِّلْمُؤْمِنِينَ يَغُضُّوا مِنْ أَبْصَارِهِمْ وَيَحْفَظُوا فُرُوجَهُمْ ۚ ذَٰلِكَ أَزْكَىٰ لَهُمْ"
-            <br><br>
-            "Thuaju besimtarëve t'i ulin sytë dhe t'i ruajnë nderin e tyre. Kjo është më e pastër për ta." - Kurani, 24:30
-        </div>
-
-        <p>Këto ajete na mësojnë se fokusimi në atë që kemi dhe ruajtja e nderit personal janë elementë kyç për suksesin e qëndrueshëm. Kur nuk jemi të shpërqendruar nga materialet e të tjerëve, mund të përqendrohemi në ndërtimin e pasurisë dhe marrëdhënieve tona.</p>
+        <p>Fokusimi në atë që kemi dhe ruajtja e nderit personal janë elementë kyç për suksesin e qëndrueshëm. Kur nuk jemi të shpërqendruar nga materialet e të tjerëve, mund të përqendrohemi në ndërtimin e pasurisë dhe marrëdhënieve tona.</p>
         `
     },
 
@@ -3688,11 +3676,7 @@ const chapters = {
         
         <p>Marcus Aurelius tha: "You have power over your mind - not outside events. Realize this, and you will find strength." Kur jeni në qendër të vëmendjes për shkak të statusit tuaj, është kritike të ruani fokusin te objektivat tuaja të vërteta dhe të mos lejoni që "lufta e shikimeve" t'ju shpërqendrojë nga detyrat e rëndësishme.</p>
 
-        <div class="islamic-quote">
-            "وَلَا تَمُدَّنَّ عَيْنَيْكَ إِلَىٰ مَا مَتَّعْنَا بِهِ أَزْوَاجًا مِّنْهُمْ زَهْرَةَ الْحَيَاةِ الدُّنْيَا لِنَفْتِنَهُمْ فِيهِ"
-            <br><br>
-            "Dhe mos i ngjit sytë tek ajo që Ne ua kemi dhënë disa prej tyre si stoli të jetës së kësaj bote, që t'i sprovojmë me të." - Kurani, 20:131
-        </div>
+        <p>Rëndësia e të ruajturit të fokusit është thelbësore për suksesin. Kur jemi të përqendruar tek objektivat tanë, dhe jo tek vështrimet e të tjerëve, arrijmë rezultate më të mira.</p>
 
         <div class="highlight-box">
             <h4>Skenarët Tipikë të Shpërqendrimit:</h4>
@@ -3797,11 +3781,7 @@ const chapters = {
         
         <p>Coco Chanel tha: "Elegance is refusal." Syzet nuk janë thjesht mbeturinë e modës, por mjet strategjik për të kontrolluar mënyrën se si të tjerët ju perceptojnë dhe ndërveprojnë me ju. Ky kapitull eksploron si të përdorni syzet si mburoja psikologjike dhe mjet dominimi.</p>
 
-        <div class="islamic-quote">
-            "قُل لِّلْمُؤْمِنِينَ يَغُضُّوا مِنْ أَبْصَارِهِمْ وَيَحْفَظُوا فُرُوجَهُمْ ۚ ذَٰلِكَ أَزْكَىٰ لَهُمْ"
-            <br><br>
-            "Thuaju besimtarëve t'i ulin sytë dhe t'i ruajnë nderin e tyre. Kjo është më e pastër për ta." - Kurani, 24:30
-        </div>
+        <p>Mbrojtja e shikimit është një element i rëndësishëm i vetëbesimit dhe ruajtjes së nderit personal. Syzet ofrojnë një mënyrë elegante për të ruajtur privatësinë dhe për të kontrolluar ndërveprimet sociale.</p>
 
         <div class="highlight-box">
             <h4>Llojet e Syzeve dhe Efektet e Tyre:</h4>
