@@ -1,5 +1,11 @@
 // 🔧 ULTIMATE IMAGE FIX - Zgjidhje finale për të gjitha problemet e imazheve
-console.log('🖼️ Ultimate Image Fix: Loading comprehensive solution...');
+console.log('🖼️ Ultimate Image Fix: Temporarily disabled to prevent conflicts');
+
+// Temporarily disable this script to prevent conflicts with image-display-fix.js
+if (true) {
+    console.log('⚠️ Ultimate Image Fix disabled - using image-display-fix.js instead');
+    return;
+}
 
 (function() {
     'use strict';

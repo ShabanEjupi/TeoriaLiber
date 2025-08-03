@@ -70,9 +70,26 @@ console.log('🖼️ Loading Image Display Fix...');
         `;
     }
 
+    // Add flags to prevent infinite loops
+    let isRestoring = false;
+    let hasRestoredOnce = false;
+    
     // Function to restore proper images in chapters that have generic text
     function restoreProperImages() {
-        console.log('🔧 Starting image restoration process...');
+        // Prevent multiple simultaneous executions
+        if (isRestoring) {
+            console.log('� Image restoration already in progress, skipping...');
+            return 0;
+        }
+        
+        // Only run restoration once per page load unless forced
+        if (hasRestoredOnce && !arguments[0]) {
+            console.log('📋 Image restoration already completed once, skipping...');
+            return 0;
+        }
+        
+        isRestoring = true;
+        console.log('�🔧 Starting image restoration process...');
         
         // Fix chapters that have generic content instead of proper images
         if (typeof chapters === 'object' && chapters) {
@@ -128,20 +145,26 @@ console.log('🖼️ Loading Image Display Fix...');
             }
             
             console.log(`🎯 Image restoration complete: ${fixedCount} chapters fixed`);
+            hasRestoredOnce = true;
             
-            // Refresh the current chapter display if needed
+            // Only refresh if we actually fixed something and haven't refreshed yet
             if (fixedCount > 0 && typeof currentChapter !== 'undefined' && currentChapter <= 20) {
                 console.log(`🔄 Refreshing display for current chapter ${currentChapter}`);
+                // Set a flag to prevent recursive refreshing
                 setTimeout(() => {
-                    if (typeof showChapter === 'function') {
+                    if (typeof showChapter === 'function' && !window.isRefreshingChapter) {
+                        window.isRefreshingChapter = true;
                         showChapter(currentChapter);
+                        setTimeout(() => { window.isRefreshingChapter = false; }, 1000);
                     }
                 }, 100);
             }
             
+            isRestoring = false;
             return fixedCount;
         }
         
+        isRestoring = false;
         return 0;
     }
 
@@ -409,6 +432,11 @@ console.log('🖼️ Loading Image Display Fix...');
 
     // Also run fix when new content is loaded (for dynamic content)
     const observer = new MutationObserver(function(mutations) {
+        // Don't trigger if we're already restoring or refreshing
+        if (isRestoring || window.isRefreshingChapter) {
+            return;
+        }
+        
         let shouldRunFix = false;
         
         mutations.forEach(function(mutation) {
@@ -425,9 +453,9 @@ console.log('🖼️ Loading Image Display Fix...');
             }
         });
         
-        if (shouldRunFix) {
-            console.log('🔄 New content detected, re-applying image fixes...');
-            setTimeout(initFix, 100); // Small delay to ensure content is fully loaded
+        if (shouldRunFix && !hasRestoredOnce) {
+            console.log('🔄 New content detected, applying image fixes...');
+            setTimeout(initFix, 200); // Slightly longer delay to ensure content is fully loaded
         }
     });
 
@@ -442,13 +470,21 @@ console.log('🖼️ Loading Image Display Fix...');
 
     // Export functions for manual use
     window.restoreProperImages = restoreProperImages;
+    window.forceImageRestore = function() {
+        hasRestoredOnce = false;
+        return restoreProperImages(true);
+    };
     window.checkImageLoadingStatus = checkImageLoadingStatus;
     window.ImageDisplayFix = {
         removeDuplicateGalleries,
         fixImagePaths,
         fixChapterContentRendering,
         applyImageStyles,
-        reinitialize: initFix
+        reinitialize: initFix,
+        forceRestore: function() {
+            hasRestoredOnce = false;
+            return restoreProperImages(true);
+        }
     };
 
     console.log('✅ Image Display Fix loaded successfully');
