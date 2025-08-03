@@ -2,6 +2,11 @@
 let currentChapter = 1;
 const totalChapters = 111; // 111 kapituj × 6-8 faqe secili = 666-888 faqe total
 
+// Load enhanced image integration system
+const script = document.createElement('script');
+script.src = 'enhanced-image-integration.js';
+document.head.appendChild(script);
+
 // Enhanced content with substantial chapters using diverse methodologies
 
 // --- Kapitulli: Fuqia e Shikimit dhe Vetëbesimi ---
@@ -50,9 +55,13 @@ const chapters = {
         content: `
         <h2>Kapitulli 1: Hyrje në Teorinë e Lojërave dhe Nderin</h2>
         
-        <div class="ai-prompt-box">
-            <h4>🤖 Prompt për ChatGPT - Kapak i Librit:</h4>
-            <p>"Create an elegant book cover for 'Teoria e Lojërave: Nderi dhe Suksesi'. Feature chess pieces on a marble board with golden Islamic geometric patterns. Include luxury cars (Mercedes, BMW) in the background and traditional Albanian elements. Style: sophisticated, wealthy, honorable. Colors: gold, deep green, white."</p>
+        <div class="chapter-image-gallery">
+            <div class="single-chapter-image">
+                <img src="imazhet/Create an elegant book cover for 'Teoria e Lojërave Nderi dhe Suksesi'. Feature chess pieces on a marble board with golden Islamic geometric patterns. Include luxury cars (Mercedes, BMW) in the background and traditional A.png" 
+                     alt="Ilustrim për kapitullin 1" 
+                     style="width: 100%; max-width: 600px; border-radius: 15px; box-shadow: 0 8px 25px rgba(0,0,0,0.15); margin: 20px auto; display: block;"
+                     onerror="this.style.display='none'">
+            </div>
         </div>
 
         <h3>Mirësevini në Botën e Strategjisë së Nderuar</h3>
@@ -139,9 +148,13 @@ const chapters = {
         content: `
         <h2>Kapitulli 2: Nderi si Strategji Fitimprurëse në Biznes</h2>
         
-        <div class="ai-prompt-box">
-            <h4>🤖 Prompt për ChatGPT:</h4>
-            <p>"Create business honor visualization: Albanian entrepreneur shaking hands in front of growing business charts, luxury office with Islamic calligraphy, trust and integrity symbols, golden success aura. Style: professional, trustworthy, prosperous."</p>
+        <div class="chapter-image-gallery">
+            <div class="single-chapter-image">
+                <img src="imazhet/Create 21st century strategy scene Albanian business leader in modern boardroom with digital strategy displays, global connectivity maps, sustainable business icons, Islamic geometric patterns integrated with modern design.jpg" 
+                     alt="Ilustrim për kapitullin 2" 
+                     style="width: 100%; max-width: 600px; border-radius: 15px; box-shadow: 0 8px 25px rgba(0,0,0,0.15); margin: 20px auto; display: block;"
+                     onerror="this.style.display='none'">
+            </div>
         </div>
 
         <h3>Reputacioni: Aseti më i Vyer</h3>
@@ -234,9 +247,13 @@ const chapters = {
         content: `
         <h2>Kapitulli 3: Ekuilibri Nash dhe Marrëdhëniet Strategjike</h2>
         
-        <div class="ai-prompt-box">
-            <h4>🤖 Prompt për ChatGPT:</h4>
-            <p>"Create strategic equilibrium visualization: chess-like board showing business relationships, Albanian business leaders in strategic positions, mathematical equations in background, golden balance symbols. Style: intelligent, strategic, balanced."</p>
+        <div class="chapter-image-gallery">
+            <div class="single-chapter-image">
+                <img src="imazhet/Create smart investment scene Albanian investor analyzing charts on multiple screens, luxury cars and real estate in background, Islamic finance symbols, golden growth arrows. Style analytical, prosperous, halal-focused..png" 
+                     alt="Ilustrim për kapitullin 3" 
+                     style="width: 100%; max-width: 600px; border-radius: 15px; box-shadow: 0 8px 25px rgba(0,0,0,0.15); margin: 20px auto; display: block;"
+                     onerror="this.style.display='none'">
+            </div>
         </div>
 
         <h3>Teoria Nash në Biznes</h3>
@@ -266,9 +283,13 @@ const chapters = {
         content: `
         <h2>Kapitulli 4: Strategjitë e Investimit të Mençur</h2>
         
-        <div class="ai-prompt-box">
-            <h4>🤖 Prompt për ChatGPT:</h4>
-            <p>"Create smart investment scene: Albanian investor analyzing charts on multiple screens, luxury cars and real estate in background, Islamic finance symbols, golden growth arrows. Style: analytical, prosperous, halal-focused."</p>
+        <div class="chapter-image-gallery">
+            <div class="single-chapter-image">
+                <img src="imazhet/Create beautiful Albanian wedding scene with modern luxury elements, traditional and Islamic ceremony elements, successful couple with bright future symbols, golden love and prosperity symbols. Style elegant, traditional,.png" 
+                     alt="Ilustrim për kapitullin 4" 
+                     style="width: 100%; max-width: 600px; border-radius: 15px; box-shadow: 0 8px 25px rgba(0,0,0,0.15); margin: 20px auto; display: block;"
+                     onerror="this.style.display='none'">
+            </div>
         </div>
 
         <h3>Investimi Halal: Pasurinë me Bekim</h3>
@@ -298,9 +319,13 @@ const chapters = {
         content: `
         <h2>Kapitulli 5: Marrëdhëniet dhe Networking Strategjik</h2>
         
-        <div class="ai-prompt-box">
-            <h4>🤖 Prompt për ChatGPT:</h4>
-            <p>"Create networking event scene: Albanian professionals connecting at luxury venue, handshakes and business cards exchange, cultural diversity, Islamic and Albanian symbols, golden connection networks. Style: social, professional, culturally rich."</p>
+        <div class="chapter-image-gallery">
+            <div class="single-chapter-image">
+                <img src="imazhet/Create harmonious family-career scene Albanian family in luxury home, parent working on laptop while children play nearby, business success symbols integrated with family warmth, Islamic family values, golden threads conne.jpg" 
+                     alt="Ilustrim për kapitullin 5" 
+                     style="width: 100%; max-width: 600px; border-radius: 15px; box-shadow: 0 8px 25px rgba(0,0,0,0.15); margin: 20px auto; display: block;"
+                     onerror="this.style.display='none'">
+            </div>
         </div>
 
         <h3>Rrjeti Juaj është Vlera Juaj Neto</h3>
@@ -336,9 +361,13 @@ const chapters = {
         content: `
         <h2>Kapitulli 6: Martesa si Investim Strategjik në Jetë</h2>
         
-        <div class="ai-prompt-box">
-            <h4>🤖 Prompt për ChatGPT:</h4>
-            <p>"Create beautiful Albanian wedding scene with modern luxury elements, traditional and Islamic ceremony elements, successful couple with bright future symbols, golden love and prosperity symbols. Style: elegant, traditional, prosperous."</p>
+        <div class="chapter-image-gallery">
+            <div class="single-chapter-image">
+                <img src="imazhet/Create business honor visualization Albanian entrepreneur shaking hands in front of growing business charts, luxury office with Islamic calligraphy, trust and integrity symbols, golden success aura. Style professional, tru.png" 
+                     alt="Ilustrim për kapitullin 6" 
+                     style="width: 100%; max-width: 600px; border-radius: 15px; box-shadow: 0 8px 25px rgba(0,0,0,0.15); margin: 20px auto; display: block;"
+                     onerror="this.style.display='none'">
+            </div>
         </div>
 
         <h3>Martesa: Partneriteti më i Rëndësishëm</h3>

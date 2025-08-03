@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="sq">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test - Image Fix Verification</title>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            padding: 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+            background: #f8fafc;
+        }
+        .test-section {
+            background: white;
+            padding: 2rem;
+            margin: 2rem 0;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+        .test-image {
+            text-align: center;
+            margin: 2rem 0;
+        }
+        .test-image img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 15px;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+        }
+        .status {
+            padding: 1rem;
+            border-radius: 8px;
+            margin: 1rem 0;
+            font-weight: bold;
+        }
+        .success { background: #dcfce7; color: #15803d; }
+        .error { background: #fef2f2; color: #dc2626; }
+        .info { background: #dbeafe; color: #1d4ed8; }
+    </style>
+</head>
+<body>
+    <h1>🔧 Test të Verifikimit të Imazheve</h1>
+    
+    <div class="test-section">
+        <h2>📸 Test 1: Kapaku i Librit</h2>
+        <div class="test-image">
+            <img src="imazhet/Create an elegant book cover for 'Teoria e Lojërave Nderi dhe Suksesi'. Feature chess pieces on a marble board with golden Islamic geometric patterns. Include luxury cars (Mercedes, BMW) in the background and traditional A.png" 
+                 alt="Book Cover Test"
+                 onload="showStatus('cover-status', 'success', 'Kapaku u ngarkua me sukses!')"
+                 onerror="showStatus('cover-status', 'error', 'Kapaku nuk mund të ngarkohet.')">
+        </div>
+        <div id="cover-status" class="status info">Duke testuar...</div>
+    </div>
+
+    <div class="test-section">
+        <h2>💼 Test 2: Skena Biznesi</h2>
+        <div class="test-image">
+            <img src="imazhet/Create 21st century strategy scene Albanian business leader in modern boardroom with digital strategy displays, global connectivity maps, sustainable business icons, Islamic geometric patterns integrated with modern design.jpg" 
+                 alt="Business Scene Test"
+                 onload="showStatus('business-status', 'success', 'Skena e biznesit u ngarkua me sukses!')"
+                 onerror="showStatus('business-status', 'error', 'Skena e biznesit nuk mund të ngarkohet.')">
+        </div>
+        <div id="business-status" class="status info">Duke testuar...</div>
+    </div>
+
+    <div class="test-section">
+        <h2>💰 Test 3: Investimet</h2>
+        <div class="test-image">
+            <img src="imazhet/Create smart investment scene Albanian investor analyzing charts on multiple screens, luxury cars and real estate in background, Islamic finance symbols, golden growth arrows. Style analytical, prosperous, halal-focused..png" 
+                 alt="Investment Scene Test"
+                 onload="showStatus('investment-status', 'success', 'Skena e investimeve u ngarkua me sukses!')"
+                 onerror="showStatus('investment-status', 'error', 'Skena e investimeve nuk mund të ngarkohet.')">
+        </div>
+        <div id="investment-status" class="status info">Duke testuar...</div>
+    </div>
+
+    <div class="test-section">
+        <h2>💒 Test 4: Martesa</h2>
+        <div class="test-image">
+            <img src="imazhet/Create beautiful Albanian wedding scene with modern luxury elements, traditional and Islamic ceremony elements, successful couple with bright future symbols, golden love and prosperity symbols. Style elegant, traditional,.png" 
+                 alt="Wedding Scene Test"
+                 onload="showStatus('wedding-status', 'success', 'Skena e martesës u ngarkua me sukses!')"
+                 onerror="showStatus('wedding-status', 'error', 'Skena e martesës nuk mund të ngarkohet.')">
+        </div>
+        <div id="wedding-status" class="status info">Duke testuar...</div>
+    </div>
+
+    <div class="test-section">
+        <h2>🧠 Test 5: Mendësia</h2>
+        <div class="test-image">
+            <img src="imazhet/Create powerful mindset visualization Albanian professional in meditation pose, surrounded by symbols of success (Mercedes, beautiful home, happy family), golden light emanating from their mind, Islamic geometric patterns.png" 
+                 alt="Mindset Test"
+                 onload="showStatus('mindset-status', 'success', 'Skena e mendësisë u ngarkua me sukses!')"
+                 onerror="showStatus('mindset-status', 'error', 'Skena e mendësisë nuk mund të ngarkohet.')">
+        </div>
+        <div id="mindset-status" class="status info">Duke testuar...</div>
+    </div>
+
+    <div class="test-section">
+        <h2>📊 Rezultatet e Testit</h2>
+        <div id="summary" style="padding: 1rem; background: #f0f9ff; border-radius: 8px;">
+            <h3>Përmbledhje:</h3>
+            <div id="results-summary"></div>
+        </div>
+        
+        <div style="margin-top: 2rem;">
+            <button onclick="runFullTest()" style="background: #2E8B57; color: white; padding: 12px 24px; border: none; border-radius: 8px; cursor: pointer; font-size: 1rem;">
+                🔄 Rikryej Testet
+            </button>
+            <button onclick="window.open('index.html', '_blank')" style="background: #1d4ed8; color: white; padding: 12px 24px; border: none; border-radius: 8px; cursor: pointer; font-size: 1rem; margin-left: 1rem;">
+                📖 Shiko Librin Kryesor
+            </button>
+        </div>
+    </div>
+
+    <script>
+        let testResults = {
+            total: 5,
+            passed: 0,
+            failed: 0
+        };
+
+        function showStatus(elementId, type, message) {
+            const element = document.getElementById(elementId);
+            element.className = `status ${type}`;
+            element.textContent = message;
+            
+            if (type === 'success') {
+                testResults.passed++;
+            } else if (type === 'error') {
+                testResults.failed++;
+            }
+            
+            updateSummary();
+        }
+
+        function updateSummary() {
+            const completed = testResults.passed + testResults.failed;
+            const summaryElement = document.getElementById('results-summary');
+            
+            if (completed === testResults.total) {
+                const percentage = Math.round((testResults.passed / testResults.total) * 100);
+                let statusColor = percentage >= 80 ? '#15803d' : percentage >= 60 ? '#f59e0b' : '#dc2626';
+                
+                summaryElement.innerHTML = `
+                    <div style="color: ${statusColor}; font-weight: bold; font-size: 1.2rem;">
+                        ${testResults.passed}/${testResults.total} teste kaluan (${percentage}%)
+                    </div>
+                    <div style="margin-top: 0.5rem;">
+                        ✅ Te suksesshme: ${testResults.passed}<br>
+                        ❌ Te deshtuar: ${testResults.failed}
+                    </div>
+                    ${testResults.failed > 0 ? `
+                        <div style="margin-top: 1rem; padding: 1rem; background: #fef2f2; border-radius: 8px; color: #dc2626;">
+                            <strong>Zgjidhje për imazhet që nuk ngarkohen:</strong><br>
+                            • Kontrolloni që dosja "imazhet/" të jetë në të njëjtin nivel me index.html<br>
+                            • Verifikoni që skedarët e imazheve të ekzistojnë<br>
+                            • Mund të jetë problem i kaches së browser-it - provoni Ctrl+F5
+                        </div>
+                    ` : ''}
+                `;
+            } else {
+                summaryElement.innerHTML = `
+                    <div style="color: #1d4ed8;">
+                        Duke testuar... (${completed}/${testResults.total} të kompletuar)
+                    </div>
+                `;
+            }
+        }
+
+        function runFullTest() {
+            testResults = { total: 5, passed: 0, failed: 0 };
+            
+            // Reset all status indicators
+            ['cover-status', 'business-status', 'investment-status', 'wedding-status', 'mindset-status'].forEach(id => {
+                const element = document.getElementById(id);
+                element.className = 'status info';
+                element.textContent = 'Duke testuar...';
+            });
+            
+            // Reload all images
+            const images = document.querySelectorAll('img');
+            images.forEach(img => {
+                const currentSrc = img.src;
+                img.src = '';
+                img.src = currentSrc;
+            });
+            
+            updateSummary();
+        }
+
+        // Initial summary update
+        updateSummary();
+
+        // Auto-run test when page loads
+        setTimeout(() => {
+            console.log('🧪 Image verification test started');
+        }, 1000);
+    </script>
+</body>
+</html>
