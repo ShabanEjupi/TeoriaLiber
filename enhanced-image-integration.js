@@ -155,18 +155,20 @@ function generateChapterImageGallery(chapterNumber) {
                     <img src="${img.path}" 
                          alt="${img.alt}" 
                          style="width: 100%; max-width: 600px; border-radius: 15px; box-shadow: 0 8px 25px rgba(0,0,0,0.15); margin: 20px auto; display: block;"
-                         onerror="this.style.display='none'">
+                         onload="console.log('✅ Image loaded for chapter ${chapterNumber}')"
+                         onerror="console.error('❌ Failed to load image for chapter ${chapterNumber}:', this.src); this.style.display='none';">
                 </div>
             </div>
         `;
     } else {
         // Multiple images - grid layout
-        const imageHTML = images.map(img => `
+        const imageHTML = images.map((img, index) => `
             <div class="gallery-image-item">
                 <img src="${img.path}" 
                      alt="${img.alt}"
                      style="width: 100%; border-radius: 10px; box-shadow: 0 4px 15px rgba(0,0,0,0.1);"
-                     onerror="this.style.display='none'">
+                     onload="console.log('✅ Image ${index + 1} loaded for chapter ${chapterNumber}')"
+                     onerror="console.error('❌ Failed to load image ${index + 1} for chapter ${chapterNumber}:', this.src); this.style.display='none';">
             </div>
         `).join('');
         
