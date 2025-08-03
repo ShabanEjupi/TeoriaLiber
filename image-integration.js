@@ -1,14 +1,13 @@
-// Fixed Image Integration System - Single Source of Truth
-// Consolidates all image handling and fixes display issues
+// Complete Image Integration Script for Game Theory Book
+// Automatically integrates correct images into chapters 1-50
 
 (function() {
     'use strict';
     
-    console.log('🔧 Starting Fixed Image Integration System...');
+    console.log('🖼️ Loading Complete Image Integration...');
     
-    // Complete and accurate image mapping
-    const imageMap = {
-        // Chapter 1-10: Business Foundation
+    // Complete mapping of chapters to their corresponding images
+    const CHAPTER_IMAGE_MAP = {
         1: 'imazhet/Create an elegant book cover for \'Teoria e Lojërave Nderi dhe Suksesi\'. Feature chess pieces on a marble board with golden Islamic geometric patterns. Include luxury cars (Mercedes, BMW) in the background and traditional A.png',
         2: 'imazhet/Create 21st century strategy scene Albanian business leader in modern boardroom with digital strategy displays, global connectivity maps, sustainable business icons, Islamic geometric patterns integrated with modern design.jpg',
         3: 'imazhet/Create inspiring leadership scene Albanian leader guiding diverse team, golden light emanating from leader, team working in harmony, luxury corporate environment, Islamic leadership principles visible, cultural unity symbo.jpg',
@@ -19,8 +18,6 @@
         8: 'imazhet/Create visionary planning scene Albanian leader looking toward bright future horizon, luxury cars and beautiful buildings emerging from golden mist, family and success symbols, Islamic architectural elements, strategic pla.jpg',
         9: 'imazhet/Create smart investment scene Albanian investor analyzing charts on multiple screens, luxury cars and real estate in background, Islamic finance symbols, golden growth arrows. Style analytical, prosperous, halal-focused..png',
         10: 'imazhet/Create sophisticated investment scene Albanian investor managing diverse portfolio, holographic charts showing global markets, luxury home office, Islamic finance symbols, golden growth arrows, real estate and stock certif.jpg',
-        
-        // Chapter 11-20: Strategy & Leadership
         11: 'imazhet/Create financial management scene Albanian CFO analyzing financial charts and dashboards, golden numbers flowing upward, luxury office with multiple monitors, Islamic geometric patterns on financial documents, prosperity s.jpg',
         12: 'imazhet/Create financial security visualization Albanian family protected by golden shield, luxury home and car safely positioned, Islamic geometric protection patterns, emergency fund symbols, diversified investment charts. Style.jpg',
         13: 'imazhet/Create wealth legacy scene Albanian family patriarch in elegant office reviewing estate planning documents, family photos showing multiple generations, luxury assets in background, Islamic inheritance principles visible, g.jpg',
@@ -31,8 +28,6 @@
         18: 'imazhet/Create futuristic business scene Albanian entrepreneur in high-tech office with holographic displays, AI assistants, sustainable technology, green energy solutions, luxury car charging with renewable energy, golden future.jpg',
         19: 'imazhet/Create modern digital business scene Albanian entrepreneur working on laptop, multiple screens showing online business growth, luxury car in garage visible through window, Islamic geometric patterns on wall, golden digital.png',
         20: 'imazhet/Create thriving e-commerce scene Albanian entrepreneur managing online store, packages being shipped globally, luxury office with multiple monitors showing sales dashboards, Islamic geometric patterns on website design, go.jpg',
-        
-        // Chapter 21-30: Financial & Investment
         21: 'imazhet/Create product innovation lab Albanian team developing cutting-edge products, 3D prototypes floating in air, luxury design studio, Islamic geometric innovation patterns, golden creativity sparks, modern technology. Style i.jpg',
         22: 'imazhet/Create harmonious family-career scene Albanian family in luxury home, parent working on laptop while children play nearby, business success symbols integrated with family warmth, Islamic family values, golden threads conne.jpg',
         23: 'imazhet/Create beautiful Albanian wedding scene with modern luxury elements, traditional and Islamic ceremony elements, successful couple with bright future symbols, golden love and prosperity symbols. Style elegant, traditional,.png',
@@ -43,8 +38,6 @@
         28: 'imazhet/Create ethical marketing scene Albanian brand building with honest advertising, cultural values integrated, luxury brand elements, Islamic honesty symbols, golden trust networks connecting to customers. Style trustworthy,.jpg',
         29: 'imazhet/Create ethical sales scene Albanian salesperson helping customer find perfect solution, handshake with golden honesty aura, customer satisfaction symbols, Islamic fairness principles, luxury business setting. Style helpful.jpg',
         30: 'imazhet/Create excellent customer service scene Albanian service representative helping diverse customers, hearts and golden stars showing satisfaction, luxury service environment, Islamic hospitality symbols, happy customers in b.jpg',
-        
-        // Chapter 31-40: Technology & Digital
         31: 'imazhet/Create dynamic social media scene Albanian influencer creating content with professional setup, multiple screens showing different platforms, engagement metrics flowing like golden particles, Islamic values integrated, lux.jpg',
         32: 'imazhet/Create powerful mindset transformation image Albanian professional meditating in luxury office, brain with golden neural networks, success symbols (Mercedes, beautiful house, happy family) floating around, Islamic geometri.png',
         33: 'imazhet/Create powerful mindset visualization Albanian professional in meditation pose, surrounded by symbols of success (Mercedes, beautiful home, happy family), golden light emanating from their mind, Islamic geometric patterns.png',
@@ -55,8 +48,6 @@
         38: 'imazhet/Create powerful communication scene Albanian speaker presenting to diverse audience, golden words flowing from mouth, luxury business setting, cultural symbols of trust and honor, Islamic communication ethics. Style author.png',
         39: 'imazhet/Create sophisticated networking scene Albanian business professionals connecting at luxury venue, handshakes with golden energy flowing between people, cultural diversity, Islamic and Albanian symbols, connection networks.png',
         40: 'imazhet/Create networking event scene Albanian professionals connecting at luxury venue, handshakes and business cards exchange, cultural diversity, Islamic and Albanian symbols, golden connection networks. Style social, professio.png',
-        
-        // Chapter 41-50: Personal & Family
         41: 'imazhet/Create business honor visualization Albanian entrepreneur shaking hands in front of growing business charts, luxury office with Islamic calligraphy, trust and integrity symbols, golden success aura. Style professional, tru.png',
         42: 'imazhet/Create peaceful conflict resolution scene Albanian mediator bringing two parties together, dove of peace with golden light, handshake in center, Islamic justice symbols, cultural harmony elements. Style peaceful, diplomati.jpg',
         43: 'imazhet/Create social entrepreneurship scene Albanian entrepreneur building community center, helping families, educational programs, mosque in background, children playing safely, modern facilities improving lives, golden light o.jpg',
@@ -69,198 +60,87 @@
         50: 'imazhet/Create strategic equilibrium visualization chess-like board showing business relationships, Albanian business leaders in strategic positions, mathematical equations in background, golden balance symbols. Style intelligent,.png'
     };
     
-    // Function to clean up existing image elements
-    function cleanupExistingImages() {
-        console.log('🧹 Cleaning up existing image elements...');
-        
-        // Remove all existing chapter image galleries to prevent duplicates
-        const existingGalleries = document.querySelectorAll('.chapter-image-gallery, .single-chapter-image');
-        existingGalleries.forEach(gallery => {
-            gallery.remove();
-        });
-        
-        // Remove any broken image elements showing prompts
-        const brokenImages = document.querySelectorAll('img[src*="Create"], img[src*="Generate"], img[src*="Feature"]');
-        brokenImages.forEach(img => {
-            img.remove();
-        });
-        
-        // Clean up text containing image prompts
-        const textElements = document.querySelectorAll('*');
-        textElements.forEach(element => {
-            if (element.children.length === 0) { // Only text nodes
-                let text = element.textContent;
-                if (text.includes('Create ') && text.includes('.jpg') || text.includes('.png')) {
-                    // Remove the prompt text
-                    text = text.replace(/Create [^.]+\.(jpg|png)/gi, '');
-                    text = text.replace(/Feature [^.]+\.(jpg|png)/gi, '');
-                    element.textContent = text.trim();
-                }
-            }
-        });
-        
-        console.log('✅ Cleanup completed');
-    }
-    
     // Function to create proper image HTML
-    function createImageHTML(chapterNumber, imagePath) {
+    function createImageHTML(chapterNumber) {
+        const imagePath = CHAPTER_IMAGE_MAP[chapterNumber];
+        
+        if (!imagePath) {
+            console.log(`⚠️ No image available for chapter ${chapterNumber}`);
+            return '';
+        }
+        
         return `
-        <div class="chapter-image-container" data-chapter="${chapterNumber}">
-            <div class="chapter-image-wrapper">
-                <img src="${imagePath}" 
-                     alt="Ilustrim për Kapitullin ${chapterNumber}" 
-                     class="chapter-image"
-                     loading="lazy"
-                     onload="this.classList.add('loaded')"
-                     onerror="this.style.display='none'; console.error('Failed to load image for chapter ${chapterNumber}');">
+            <div class="chapter-image-container" style="margin: 30px 0; text-align: center; clear: both;">
+                <div class="single-chapter-image">
+                    <img src="${imagePath}" 
+                         alt="Ilustrim profesional për kapitullin ${chapterNumber}" 
+                         class="chapter-main-image"
+                         style="width: 100%; max-width: 600px; height: auto; border-radius: 15px; box-shadow: 0 8px 25px rgba(0,0,0,0.15); margin: 20px auto; display: block; transition: transform 0.3s ease;"
+                         onload="console.log('✅ Image loaded successfully for chapter ${chapterNumber}')"
+                         onerror="console.warn('⚠️ Failed to load image for chapter ${chapterNumber}'); this.style.display='none';"
+                         onmouseover="this.style.transform='translateY(-5px)'"
+                         onmouseout="this.style.transform='translateY(0)'">
+                </div>
             </div>
-        </div>`;
+        `;
     }
     
-    // Function to insert images into chapters
-    function insertChapterImages() {
-        console.log('🖼️ Inserting chapter images...');
+    // Function to integrate images into existing chapters
+    function integrateImagesIntoChapters() {
+        console.log('🔧 Starting image integration for chapters 1-50...');
         
-        for (let chapterNum = 1; chapterNum <= 50; chapterNum++) {
-            const imagePath = imageMap[chapterNum];
-            if (!imagePath) continue;
-            
-            // Find chapter element using multiple selectors
-            const selectors = [
-                `[data-chapter="${chapterNum}"]`,
-                `#chapter-${chapterNum}`,
-                `.chapter-${chapterNum}`,
-                `[id*="chapter-${chapterNum}"]`
-            ];
-            
-            let chapterElement = null;
-            for (const selector of selectors) {
-                chapterElement = document.querySelector(selector);
-                if (chapterElement) break;
-            }
-            
-            if (chapterElement) {
+        if (typeof window.chapters === 'undefined') {
+            console.warn('⚠️ Chapters object not found in window');
+            return false;
+        }
+        
+        let successCount = 0;
+        
+        for (let i = 1; i <= 50; i++) {
+            if (window.chapters[i] && window.chapters[i].content) {
+                const currentContent = window.chapters[i].content;
+                
                 // Check if image already exists
-                const existingImage = chapterElement.querySelector('.chapter-image-container');
-                if (existingImage) continue;
-                
-                // Find the best place to insert the image
-                const titleElement = chapterElement.querySelector('h1, h2, h3, .chapter-title');
-                const imageHTML = createImageHTML(chapterNum, imagePath);
-                
-                if (titleElement) {
-                    titleElement.insertAdjacentHTML('afterend', imageHTML);
-                } else {
-                    chapterElement.insertAdjacentHTML('afterbegin', imageHTML);
+                if (currentContent.includes('chapter-image-container') || currentContent.includes('<img src="imazhet/')) {
+                    console.log(`✅ Chapter ${i} already has image, skipping`);
+                    continue;
                 }
                 
-                console.log(`✅ Added image to chapter ${chapterNum}`);
-            } else {
-                console.log(`⚠️ Chapter ${chapterNum} element not found`);
+                // Create image HTML
+                const imageHTML = createImageHTML(i);
+                
+                if (imageHTML) {
+                    // Find insertion point after title
+                    const titleMatch = currentContent.match(/<h[12][^>]*>.*?<\/h[12]>/);
+                    if (titleMatch) {
+                        const insertPoint = currentContent.indexOf(titleMatch[0]) + titleMatch[0].length;
+                        window.chapters[i].content = currentContent.slice(0, insertPoint) + 
+                                                    '\n\n' + imageHTML + '\n\n' + 
+                                                    currentContent.slice(insertPoint);
+                        successCount++;
+                        console.log(`✅ Added image to chapter ${i}: ${window.chapters[i].title}`);
+                    } else {
+                        // If no title found, add at the beginning
+                        window.chapters[i].content = imageHTML + '\n\n' + currentContent;
+                        successCount++;
+                        console.log(`✅ Added image to chapter ${i} (at beginning)`);
+                    }
+                }
             }
         }
+        
+        console.log(`🎯 Image integration complete! Added images to ${successCount} chapters.`);
+        return successCount > 0;
     }
     
-    // Function to add CSS styles for images
-    function addImageStyles() {
-        const styles = `
-        <style id="chapter-image-styles">
-        .chapter-image-container {
-            margin: 20px 0;
-            text-align: center;
-            clear: both;
-        }
-        
-        .chapter-image-wrapper {
-            display: inline-block;
-            max-width: 100%;
-            box-shadow: 0 8px 25px rgba(0,0,0,0.15);
-            border-radius: 15px;
-            overflow: hidden;
-        }
-        
-        .chapter-image {
-            width: 100%;
-            max-width: 600px;
-            height: auto;
-            display: block;
-            border-radius: 15px;
-            transition: opacity 0.3s ease;
-            opacity: 0;
-        }
-        
-        .chapter-image.loaded {
-            opacity: 1;
-        }
-        
-        @media (max-width: 768px) {
-            .chapter-image {
-                max-width: 100%;
-            }
-            
-            .chapter-image-wrapper {
-                margin: 10px;
-            }
-        }
-        </style>`;
-        
-        // Remove existing styles first
-        const existingStyles = document.getElementById('chapter-image-styles');
-        if (existingStyles) existingStyles.remove();
-        
-        // Add new styles
-        document.head.insertAdjacentHTML('beforeend', styles);
+    // Auto-execute when script loads
+    window.integrateChapterImages = integrateImagesIntoChapters;
+    
+    // Execute immediately if chapters are already loaded
+    if (typeof window.chapters !== 'undefined') {
+        setTimeout(integrateImagesIntoChapters, 1000);
     }
     
-    // Function to fix image paths
-    function fixImagePaths() {
-        console.log('🔧 Fixing image paths...');
-        
-        const images = document.querySelectorAll('img[src*="imazhet/"]');
-        images.forEach(img => {
-            const currentSrc = img.getAttribute('src');
-            // Ensure clean path
-            const cleanPath = currentSrc.replace(/\/+/g, '/').replace(/^\/+/, '');
-            img.setAttribute('src', cleanPath);
-        });
-    }
-    
-    // Main initialization function
-    function initialize() {
-        console.log('🚀 Initializing Fixed Image Integration...');
-        
-        // Clean up first
-        cleanupExistingImages();
-        
-        // Add styles
-        addImageStyles();
-        
-        // Fix paths
-        fixImagePaths();
-        
-        // Insert images
-        insertChapterImages();
-        
-        console.log('✅ Fixed Image Integration completed successfully!');
-    }
-    
-    // Initialize when DOM is ready
-    if (document.readyState === 'loading') {
-        document.addEventListener('DOMContentLoaded', initialize);
-    } else {
-        initialize();
-    }
-    
-    // Also initialize after a short delay to catch dynamically generated content
-    setTimeout(initialize, 1000);
-    
-    // Export for debugging
-    window.FixedImageIntegration = {
-        imageMap,
-        initialize,
-        cleanupExistingImages,
-        insertChapterImages,
-        fixImagePaths
-    };
+    console.log('✅ Image integration script loaded successfully');
     
 })();
