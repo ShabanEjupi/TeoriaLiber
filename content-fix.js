@@ -42,44 +42,52 @@ function generateProperImageHTML(chapterNumber, imageKey) {
     `;
 }
 
-// Function to replace chat prompts with proper descriptions
+// Function to replace chat prompts with proper descriptions - PRESERVE ACTUAL IMAGES
 function replaceChatPrompts(content) {
-    // Patterns to identify and replace chat prompts
+    // IMPORTANT: Only replace content that doesn't have proper image tags
+    // Don't touch content that already has working <img> tags
+    
+    // First check if content already has proper image tags
+    if (content.includes('<img src="imazhet/') && content.includes('chapter-image-gallery')) {
+        console.log('✅ Content already has proper images, skipping replacement');
+        return content; // Don't modify content that already has proper images
+    }
+    
+    // Patterns to identify and replace chat prompts ONLY when no images exist
     const chatPromptPatterns = [
-        // Direct quote patterns
+        // Direct quote patterns for "Create..." 
         {
             pattern: /"Create [^"]+"/gi,
             replacement: function(match) {
-                return `<div class="image-description" style="padding: 1rem; background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%); border-radius: 10px; margin: 1rem 0; border-left: 4px solid #2E8B57;">
-                    <p style="margin: 0; font-style: italic; color: #64748b;">
-                        📸 Ky kapitull përmban ilustrime profesionale që tregojnë skenat e suksesit, biznesit dhe prosperitetit me vlera islame të integruara në dizajn.
-                    </p>
-                </div>`;
+                // Only replace if it's clearly a prompt, not an image caption
+                if (match.toLowerCase().includes('create') && match.length > 50) {
+                    return `<div class="image-description" style="padding: 1rem; background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%); border-radius: 10px; margin: 1rem 0; border-left: 4px solid #2E8B57;">
+                        <p style="margin: 0; font-style: italic; color: #64748b;">
+                            📸 Ky kapitull përmban ilustrime profesionale të relacionuara me temën.
+                        </p>
+                    </div>`;
+                }
+                return match; // Keep original if not a clear prompt
             }
         },
         
-        // Paragraph patterns with Create
+        // Paragraph patterns with Create - only if clearly prompts
         {
-            pattern: /<p[^>]*>"?Create [^<]+<\/p>/gi,
+            pattern: /<p[^>]*>"?Create [^<]{50,}<\/p>/gi, // Only long Create texts
             replacement: `<div class="real-content" style="padding: 1.5rem; background: white; border-radius: 10px; margin: 1rem 0; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
                 <h4 style="color: #2E8B57; margin-bottom: 1rem;">💡 Aplikim Praktik</h4>
-                <p>Ky kapitull ju ofron strategji konkrete dhe udhëzime hap-pas-hap për të arritur objektivat tuaja. Secila metodë është testuar në praktikë dhe është në përputhje me vlerat islame.</p>
-                <ul style="margin: 1rem 0; padding-left: 1.5rem;">
-                    <li>Strategji të bazuara në nder dhe transparencë</li>
-                    <li>Metoda të përshtatshme për kulturën shqiptare</li>
-                    <li>Udhëzime konkrete për implementim</li>
-                    <li>Rezultate të matshme dhe realiste</li>
-                </ul>
+                <p>Ky kapitull ju ofron strategji konkrete dhe udhëzime hap-pas-hap për të arritur objektivat tuaja.</p>
             </div>`
         },
         
-        // Simple Create patterns without quotes
+        // Only standalone Create prompts (not in image contexts)
         {
-            pattern: /Create [A-Za-z][^.!?]*[.!?]/gi,
+            pattern: /(?<!alt="|title=")Create [A-Za-z][^.!?]{30,}[.!?]/gi,
             replacement: function(match) {
+                // Skip if this looks like it's part of image alt text or similar
                 return `<div class="enhanced-content" style="padding: 1rem; background: linear-gradient(135deg, #2E8B5710, #00640010); border-radius: 10px; margin: 1rem 0;">
                     <p style="margin: 0; color: #333;">
-                        ✨ Këtu gjeni përmbajtje të pasuruar me ilustrime dhe shembuj praktikë që ju ndihmojnë të kuptoni dhe aplikoni konceptet më mirë.
+                        ✨ Përmbajtje e pasuruar për këtë temë.
                     </p>
                 </div>`;
             }
@@ -183,7 +191,7 @@ function enhanceChapterContent(chapterNumber, content) {
     return enhancedContent;
 }
 
-// Function to fix all chapters
+// Function to fix all chapters - PRESERVE EXISTING IMAGES
 function fixAllChapters() {
     // Chapter to image mapping for first 50 chapters
     const chapterImageMap = {
@@ -212,25 +220,38 @@ function fixAllChapters() {
     // Fix chapters object if it exists
     if (typeof chapters === 'object') {
         for (let i = 1; i <= 50; i++) {
-            if (chapters[i]) {
-                // Replace image HTML with proper version
-                if (chapterImageMap[i]) {
+            if (chapters[i] && chapters[i].content) {
+                const originalContent = chapters[i].content;
+                
+                // Only add images if they don't already exist
+                if (!originalContent.includes('<img src="imazhet/') && chapterImageMap[i]) {
+                    console.log(`➕ Adding image to chapter ${i}`);
                     const properImageHTML = generateProperImageHTML(i, chapterImageMap[i]);
                     
-                    // Replace old image HTML pattern
-                    chapters[i].content = chapters[i].content.replace(
-                        /<div class="chapter-image-gallery">[\s\S]*?<\/div>\s*<\/div>/,
-                        properImageHTML
-                    );
+                    // Add image at the beginning of content after the title
+                    const titleMatch = originalContent.match(/<h[12][^>]*>.*?<\/h[12]>/);
+                    if (titleMatch) {
+                        const insertPoint = originalContent.indexOf(titleMatch[0]) + titleMatch[0].length;
+                        chapters[i].content = originalContent.slice(0, insertPoint) + 
+                                            '\n' + properImageHTML + '\n' + 
+                                            originalContent.slice(insertPoint);
+                    } else {
+                        // If no title found, add at the beginning
+                        chapters[i].content = properImageHTML + '\n' + originalContent;
+                    }
+                } else if (originalContent.includes('<img src="imazhet/')) {
+                    console.log(`✅ Chapter ${i} already has images, preserving them`);
                 }
                 
-                // Enhance content by removing prompts and adding real content
+                // Enhance content by ONLY removing prompts, not existing images
                 chapters[i].content = enhanceChapterContent(i, chapters[i].content);
                 
-                console.log(`✅ Fixed chapter ${i}: ${chapters[i].title}`);
+                console.log(`✅ Processed chapter ${i}: ${chapters[i].title}`);
             }
         }
     }
+    
+    console.log('🎯 Chapter fixing complete - images preserved, prompts cleaned');
 }
 
 // Function to check image loading
@@ -274,7 +295,9 @@ function initializeContentFix() {
     console.log('🔧 Starting comprehensive content fix...');
     
     // Fix chapters content
-    fixAllChapters();
+    // Auto-execute fixes when the script loads - DISABLED to prevent conflicts
+// Uncomment the line below if you want to auto-run fixes
+// fixAllChapters();
     
     // Check image status after a short delay
     setTimeout(checkImageStatus, 1000);

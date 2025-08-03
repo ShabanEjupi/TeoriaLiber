@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="sq">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Image Display Fix</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+        .test-container {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        .success { color: #22c55e; }
+        .warning { color: #f59e0b; }
+        .error { color: #ef4444; }
+        .test-result {
+            margin: 10px 0;
+            padding: 10px;
+            border-radius: 5px;
+            background: #f8f9fa;
+        }
+        button {
+            background: #2E8B57;
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 16px;
+            margin: 10px 5px;
+        }
+        button:hover {
+            background: #236644;
+        }
+    </style>
+</head>
+<body>
+    <div class="test-container">
+        <h1>🧪 Test Image Display Fix</h1>
+        <p>Ky test verikon nëse sistemii i korrigjimit të imazheve po funksionon siç duhet.</p>
+        
+        <div id="test-results"></div>
+        
+        <button onclick="runImageTest()">🔍 Test Image Fix</button>
+        <button onclick="showChapterImages()">📖 Show Chapter Images</button>
+        <button onclick="manualFix()">🔧 Manual Fix</button>
+        <button onclick="clearResults()">🗑️ Clear Results</button>
+    </div>
+
+    <div class="test-container" id="chapter-display">
+        <h2>📚 Chapter Content Test</h2>
+        <div id="chapter-content-test"></div>
+    </div>
+
+    <!-- Load necessary scripts -->
+    <script src="script.js"></script>
+    <script src="image-display-fix-new.js"></script>
+
+    <script>
+        function logResult(message, type = 'info') {
+            const resultsDiv = document.getElementById('test-results');
+            const resultElement = document.createElement('div');
+            resultElement.className = `test-result ${type}`;
+            resultElement.innerHTML = `<strong>${new Date().toLocaleTimeString()}</strong>: ${message}`;
+            resultsDiv.appendChild(resultElement);
+            resultsDiv.scrollTop = resultsDiv.scrollHeight;
+        }
+
+        function runImageTest() {
+            logResult('🚀 Starting image display test...', 'info');
+            
+            // Test 1: Check if chapters object exists
+            if (typeof chapters === 'undefined') {
+                logResult('❌ Chapters object not found', 'error');
+                return;
+            } else {
+                logResult(`✅ Chapters object found with ${Object.keys(chapters).length} chapters`, 'success');
+            }
+            
+            // Test 2: Check for generic content
+            let chaptersWithGeneric = 0;
+            let chaptersWithImages = 0;
+            
+            for (let i = 1; i <= 20; i++) {
+                if (chapters[i] && chapters[i].content) {
+                    const content = chapters[i].content;
+                    
+                    if (content.includes('✨ Këtu gjeni përmbajtje të pasuruar')) {
+                        chaptersWithGeneric++;
+                        logResult(`⚠️ Chapter ${i} has generic content instead of images`, 'warning');
+                    }
+                    
+                    if (content.includes('<img src="imazhet/')) {
+                        chaptersWithImages++;
+                        logResult(`✅ Chapter ${i} has proper images`, 'success');
+                    }
+                }
+            }
+            
+            logResult(`📊 Summary: ${chaptersWithImages} chapters with images, ${chaptersWithGeneric} with generic content`, 'info');
+            
+            // Test 3: Check if fix functions are available
+            if (typeof restoreProperImages === 'function') {
+                logResult('✅ Image fix functions are loaded', 'success');
+            } else {
+                logResult('❌ Image fix functions not available', 'error');
+            }
+        }
+
+        function showChapterImages() {
+            logResult('🖼️ Displaying chapter 2 content for testing...', 'info');
+            
+            if (chapters && chapters[2]) {
+                const contentDiv = document.getElementById('chapter-content-test');
+                contentDiv.innerHTML = `
+                    <h3>Chapter 2 Content:</h3>
+                    <div style="border: 1px solid #ddd; padding: 15px; border-radius: 5px; max-height: 400px; overflow-y: auto;">
+                        ${chapters[2].content}
+                    </div>
+                `;
+                
+                logResult('📖 Chapter 2 content displayed above', 'info');
+                
+                // Check for images in the displayed content
+                setTimeout(() => {
+                    const images = contentDiv.querySelectorAll('img[src*="imazhet/"]');
+                    if (images.length > 0) {
+                        logResult(`✅ Found ${images.length} images in chapter 2`, 'success');
+                        images.forEach((img, index) => {
+                            img.onload = () => logResult(`✅ Image ${index + 1} loaded successfully`, 'success');
+                            img.onerror = () => logResult(`❌ Image ${index + 1} failed to load`, 'error');
+                        });
+                    } else {
+                        logResult('⚠️ No images found in chapter 2', 'warning');
+                    }
+                }, 100);
+                
+            } else {
+                logResult('❌ Chapter 2 not found', 'error');
+            }
+        }
+
+        function manualFix() {
+            logResult('🔧 Running manual image restoration...', 'info');
+            
+            if (typeof restoreProperImages === 'function') {
+                const fixed = restoreProperImages();
+                logResult(`🎯 Manual fix complete: ${fixed} chapters fixed`, fixed > 0 ? 'success' : 'info');
+                
+                // Re-display chapter content if it was shown
+                const contentDiv = document.getElementById('chapter-content-test');
+                if (contentDiv.innerHTML.includes('Chapter 2 Content:')) {
+                    setTimeout(() => {
+                        showChapterImages();
+                    }, 200);
+                }
+            } else {
+                logResult('❌ Image fix function not available', 'error');
+            }
+        }
+
+        function clearResults() {
+            document.getElementById('test-results').innerHTML = '';
+            document.getElementById('chapter-content-test').innerHTML = '';
+            logResult('🗑️ Results cleared', 'info');
+        }
+
+        // Auto-run test when page loads
+        window.addEventListener('load', () => {
+            setTimeout(() => {
+                logResult('🏁 Page loaded, ready for testing', 'info');
+                runImageTest();
+            }, 500);
+        });
+    </script>
+</body>
+</html>
