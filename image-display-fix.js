@@ -1,10 +1,9 @@
 // Image Display Fix - Ensures proper image display without generic replacements
 console.log('🖼️ Loading Image Display Fix...');
 
-// Function to restore proper images in chapters that have generic text
-function restoreProperImages() {
-    console.log('🔧 Starting image restoration process...');
-    
+(function() {
+    'use strict';
+
     // Enhanced image map with all available images
     const completeImageMap = {
         'book-cover': 'imazhet/Create an elegant book cover for \'Teoria e Lojërave Nderi dhe Suksesi\'. Feature chess pieces on a marble board with golden Islamic geometric patterns. Include luxury cars (Mercedes, BMW) in the background and traditional A.png',
@@ -28,7 +27,7 @@ function restoreProperImages() {
         'ai-business': 'imazhet/Create AI-powered business scene Albanian entrepreneur collaborating with AI systems, holographic assistants, automated processes, luxury smart office, Islamic geometric AI patterns, golden neural networks. Style futuristi.jpg',
         'family-education': 'imazhet/Create inspiring family education scene Albanian parents teaching children about success and values, books and modern technology on table, luxury car visible through window representing future success, Islamic calligraphy.png'
     };
-    
+
     // Chapter to image mapping
     const chapterImageMap = {
         1: 'book-cover',
@@ -52,7 +51,7 @@ function restoreProperImages() {
         19: 'ai-business',
         20: 'family-education'
     };
-    
+
     // Function to create proper image HTML
     function createImageHTML(chapterNum, imageKey) {
         const imagePath = completeImageMap[imageKey];
@@ -70,137 +69,112 @@ function restoreProperImages() {
             </div>
         `;
     }
-    
-    // Fix chapters that have generic content instead of proper images
-    if (typeof chapters === 'object' && chapters) {
-        let fixedCount = 0;
+
+    // Function to restore proper images in chapters that have generic text
+    function restoreProperImages() {
+        console.log('🔧 Starting image restoration process...');
         
-        for (let i = 1; i <= 20; i++) {
-            if (chapters[i] && chapters[i].content && chapterImageMap[i]) {
-                const content = chapters[i].content;
-                
-                // Check if chapter has generic replacement text instead of proper image
-                const hasGenericText = content.includes('✨ Këtu gjeni përmbajtje të pasuruar') ||
-                                     content.includes('📸 Ky kapitull përmban ilustrime profesionale');
-                
-                const hasProperImage = content.includes(`<img src="${completeImageMap[chapterImageMap[i]]}"`);
-                
-                if (hasGenericText && !hasProperImage) {
-                    console.log(`🔧 Fixing chapter ${i} - removing generic text and adding proper image`);
+        // Fix chapters that have generic content instead of proper images
+        if (typeof chapters === 'object' && chapters) {
+            let fixedCount = 0;
+            
+            for (let i = 1; i <= 20; i++) {
+                if (chapters[i] && chapters[i].content && chapterImageMap[i]) {
+                    const content = chapters[i].content;
                     
-                    // Remove generic content blocks
-                    let fixedContent = content.replace(
-                        /<div class="enhanced-content"[^>]*>[\s\S]*?<\/div>/g, 
-                        ''
-                    );
-                    fixedContent = fixedContent.replace(
-                        /<div class="image-description"[^>]*>[\s\S]*?<\/div>/g, 
-                        ''
-                    );
-                    fixedContent = fixedContent.replace(
-                        /<div class="content-enhanced-notice"[^>]*>[\s\S]*?<\/div>/g, 
-                        ''
-                    );
+                    // Check if chapter has generic replacement text instead of proper image
+                    const hasGenericText = content.includes('✨ Këtu gjeni përmbajtje të pasuruar') ||
+                                         content.includes('📸 Ky kapitull përmban ilustrime profesionale');
                     
-                    // Add proper image after the title
-                    const titleMatch = fixedContent.match(/<h[12][^>]*>.*?<\/h[12]>/);
-                    if (titleMatch) {
-                        const insertPoint = fixedContent.indexOf(titleMatch[0]) + titleMatch[0].length;
-                        const imageHTML = createImageHTML(i, chapterImageMap[i]);
-                        fixedContent = fixedContent.slice(0, insertPoint) + 
-                                     '\n\n' + imageHTML + '\n\n' + 
-                                     fixedContent.slice(insertPoint);
+                    const hasProperImage = content.includes(`<img src="${completeImageMap[chapterImageMap[i]]}"`);
+                    
+                    if (hasGenericText && !hasProperImage) {
+                        console.log(`🔧 Fixing chapter ${i} - removing generic text and adding proper image`);
                         
-                        chapters[i].content = fixedContent;
-                        fixedCount++;
+                        // Remove generic content blocks
+                        let fixedContent = content.replace(
+                            /<div class="enhanced-content"[^>]*>[\s\S]*?<\/div>/g, 
+                            ''
+                        );
+                        fixedContent = fixedContent.replace(
+                            /<div class="image-description"[^>]*>[\s\S]*?<\/div>/g, 
+                            ''
+                        );
+                        fixedContent = fixedContent.replace(
+                            /<div class="content-enhanced-notice"[^>]*>[\s\S]*?<\/div>/g, 
+                            ''
+                        );
                         
-                        console.log(`✅ Fixed chapter ${i}: Added proper image, removed generic text`);
+                        // Add proper image after the title
+                        const titleMatch = fixedContent.match(/<h[12][^>]*>.*?<\/h[12]>/);
+                        if (titleMatch) {
+                            const insertPoint = fixedContent.indexOf(titleMatch[0]) + titleMatch[0].length;
+                            const imageHTML = createImageHTML(i, chapterImageMap[i]);
+                            fixedContent = fixedContent.slice(0, insertPoint) + 
+                                         '\n\n' + imageHTML + '\n\n' + 
+                                         fixedContent.slice(insertPoint);
+                            
+                            chapters[i].content = fixedContent;
+                            fixedCount++;
+                            
+                            console.log(`✅ Fixed chapter ${i}: Added proper image, removed generic text`);
+                        }
+                    } else if (hasProperImage) {
+                        console.log(`✅ Chapter ${i} already has proper image`);
+                    } else {
+                        console.log(`ℹ️ Chapter ${i} needs image but no generic text found`);
                     }
-                } else if (hasProperImage) {
-                    console.log(`✅ Chapter ${i} already has proper image`);
-                } else {
-                    console.log(`ℹ️ Chapter ${i} needs image but no generic text found`);
                 }
             }
+            
+            console.log(`🎯 Image restoration complete: ${fixedCount} chapters fixed`);
+            
+            // Refresh the current chapter display if needed
+            if (fixedCount > 0 && typeof currentChapter !== 'undefined' && currentChapter <= 20) {
+                console.log(`🔄 Refreshing display for current chapter ${currentChapter}`);
+                setTimeout(() => {
+                    if (typeof showChapter === 'function') {
+                        showChapter(currentChapter);
+                    }
+                }, 100);
+            }
+            
+            return fixedCount;
         }
         
-        console.log(`🎯 Image restoration complete: ${fixedCount} chapters fixed`);
-        
-        // Refresh the current chapter display if needed
-        if (fixedCount > 0 && typeof currentChapter !== 'undefined' && currentChapter <= 20) {
-            console.log(`🔄 Refreshing display for current chapter ${currentChapter}`);
-            setTimeout(() => {
-                if (typeof showChapter === 'function') {
-                    showChapter(currentChapter);
-                }
-            }, 100);
-        }
-        
-        return fixedCount;
+        return 0;
     }
-    
-    return 0;
-}
 
-// Function to check image loading status
-function checkImageLoadingStatus() {
-    const images = document.querySelectorAll('img[src*="imazhet/"]');
-    let loadedCount = 0;
-    let failedCount = 0;
-    
-    images.forEach((img, index) => {
-        if (img.complete) {
-            if (img.naturalWidth === 0) {
-                failedCount++;
-                console.warn(`❌ Image ${index + 1} failed to load: ${img.src.split('/').pop()}`);
-            } else {
-                loadedCount++;
-                console.log(`✅ Image ${index + 1} loaded successfully: ${img.src.split('/').pop()}`);
-            }
-        } else {
-            img.addEventListener('load', () => {
-                console.log(`✅ Image loaded: ${img.src.split('/').pop()}`);
-            });
-            img.addEventListener('error', () => {
-                console.warn(`❌ Image failed: ${img.src.split('/').pop()}`);
-            });
-        }
-    });
-    
-    console.log(`📊 Image status: ${loadedCount} loaded, ${failedCount} failed, ${images.length - loadedCount - failedCount} loading`);
-    return { loaded: loadedCount, failed: failedCount, total: images.length };
-}
-
-// Auto-run the image restoration when DOM is ready
-if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', () => {
-        setTimeout(() => {
-            const fixed = restoreProperImages();
-            if (fixed > 0) {
-                setTimeout(checkImageLoadingStatus, 500);
-            }
-        }, 100);
-    });
-} else {
-    setTimeout(() => {
-        const fixed = restoreProperImages();
-        if (fixed > 0) {
-            setTimeout(checkImageLoadingStatus, 500);
-        }
-    }, 100);
-}
-
-// Export functions for manual use
-window.restoreProperImages = restoreProperImages;
-window.checkImageLoadingStatus = checkImageLoadingStatus;
-
-console.log('✅ Image Display Fix loaded successfully');
-                    galleries[i].remove();
+    // Function to check image loading status
+    function checkImageLoadingStatus() {
+        const images = document.querySelectorAll('img[src*="imazhet/"]');
+        let loadedCount = 0;
+        let failedCount = 0;
+        
+        images.forEach((img, index) => {
+            if (img.complete) {
+                if (img.naturalWidth === 0) {
+                    failedCount++;
+                    console.warn(`❌ Image ${index + 1} failed to load: ${img.src.split('/').pop()}`);
+                } else {
+                    loadedCount++;
+                    console.log(`✅ Image ${index + 1} loaded successfully: ${img.src.split('/').pop()}`);
                 }
+            } else {
+                img.addEventListener('load', () => {
+                    console.log(`✅ Image loaded: ${img.src.split('/').pop()}`);
+                });
+                img.addEventListener('error', () => {
+                    console.warn(`❌ Image failed: ${img.src.split('/').pop()}`);
+                });
             }
         });
+        
+        console.log(`📊 Image status: ${loadedCount} loaded, ${failedCount} failed, ${images.length - loadedCount - failedCount} loading`);
+        return { loaded: loadedCount, failed: failedCount, total: images.length };
     }
-    
+
+    // Function to fix image paths
     function fixImagePaths() {
         console.log('🖼️ Fixing image paths...');
         
@@ -242,7 +216,29 @@ console.log('✅ Image Display Fix loaded successfully');
             }
         });
     }
-    
+
+    // Function to remove duplicate galleries
+    function removeDuplicateGalleries() {
+        console.log('🧹 Removing duplicate image galleries...');
+        
+        const galleries = document.querySelectorAll('.chapter-image-gallery');
+        const seen = new Set();
+        
+        galleries.forEach((gallery, index) => {
+            const img = gallery.querySelector('img');
+            if (img && img.src) {
+                const imageName = img.src.split('/').pop();
+                if (seen.has(imageName)) {
+                    console.log(`🗑️ Removing duplicate gallery for image: ${imageName}`);
+                    gallery.remove();
+                } else {
+                    seen.add(imageName);
+                }
+            }
+        });
+    }
+
+    // Function to fix chapter content rendering
     function fixChapterContentRendering() {
         console.log('📄 Fixing chapter content rendering...');
         
@@ -294,7 +290,8 @@ console.log('✅ Image Display Fix loaded successfully');
             }
         });
     }
-    
+
+    // Function to apply image styles
     function applyImageStyles() {
         console.log('🎨 Applying image gallery styles...');
         
@@ -376,14 +373,40 @@ console.log('✅ Image Display Fix loaded successfully');
         
         document.head.appendChild(style);
     }
-    
-    // Initialize fix when DOM is ready
-    if (document.readyState === 'loading') {
-        document.addEventListener('DOMContentLoaded', initFix);
-    } else {
-        initFix();
+
+    // Main initialization function
+    function initFix() {
+        console.log('🚀 Initializing image display fixes...');
+        
+        removeDuplicateGalleries();
+        fixImagePaths();
+        fixChapterContentRendering();
+        applyImageStyles();
+        
+        console.log('✅ All image display fixes applied');
     }
-    
+
+    // Auto-run the image restoration when DOM is ready
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', () => {
+            setTimeout(() => {
+                const fixed = restoreProperImages();
+                if (fixed > 0) {
+                    setTimeout(checkImageLoadingStatus, 500);
+                }
+                initFix();
+            }, 100);
+        });
+    } else {
+        setTimeout(() => {
+            const fixed = restoreProperImages();
+            if (fixed > 0) {
+                setTimeout(checkImageLoadingStatus, 500);
+            }
+            initFix();
+        }, 100);
+    }
+
     // Also run fix when new content is loaded (for dynamic content)
     const observer = new MutationObserver(function(mutations) {
         let shouldRunFix = false;
@@ -407,7 +430,7 @@ console.log('✅ Image Display Fix loaded successfully');
             setTimeout(initFix, 100); // Small delay to ensure content is fully loaded
         }
     });
-    
+
     // Observe changes to the chapter content area
     const chapterContent = document.getElementById('chapter-content');
     if (chapterContent) {
@@ -416,8 +439,10 @@ console.log('✅ Image Display Fix loaded successfully');
             subtree: true
         });
     }
-    
-    // Export functions for manual use if needed
+
+    // Export functions for manual use
+    window.restoreProperImages = restoreProperImages;
+    window.checkImageLoadingStatus = checkImageLoadingStatus;
     window.ImageDisplayFix = {
         removeDuplicateGalleries,
         fixImagePaths,
@@ -425,5 +450,7 @@ console.log('✅ Image Display Fix loaded successfully');
         applyImageStyles,
         reinitialize: initFix
     };
-    
+
+    console.log('✅ Image Display Fix loaded successfully');
+
 })();

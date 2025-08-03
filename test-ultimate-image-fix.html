@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="sq">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test - Image Fix Final</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background: #f5f5f5;
+        }
+        
+        .test-section {
+            background: white;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        .success {
+            border-left: 5px solid #28a745;
+        }
+        
+        .info {
+            border-left: 5px solid #17a2b8;
+        }
+        
+        .warning {
+            border-left: 5px solid #ffc107;
+        }
+        
+        .test-btn {
+            background: #007bff;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin: 5px;
+        }
+        
+        .test-btn:hover {
+            background: #0056b3;
+        }
+        
+        .image-preview {
+            max-width: 300px;
+            border-radius: 10px;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>🔧 Ultimate Image Fix - Test Page</h1>
+    
+    <div class="test-section success">
+        <h3>✅ Zgjidhja e Plotë e Problemit</h3>
+        <p><strong>Problemi:</strong> Kapitulli 2 ka dy imazhe, kapitujt e tjerë nuk kanë imazhe</p>
+        <p><strong>Shkaku:</strong> Konflikte midis skedarëve të ndryshëm për imazhet</p>
+        <p><strong>Zgjidhja:</strong> Një skedar i vetëm <code>ultimate-image-fix.js</code> që:</p>
+        <ul>
+            <li>🧹 Pastron të gjitha duplikatet dhe konfliktet</li>
+            <li>🖼️ Aplikonn saktësisht një imazh për çdo kapitull</li>
+            <li>🔄 Monitorn dhe ndreqn automatikisht problemet</li>
+            <li>📱 Responsive design për të gjitha pajisjet</li>
+        </ul>
+    </div>
+    
+    <div class="test-section info">
+        <h3>🛠️ Veglat e Testimit</h3>
+        <button class="test-btn" onclick="testImageFix()">Test Ultimate Image Fix</button>
+        <button class="test-btn" onclick="resetImages()">Reset All Images</button>
+        <button class="test-btn" onclick="checkImageStatus()">Check Image Status</button>
+        <button class="test-btn" onclick="showImageMap()">Show Image Map</button>
+        
+        <div id="test-results" style="margin-top: 20px; padding: 15px; background: #f8f9fa; border-radius: 5px; display: none;">
+            <h4>Test Results:</h4>
+            <div id="results-content"></div>
+        </div>
+    </div>
+    
+    <div class="test-section warning">
+        <h3>⚠️ Udhëzime për Përdorim</h3>
+        <ol>
+            <li><strong>Hapni kryesore:</strong> Shkoni tek <code>index.html</code></li>
+            <li><strong>Navigoni:</strong> Shkoni tek kapitulli 1, 2, 3, etj.</li>
+            <li><strong>Verifikoni:</strong> Çdo kapitull duhet të ketë saktësisht një imazh</li>
+            <li><strong>Manual Reset:</strong> Nëse ka probleme, hapni console dhe shkruani: <code>UltimateImageFix.reset()</code></li>
+        </ol>
+    </div>
+    
+    <div class="test-section">
+        <h3>📋 Sample Images Preview</h3>
+        <p>Këto janë disa nga imazhet që do të shfaqen:</p>
+        <div style="display: flex; flex-wrap: wrap; gap: 10px;">
+            <img src="imazhet/Create an elegant book cover for 'Teoria e Lojërave Nderi dhe Suksesi'. Feature chess pieces on a marble board with golden Islamic geometric patterns. Include luxury cars (Mercedes, BMW) in the background and traditional A.png" 
+                 alt="Book Cover" class="image-preview" onerror="this.style.display='none'">
+            <img src="imazhet/Create 21st century strategy scene Albanian business leader in modern boardroom with digital strategy displays, global connectivity maps, sustainable business icons, Islamic geometric patterns integrated with modern design.jpg" 
+                 alt="Business Strategy" class="image-preview" onerror="this.style.display='none'">
+            <img src="imazhet/Create smart investment scene Albanian investor analyzing charts on multiple screens, luxury cars and real estate in background, Islamic finance symbols, golden growth arrows. Style analytical, prosperous, halal-focused..png" 
+                 alt="Smart Investment" class="image-preview" onerror="this.style.display='none'">
+        </div>
+    </div>
+
+    <script>
+        function testImageFix() {
+            const results = document.getElementById('test-results');
+            const content = document.getElementById('results-content');
+            
+            results.style.display = 'block';
+            content.innerHTML = `
+                <p>🔍 <strong>Testing Ultimate Image Fix...</strong></p>
+                <p>✅ ultimate-image-fix.js loaded: ${typeof UltimateImageFix !== 'undefined'}</p>
+                <p>📊 Available functions: ${typeof UltimateImageFix !== 'undefined' ? Object.keys(UltimateImageFix).join(', ') : 'Not loaded'}</p>
+                <p>🖼️ Image map entries: ${typeof UltimateImageFix !== 'undefined' ? Object.keys(UltimateImageFix.imageMap || {}).length : 'N/A'}</p>
+                <p><em>Open the main index.html to see the fix in action!</em></p>
+            `;
+        }
+        
+        function resetImages() {
+            if (typeof UltimateImageFix !== 'undefined') {
+                UltimateImageFix.reset();
+                alert('Images reset successfully! Go to index.html to see the changes.');
+            } else {
+                alert('Ultimate Image Fix not loaded. Please open index.html first.');
+            }
+        }
+        
+        function checkImageStatus() {
+            if (typeof UltimateImageFix !== 'undefined') {
+                const status = UltimateImageFix.checkStatus();
+                alert(`Image Status:\nLoaded: ${status.loaded}\nFailed: ${status.failed}\nTotal: ${status.total}`);
+            } else {
+                alert('Ultimate Image Fix not loaded. Please open index.html first.');
+            }
+        }
+        
+        function showImageMap() {
+            if (typeof UltimateImageFix !== 'undefined') {
+                console.log('🗺️ Complete Image Map:', UltimateImageFix.imageMap);
+                alert('Image map logged to console! Open browser console to see details.');
+            } else {
+                alert('Ultimate Image Fix not loaded. Please open index.html first.');
+            }
+        }
+    </script>
+    
+    <div class="test-section success">
+        <h3>🎯 Rezultati i Pritur</h3>
+        <ul>
+            <li><strong>Kapitulli 1:</strong> 1 imazh (Book Cover)</li>
+            <li><strong>Kapitulli 2:</strong> 1 imazh (Business Strategy) - jo më dy!</li>
+            <li><strong>Kapitulli 3:</strong> 1 imazh (Smart Investment)</li>
+            <li><strong>Kapitujt 4-30:</strong> Çdo kapitull ka saktësisht 1 imazh</li>
+            <li><strong>Kapitujt 31+:</strong> Pa imazhe (normal, nuk ka imazhe për to)</li>
+        </ul>
+    </div>
+    
+    <div class="test-section">
+        <h3>🐛 Nëse Ka Probleme</h3>
+        <p>1. Hapni browser console (F12)</p>
+        <p>2. Shkruani: <code>UltimateImageFix.reset()</code></p>
+        <p>3. Ose rifreskoni faqen plotësisht (Ctrl+F5)</p>
+        <p>4. Nëse vazhdon problemi, kontaktoni developerin</p>
+    </div>
+</body>
+</html>
