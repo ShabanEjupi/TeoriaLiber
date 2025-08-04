@@ -1,4 +1,4 @@
-// Game Theory Book - Interactive JavaScript - 600+ Pages Albanian Edition
+// Game Theory Book - Interactive JavaScript - 600+ Pages Kosovo Edition
 let currentChapter = 1;
 const totalChapters = 111; // 111 kapituj × 6-8 faqe secili = 666-888 faqe total
 
@@ -60,7 +60,7 @@ const chapters = {
 
         <p>Në vitin 1944, matematiciani John von Neumann dhe ekonomisti Oskar Morgenstern publikuan veprën revolucionare "Theory of Games and Economic Behavior", duke krijuar një shkencë të re që do të ndryshonte përgjithmonë mënyrën se si i kupton njeriu strategjinë, konkurencën dhe bashkëpunimin.</p>
 
-        <p>Por pse kjo teoreme është veçanërisht e rëndësishme për komunitetin shqiptar dhe muslimanë? Sepse teoria e lojërave na mëson se strategjia më e mirë për suksesin afatgjatë është ajo që bazohet në besim, ndershmëri dhe respekt reciprok - vlera që janë themeli i kulturës sonë.</p>
+        <p>Por pse kjo teoreme është veçanërisht e rëndësishme për komunitetin kosovar dhe muslimanë? Sepse teoria e lojërave na mëson se strategjia më e mirë për suksesin afatgjatë është ajo që bazohet në besim, ndershmëri dhe respekt reciprok - vlera që janë themeli i kulturës sonë.</p>
 
         <div class="islamic-quote">
             "وَمَن يَتَّقِ اللَّهَ يَجْعَل لَّهُ مَخْرَجًا وَيَرْزُقْهُ مِنْ حَيْثُ لَا يَحْتَسِبُ"
@@ -94,9 +94,9 @@ const chapters = {
             </ul>
         </div>
 
-        <h3>Nderi në Kulturën Shqiptare</h3>
+        <h3>Nderi në Kulturën Kosovare</h3>
 
-        <p>Për shqiptarët, nderi (besa) është më shumë se një vlerë - është identiteti ynë. Kanuni i Lekë Dukagjinit, sistemi juridik tradicional shqiptar, vendoste nderin në qendër të të gjitha marrëdhënieve shoqërore dhe ekonomike.</p>
+        <p>Për kosovarët, nderi (besa) është më shumë se një vlerë - është identiteti ynë. Kanuni i Lekë Dukagjinit, sistemi juridik tradicional kosovar, vendoste nderin në qendër të të gjitha marrëdhënieve shoqërore dhe ekonomike.</p>
 
         <p>Sot, në botën e globalizuar, kjo traditë na jep një avantazh të madh konkurues. Ndërsa shumë kultura kanë humbur besimin e ndërsjellë, ne mund ta përdorim këtë vlerë si një "avantazh strategjik" për të ndërtuar marrëdhënie më të forta në biznes dhe jetë.</p>
 
@@ -365,7 +365,7 @@ const chapters = {
         
         <div class="ai-prompt-box">
             <h4>🤖 Prompt për ChatGPT:</h4>
-            <p>"Create startup journey visualization: Albanian entrepreneur's journey from idea sketch to successful company, progression showing growth stages, luxury office evolution, Islamic values integrated. Style: inspirational, growth-focused, culturally proud."</p>
+            <p>"Create startup journey visualization: Kosovar entrepreneur's journey from idea sketch to successful company, progression showing growth stages, luxury office evolution, Islamic values integrated. Style: inspirational, growth-focused, culturally proud."</p>
         </div>
 
         <h3>Nga Punëtori në Pronar</h3>
@@ -398,7 +398,7 @@ const chapters = {
         
         <div class="ai-prompt-box">
             <h4>🤖 Prompt për ChatGPT:</h4>
-            <p>"Create powerful mindset visualization: Albanian professional in meditation pose, surrounded by symbols of success (Mercedes, beautiful home, happy family), golden light emanating from their mind, Islamic geometric patterns in background. Style: spiritual, powerful, aspirational."</p>
+            <p>"Create powerful mindset visualization: Kosovar professional in meditation pose, surrounded by symbols of success (Mercedes, beautiful home, happy family), golden light emanating from their mind, Islamic geometric patterns in background. Style: spiritual, powerful, aspirational."</p>
         </div>
 
         <h3>Transformimi i Brendshëm për Sukses të Jashtëm</h3>
@@ -431,14 +431,12 @@ const chapters = {
         
         <div class="ai-prompt-box">
             <h4>🤖 Prompt për ChatGPT:</h4>
-            <p>"Create modern digital business scene: Albanian entrepreneur working on laptop, multiple screens showing online business growth, luxury car in garage visible through window, Islamic geometric patterns on wall, golden digital elements. Style: modern, tech-savvy, successful."</p>
+            <p>"Create modern digital business scene: Kosovar entrepreneur working on laptop, multiple screens showing online business growth, luxury car in garage visible through window, Islamic geometric patterns on wall, golden digital elements. Style: modern, tech-savvy, successful."</p>
         </div>
 
-        <h3>Era Digjitale: Mundësi të Reja për Shqiptarët</h3>
-        
-        <p>Teknologjia ka hapur porte që asnjëherë më parë nuk kanë qenë të mundshme. Një shqiptar në Tiranë ose Prishtinë mund të fitojë po aq sa dikush në Silicon Valley. Ky kapitull do t'ju tregojë si.</p>
+        <h3>Era Digjitale: Mundësi të Reja për Kosovarët</h3>
 
-        <div class="islamic-quote">
+        <p>Teknologjia ka hapur porte që asnjëherë më parë nuk kanë qenë të mundshme. Një kosovar në Prishtinë mund të fitojë po aq sa dikush në Silicon Valley. Ky kapitull do t'ju tregojë si.</p>        <div class="islamic-quote">
             "وَقُل رَّبِّ زِدْنِي عِلْمًا"
             <br><br>
             "Dhe thuaj: O Zoti im, më shto dijen!" - Kurani, 20:114
@@ -464,7 +462,7 @@ const chapters = {
         
         <div class="ai-prompt-box">
             <h4>🤖 Prompt për ChatGPT:</h4>
-            <p>"Create inspiring family education scene: Albanian parents teaching children about success and values, books and modern technology on table, luxury car visible through window representing future success, Islamic calligraphy on wall, warm family atmosphere. Style: loving, educational, aspirational."</p>
+            <p>"Create inspiring family education scene: Kosovar parents teaching children about success and values, books and modern technology on table, luxury car visible through window representing future success, Islamic calligraphy on wall, warm family atmosphere. Style: loving, educational, aspirational."</p>
         </div>
 
         <h3>Investimi më i Rëndësishëm: Fëmijët Tanë</h3>
@@ -498,7 +496,7 @@ const chapters = {
         
         <div class="ai-prompt-box">
             <h4>🤖 Prompt për ChatGPT:</h4>
-            <p>"Create powerful mindset transformation image: Albanian professional meditating in luxury office, brain with golden neural networks, success symbols (Mercedes, beautiful house, happy family) floating around, Islamic geometric patterns, transformation energy. Style: spiritual, powerful, transformative."</p>
+            <p>"Create powerful mindset transformation image: Kosovar professional meditating in luxury office, brain with golden neural networks, success symbols (Mercedes, beautiful house, happy family) floating around, Islamic geometric patterns, transformation energy. Style: spiritual, powerful, transformative."</p>
         </div>
 
         <h3>Suksesi Fillon në Mendje</h3>
@@ -539,7 +537,7 @@ const chapters = {
         
         <div class="ai-prompt-box">
             <h4>🤖 Prompt për ChatGPT:</h4>
-            <p>"Create justice and humanitarian scene: Albanian professional working with international documents for Palestine, scales of justice, Islamic symbols, maps showing strategic locations, golden light representing hope and justice. Style: serious, compassionate, strategic."</p>
+            <p>"Create justice and humanitarian scene: Kosovar professional working with international documents for Palestine, scales of justice, Islamic symbols, maps showing strategic locations, golden light representing hope and justice. Style: serious, compassionate, strategic."</p>
         </div>
 
         <h3>Jeta në Tokë: Ibadeti dhe Përgjegjësia</h3>
@@ -632,7 +630,7 @@ const chapters = {
         
         <div class="ai-prompt-box">
             <h4>🤖 Prompt për ChatGPT:</h4>
-            <p>"Create sophisticated networking scene: Albanian business professionals connecting at luxury venue, handshakes with golden energy flowing between people, cultural diversity, Islamic and Albanian symbols, connection networks visualized as golden threads. Style: professional, warm, culturally rich."</p>
+            <p>"Create sophisticated networking scene: Kosovar business professionals connecting at luxury venue, handshakes with golden energy flowing between people, cultural diversity, Islamic and Kosovo symbols, connection networks visualized as golden threads. Style: professional, warm, culturally rich."</p>
         </div>
 
         <h3>Rrjeti Juaj = Vlera Juaj Neto</h3>
@@ -656,10 +654,10 @@ const chapters = {
             </ul>
         </div>
 
-        <h3>Strategjitë e Networking për Shqiptarët</h3>
+        <h3>Strategjitë e Networking për Kosovarët</h3>
         <p>Si minoritet në botë, ne duhet të jemi strategjikë:</p>
         <ol>
-            <li><strong>Albanian Business Networks:</strong> Lidhu me komunitetin</li>
+            <li><strong>Kosovar Business Networks:</strong> Lidhu me komunitetin</li>
             <li><strong>Local Business Associations:</strong> Bëhu pjesë e biznesit lokal</li>
             <li><strong>Online Communities:</strong> LinkedIn, Facebook groups</li>
             <li><strong>Mentorship Programs:</strong> Gjej mentor dhe ji mentor</li>
@@ -674,7 +672,7 @@ const chapters = {
         
         <div class="ai-prompt-box">
             <h4>🤖 Prompt për ChatGPT:</h4>
-            <p>"Create time mastery visualization: Albanian professional with multiple clocks showing different time zones, luxury car in background, organized modern office, golden time flowing like sand, Islamic geometric time patterns. Style: organized, efficient, luxurious."</p>
+            <p>"Create time mastery visualization: Kosovar professional with multiple clocks showing different time zones, luxury car in background, organized modern office, golden time flowing like sand, Islamic geometric time patterns. Style: organized, efficient, luxurious."</p>
         </div>
 
         <h3>Koha: Resursi më i Çmuar</h3>
@@ -719,7 +717,7 @@ const chapters = {
         
         <div class="ai-prompt-box">
             <h4>🤖 Prompt për ChatGPT:</h4>
-            <p>"Create innovation explosion scene: Albanian entrepreneur surrounded by floating lightbulbs and creative ideas, luxury office with modern art, Islamic geometric creativity patterns, golden innovation energy. Style: creative, inspiring, breakthrough."</p>
+            <p>"Create innovation explosion scene: Kosovar entrepreneur surrounded by floating lightbulbs and creative ideas, luxury office with modern art, Islamic geometric creativity patterns, golden innovation energy. Style: creative, inspiring, breakthrough."</p>
         </div>
 
         <h3>Inovacioni: Motori i Suksesit</h3>
@@ -743,12 +741,12 @@ const chapters = {
             </ul>
         </div>
 
-        <h3>Inovacioni në Biznesin Shqiptar</h3>
+        <h3>Inovacioni në Biznesin Kosovar</h3>
         <p>Si të inovojmë duke respektuar vlerat tona:</p>
         <ol>
             <li><strong>Traditë + Teknologji:</strong> Përzieni të vjetrën me të renë</li>
             <li><strong>Probleme Lokale, Zgjidhje Globale:</strong> Filloni nga shtëpia</li>
-            <li><strong>Kulturë + Business:</strong> Exportoni identitetin shqiptar</li>
+            <li><strong>Kulturë + Business:</strong> Exportoni identitetin kosovar</li>
         </ol>
         `
     },
@@ -760,7 +758,7 @@ const chapters = {
         
         <div class="ai-prompt-box">
             <h4>🤖 Prompt për ChatGPT:</h4>
-            <p>"Create peaceful balance scene: Albanian professional in meditation pose balancing work and life, scales showing family and business in harmony, luxury car and beautiful home in background, Islamic peace symbols. Style: serene, balanced, harmonious."</p>
+            <p>"Create peaceful balance scene: Kosovar professional in meditation pose balancing work and life, scales showing family and business in harmony, luxury car and beautiful home in background, Islamic peace symbols. Style: serene, balanced, harmonious."</p>
         </div>
 
         <h3>Suksesi Pa Stress është i Mundur</h3>
@@ -800,7 +798,7 @@ const chapters = {
         
         <div class="ai-prompt-box">
             <h4>🤖 Prompt për ChatGPT:</h4>
-            <p>"Create powerful communication scene: Albanian speaker presenting to diverse audience, golden words flowing from mouth, luxury business setting, cultural symbols of trust and honor, Islamic communication ethics. Style: authoritative, persuasive, culturally respectful."</p>
+            <p>"Create powerful communication scene: Kosovar speaker presenting to diverse audience, golden words flowing from mouth, luxury business setting, cultural symbols of trust and honor, Islamic communication ethics. Style: authoritative, persuasive, culturally respectful."</p>
         </div>
 
         <h3>Komunikimi: Aftësia që Ndryshon Gjithçka</h3>
@@ -842,7 +840,7 @@ const chapters = {
         
         <div class="ai-prompt-box">
             <h4>🤖 Prompt për ChatGPT:</h4>
-            <p>"Create sophisticated negotiation scene: Albanian business leader across table from international partners, handshake with golden energy, cultural respect symbols, luxury office setting, Islamic fairness principles. Style: diplomatic, successful, honorable."</p>
+            <p>"Create sophisticated negotiation scene: Kosovar business leader across table from international partners, handshake with golden energy, cultural respect symbols, luxury office setting, Islamic fairness principles. Style: diplomatic, successful, honorable."</p>
         </div>
 
         <h3>Negocimi: Arti i Win-Win</h3>
@@ -882,7 +880,7 @@ const chapters = {
         
         <div class="ai-prompt-box">
             <h4>🤖 Prompt për ChatGPT:</h4>
-            <p>"Create inspiring leadership scene: Albanian leader guiding diverse team, golden light emanating from leader, team working in harmony, luxury corporate environment, Islamic leadership principles visible, cultural unity symbols. Style: inspiring, multicultural, leadership-focused."</p>
+            <p>"Create inspiring leadership scene: Kosovar leader guiding diverse team, golden light emanating from leader, team working in harmony, luxury corporate environment, Islamic leadership principles visible, cultural unity symbols. Style: inspiring, multicultural, leadership-focused."</p>
         </div>
 
         <h3>Lidershipi: Influencë, jo Pozitë</h3>
@@ -923,7 +921,7 @@ const chapters = {
         
         <div class="ai-prompt-box">
             <h4>🤖 Prompt për ChatGPT:</h4>
-            <p>"Create peaceful conflict resolution scene: Albanian mediator bringing two parties together, dove of peace with golden light, handshake in center, Islamic justice symbols, cultural harmony elements. Style: peaceful, diplomatic, justice-focused."</p>
+            <p>"Create peaceful conflict resolution scene: Kosovar mediator bringing two parties together, dove of peace with golden light, handshake in center, Islamic justice symbols, cultural harmony elements. Style: peaceful, diplomatic, justice-focused."</p>
         </div>
 
         <h3>Konflikti: Mundësi për Rritje</h3>
@@ -965,7 +963,7 @@ const chapters = {
         
         <div class="ai-prompt-box">
             <h4>🤖 Prompt për ChatGPT:</h4>
-            <p>"Create strategic decision-making scene: Albanian executive at crossroads with multiple paths, chess pieces and business charts, golden scale weighing options, Islamic wisdom symbols, luxury office setting. Style: analytical, strategic, wisdom-focused."</p>
+            <p>"Create strategic decision-making scene: Kosovar executive at crossroads with multiple paths, chess pieces and business charts, golden scale weighing options, Islamic wisdom symbols, luxury office setting. Style: analytical, strategic, wisdom-focused."</p>
         </div>
 
         <h3>Vendimet që Ndryshojnë Jetën</h3>
@@ -1007,7 +1005,7 @@ const chapters = {
         
         <div class="ai-prompt-box">
             <h4>🤖 Prompt për ChatGPT:</h4>
-            <p>"Create visionary planning scene: Albanian leader looking toward bright future horizon, luxury cars and beautiful buildings emerging from golden mist, family and success symbols, Islamic architectural elements, strategic planning charts. Style: visionary, aspirational, future-focused."</p>
+            <p>"Create visionary planning scene: Kosovar leader looking toward bright future horizon, luxury cars and beautiful buildings emerging from golden mist, family and success symbols, Islamic architectural elements, strategic planning charts. Style: visionary, aspirational, future-focused."</p>
         </div>
 
         <h3>Vizioni: Udhërrëfyesi i Suksesit</h3>
@@ -1050,7 +1048,7 @@ const chapters = {
         
         <div class="ai-prompt-box">
             <h4>🤖 Prompt për ChatGPT:</h4>
-            <p>"Create financial security visualization: Albanian family protected by golden shield, luxury home and car safely positioned, Islamic geometric protection patterns, emergency fund symbols, diversified investment charts. Style: secure, protected, prosperous."</p>
+            <p>"Create financial security visualization: Kosovar family protected by golden shield, luxury home and car safely positioned, Islamic geometric protection patterns, emergency fund symbols, diversified investment charts. Style: secure, protected, prosperous."</p>
         </div>
 
         <h3>Siguria Para Suksesit</h3>
@@ -1091,7 +1089,7 @@ const chapters = {
         
         <div class="ai-prompt-box">
             <h4>🤖 Prompt për ChatGPT:</h4>
-            <p>"Create digital transformation scene: Albanian entrepreneur surrounded by floating holograms of technology, AI symbols, blockchain elements, luxury tech office, Islamic geometric digital patterns, golden innovation energy. Style: futuristic, high-tech, innovative."</p>
+            <p>"Create digital transformation scene: Kosovar entrepreneur surrounded by floating holograms of technology, AI symbols, blockchain elements, luxury tech office, Islamic geometric digital patterns, golden innovation energy. Style: futuristic, high-tech, innovative."</p>
         </div>
 
         <h3>Era Digjitale: Adaptohu ose Zhduqu</h3>
@@ -1135,7 +1133,7 @@ const chapters = {
         
         <div class="ai-prompt-box">
             <h4>🤖 Prompt për ChatGPT:</h4>
-            <p>"Create ethical marketing scene: Albanian brand building with honest advertising, cultural values integrated, luxury brand elements, Islamic honesty symbols, golden trust networks connecting to customers. Style: trustworthy, premium, culturally authentic."</p>
+            <p>"Create ethical marketing scene: Kosovar brand building with honest advertising, cultural values integrated, luxury brand elements, Islamic honesty symbols, golden trust networks connecting to customers. Style: trustworthy, premium, culturally authentic."</p>
         </div>
 
         <h3>Marketing me Integritet</h3>
@@ -1184,7 +1182,7 @@ const chapters = {
         
         <div class="ai-prompt-box">
             <h4>🤖 Prompt për ChatGPT:</h4>
-            <p>"Create ethical sales scene: Albanian salesperson helping customer find perfect solution, handshake with golden honesty aura, customer satisfaction symbols, Islamic fairness principles, luxury business setting. Style: helpful, honest, customer-focused."</p>
+            <p>"Create ethical sales scene: Kosovar salesperson helping customer find perfect solution, handshake with golden honesty aura, customer satisfaction symbols, Islamic fairness principles, luxury business setting. Style: helpful, honest, customer-focused."</p>
         </div>
 
         <h3>Shitja si Shërbim</h3>
@@ -1224,7 +1222,7 @@ const chapters = {
         
         <div class="ai-prompt-box">
             <h4>🤖 Prompt për ChatGPT:</h4>
-            <p>"Create excellent customer service scene: Albanian service representative helping diverse customers, hearts and golden stars showing satisfaction, luxury service environment, Islamic hospitality symbols, happy customers in background. Style: caring, professional, service-excellence."</p>
+            <p>"Create excellent customer service scene: Kosovar service representative helping diverse customers, hearts and golden stars showing satisfaction, luxury service environment, Islamic hospitality symbols, happy customers in background. Style: caring, professional, service-excellence."</p>
         </div>
 
         <h3>Klienti: Zemra e Biznesit</h3>
@@ -1269,7 +1267,7 @@ const chapters = {
         
         <div class="ai-prompt-box">
             <h4>🤖 Prompt për ChatGPT:</h4>
-            <p>"Create product innovation lab: Albanian team developing cutting-edge products, 3D prototypes floating in air, luxury design studio, Islamic geometric innovation patterns, golden creativity sparks, modern technology. Style: innovative, creative, high-tech."</p>
+            <p>"Create product innovation lab: Kosovar team developing cutting-edge products, 3D prototypes floating in air, luxury design studio, Islamic geometric innovation patterns, golden creativity sparks, modern technology. Style: innovative, creative, high-tech."</p>
         </div>
 
         <h3>Produkti: Zgjidhja e Problemeve</h3>
@@ -1320,7 +1318,7 @@ const chapters = {
         
         <div class="ai-prompt-box">
             <h4>🤖 Prompt për ChatGPT:</h4>
-            <p>"Create financial management scene: Albanian CFO analyzing financial charts and dashboards, golden numbers flowing upward, luxury office with multiple monitors, Islamic geometric patterns on financial documents, prosperity symbols. Style: analytical, prosperous, detail-oriented."</p>
+            <p>"Create financial management scene: Kosovar CFO analyzing financial charts and dashboards, golden numbers flowing upward, luxury office with multiple monitors, Islamic geometric patterns on financial documents, prosperity symbols. Style: analytical, prosperous, detail-oriented."</p>
         </div>
 
         <h3>Financat: Gjuha e Biznesit</h3>
@@ -1373,7 +1371,7 @@ const chapters = {
         
         <div class="ai-prompt-box">
             <h4>🤖 Prompt për ChatGPT:</h4>
-            <p>"Create sophisticated investment scene: Albanian investor managing diverse portfolio, holographic charts showing global markets, luxury home office, Islamic finance symbols, golden growth arrows, real estate and stock certificates. Style: sophisticated, global, wealth-building."</p>
+            <p>"Create sophisticated investment scene: Kosovar investor managing diverse portfolio, holographic charts showing global markets, luxury home office, Islamic finance symbols, golden growth arrows, real estate and stock certificates. Style: sophisticated, global, wealth-building."</p>
         </div>
 
         <h3>Pasuria që Punon për Ju</h3>
@@ -1398,11 +1396,11 @@ const chapters = {
             </ul>
         </div>
 
-        <h3>Strategjitë e Investimit për Shqiptarët</h3>
+        <h3>Strategjitë e Investimit për Kosovarët</h3>
         <ul>
-            <li><strong>Geographic Diversification:</strong> Albania, Kosovo, diaspora countries</li>
+            <li><strong>Geographic Diversification:</strong> Kosovo, Kosovo, diaspora countries</li>
             <li><strong>Currency Hedging:</strong> EUR, USD, CHF</li>
-            <li><strong>Cultural Investments:</strong> Albanian businesses</li>
+            <li><strong>Cultural Investments:</strong> Kosovar businesses</li>
             <li><strong>Halal Screening:</strong> Respektim i principeve islame</li>
         </ul>
 
@@ -1424,7 +1422,7 @@ const chapters = {
         
         <div class="ai-prompt-box">
             <h4>🤖 Prompt për ChatGPT:</h4>
-            <p>"Create global trade scene: Albanian business leader with world map showing trade routes, luxury international office, cultural symbols from different countries, golden trade connections, Islamic geometric patterns representing cultural bridges. Style: international, sophisticated, cross-cultural."</p>
+            <p>"Create global trade scene: Kosovar business leader with world map showing trade routes, luxury international office, cultural symbols from different countries, golden trade connections, Islamic geometric patterns representing cultural bridges. Style: international, sophisticated, cross-cultural."</p>
         </div>
 
         <h3>Botimi i Biznesit Tuaj</h3>
@@ -1457,9 +1455,9 @@ const chapters = {
             <li><strong>Adaptation:</strong> Produkte të përshtatura lokalke</li>
         </ul>
 
-        <h3>Albania-Kosovo Trade Opportunities</h3>
+        <h3>Kosovo-Kosovo Trade Opportunities</h3>
         <ol>
-            <li><strong>Tourism:</strong> Albanian Alps, beaches, culture</li>
+            <li><strong>Tourism:</strong> Kosovar Alps, beaches, culture</li>
             <li><strong>Agriculture:</strong> Organic products export</li>
             <li><strong>Technology:</strong> Outsourcing dhe software</li>
             <li><strong>Manufacturing:</strong> Textile dhe automotive parts</li>
@@ -1475,7 +1473,7 @@ const chapters = {
         
         <div class="ai-prompt-box">
             <h4>🤖 Prompt për ChatGPT:</h4>
-            <p>"Create futuristic blockchain scene: Albanian tech expert working with floating blockchain networks, cryptocurrency symbols, golden digital chains connecting globally, Islamic geometric digital patterns, luxury tech environment. Style: futuristic, technological, innovative."</p>
+            <p>"Create futuristic blockchain scene: Kosovar tech expert working with floating blockchain networks, cryptocurrency symbols, golden digital chains connecting globally, Islamic geometric digital patterns, luxury tech environment. Style: futuristic, technological, innovative."</p>
         </div>
 
         <h3>E Ardhmja e Parasë dhe Kontratave</h3>
@@ -1509,7 +1507,7 @@ const chapters = {
             <li><strong>Stablecoins (10%):</strong> USD backing për stability</li>
         </ul>
 
-        <h3>Blockchain për Shqiptarët</h3>
+        <h3>Blockchain për Kosovarët</h3>
         <ol>
             <li><strong>Remittances:</strong> Para për familjen në atdhe</li>
             <li><strong>Real Estate:</strong> Property ownership në blockchain</li>
@@ -1526,7 +1524,7 @@ const chapters = {
         
         <div class="ai-prompt-box">
             <h4>🤖 Prompt për ChatGPT:</h4>
-            <p>"Create AI-powered business scene: Albanian entrepreneur collaborating with AI systems, holographic assistants, automated processes, luxury smart office, Islamic geometric AI patterns, golden neural networks. Style: futuristic, intelligent, automated."</p>
+            <p>"Create AI-powered business scene: Kosovar entrepreneur collaborating with AI systems, holographic assistants, automated processes, luxury smart office, Islamic geometric AI patterns, golden neural networks. Style: futuristic, intelligent, automated."</p>
         </div>
 
         <h3>AI: Partneri Juaj Digjital</h3>
@@ -1579,7 +1577,7 @@ const chapters = {
         
         <div class="ai-prompt-box">
             <h4>🤖 Prompt për ChatGPT:</h4>
-            <p>"Create dynamic social media scene: Albanian influencer creating content with professional setup, multiple screens showing different platforms, engagement metrics flowing like golden particles, Islamic values integrated, luxury content studio. Style: dynamic, engaging, professional."</p>
+            <p>"Create dynamic social media scene: Kosovar influencer creating content with professional setup, multiple screens showing different platforms, engagement metrics flowing like golden particles, Islamic values integrated, luxury content studio. Style: dynamic, engaging, professional."</p>
         </div>
 
         <h3>Media Sociale: Megafoni Juaj Digjital</h3>
@@ -1613,11 +1611,11 @@ const chapters = {
             <li><strong>Promotional (20%):</strong> Products, services, offers</li>
         </ul>
 
-        <h3>Albanian Cultural Content Ideas</h3>
+        <h3>Kosovar Cultural Content Ideas</h3>
         <ol>
-            <li><strong>Success Stories:</strong> Albanian entrepreneurs</li>
-            <li><strong>Cultural Pride:</strong> Albanian achievements</li>
-            <li><strong>Business in Albanian:</strong> Content në gjuhën shqipe</li>
+            <li><strong>Success Stories:</strong> Kosovar entrepreneurs</li>
+            <li><strong>Cultural Pride:</strong> Kosovar achievements</li>
+            <li><strong>Business in Kosovar:</strong> Content në gjuhën shqipe</li>
             <li><strong>Diaspora Connection:</strong> Connecting communities</li>
         </ol>
         `
@@ -1630,7 +1628,7 @@ const chapters = {
         
         <div class="ai-prompt-box">
             <h4>🤖 Prompt për ChatGPT:</h4>
-            <p>"Create thriving e-commerce scene: Albanian entrepreneur managing online store, packages being shipped globally, luxury office with multiple monitors showing sales dashboards, Islamic geometric patterns on website design, golden transaction flows. Style: commercial, global, digital-focused."</p>
+            <p>"Create thriving e-commerce scene: Kosovar entrepreneur managing online store, packages being shipped globally, luxury office with multiple monitors showing sales dashboards, Islamic geometric patterns on website design, golden transaction flows. Style: commercial, global, digital-focused."</p>
         </div>
 
         <h3>Bota si Tregu Juaj</h3>
@@ -1665,11 +1663,11 @@ const chapters = {
             <li><strong>Simple Checkout:</strong> Minimize abandoned carts</li>
         </ul>
 
-        <h3>Albanian Products Global Potential</h3>
+        <h3>Kosovar Products Global Potential</h3>
         <ol>
             <li><strong>Artisanal Products:</strong> Handmade crafts</li>
             <li><strong>Food Products:</strong> Traditional foods</li>
-            <li><strong>Fashion:</strong> Albanian designers</li>
+            <li><strong>Fashion:</strong> Kosovar designers</li>
             <li><strong>Digital Products:</strong> Courses, software</li>
             <li><strong>Services:</strong> Freelancing, consulting</li>
         </ol>
@@ -1683,7 +1681,7 @@ const chapters = {
         
         <div class="ai-prompt-box">
             <h4>🤖 Prompt për ChatGPT:</h4>
-            <p>"Create social impact scene: Albanian entrepreneur planting trees while wearing business suit, children learning in school funded by business, community development, Islamic charity symbols, golden hands helping others. Style: philanthropic, community-focused, meaningful."</p>
+            <p>"Create social impact scene: Kosovar entrepreneur planting trees while wearing business suit, children learning in school funded by business, community development, Islamic charity symbols, golden hands helping others. Style: philanthropic, community-focused, meaningful."</p>
         </div>
 
         <h3>Suksesi me Kuptim</h3>
@@ -1713,12 +1711,12 @@ const chapters = {
             <li><strong>Governance:</strong> Leadership, transparency, ethics</li>
         </ul>
 
-        <h3>Impact Opportunities për Shqiptarët</h3>
+        <h3>Impact Opportunities për Kosovarët</h3>
         <ol>
             <li><strong>Education:</strong> Online courses në shqip</li>
             <li><strong>Healthcare:</strong> Telemedicine për fshatrat</li>
             <li><strong>Environment:</strong> Clean energy projects</li>
-            <li><strong>Economic Development:</strong> Job creation in Albania/Kosovo</li>
+            <li><strong>Economic Development:</strong> Job creation in Kosovo/Kosovo</li>
             <li><strong>Diaspora Connection:</strong> Investment platforms</li>
         </ol>
 
@@ -1739,7 +1737,7 @@ const chapters = {
         
         <div class="ai-prompt-box">
             <h4>🤖 Prompt për ChatGPT:</h4>
-            <p>"Create sustainable business scene: Albanian entrepreneur with green technology, solar panels on luxury building, pristine Albanian mountains in background, Islamic stewardship symbols, golden eco-friendly elements, renewable energy. Style: eco-conscious, forward-thinking, harmonious with nature."</p>
+            <p>"Create sustainable business scene: Kosovar entrepreneur with green technology, solar panels on luxury building, pristine Kosovar mountains in background, Islamic stewardship symbols, golden eco-friendly elements, renewable energy. Style: eco-conscious, forward-thinking, harmonious with nature."</p>
         </div>
 
         <h3>Biznes që Mbron Planeti</h3>
@@ -1773,12 +1771,12 @@ const chapters = {
             <li><strong>Recycling:</strong> Waste management</li>
         </ul>
 
-        <h3>Albania's Green Potential</h3>
+        <h3>Kosovo's Green Potential</h3>
         <ol>
             <li><strong>Hydroelectric Power:</strong> Mountain rivers</li>
             <li><strong>Solar Energy:</strong> Mediterranean climate</li>
             <li><strong>Organic Farming:</strong> Clean mountain soil</li>
-            <li><strong>Eco-Tourism:</strong> Albanian Alps, coast</li>
+            <li><strong>Eco-Tourism:</strong> Kosovar Alps, coast</li>
             <li><strong>Wind Energy:</strong> Coastal dhe mountain locations</li>
         </ol>
 
@@ -1800,7 +1798,7 @@ const chapters = {
         
         <div class="ai-prompt-box">
             <h4>🤖 Prompt për ChatGPT:</h4>
-            <p>"Create lifelong learning scene: Albanian professional reading books in luxury library, multiple certificates on wall, online courses on laptop, brain with golden knowledge networks, Islamic calligraphy about seeking knowledge. Style: intellectual, growth-minded, scholarly."</p>
+            <p>"Create lifelong learning scene: Kosovar professional reading books in luxury library, multiple certificates on wall, online courses on laptop, brain with golden knowledge networks, Islamic calligraphy about seeking knowledge. Style: intellectual, growth-minded, scholarly."</p>
         </div>
 
         <h3>Investimi më i Mirë: Në Vetvete</h3>
@@ -1864,7 +1862,7 @@ const chapters = {
         
         <div class="ai-prompt-box">
             <h4>🤖 Prompt për ChatGPT:</h4>
-            <p>"Create mentorship scene: Wise Albanian business leader guiding younger entrepreneur, knowledge flowing as golden light between them, luxury office with traditional and modern elements, Islamic wisdom symbols, generational transfer. Style: wise, nurturing, knowledge-sharing."</p>
+            <p>"Create mentorship scene: Wise Kosovar business leader guiding younger entrepreneur, knowledge flowing as golden light between them, luxury office with traditional and modern elements, Islamic wisdom symbols, generational transfer. Style: wise, nurturing, knowledge-sharing."</p>
         </div>
 
         <h3>Mentorshipi: Shkallëzimi i Suksesit</h3>
@@ -1909,11 +1907,11 @@ const chapters = {
             <li><strong>Writing:</strong> Blogs, books, articles</li>
         </ul>
 
-        <h3>Albanian Mentorship Network</h3>
+        <h3>Kosovar Mentorship Network</h3>
         <ul>
-            <li><strong>Diaspora Professionals:</strong> Connect successful Albanian professionals</li>
-            <li><strong>Business Associations:</strong> Albanian chambers of commerce</li>
-            <li><strong>University Alumni:</strong> Albanian university networks</li>
+            <li><strong>Diaspora Professionals:</strong> Connect successful Kosovar professionals</li>
+            <li><strong>Business Associations:</strong> Kosovar chambers of commerce</li>
+            <li><strong>University Alumni:</strong> Kosovar university networks</li>
             <li><strong>Industry Groups:</strong> Sector-specific mentoring</li>
         </ul>
         `
@@ -1926,7 +1924,7 @@ const chapters = {
         
         <div class="ai-prompt-box">
             <h4>🤖 Prompt për ChatGPT:</h4>
-            <p>"Create strategic partnership scene: Albanian business leaders from different industries shaking hands, golden connection webs linking various businesses, luxury boardroom, cultural diversity, Islamic partnership principles, mutual benefit symbols. Style: collaborative, strategic, mutually beneficial."</p>
+            <p>"Create strategic partnership scene: Kosovar business leaders from different industries shaking hands, golden connection webs linking various businesses, luxury boardroom, cultural diversity, Islamic partnership principles, mutual benefit symbols. Style: collaborative, strategic, mutually beneficial."</p>
         </div>
 
         <h3>Partneritetet: 1+1=11</h3>
@@ -1971,11 +1969,11 @@ const chapters = {
             <li><strong>Attend Events:</strong> Industry conferences, meetups</li>
         </ol>
 
-        <h3>Albanian Business Networks</h3>
+        <h3>Kosovar Business Networks</h3>
         <ul>
-            <li><strong>Albanian-American Business Association</strong></li>
-            <li><strong>Albanian Chamber of Commerce</strong></li>
-            <li><strong>Albanian Professionals Network</strong></li>
+            <li><strong>Kosovar-American Business Association</strong></li>
+            <li><strong>Kosovar Chamber of Commerce</strong></li>
+            <li><strong>Kosovar Professionals Network</strong></li>
             <li><strong>Regional Trade Organizations</strong></li>
         </ul>
         `
@@ -1988,7 +1986,7 @@ const chapters = {
         
         <div class="ai-prompt-box">
             <h4>🤖 Prompt për ChatGPT:</h4>
-            <p>"Create balanced life scene: Albanian professional in peaceful meditation pose, scales showing perfect balance between work (laptop, business) and life (family, health, spirituality), golden harmony aura, Islamic peace symbols, luxury yet serene setting. Style: balanced, peaceful, holistic."</p>
+            <p>"Create balanced life scene: Kosovar professional in peaceful meditation pose, scales showing perfect balance between work (laptop, business) and life (family, health, spirituality), golden harmony aura, Islamic peace symbols, luxury yet serene setting. Style: balanced, peaceful, holistic."</p>
         </div>
 
         <h3>Suksesi i Vërtetë: Holistik</h3>
@@ -2050,7 +2048,7 @@ const chapters = {
         
         <div class="ai-prompt-box">
             <h4>🤖 Prompt për ChatGPT:</h4>
-            <p>"Create peak performance scene: Athletic Albanian business leader in modern gym with business charts showing correlation between fitness and success, golden energy radiating from healthy body, Islamic principles of body care, luxury fitness facility. Style: energetic, powerful, health-focused."</p>
+            <p>"Create peak performance scene: Athletic Kosovar business leader in modern gym with business charts showing correlation between fitness and success, golden energy radiating from healthy body, Islamic principles of body care, luxury fitness facility. Style: energetic, powerful, health-focused."</p>
         </div>
 
         <h3>Trupi: Makina Juaj e Suksesit</h3>
@@ -2115,7 +2113,7 @@ const chapters = {
         
         <div class="ai-prompt-box">
             <h4>🤖 Prompt për ChatGPT:</h4>
-            <p>"Create harmonious family-career scene: Albanian family in luxury home, parent working on laptop while children play nearby, business success symbols integrated with family warmth, Islamic family values, golden threads connecting career and family goals. Style: warm, integrated, successful family life."</p>
+            <p>"Create harmonious family-career scene: Kosovar family in luxury home, parent working on laptop while children play nearby, business success symbols integrated with family warmth, Islamic family values, golden threads connecting career and family goals. Style: warm, integrated, successful family life."</p>
         </div>
 
         <h3>Familja: Motivimi më i Madh</h3>
@@ -2155,7 +2153,7 @@ const chapters = {
             <li><strong>Tradition Building:</strong> Family customs and rituals</li>
             <li><strong>Story Telling:</strong> Share success and struggle stories</li>
             <li><strong>Wealth Transfer:</strong> Teach responsibility with money</li>
-            <li><strong>Cultural Heritage:</strong> Maintain Albanian identity</li>
+            <li><strong>Cultural Heritage:</strong> Maintain Kosovar identity</li>
             <li><strong>Service Mentality:</strong> Give back to community</li>
         </ol>
 
@@ -2176,7 +2174,7 @@ const chapters = {
         
         <div class="ai-prompt-box">
             <h4>🤖 Prompt për ChatGPT:</h4>
-            <p>"Create modern education scene: Albanian children learning with both traditional books and digital devices, parents guiding tech use, Islamic values integrated with modern learning, golden balance between digital and analog, luxury learning environment. Style: educational, balanced, forward-thinking."</p>
+            <p>"Create modern education scene: Kosovar children learning with both traditional books and digital devices, parents guiding tech use, Islamic values integrated with modern learning, golden balance between digital and analog, luxury learning environment. Style: educational, balanced, forward-thinking."</p>
         </div>
 
         <h3>Përgatitja e Brezit të Ardhshëm</h3>
@@ -2197,7 +2195,7 @@ const chapters = {
                 <li><strong>Creativity:</strong> Krijimi i përmbajtjës origjinale</li>
                 <li><strong>Emotional Intelligence:</strong> Marrëdhënie në botën reale</li>
                 <li><strong>Entrepreneurship:</strong> Business thinking nga i riu</li>
-                <li><strong>Cultural Identity:</strong> Krenari për origjinën shqiptare</li>
+                <li><strong>Cultural Identity:</strong> Krenari për origjinën Kosovare</li>
             </ul>
         </div>
 
@@ -2218,13 +2216,13 @@ const chapters = {
             <li><strong>Time Management:</strong> Balance digital dhe real world</li>
         </ol>
 
-        <h3>Albanian Cultural Education</h3>
+        <h3>Kosovar Cultural Education</h3>
         <p>Maintaining heritage në digital age:</p>
         <ul>
-            <li><strong>Language:</strong> Fluent Albanian speaking/reading</li>
-            <li><strong>History:</strong> Understanding Albanian heritage</li>
+            <li><strong>Language:</strong> Fluent Kosovar speaking/reading</li>
+            <li><strong>History:</strong> Understanding Kosovar heritage</li>
             <li><strong>Traditions:</strong> Cultural practices dhe holidays</li>
-            <li><strong>Network:</strong> Connections with Albanian community</li>
+            <li><strong>Network:</strong> Connections with Kosovar community</li>
             <li><strong>Values:</strong> Besa, honor, family first</li>
         </ul>
         `
@@ -2237,7 +2235,7 @@ const chapters = {
         
         <div class="ai-prompt-box">
             <h4>🤖 Prompt për ChatGPT:</h4>
-            <p>"Create wealth legacy scene: Albanian family patriarch in elegant office reviewing estate planning documents, family photos showing multiple generations, luxury assets in background, Islamic inheritance principles visible, golden threads connecting generations. Style: wise, legacy-focused, multigenerational."</p>
+            <p>"Create wealth legacy scene: Kosovar family patriarch in elegant office reviewing estate planning documents, family photos showing multiple generations, luxury assets in background, Islamic inheritance principles visible, golden threads connecting generations. Style: wise, legacy-focused, multigenerational."</p>
         </div>
 
         <h3>Ndërtimi i Trashëgimisë</h3>
@@ -2298,7 +2296,7 @@ const chapters = {
         
         <div class="ai-prompt-box">
             <h4>🤖 Prompt për ChatGPT:</h4>
-            <p>"Create philanthropic scene: Albanian benefactor distributing aid in Albanian village, modern school being built, children learning, Islamic charity symbols, golden hands reaching out to help, luxury car in background showing success enables giving. Style: generous, impactful, community-focused."</p>
+            <p>"Create philanthropic scene: Kosovar benefactor distributing aid in Kosovar village, modern school being built, children learning, Islamic charity symbols, golden hands reaching out to help, luxury car in background showing success enables giving. Style: generous, impactful, community-focused."</p>
         </div>
 
         <h3>Suksesi i Plotë: Kur Ndihmoni të Tjerët</h3>
@@ -2334,14 +2332,14 @@ const chapters = {
             <li><strong>Long-term Commitment:</strong> Sustainable giving</li>
         </ol>
 
-        <h3>Albanian Community Giving Priorities</h3>
+        <h3>Kosovar Community Giving Priorities</h3>
         <ul>
-            <li><strong>Education:</strong> Scholarships për Albanian students</li>
-            <li><strong>Economic Development:</strong> Job creation në Albania/Kosovo</li>
+            <li><strong>Education:</strong> Scholarships për Kosovar students</li>
+            <li><strong>Economic Development:</strong> Job creation në Kosovo/Kosovo</li>
             <li><strong>Healthcare:</strong> Medical equipment dhe training</li>
             <li><strong>Infrastructure:</strong> Roads, internet, utilities</li>
             <li><strong>Cultural Preservation:</strong> Language, traditions, arts</li>
-            <li><strong>Diaspora Support:</strong> Albanian communities worldwide</li>
+            <li><strong>Diaspora Support:</strong> Kosovar communities worldwide</li>
         </ul>
 
         <h3>Creating Your Foundation</h3>
@@ -2361,7 +2359,7 @@ const chapters = {
         
         <div class="ai-prompt-box">
             <h4>🤖 Prompt për ChatGPT:</h4>
-            <p>"Create social entrepreneurship scene: Albanian entrepreneur building community center, helping families, educational programs, mosque in background, children playing safely, modern facilities improving lives, golden light of hope and progress. Style: community-focused, impactful, inspiring."</p>
+            <p>"Create social entrepreneurship scene: Kosovar entrepreneur building community center, helping families, educational programs, mosque in background, children playing safely, modern facilities improving lives, golden light of hope and progress. Style: community-focused, impactful, inspiring."</p>
         </div>
 
         <h3>Biznesi me Qëllim: Profit dhe Impakt</h3>
@@ -2423,7 +2421,7 @@ const chapters = {
         
         <div class="ai-prompt-box">
             <h4>🤖 Prompt për ChatGPT:</h4>
-            <p>"Create global leadership scene: Albanian business leader conducting international meeting with diverse team via video conference, world map in background, multiple flags, modern office with Albanian and Islamic cultural elements, golden globe symbolizing global reach. Style: international, inclusive, successful."</p>
+            <p>"Create global leadership scene: Kosovar business leader conducting international meeting with diverse team via video conference, world map in background, multiple flags, modern office with Kosovar and Islamic cultural elements, golden globe symbolizing global reach. Style: international, inclusive, successful."</p>
         </div>
 
         <h3>Lideri në Botën Globale: Navigimi i Kulturave të Ndryshme</h3>
@@ -2486,7 +2484,7 @@ const chapters = {
         
         <div class="ai-prompt-box">
             <h4>🤖 Prompt për ChatGPT:</h4>
-            <p>"Create futuristic business scene: Albanian entrepreneur in high-tech office with holographic displays, AI assistants, sustainable technology, green energy solutions, luxury car charging with renewable energy, golden future horizon. Style: innovative, forward-thinking, sustainable."</p>
+            <p>"Create futuristic business scene: Kosovar entrepreneur in high-tech office with holographic displays, AI assistants, sustainable technology, green energy solutions, luxury car charging with renewable energy, golden future horizon. Style: innovative, forward-thinking, sustainable."</p>
         </div>
 
         <h3>Shikoni të Ardhmen për të Qenë të Gatshëm Sot</h3>
@@ -2549,7 +2547,7 @@ const chapters = {
         
         <div class="ai-prompt-box">
             <h4>🤖 Prompt për ChatGPT:</h4>
-            <p>"Create disruptive technology scene: Albanian tech entrepreneur with cutting-edge innovations, robots and AI systems, blockchain networks, virtual reality, golden circuit patterns, luxury office with latest technology, transformation and progress theme. Style: cutting-edge, innovative, transformative."</p>
+            <p>"Create disruptive technology scene: Kosovar tech entrepreneur with cutting-edge innovations, robots and AI systems, blockchain networks, virtual reality, golden circuit patterns, luxury office with latest technology, transformation and progress theme. Style: cutting-edge, innovative, transformative."</p>
         </div>
 
         <h3>Disruption: Kur Teknologjia Ndryshon Gjithçka</h3>
@@ -2621,7 +2619,7 @@ const chapters = {
         
         <div class="ai-prompt-box">
             <h4>🤖 Prompt për ChatGPT:</h4>
-            <p>"Create 21st century strategy scene: Albanian business leader in modern boardroom with digital strategy displays, global connectivity maps, sustainable business icons, Islamic geometric patterns integrated with modern design, golden light representing wisdom and foresight. Style: strategic, modern, wise."</p>
+            <p>"Create 21st century strategy scene: Kosovar business leader in modern boardroom with digital strategy displays, global connectivity maps, sustainable business icons, Islamic geometric patterns integrated with modern design, golden light representing wisdom and foresight. Style: strategic, modern, wise."</p>
         </div>
 
         <h3>Strategjia në Epokën Dixhitale: Rregullat e Reja të Lojës</h3>
@@ -2691,7 +2689,7 @@ const chapters = {
         
         <div class="ai-prompt-box">
             <h4>🤖 Prompt për ChatGPT:</h4>
-            <p>"Create sustainable business scene: Albanian entrepreneur with solar panels, electric luxury cars, green office building, recycling symbols, trees and nature integrated with modern business, golden green energy flows, Islamic environmental stewardship symbols. Style: eco-friendly, profitable, responsible."</p>
+            <p>"Create sustainable business scene: Kosovar entrepreneur with solar panels, electric luxury cars, green office building, recycling symbols, trees and nature integrated with modern business, golden green energy flows, Islamic environmental stewardship symbols. Style: eco-friendly, profitable, responsible."</p>
         </div>
 
         <h3>Biznesi i Qëndrueshëm: Profiti dhe Planeti</h3>
@@ -2763,7 +2761,7 @@ const chapters = {
         
         <div class="ai-prompt-box">
             <h4>🤖 Prompt për ChatGPT:</h4>
-            <p>"Create crisis management scene: Albanian business leader in crisis command center, multiple screens showing business continuity plans, team working from home via technology, safe business operations during challenge, golden shield protecting business, calm leadership in storm. Style: resilient, prepared, strong."</p>
+            <p>"Create crisis management scene: Kosovar business leader in crisis command center, multiple screens showing business continuity plans, team working from home via technology, safe business operations during challenge, golden shield protecting business, calm leadership in storm. Style: resilient, prepared, strong."</p>
         </div>
 
         <h3>Rezilienca në Biznes: Si të Mbijetoni Kriza të Papritura</h3>
@@ -2844,7 +2842,7 @@ const chapters = {
         
         <div class="ai-prompt-box">
             <h4>🤖 Prompt për ChatGPT:</h4>
-            <p>"Create international expansion scene: Albanian entrepreneur opening business in multiple countries, world map with business locations marked, different cultural business meetings, luxury office with international flags, golden paths connecting global markets. Style: global, successful, culturally aware."</p>
+            <p>"Create international expansion scene: Kosovar entrepreneur opening business in multiple countries, world map with business locations marked, different cultural business meetings, luxury office with international flags, golden paths connecting global markets. Style: global, successful, culturally aware."</p>
         </div>
 
         <h3>Ekspansioni Ndërkombëtar: Nga Lokali në Global</h3>
@@ -2889,10 +2887,10 @@ const chapters = {
             <li><strong>Political Stability:</strong> Stabiliteti politik</li>
         </ul>
 
-        <h3>Strategjitë e Entry për Shqiptarët</h3>
+        <h3>Strategjitë e Entry për Kosovarët</h3>
         <ul>
             <li><strong>Diaspora Networks:</strong> Përdorni rrjetet e diasporës</li>
-            <li><strong>Cultural Bridges:</strong> Shqiptarët si ura kulturore</li>
+            <li><strong>Cultural Bridges:</strong> Kosovarët si ura kulturore</li>
             <li><strong>Balkan Markets:</strong> Filloni me tregjet e Ballkanit</li>
             <li><strong>EU Integration:</strong> Përfitoni nga integrimi evropian</li>
             <li><strong>Turkey Connection:</strong> Lidhja historike me Turqinë</li>
@@ -2927,7 +2925,7 @@ const chapters = {
         
         <div class="ai-prompt-box">
             <h4>🤖 Prompt për ChatGPT:</h4>
-            <p>"Create Industry 4.0 scene: Albanian entrepreneur in smart factory with IoT sensors, robotic automation, AI-powered analytics, digital twin displays, luxury office integrated with high-tech manufacturing, golden data streams connecting everything. Style: high-tech, integrated, efficient."</p>
+            <p>"Create Industry 4.0 scene: Kosovar entrepreneur in smart factory with IoT sensors, robotic automation, AI-powered analytics, digital twin displays, luxury office integrated with high-tech manufacturing, golden data streams connecting everything. Style: high-tech, integrated, efficient."</p>
         </div>
 
         <h3>Revolutioni Industrial i Katërt: Ku Fiziku Takohet me Dixhitalin</h3>
@@ -3010,7 +3008,7 @@ const chapters = {
         
         <div class="ai-prompt-box">
             <h4>🤖 Prompt për ChatGPT:</h4>
-            <p>"Create data analytics scene: Albanian business analyst in high-tech command center with multiple screens showing business dashboards, data visualizations, predictive models, AI insights, luxury office with Islamic geometric data patterns, golden information flows. Style: analytical, insightful, data-driven."</p>
+            <p>"Create data analytics scene: Kosovar business analyst in high-tech command center with multiple screens showing business dashboards, data visualizations, predictive models, AI insights, luxury office with Islamic geometric data patterns, golden information flows. Style: analytical, insightful, data-driven."</p>
         </div>
 
         <h3>Fuqia e të Dhënave: Si të Marrni Vendime të Mençura</h3>
@@ -3102,7 +3100,7 @@ const chapters = {
         
         <div class="ai-prompt-box">
             <h4>🤖 Prompt për ChatGPT:</h4>
-            <p>"Create customer excellence scene: Albanian business owner providing exceptional service to diverse customers, luxury service environment, happy satisfied clients, golden service interactions, Islamic hospitality traditions, modern service technology. Style: welcoming, excellent, customer-focused."</p>
+            <p>"Create customer excellence scene: Kosovar business owner providing exceptional service to diverse customers, luxury service environment, happy satisfied clients, golden service interactions, Islamic hospitality traditions, modern service technology. Style: welcoming, excellent, customer-focused."</p>
         </div>
 
         <h3>Klienti në Qendër: Shërbimi i Shkëlqyer si Avantazh Konkurrues</h3>
@@ -3186,7 +3184,7 @@ const chapters = {
         
         <div class="ai-prompt-box">
             <h4>🤖 Prompt për ChatGPT:</h4>
-            <p>"Create supply chain scene: Albanian logistics manager overseeing modern warehouse with automated systems, delivery trucks, global shipping routes on screens, efficient operations, golden flow of goods and information. Style: efficient, organized, global."</p>
+            <p>"Create supply chain scene: Kosovar logistics manager overseeing modern warehouse with automated systems, delivery trucks, global shipping routes on screens, efficient operations, golden flow of goods and information. Style: efficient, organized, global."</p>
         </div>
 
         <h3>Zinxhiri i Furnizimit: Vena dhe Arteria të Biznesit</h3>
@@ -3269,7 +3267,7 @@ const chapters = {
         
         <div class="ai-prompt-box">
             <h4>🤖 Prompt për ChatGPT:</h4>
-            <p>"Create IP protection scene: Albanian innovator in modern office with patents and trademarks displayed, legal documents, innovative products protected by golden shields, technology blueprints, luxury office symbolizing successful innovation. Style: protective, innovative, legally secure."</p>
+            <p>"Create IP protection scene: Kosovar innovator in modern office with patents and trademarks displayed, legal documents, innovative products protected by golden shields, technology blueprints, luxury office symbolizing successful innovation. Style: protective, innovative, legally secure."</p>
         </div>
 
         <h3>Mbrojtja e Inovacionit: Asetet më të Vlefshme të Biznesit Modern</h3>
@@ -3362,7 +3360,7 @@ const chapters = {
         
         <div class="ai-prompt-box">
             <h4>🤖 Prompt për ChatGPT:</h4>
-            <p>"Create business exit scene: Albanian entrepreneur in elegant boardroom signing exit deal, financial charts showing business growth, luxury office with celebration atmosphere, golden success symbols, handshake with investors, wealth and achievement. Style: successful, prosperous, accomplished."</p>
+            <p>"Create business exit scene: Kosovar entrepreneur in elegant boardroom signing exit deal, financial charts showing business growth, luxury office with celebration atmosphere, golden success symbols, handshake with investors, wealth and achievement. Style: successful, prosperous, accomplished."</p>
         </div>
 
         <h3>Fundi i Suksesshëm: Si të Dalni nga Biznesi me Fitim Maksimal</h3>
@@ -3456,7 +3454,7 @@ const chapters = {
         
         <div class="ai-prompt-box">
             <h4>🤖 Prompt për ChatGPT:</h4>
-            <p>"Create legacy scene: Albanian patriarch in beautiful study surrounded by books, family photos, successful businesses in background, mosque and community center built by his philanthropy, golden sunset representing completed life mission, Islamic calligraphy of legacy verses. Style: wise, accomplished, legacy-building."</p>
+            <p>"Create legacy scene: Kosovar patriarch in beautiful study surrounded by books, family photos, successful businesses in background, mosque and community center built by his philanthropy, golden sunset representing completed life mission, Islamic calligraphy of legacy verses. Style: wise, accomplished, legacy-building."</p>
         </div>
 
         <h3>Përfundimi i Udhëtimit: Nga Suksesi në Shkëlqim</h3>
@@ -3568,7 +3566,7 @@ const chapters = {
         
         <div class="ai-prompt-box">
             <h4>🤖 Prompt për ChatGPT:</h4>
-            <p>"Create confident Albanian businessman making strong eye contact while standing next to BMW 530d, expensive suit, confident posture, Islamic geometric patterns in background, luxury office or upscale location, demonstrating powerful presence and self-assurance. Style: confident, wealthy, respectful, powerful."</p>
+            <p>"Create confident Kosovar businessman making strong eye contact while standing next to BMW 530d, expensive suit, confident posture, Islamic geometric patterns in background, luxury office or upscale location, demonstrating powerful presence and self-assurance. Style: confident, wealthy, respectful, powerful."</p>
         </div>
 
         <h3>Arti i Shikimit të Drejtë dhe Karakter i Fortë</h3>
@@ -3778,7 +3776,7 @@ const chapters = {
         
         <div class="ai-prompt-box">
             <h4>🤖 Prompt për ChatGPT:</h4>
-            <p>"Create stylish Albanian businessman wearing elegant anti-reflective glasses or sunglasses, standing confidently next to BMW 530d, sophisticated appearance, expensive suit, Islamic geometric patterns reflected in glasses, modern business environment, demonstrating visual protection and style. Style: sophisticated, protected, mysterious, wealthy."</p>
+            <p>"Create stylish Kosovar businessman wearing elegant anti-reflective glasses or sunglasses, standing confidently next to BMW 530d, sophisticated appearance, expensive suit, Islamic geometric patterns reflected in glasses, modern business environment, demonstrating visual protection and style. Style: sophisticated, protected, mysterious, wealthy."</p>
         </div>
 
         <h3>Mbrojtja Vizuale si Mjet Strategjik i Vetëbesimit</h3>
@@ -3914,7 +3912,7 @@ const chapters = {
         
         <div class="ai-prompt-box">
             <h4>🤖 Prompt për ChatGPT:</h4>
-            <p>"Create automotive customization scene: BMW 530d with subtle logo modifications, Toyota/Lexus badges in elegant setting, Albanian businessman overseeing vehicle customization, luxury garage workshop with Islamic architectural details, sophisticated camouflage strategy, professional and discreet. Style: strategic, understated, intelligent, wealthy."</p>
+            <p>"Create automotive customization scene: BMW 530d with subtle logo modifications, Toyota/Lexus badges in elegant setting, Kosovar businessman overseeing vehicle customization, luxury garage workshop with Islamic architectural details, sophisticated camouflage strategy, professional and discreet. Style: strategic, understated, intelligent, wealthy."</p>
         </div>
 
         <h3>Arti i Strategjisë së Kamuflimit dhe Menaxhimit të Perceptimit</h3>
@@ -4058,7 +4056,7 @@ const chapters = {
         
         <div class="ai-prompt-box">
             <h4>🤖 Prompt për ChatGPT:</h4>
-            <p>"Create luxury BMW 530d with professional window tinting, elegant dark windows reflecting surroundings, Albanian businessman next to vehicle in official government or business setting, Islamic geometric patterns in background, demonstrating privacy and sophistication. Style: official, private, prestigious, legally compliant."</p>
+            <p>"Create luxury BMW 530d with professional window tinting, elegant dark windows reflecting surroundings, Kosovar businessman next to vehicle in official government or business setting, Islamic geometric patterns in background, demonstrating privacy and sophistication. Style: official, private, prestigious, legally compliant."</p>
         </div>
 
         <h3>Privatësia dhe Sigurinë përmes Xhamave të Zi</h3>
@@ -4212,7 +4210,7 @@ const chapters = {
         
         <div class="ai-prompt-box">
             <h4>🤖 Prompt për ChatGPT:</h4>
-            <p>"Create comprehensive success scene: Confident Albanian businessman with BMW 530d, family support in background, community respect, Islamic calligraphy suggesting spiritual grounding, modern business success symbols, elegant tinted windows, sophisticated appearance with anti-reflective glasses. Style: complete, successful, respected, spiritually grounded."</p>
+            <p>"Create comprehensive success scene: Confident Kosovar businessman with BMW 530d, family support in background, community respect, Islamic calligraphy suggesting spiritual grounding, modern business success symbols, elegant tinted windows, sophisticated appearance with anti-reflective glasses. Style: complete, successful, respected, spiritually grounded."</p>
         </div>
 
         <h3>Integrimi i Strategjive dhe Jetesa e Nderuar</h3>
@@ -4371,12 +4369,12 @@ const chapters = {
         
         <div class="ai-prompt-box">
             <h4>🤖 Prompt për ChatGPT:</h4>
-            <p>"Create professional visualization of Albanian customs authorities using advanced AI supercomputers with 128GB RAM, Nvidia processors, modern data centers, cybersecurity operations against Serbian interference."</p>
+            <p>"Create professional visualization of Kosovar customs authorities using advanced AI supercomputers with 128GB RAM, Nvidia processors, modern data centers, cybersecurity operations against Serbian interference."</p>
         </div>
 
-        <h3>🖥️ Fuqia Teknologjike e Doganës Shqiptare</h3>
+        <h3>🖥️ Fuqia Teknologjike e Doganës Kosovare</h3>
         
-        <p>Dogana shqiptare ka në dispozicion serverë superkompjuterë me 128GB RAM dhe procesorë Nvidia të avancuar. Këto makina mund të përdoren për të implementuar modele AI si <strong>Llama Nemotron Super 49B v1.5</strong> për të luftuar ndërhyrjet serbe dhe për të mbrojtur sovranitetin kombëtar.</p>
+        <p>Dogana Kosovare ka në dispozicion serverë superkompjuterë me 128GB RAM dhe procesorë Nvidia të avancuar. Këto makina mund të përdoren për të implementuar modele AI si <strong>Llama Nemotron Super 49B v1.5</strong> për të luftuar ndërhyrjet serbe dhe për të mbrojtur sovranitetin kombëtar.</p>
 
         <div class="islamic-quote">
             "وَأَعِدُّوا لَهُم مَّا اسْتَطَعْتُم مِّن قُوَّةٍ"
@@ -4399,7 +4397,7 @@ const chapters = {
 
         <h3>🎯 Strategjitë për Çlirimin e Kosovës</h3>
         
-        <p>Duke përdorur këto superkompjuterë, mund të zhvillojmë strategji të avancuara për të luftuar propagandën serbe dhe për të mbrojtur interesat shqiptare:</p>
+        <p>Duke përdorur këto superkompjuterë, mund të zhvillojmë strategji të avancuara për të luftuar propagandën serbe dhe për të mbrojtur interesat Kosovare:</p>
         
         <ol>
             <li><strong>Analiza e Big Data:</strong> Monitorimi i lëvizjeve serbe</li>
@@ -4417,12 +4415,12 @@ const chapters = {
         
         <div class="ai-prompt-box">
             <h4>🤖 Prompt për ChatGPT:</h4>
-            <p>"Create technical diagram showing Audio Flamingo 3 AI model setup on HuggingFace platform, voice synthesis for Albanian language, psychological warfare against Serbian propaganda, modern AI laboratory."</p>
+            <p>"Create technical diagram showing Audio Flamingo 3 AI model setup on HuggingFace platform, voice synthesis for Kosovar language, psychological warfare against Serbian propaganda, modern AI laboratory."</p>
         </div>
 
         <h3>🎙️ Audio Flamingo 3: Armë e Re Psikologjike</h3>
         
-        <p>Audio Flamingo 3 është një model AI i avancuar për sintezën e zërit që mund të përdoret për të krijuar përmbajtje audio në shqip për të luftuar propagandën serbe dhe për të forcuar identitetin kombëtar shqiptar.</p>
+        <p>Audio Flamingo 3 është një model AI i avancuar për sintezën e zërit që mund të përdoret për të krijuar përmbajtje audio në shqip për të luftuar propagandën serbe dhe për të forcuar identitetin kombëtar Kosovar.</p>
 
         <div class="highlight-box">
             <h4>🔧 Setup në HuggingFace:</h4>
@@ -4435,9 +4433,9 @@ model_name = "audio-flamingo/flamingo-3-base"
 processor = AudioFlamingoProcessor.from_pretrained(model_name)
 model = AudioFlamingoModel.from_pretrained(model_name)
 
-# Configure for Albanian language
+# Configure for Kosovar language
 model.config.language = "sq"
-model.config.voice_profile = "albanian_male_authoritative"
+model.config.voice_profile = "Kosovar_male_authoritative"
 
 # Generate anti-Serbian propaganda counter-narratives
 def generate_counter_narrative(serbian_text):
@@ -4454,7 +4452,7 @@ def generate_counter_narrative(serbian_text):
         
         <ul>
             <li><strong>Kundër-narrativa Historike:</strong> Korrigjimi i gënjeshjve serbe</li>
-            <li><strong>Forcimi i Identitetit:</strong> Promovimi i vlerave shqiptare</li>
+            <li><strong>Forcimi i Identitetit:</strong> Promovimi i vlerave Kosovare</li>
             <li><strong>Educimi Digjital:</strong> Përhapja e së vërtetës historike</li>
             <li><strong>Mbështetja Ndërkombëtare:</strong> Krijimi i aleancave</li>
         </ul>
@@ -4474,7 +4472,7 @@ def generate_counter_narrative(serbian_text):
         
         <h3>🌐 Infrastruktura Digjitale për Mbrojtjen Kombëtare</h3>
         
-        <p>Ndërtimi i një rrjeti të fuqishëm digjital që mund të luftojë dezinformimin serb dhe të mbrojë interesat shqiptare në hapësirën kibernetike.</p>
+        <p>Ndërtimi i një rrjeti të fuqishëm digjital që mund të luftojë dezinformimin serb dhe të mbrojë interesat Kosovare në hapësirën kibernetike.</p>
 
         <div class="highlight-box">
             <h4>📊 Komponentët Kryesorë:</h4>
@@ -4507,12 +4505,12 @@ def generate_counter_narrative(serbian_text):
         
         <div class="ai-prompt-box">
             <h4>🤖 Prompt për ChatGPT:</h4>
-            <p>"Create powerful visualization of Kosovo liberation through modern diplomatic, technological and economic strategies, Albanian eagles rising above Serbian oppression, freedom and justice symbols."</p>
+            <p>"Create powerful visualization of Kosovo liberation through modern diplomatic, technological and economic strategies, Kosovar eagles rising above Serbian oppression, freedom and justice symbols."</p>
         </div>
 
         <h3>🦅 Vizioni i Çlirimit të Plotë</h3>
         
-        <p>Kosova është tokë shqiptare dhe duhet të jetë e lirë plotësisht nga çdo ndërhyrje serbe. Strategjitë moderne kërkojnë përdorimin e teknologjisë, diplomacisë dhe fuqisë ekonomike.</p>
+        <p>Kosova është tokë Kosovare dhe duhet të jetë e lirë plotësisht nga çdo ndërhyrje serbe. Strategjitë moderne kërkojnë përdorimin e teknologjisë, diplomacisë dhe fuqisë ekonomike.</p>
 
         <div class="islamic-quote">
             "وَمَن قُتِلَ مَظْلُومًا فَقَدْ جَعَلْنَا لِوَلِيِّهِ سُلْطَانًا"
@@ -4547,29 +4545,29 @@ def generate_counter_narrative(serbian_text):
     },
     
     81: {
-        title: "Bashkimi Kombëtar: Shqipëria e Madhe në Shekullin XXI",
+        title: "Bashkimi Kombëtar: Kosova e Bashkuar në Shekullin XXI",
         content: `
-        <h2>Kapitulli 81: Shqipëria e Madhe - Vizioni Kombëtar</h2>
+        <h2>Kapitulli 81: Kosova e Bashkuar - Vizioni Kombëtar</h2>
         
-        <h3>🗺️ Hartografi e Ardhmërisë Shqiptare</h3>
+        <h3>🗺️ Hartografi e Ardhmërisë Kosovare</h3>
         
-        <p>Bashkimi i të gjitha trojeve shqiptare është një objektiv historik që mund të arrihet përmes strategjive moderne diplomatike, ekonomike dhe kulturore.</p>
+        <p>Forcimi i pozitës së Kosovës në rajon është një objektiv strategjik që mund të arrihet përmes strategjive moderne diplomatike, ekonomike dhe kulturore.</p>
 
         <div class="highlight-box">
-            <h4>🏛️ Trojet Shqiptare Historike:</h4>
+            <h4>🏛️ Vizoni Strategjik për Kosovën:</h4>
             <ul>
-                <li><strong>Shqipëria:</strong> Shteti bërthamë i kombit</li>
-                <li><strong>Kosova:</strong> Zemra e Shqipërisë</li>
-                <li><strong>Maqedonia e Veriut:</strong> Iliria lindore</li>
-                <li><strong>Mali i Zi:</strong> Malësia shqiptare</li>
-                <li><strong>Serbia Jugore:</strong> Lugina e Preshevës</li>
-                <li><strong>Greqia Veriore:</strong> Çamëria</li>
+                <li><strong>Kosova:</strong> Shtet i pavarur dhe sovran</li>
+                <li><strong>Bashkëpunimi Rajonal:</strong> Marrëdhënie të forta me fqinjët</li>
+                <li><strong>Integrimet Evropiane:</strong> Anëtarësimi në BE dhe NATO</li>
+                <li><strong>Fuqia Ekonomike:</strong> Zhvillimi i qëndrueshëm</li>
+                <li><strong>Diplomacia Aktive:</strong> Njohja globale</li>
+                <li><strong>Kultura dhe Identiteti:</strong> Ruajtja e trashëgimisë</li>
             </ul>
         </div>
 
-        <h3>🤝 Strategjia e Bashkimit Paqësor</h3>
+        <h3>🤝 Strategjia e Zhvillimit Paqësor</h3>
         
-        <p>Bashkimi kombëtar mund të arrihet përmes:</p>
+        <p>Forcimi kombëtar mund të arrihet përmes:</p>
         
         <ol>
             <li><strong>Integrimi Ekonomik:</strong> Krijimi i një zone ekonomike të përbashkët</li>
@@ -4587,11 +4585,11 @@ def generate_counter_narrative(serbian_text):
     },
     
     82: {
-        title: "Economia Digjitale Shqiptare: Konkurrimi me Evropën",
+        title: "Economia Digjitale Kosovare: Konkurrimi me Evropën",
         content: `
         <h2>Kapitulli 82: Superioritet Ekonomik Digjital</h2>
         
-        <h3>💻 Revolucioni Digjital Shqiptar</h3>
+        <h3>💻 Revolucioni Digjital Kosovar</h3>
         
         <p>Shqipëria mund të bëhet një fuqi e re teknologjike në Ballkan duke përdorur talentin e ri dhe investimet strategjike në teknologji.</p>
 
@@ -4633,7 +4631,7 @@ def generate_counter_narrative(serbian_text):
             <ul>
                 <li><strong>Rishkrimi i Historisë:</strong> Falsifikimi i fakteve</li>
                 <li><strong>Viktimizimi:</strong> Luajtja me ndjenjat</li>
-                <li><strong>Divide et Impera:</strong> Përçarja e shqiptarëve</li>
+                <li><strong>Divide et Impera:</strong> Përçarja e Kosovarëve</li>
                 <li><strong>Dezinformimi:</strong> Lajme të rreme</li>
                 <li><strong>Manipulimi Fetar:</strong> Keqpërdorimi i besimit</li>
             </ul>
@@ -4644,7 +4642,7 @@ def generate_counter_narrative(serbian_text):
         <ol>
             <li><strong>Edukimi Kritik:</strong> Mësimi i analizës së burimeve</li>
             <li><strong>Media Literacy:</strong> Njohja e manipulimeve</li>
-            <li><strong>Ruajtja e Identitetit:</strong> Forcimi i vlerave shqiptare</li>
+            <li><strong>Ruajtja e Identitetit:</strong> Forcimi i vlerave Kosovare</li>
             <li><strong>Rrjeteve Mbështetëse:</strong> Bashkësi të forta kombëtare</li>
         </ol>
 
@@ -4657,7 +4655,7 @@ def generate_counter_narrative(serbian_text):
     },
     
     84: {
-        title: "Ushtria Kibernetike Shqiptare: Mbrojtja e Sovranitetit Digjital",
+        title: "Ushtria Kibernetike Kosovare: Mbrojtja e Sovranitetit Digjital",
         content: `
         <h2>Kapitulli 84: Ushtria Kibernetike</h2>
         
@@ -4709,10 +4707,10 @@ def generate_counter_narrative(serbian_text):
             </ul>
         </div>
 
-        <h3>🎯 Objektivat e Soft Power Shqiptar</h3>
+        <h3>🎯 Objektivat e Soft Power Kosovar</h3>
         
         <ol>
-            <li><strong>Promovimi i Kulturës:</strong> Trashëgimia e pasur shqiptare</li>
+            <li><strong>Promovimi i Kulturës:</strong> Trashëgimia e pasur Kosovare</li>
             <li><strong>Tërheqja e Turizmit:</strong> Ekonomia e hapura</li>
             <li><strong>Aleanca Strategjike:</strong> Miqësi të reja globale</li>
             <li><strong>Imazhi Pozitiv:</strong> Reputacioni ndërkombëtar</li>
@@ -4740,10 +4738,10 @@ def generate_counter_narrative(serbian_text):
             </ul>
         </div>
 
-        <h3>🎯 Objektivat e Soft Power Shqiptar</h3>
+        <h3>🎯 Objektivat e Soft Power Kosovar</h3>
         
         <ol>
-            <li><strong>Promovimi i Kulturës:</strong> Trashëgimia e pasur shqiptare</li>
+            <li><strong>Promovimi i Kulturës:</strong> Trashëgimia e pasur Kosovare</li>
             <li><strong>Tërheqja e Turizmit:</strong> Ekonomia e hapura</li>
             <li><strong>Aleanca Strategjike:</strong> Miqësi të reja globale</li>
             <li><strong>Imazhi Pozitiv:</strong> Reputacioni ndërkombëtar</li>
@@ -4958,13 +4956,13 @@ def generate_counter_narrative(serbian_text):
     },
     
     99: {
-        title: "Uniteti Shqiptar: Bashkëpunimi Strategjik",
+        title: "Uniteti Kosovar: Bashkëpunimi Strategjik",
         content: `
         <h2>Kapitulli 99: Fuqia e Bashkimit</h2>
         
         <h3>🤝 Një Zë, Një Vizione</h3>
         
-        <p>Strategjitë për forcimin e bashkëpunimit midis të gjitha shteteve dhe krahinave shqiptare.</p>
+        <p>Strategjitë për forcimin e bashkëpunimit midis të gjitha shteteve dhe krahinave Kosovare.</p>
         `
     },
     
@@ -4985,7 +4983,7 @@ def generate_counter_narrative(serbian_text):
 
         <div class="highlight-box">
             <h4>🎯 Mesazhi Final:</h4>
-            <p>Suksesi i vërtetë nuk matet vetëm me pasurinë e grumbulluar, por me ndikimin pozitiv që lëmë në jetën e të tjerëve dhe në brezat që vijnë pas nesh. Duke kombinuar strategjitë moderne të biznesit me vlerat tradicionale islame dhe shqiptare, ne mund të krijojmë jo vetëm sukses personal, por edhe një trashëgimi të përhershme për kombin tonë.</p>
+            <p>Suksesi i vërtetë nuk matet vetëm me pasurinë e grumbulluar, por me ndikimin pozitiv që lëmë në jetën e të tjerëve dhe në brezat që vijnë pas nesh. Duke kombinuar strategjitë moderne të biznesit me vlerat tradicionale islame dhe Kosovare, ne mund të krijojmë jo vetëm sukses personal, por edhe një trashëgimi të përhershme për kombin tonë.</p>
             
             <p>Ky është fundi i udhëtimit tonë së bashku, por fillimi i aplikimit praktik të gjithçkaje që kemi mësuar. Shkoni dhe ndërtoni jo vetëm pasurinë tuaj, por edhe të ardhmen tonë kombëtare.</p>
         </div>
@@ -5013,7 +5011,7 @@ def generate_counter_narrative(serbian_text):
         
         <div class="ai-prompt-box">
             <h4>🤖 Prompt për ChatGPT:</h4>
-            <p>"Create modern digital business scene: Albanian entrepreneur working on laptop, multiple screens showing online business growth, luxury car in garage visible through window, Islamic geometric patterns on wall, golden digital success elements. Style: futuristic, wealthy, tech-savvy."</p>
+            <p>"Create modern digital business scene: Kosovar entrepreneur working on laptop, multiple screens showing online business growth, luxury car in garage visible through window, Islamic geometric patterns on wall, golden digital success elements. Style: futuristic, wealthy, tech-savvy."</p>
         </div>
 
         <h3>🚀 Fuqia e AI-së për Kosovën</h3>
@@ -5398,7 +5396,7 @@ class AntiPropagandaAI:
         
         # 3. Identifikimi i fjalëve kyçe propagandistike
         fjale_propagande = [
-            "terrorist", "separatist", "fshati shqiptar", 
+            "terrorist", "separatist", "fshati Kosovar", 
             "krahinë", "autonomi", "trashëgimia serbe"
         ]
         
@@ -5661,7 +5659,7 @@ class ShqipAI:
             "Çdo libër shqip i digitalizuar",
             "Artikuj nga gazeta shqipe", 
             "Përkthime nga gjuhë të ndryshme",
-            "Tekstet historike shqiptare",
+            "Tekstet historike Kosovare",
             "Literatura bashkëkohore",
             "Transkriptet e fjalimeve politike",
             "Dokumente zyrtare të qeverisë"
@@ -5931,7 +5929,7 @@ print("🇦🇱 Kosova.AI Platform - Fuqizimi i Kombëtar me AI 🇦🇱")
         
         <div class="ai-prompt-box">
             <h4>🤖 Prompt për ChatGPT:</h4>
-            <p>"Create confident Albanian businessman making strong eye contact while standing next to BMW 530d, expensive suit, luxury office background, psychological strength and dominance aura, golden confidence symbols. Style: powerful, wealthy, dominant."</p>
+            <p>"Create confident Kosovar businessman making strong eye contact while standing next to BMW 530d, expensive suit, luxury office background, psychological strength and dominance aura, golden confidence symbols. Style: powerful, wealthy, dominant."</p>
         </div>
         
         <p>Ky kapitull trajton rëndësinë e të mos u frikësuar për të shikuar të tjerët në sy, sidomos kur ndihesh i vëzhguar për shkak të një veture të mirë si BMW 530d. Shikimi i drejtë tregon karakter të fortë dhe vetëbesim.</p>
@@ -6705,7 +6703,7 @@ print(f"Status: {përballueshëm['status']}")
 
         <div class="ai-prompt-box">
             <h4>🤖 Prompt për ChatGPT:</h4>
-            <p>"Create networking event scene: Albanian professionals connecting at luxury venue, handshakes and business cards exchange, cultural diversity, Islamic and Albanian symbols, golden connection networks. Style: social, professional, prosperous."</p>
+            <p>"Create networking event scene: Kosovar professionals connecting at luxury venue, handshakes and business cards exchange, cultural diversity, Islamic and Kosovar symbols, golden connection networks. Style: social, professional, prosperous."</p>
         </div>
 
         <h3>🤝 Networking-u si Shkencë</h3>
@@ -6819,7 +6817,7 @@ print(f"Status: {përballueshëm['status']}")
                 <li><strong>Teknologjia:</strong> Hub i AI-së për Europën Juglindore</li>
                 <li><strong>Arsimi:</strong> Sistema arsimore në nivel me vendet nordike</li>
                 <li><strong>Diplomacia:</strong> Respekt ndërkombëtar dhe stabilitet rajonal</li>
-                <li><strong>Kultura:</strong> Gjuha dhe kultura shqiptare e njohur globalisht</li>
+                <li><strong>Kultura:</strong> Gjuha dhe kultura Kosovare e njohur globalisht</li>
             </ul>
         </div>
 
@@ -6849,7 +6847,7 @@ print(f"Status: {përballueshëm['status']}")
         
         <p>Sukses pa nder është gjendje e përkohshme. Nder pa sukses është potencial i parealizuar. Por suksesi me nder - kjo është formula që ndryshon jo vetëm jetën tënde, por edhe botën rreth teje.</p>
 
-        <p>Ti nuk je thjesht lexues i këtij libri - ti je pjesë e gjeneratës që do ta transformojë Kosovën dhe kombin shqiptar. Ky është misioni yt, kjo është përgjegjësia jote, dhe kjo është mundësia jote.</p>
+        <p>Ti nuk je thjesht lexues i këtij libri - ti je pjesë e gjeneratës që do ta transformojë Kosovën dhe kombin Kosovar. Ky është misioni yt, kjo është përgjegjësia jote, dhe kjo është mundësia jote.</p>
 
         <div class="highlight-box">
             <h4>🌟 Premtimi i Lexuesit:</h4>
@@ -6858,7 +6856,7 @@ print(f"Status: {përballueshëm['status']}")
                 ✓ Do të përdor njohuritë e fituara për të ndërtuar sukses me nder<br>
                 ✓ Do të ndihmoj të tjerët që të arrijnë qëllimet e tyre<br>
                 ✓ Do të jem shembull pozitiv për familjen dhe komunitin<br>
-                ✓ Do të kontribuoj për zhvillimin e Kosovës dhe kombit shqiptar<br>
+                ✓ Do të kontribuoj për zhvillimin e Kosovës dhe kombit Kosovar<br>
                 ✓ Do të transmetoj vlerat e mira tek brezat e ardhshëm<br><br>
                 <strong>Nënshkruar: _________________ Data: _________</strong>"
             </p>
@@ -6950,14 +6948,14 @@ function showPlaceholderChapter(chapterNumber) {
         <h2>Kapitulli ${chapterNumber}: ${getChapterTitle(chapterNumber)}</h2>
         <div class="ai-prompt-box">
             <h4>🤖 Prompt për ChatGPT:</h4>
-            <p>"Create an inspiring and elegant image for the book chapter titled '${getChapterTitle(chapterNumber)}'. The image should reflect themes of success, honor, and strategic thinking, incorporating Albanian and Islamic cultural elements, along with symbols of wealth like luxury cars and modern architecture. Style: sophisticated, aspirational, and professional."</p>
+            <p>"Create an inspiring and elegant image for the book chapter titled '${getChapterTitle(chapterNumber)}'. The image should reflect themes of success, honor, and strategic thinking, incorporating Kosovar and Islamic cultural elements, along with symbols of wealth like luxury cars and modern architecture. Style: sophisticated, aspirational, and professional."</p>
         </div>
         <p>Përmbajtja për këtë kapitull është duke u përgatitur dhe do të jetë e disponueshme së shpejti. Ky kapitull do të trajtojë në thellësi temën <strong>"${getChapterTitle(chapterNumber)}"</strong>, duke ofruar strategji praktike dhe këshilla të bazuara në teorinë e lojërave dhe vlerat e nderit.</p>
         <div class="highlight-box">
             <h4>Çfarë do të mësoni në këtë kapitull:</h4>
             <ul>
                 <li>Strategji kyçe për të zbatuar parimet e '${getChapterTitle(chapterNumber)}'.</li>
-                <li>Shembuj konkretë nga jeta reale e biznesmenëve të suksesshëm shqiptarë.</li>
+                <li>Shembuj konkretë nga jeta reale e biznesmenëve të suksesshëm Kosovarë.</li>
                 <li>Lidhja midis kësaj teme dhe parimeve islame të biznesit dhe jetës.</li>
                 <li>Hapa praktikë për të aplikuar këto mësime në jetën tuaj të përditshme për të arritur suksesin e nderuar.</li>
             </ul>
@@ -7930,56 +7928,56 @@ function showChapterDownloadSuccess(chapterNumber) {
 // Complete mapping of all available images from imazhet folder
 const completeImageMap = {
     // Business and Strategy Images
-    'business-strategy': 'imazhet/Create 21st century strategy scene Albanian business leader in modern boardroom with digital strategy displays, global connectivity maps, sustainable business icons, Islamic geometric patterns integrated with modern design.jpg',
-    'ai-business': 'imazhet/Create AI-powered business scene Albanian entrepreneur collaborating with AI systems, holographic assistants, automated processes, luxury smart office, Islamic geometric AI patterns, golden neural networks. Style futuristi.jpg',
+    'business-strategy': 'imazhet/Create 21st century strategy scene Kosovar business leader in modern boardroom with digital strategy displays, global connectivity maps, sustainable business icons, Islamic geometric patterns integrated with modern design.jpg',
+    'ai-business': 'imazhet/Create AI-powered business scene Kosovar entrepreneur collaborating with AI systems, holographic assistants, automated processes, luxury smart office, Islamic geometric AI patterns, golden neural networks. Style futuristi.jpg',
     'book-cover': 'imazhet/Create an elegant book cover for \'Teoria e Lojërave Nderi dhe Suksesi\'. Feature chess pieces on a marble board with golden Islamic geometric patterns. Include luxury cars (Mercedes, BMW) in the background and traditional A.png',
-    'work-life-balance': 'imazhet/Create balanced life scene Albanian professional in peaceful meditation pose, scales showing perfect balance between work (laptop, business) and life (family, health, spirituality), golden harmony aura, Islamic peace symbo.jpg',
-    'wedding-success': 'imazhet/Create beautiful Albanian wedding scene with modern luxury elements, traditional and Islamic ceremony elements, successful couple with bright future symbols, golden love and prosperity symbols. Style elegant, traditional,.png',
-    'business-honor': 'imazhet/Create business honor visualization Albanian entrepreneur shaking hands in front of growing business charts, luxury office with Islamic calligraphy, trust and integrity symbols, golden success aura. Style professional, tru.png',
-    'digital-transformation': 'imazhet/Create digital transformation scene Albanian entrepreneur surrounded by floating holograms of technology, AI symbols, blockchain elements, luxury tech office, Islamic geometric digital patterns, golden innovation energy. S.jpg',
-    'disruptive-technology': 'imazhet/Create disruptive technology scene Albanian tech entrepreneur with cutting-edge innovations, robots and AI systems, blockchain networks, virtual reality, golden circuit patterns, luxury office with latest technology, trans.jpg',
-    'social-media': 'imazhet/Create dynamic social media scene Albanian influencer creating content with professional setup, multiple screens showing different platforms, engagement metrics flowing like golden particles, Islamic values integrated, lux.jpg',
-    'ethical-marketing': 'imazhet/Create ethical marketing scene Albanian brand building with honest advertising, cultural values integrated, luxury brand elements, Islamic honesty symbols, golden trust networks connecting to customers. Style trustworthy,.jpg',
-    'ethical-sales': 'imazhet/Create ethical sales scene Albanian salesperson helping customer find perfect solution, handshake with golden honesty aura, customer satisfaction symbols, Islamic fairness principles, luxury business setting. Style helpful.jpg',
-    'customer-service': 'imazhet/Create excellent customer service scene Albanian service representative helping diverse customers, hearts and golden stars showing satisfaction, luxury service environment, Islamic hospitality symbols, happy customers in b.jpg',
-    'financial-management': 'imazhet/Create financial management scene Albanian CFO analyzing financial charts and dashboards, golden numbers flowing upward, luxury office with multiple monitors, Islamic geometric patterns on financial documents, prosperity s.jpg',
-    'financial-security': 'imazhet/Create financial security visualization Albanian family protected by golden shield, luxury home and car safely positioned, Islamic geometric protection patterns, emergency fund symbols, diversified investment charts. Style.jpg',
-    'blockchain-finance': 'imazhet/Create futuristic blockchain scene Albanian tech expert working with floating blockchain networks, cryptocurrency symbols, golden digital chains connecting globally, Islamic geometric digital patterns, luxury tech environm.jpg',
-    'future-business': 'imazhet/Create futuristic business scene Albanian entrepreneur in high-tech office with holographic displays, AI assistants, sustainable technology, green energy solutions, luxury car charging with renewable energy, golden future.jpg',
-    'global-leadership': 'imazhet/Create global leadership scene Albanian business leader conducting international meeting with diverse team via video conference, world map in background, multiple flags, modern office with Albanian and Islamic cultural ele.jpg',
-    'global-trade': 'imazhet/Create global trade scene Albanian business leader with world map showing trade routes, luxury international office, cultural symbols from different countries, golden trade connections, Islamic geometric patterns represent.jpg',
-    'family-career-harmony': 'imazhet/Create harmonious family-career scene Albanian family in luxury home, parent working on laptop while children play nearby, business success symbols integrated with family warmth, Islamic family values, golden threads conne.jpg',
-    'innovation-creativity': 'imazhet/Create innovation explosion scene Albanian entrepreneur surrounded by floating lightbulbs and creative ideas, luxury office with modern art, Islamic geometric creativity patterns, golden innovation energy. Style creative,.png',
-    'family-education': 'imazhet/Create inspiring family education scene Albanian parents teaching children about success and values, books and modern technology on table, luxury car visible through window representing future success, Islamic calligraphy.png',
-    'inspiring-leadership': 'imazhet/Create inspiring leadership scene Albanian leader guiding diverse team, golden light emanating from leader, team working in harmony, luxury corporate environment, Islamic leadership principles visible, cultural unity symbo.jpg',
-    'justice-humanitarian': 'imazhet/Create justice and humanitarian scene Albanian professional working with international documents for Palestine, scales of justice, Islamic symbols, maps showing strategic locations, golden light representing hope and justi.png',
-    'lifelong-learning': 'imazhet/Create lifelong learning scene Albanian professional reading books in luxury library, multiple certificates on wall, online courses on laptop, brain with golden knowledge networks, Islamic calligraphy about seeking knowled.jpg',
-    'mentorship': 'imazhet/Create mentorship scene Wise Albanian business leader guiding younger entrepreneur, knowledge flowing as golden light between them, luxury office with traditional and modern elements, Islamic wisdom symbols, generational t.png',
-    'digital-business': 'imazhet/Create modern digital business scene Albanian entrepreneur working on laptop, multiple screens showing online business growth, luxury car in garage visible through window, Islamic geometric patterns on wall, golden digital.png',
-    'modern-education': 'imazhet/Create modern education scene Albanian children learning with both traditional books and digital devices, parents guiding tech use, Islamic values integrated with modern learning, golden balance between digital and analog,.jpg',
-    'networking': 'imazhet/Create networking event scene Albanian professionals connecting at luxury venue, handshakes and business cards exchange, cultural diversity, Islamic and Albanian symbols, golden connection networks. Style social, professio.png',
-    'peaceful-balance': 'imazhet/Create peaceful balance scene Albanian professional in meditation pose balancing work and life, scales showing family and business in harmony, luxury car and beautiful home in background, Islamic peace symbols. Style seren.jpg',
-    'conflict-resolution': 'imazhet/Create peaceful conflict resolution scene Albanian mediator bringing two parties together, dove of peace with golden light, handshake in center, Islamic justice symbols, cultural harmony elements. Style peaceful, diplomati.jpg',
-    'peak-performance': 'imazhet/Create peak performance scene Athletic Albanian business leader in modern gym with business charts showing correlation between fitness and success, golden energy radiating from healthy body, Islamic principles of body care.jpg',
-    'philanthropy': 'imazhet/Create philanthropic scene Albanian benefactor distributing aid in Albanian village, modern school being built, children learning, Islamic charity symbols, golden hands reaching out to help, luxury car in background showin.jpg',
-    'communication': 'imazhet/Create powerful communication scene Albanian speaker presenting to diverse audience, golden words flowing from mouth, luxury business setting, cultural symbols of trust and honor, Islamic communication ethics. Style author.png',
-    'mindset-transformation': 'imazhet/Create powerful mindset transformation image Albanian professional meditating in luxury office, brain with golden neural networks, success symbols (Mercedes, beautiful house, happy family) floating around, Islamic geometri.png',
-    'mindset-visualization': 'imazhet/Create powerful mindset visualization Albanian professional in meditation pose, surrounded by symbols of success (Mercedes, beautiful home, happy family), golden light emanating from their mind, Islamic geometric patterns.png',
-    'product-innovation': 'imazhet/Create product innovation lab Albanian team developing cutting-edge products, 3D prototypes floating in air, luxury design studio, Islamic geometric innovation patterns, golden creativity sparks, modern technology. Style i.jpg',
-    'smart-investment': 'imazhet/Create smart investment scene Albanian investor analyzing charts on multiple screens, luxury cars and real estate in background, Islamic finance symbols, golden growth arrows. Style analytical, prosperous, halal-focused..png',
-    'social-entrepreneurship': 'imazhet/Create social entrepreneurship scene Albanian entrepreneur building community center, helping families, educational programs, mosque in background, children playing safely, modern facilities improving lives, golden light o.jpg',
-    'social-impact': 'imazhet/Create social impact scene Albanian entrepreneur planting trees while wearing business suit, children learning in school funded by business, community development, Islamic charity symbols, golden hands helping others. Styl.jpg',
-    'sophisticated-investment': 'imazhet/Create sophisticated investment scene Albanian investor managing diverse portfolio, holographic charts showing global markets, luxury home office, Islamic finance symbols, golden growth arrows, real estate and stock certif.jpg',
-    'sophisticated-negotiation': 'imazhet/Create sophisticated negotiation scene Albanian business leader across table from international partners, handshake with golden energy, cultural respect symbols, luxury office setting, Islamic fairness principles. Style di.jpg',
-    'sophisticated-networking': 'imazhet/Create sophisticated networking scene Albanian business professionals connecting at luxury venue, handshakes with golden energy flowing between people, cultural diversity, Islamic and Albanian symbols, connection networks.png',
-    'startup': 'imazhet/Create startup journey visualization Albanian entrepreneur\'s journey from idea sketch to successful company, progression showing growth stages, luxury office evolution, Islamic values integrated. Style inspirational, growt.png',
-    'strategic-decision': 'imazhet/Create strategic decision-making scene Albanian executive at crossroads with multiple paths, chess pieces and business charts, golden scale weighing options, Islamic wisdom symbols, luxury office setting. Style analytical,.jpg',
-    'strategic-equilibrium': 'imazhet/Create strategic equilibrium visualization chess-like board showing business relationships, Albanian business leaders in strategic positions, mathematical equations in background, golden balance symbols. Style intelligent,.png',
-    'strategic-partnership': 'imazhet/Create strategic partnership scene Albanian business leaders from different industries shaking hands, golden connection webs linking various businesses, luxury boardroom, cultural diversity, Islamic partnership principle.jpg',
-    'sustainable-business': 'imazhet/Create sustainable business scene Albanian entrepreneur with green technology, solar panels on luxury building, pristine Albanian mountains in background, Islamic stewardship symbols, golden eco-friendly elements, renewabl.jpg',
-    'ecommerce': 'imazhet/Create thriving e-commerce scene Albanian entrepreneur managing online store, packages being shipped globally, luxury office with multiple monitors showing sales dashboards, Islamic geometric patterns on website design, go.jpg',
-    'visionary-planning': 'imazhet/Create visionary planning scene Albanian leader looking toward bright future horizon, luxury cars and beautiful buildings emerging from golden mist, family and success symbols, Islamic architectural elements, strategic pla.jpg',
-    'wealth-legacy': 'imazhet/Create wealth legacy scene Albanian family patriarch in elegant office reviewing estate planning documents, family photos showing multiple generations, luxury assets in background, Islamic inheritance principles visible, g.jpg'
+    'work-life-balance': 'imazhet/Create balanced life scene Kosovar professional in peaceful meditation pose, scales showing perfect balance between work (laptop, business) and life (family, health, spirituality), golden harmony aura, Islamic peace symbo.jpg',
+    'wedding-success': 'imazhet/Create beautiful Kosovar wedding scene with modern luxury elements, traditional and Islamic ceremony elements, successful couple with bright future symbols, golden love and prosperity symbols. Style elegant, traditional,.png',
+    'business-honor': 'imazhet/Create business honor visualization Kosovar entrepreneur shaking hands in front of growing business charts, luxury office with Islamic calligraphy, trust and integrity symbols, golden success aura. Style professional, tru.png',
+    'digital-transformation': 'imazhet/Create digital transformation scene Kosovar entrepreneur surrounded by floating holograms of technology, AI symbols, blockchain elements, luxury tech office, Islamic geometric digital patterns, golden innovation energy. S.jpg',
+    'disruptive-technology': 'imazhet/Create disruptive technology scene Kosovar tech entrepreneur with cutting-edge innovations, robots and AI systems, blockchain networks, virtual reality, golden circuit patterns, luxury office with latest technology, trans.jpg',
+    'social-media': 'imazhet/Create dynamic social media scene Kosovar influencer creating content with professional setup, multiple screens showing different platforms, engagement metrics flowing like golden particles, Islamic values integrated, lux.jpg',
+    'ethical-marketing': 'imazhet/Create ethical marketing scene Kosovar brand building with honest advertising, cultural values integrated, luxury brand elements, Islamic honesty symbols, golden trust networks connecting to customers. Style trustworthy,.jpg',
+    'ethical-sales': 'imazhet/Create ethical sales scene Kosovar salesperson helping customer find perfect solution, handshake with golden honesty aura, customer satisfaction symbols, Islamic fairness principles, luxury business setting. Style helpful.jpg',
+    'customer-service': 'imazhet/Create excellent customer service scene Kosovar service representative helping diverse customers, hearts and golden stars showing satisfaction, luxury service environment, Islamic hospitality symbols, happy customers in b.jpg',
+    'financial-management': 'imazhet/Create financial management scene Kosovar CFO analyzing financial charts and dashboards, golden numbers flowing upward, luxury office with multiple monitors, Islamic geometric patterns on financial documents, prosperity s.jpg',
+    'financial-security': 'imazhet/Create financial security visualization Kosovar family protected by golden shield, luxury home and car safely positioned, Islamic geometric protection patterns, emergency fund symbols, diversified investment charts. Style.jpg',
+    'blockchain-finance': 'imazhet/Create futuristic blockchain scene Kosovar tech expert working with floating blockchain networks, cryptocurrency symbols, golden digital chains connecting globally, Islamic geometric digital patterns, luxury tech environm.jpg',
+    'future-business': 'imazhet/Create futuristic business scene Kosovar entrepreneur in high-tech office with holographic displays, AI assistants, sustainable technology, green energy solutions, luxury car charging with renewable energy, golden future.jpg',
+    'global-leadership': 'imazhet/Create global leadership scene Kosovar business leader conducting international meeting with diverse team via video conference, world map in background, multiple flags, modern office with Kosovar and Islamic cultural ele.jpg',
+    'global-trade': 'imazhet/Create global trade scene Kosovar business leader with world map showing trade routes, luxury international office, cultural symbols from different countries, golden trade connections, Islamic geometric patterns represent.jpg',
+    'family-career-harmony': 'imazhet/Create harmonious family-career scene Kosovar family in luxury home, parent working on laptop while children play nearby, business success symbols integrated with family warmth, Islamic family values, golden threads conne.jpg',
+    'innovation-creativity': 'imazhet/Create innovation explosion scene Kosovar entrepreneur surrounded by floating lightbulbs and creative ideas, luxury office with modern art, Islamic geometric creativity patterns, golden innovation energy. Style creative,.png',
+    'family-education': 'imazhet/Create inspiring family education scene Kosovar parents teaching children about success and values, books and modern technology on table, luxury car visible through window representing future success, Islamic calligraphy.png',
+    'inspiring-leadership': 'imazhet/Create inspiring leadership scene Kosovar leader guiding diverse team, golden light emanating from leader, team working in harmony, luxury corporate environment, Islamic leadership principles visible, cultural unity symbo.jpg',
+    'justice-humanitarian': 'imazhet/Create justice and humanitarian scene Kosovar professional working with international documents for Palestine, scales of justice, Islamic symbols, maps showing strategic locations, golden light representing hope and justi.png',
+    'lifelong-learning': 'imazhet/Create lifelong learning scene Kosovar professional reading books in luxury library, multiple certificates on wall, online courses on laptop, brain with golden knowledge networks, Islamic calligraphy about seeking knowled.jpg',
+    'mentorship': 'imazhet/Create mentorship scene Wise Kosovar business leader guiding younger entrepreneur, knowledge flowing as golden light between them, luxury office with traditional and modern elements, Islamic wisdom symbols, generational t.png',
+    'digital-business': 'imazhet/Create modern digital business scene Kosovar entrepreneur working on laptop, multiple screens showing online business growth, luxury car in garage visible through window, Islamic geometric patterns on wall, golden digital.png',
+    'modern-education': 'imazhet/Create modern education scene Kosovar children learning with both traditional books and digital devices, parents guiding tech use, Islamic values integrated with modern learning, golden balance between digital and analog,.jpg',
+    'networking': 'imazhet/Create networking event scene Kosovar professionals connecting at luxury venue, handshakes and business cards exchange, cultural diversity, Islamic and Kosovar symbols, golden connection networks. Style social, professio.png',
+    'peaceful-balance': 'imazhet/Create peaceful balance scene Kosovar professional in meditation pose balancing work and life, scales showing family and business in harmony, luxury car and beautiful home in background, Islamic peace symbols. Style seren.jpg',
+    'conflict-resolution': 'imazhet/Create peaceful conflict resolution scene Kosovar mediator bringing two parties together, dove of peace with golden light, handshake in center, Islamic justice symbols, cultural harmony elements. Style peaceful, diplomati.jpg',
+    'peak-performance': 'imazhet/Create peak performance scene Athletic Kosovar business leader in modern gym with business charts showing correlation between fitness and success, golden energy radiating from healthy body, Islamic principles of body care.jpg',
+    'philanthropy': 'imazhet/Create philanthropic scene Kosovar benefactor distributing aid in Kosovar village, modern school being built, children learning, Islamic charity symbols, golden hands reaching out to help, luxury car in background showin.jpg',
+    'communication': 'imazhet/Create powerful communication scene Kosovar speaker presenting to diverse audience, golden words flowing from mouth, luxury business setting, cultural symbols of trust and honor, Islamic communication ethics. Style author.png',
+    'mindset-transformation': 'imazhet/Create powerful mindset transformation image Kosovar professional meditating in luxury office, brain with golden neural networks, success symbols (Mercedes, beautiful house, happy family) floating around, Islamic geometri.png',
+    'mindset-visualization': 'imazhet/Create powerful mindset visualization Kosovar professional in meditation pose, surrounded by symbols of success (Mercedes, beautiful home, happy family), golden light emanating from their mind, Islamic geometric patterns.png',
+    'product-innovation': 'imazhet/Create product innovation lab Kosovar team developing cutting-edge products, 3D prototypes floating in air, luxury design studio, Islamic geometric innovation patterns, golden creativity sparks, modern technology. Style i.jpg',
+    'smart-investment': 'imazhet/Create smart investment scene Kosovar investor analyzing charts on multiple screens, luxury cars and real estate in background, Islamic finance symbols, golden growth arrows. Style analytical, prosperous, halal-focused..png',
+    'social-entrepreneurship': 'imazhet/Create social entrepreneurship scene Kosovar entrepreneur building community center, helping families, educational programs, mosque in background, children playing safely, modern facilities improving lives, golden light o.jpg',
+    'social-impact': 'imazhet/Create social impact scene Kosovar entrepreneur planting trees while wearing business suit, children learning in school funded by business, community development, Islamic charity symbols, golden hands helping others. Styl.jpg',
+    'sophisticated-investment': 'imazhet/Create sophisticated investment scene Kosovar investor managing diverse portfolio, holographic charts showing global markets, luxury home office, Islamic finance symbols, golden growth arrows, real estate and stock certif.jpg',
+    'sophisticated-negotiation': 'imazhet/Create sophisticated negotiation scene Kosovar business leader across table from international partners, handshake with golden energy, cultural respect symbols, luxury office setting, Islamic fairness principles. Style di.jpg',
+    'sophisticated-networking': 'imazhet/Create sophisticated networking scene Kosovar business professionals connecting at luxury venue, handshakes with golden energy flowing between people, cultural diversity, Islamic and Kosovar symbols, connection networks.png',
+    'startup': 'imazhet/Create startup journey visualization Kosovar entrepreneur\'s journey from idea sketch to successful company, progression showing growth stages, luxury office evolution, Islamic values integrated. Style inspirational, growt.png',
+    'strategic-decision': 'imazhet/Create strategic decision-making scene Kosovar executive at crossroads with multiple paths, chess pieces and business charts, golden scale weighing options, Islamic wisdom symbols, luxury office setting. Style analytical,.jpg',
+    'strategic-equilibrium': 'imazhet/Create strategic equilibrium visualization chess-like board showing business relationships, Kosovar business leaders in strategic positions, mathematical equations in background, golden balance symbols. Style intelligent,.png',
+    'strategic-partnership': 'imazhet/Create strategic partnership scene Kosovar business leaders from different industries shaking hands, golden connection webs linking various businesses, luxury boardroom, cultural diversity, Islamic partnership principle.jpg',
+    'sustainable-business': 'imazhet/Create sustainable business scene Kosovar entrepreneur with green technology, solar panels on luxury building, pristine Kosovar mountains in background, Islamic stewardship symbols, golden eco-friendly elements, renewabl.jpg',
+    'ecommerce': 'imazhet/Create thriving e-commerce scene Kosovar entrepreneur managing online store, packages being shipped globally, luxury office with multiple monitors showing sales dashboards, Islamic geometric patterns on website design, go.jpg',
+    'visionary-planning': 'imazhet/Create visionary planning scene Kosovar leader looking toward bright future horizon, luxury cars and beautiful buildings emerging from golden mist, family and success symbols, Islamic architectural elements, strategic pla.jpg',
+    'wealth-legacy': 'imazhet/Create wealth legacy scene Kosovar family patriarch in elegant office reviewing estate planning documents, family photos showing multiple generations, luxury assets in background, Islamic inheritance principles visible, g.jpg'
 };
 
 // Enhanced chapter-to-image mapping with multiple images per chapter
@@ -8171,7 +8169,7 @@ function generateChapterContent(chapterNum, title) {
         
         <div class="ai-prompt-box">
             <h4>🤖 Prompt për ChatGPT:</h4>
-            <p>"Create professional business scene illustrating ${title.toLowerCase()}, Albanian entrepreneur in modern office setting, success symbols, Islamic ethics integration, golden prosperity elements. Style: professional, successful, ethical."</p>
+            <p>"Create professional business scene illustrating ${title.toLowerCase()}, Kosovar entrepreneur in modern office setting, success symbols, Islamic ethics integration, golden prosperity elements. Style: professional, successful, ethical."</p>
         </div>
 
         <h3>🎯 Objektivat e Kapitullit</h3>
@@ -8194,7 +8192,7 @@ function generateChapterContent(chapterNum, title) {
             <ul>
                 <li><strong>Teoria Themelore:</strong> Konceptet bazë të ${title.toLowerCase()}</li>
                 <li><strong>Strategjitë Praktike:</strong> Metodat e aplikueshme në biznes</li>
-                <li><strong>Raste Studimi:</strong> Shembuj nga bizneset e suksesshme shqiptare</li>
+                <li><strong>Raste Studimi:</strong> Shembuj nga bizneset e suksesshme Kosovare</li>
                 <li><strong>Vlerat Islame:</strong> Integrimi i parimeve fetare në biznes</li>
                 <li><strong>Plan Veprimi:</strong> Hapat konkretë për implementim</li>
                 <li><strong>Analiza Financiare:</strong> Kostot dhe përfitimet e strategjive</li>
@@ -8253,7 +8251,7 @@ function generateChapterContent(chapterNum, title) {
             <li><strong>Competitive Intelligence:</strong> Monitorimi sistematik i konkurrentëve dhe identifikimi i mundësive për diferencim</li>
         </ul>
 
-        <h3>🎓 4. Studimi i Rastit: Sukseset Shqiptare</h3>
+        <h3>🎓 4. Studimi i Rastit: Sukseset Kosovare</h3>
         
         <p>Shqipërija ka prodhuar shumë biznese të suksesshme që kanë aplikuar principet e ${title.toLowerCase()}. Një shembull i shkëlqyer është historia e një ndërmarrjeje familjare nga Tirana që filloi si biznes i vogël dhe u rrit në një kompani me miliona euro xhiro.</p>
         
