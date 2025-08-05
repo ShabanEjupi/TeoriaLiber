@@ -8480,6 +8480,11 @@ function scrollToChapters() {
 }
 
 function showChapter(chapterNumber) {
+    // Prevent auto-execution if chapter is already showing
+    if (currentChapter === chapterNumber && document.getElementById('book-content').style.display === 'block') {
+        return;
+    }
+    
     currentChapter = chapterNumber;
     const chapter = chapters[chapterNumber];
     const chapterContent = document.getElementById('chapter-content');
@@ -8647,6 +8652,9 @@ function getChapterTitle(chapterNumber) {
 function goBackToChapters() {
     const bookContentSection = document.getElementById('book-content');
     const mainSections = document.querySelectorAll('section:not(#book-content)');
+    
+    // Reset current chapter to 0 to prevent auto-showing
+    currentChapter = 0;
     
     bookContentSection.style.display = 'none';
     mainSections.forEach(sec => sec.style.display = 'block');

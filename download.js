@@ -1,6 +1,6 @@
-// Simple Download Script for Game Theory Book
-async function downloadBook() {
-    console.log('📚 Starting book download...');
+// Enhanced Download Script for Game Theory Book with Two Versions
+async function downloadBook(includeViewReferences = true) {
+    console.log('📚 Starting book download...', includeViewReferences ? 'with' : 'without', 'view references');
     
     // Check if chapters are loaded
     if (typeof window.chapters === 'undefined' || !window.chapters) {
@@ -41,7 +41,7 @@ async function downloadBook() {
         try {
             statusDiv.innerHTML = '📝 Duke gjeneruar përmbajtjen...';
             
-            const bookHTML = generateCompleteBook();
+            const bookHTML = generateCompleteBook(includeViewReferences);
             
             statusDiv.innerHTML = '💾 Duke shkarkuar...';
             
@@ -50,7 +50,9 @@ async function downloadBook() {
             const url = URL.createObjectURL(blob);
             const a = document.createElement('a');
             a.href = url;
-            a.download = 'Teoria-e-Lojrave-Libri-i-Plote.html';
+            a.download = includeViewReferences ? 
+                'Teoria-e-Lojrave-Me-Shikime.html' : 
+                'Teoria-e-Lojrave-Pa-Shikime.html';
             a.style.display = 'none';
             
             document.body.appendChild(a);
@@ -64,9 +66,14 @@ async function downloadBook() {
             setTimeout(() => {
                 document.body.removeChild(statusDiv);
                 
+                const versionText = includeViewReferences ? 
+                    '(Versioni i Plotë me Shikime dhe Referencias)' : 
+                    '(Versioni i Thjeshtë pa Shikime)';
+                
                 alert(`✅ LIBRI U SHKARKUA ME SUKSES!
 
 📚 Libri "Teoria e Lojërave: Nderi dhe Suksesi"
+${versionText}
 📖 111 kapituj të plotë (800+ faqe)
 🎨 Me imazhe të integruara
 📱 Dizajn responsive
@@ -97,7 +104,17 @@ async function downloadBook() {
     }, 100);
 }
 
-function generateCompleteBook() {
+// Function to download book with view references
+function downloadBookWithViews() {
+    downloadBook(true);
+}
+
+// Function to download book without view references  
+function downloadBookWithoutViews() {
+    downloadBook(false);
+}
+
+function generateCompleteBook(includeViewReferences = true) {
     const totalChapters = 111;
     
     const bookHTML = `<!DOCTYPE html>
@@ -248,6 +265,17 @@ function generateCompleteBook() {
             break-inside: avoid;
         }
         
+        .view-reference {
+            background: #f0f9ff;
+            border: 1px solid #bae6fd;
+            border-radius: 8px;
+            padding: 1rem;
+            margin: 1rem 0;
+            font-style: italic;
+            color: #0369a1;
+            page-break-inside: avoid;
+        }
+        
         @media print {
             body { 
                 font-size: 11pt;
@@ -264,7 +292,7 @@ function generateCompleteBook() {
                 -webkit-print-color-adjust: exact;
                 color-adjust: exact;
             }
-            .highlight-box, .islamic-quote {
+            .highlight-box, .islamic-quote, .view-reference {
                 -webkit-print-color-adjust: exact;
                 color-adjust: exact;
             }
@@ -276,6 +304,7 @@ function generateCompleteBook() {
         <h1>📚 Teoria e Lojërave: Nderi dhe Suksesi</h1>
         <p>Libri i Plotë - 111 Kapituj për Sukses të Nderuar</p>
         <p style="font-size: 1rem; opacity: 0.9;">800+ Faqe | Metodologji të Ndryshme | Strategji Praktike</p>
+        ${includeViewReferences ? '<p style="font-size: 0.9rem; margin-top: 1rem;">📖 Versioni i Plotë me Shikime dhe Referencias</p>' : '<p style="font-size: 0.9rem; margin-top: 1rem;">📖 Versioni i Thjeshtë pa Shikime</p>'}
         <p style="font-size: 0.9rem; margin-top: 1rem;">© 2025 - Të gjitha të drejtat të rezervuara</p>
     </div>
     
@@ -290,7 +319,7 @@ function generateCompleteBook() {
         </ol>
     </div>
     
-    ${generateAllChapters(totalChapters)}
+    ${generateAllChapters(totalChapters, includeViewReferences)}
     
 </body>
 </html>`;
@@ -307,13 +336,18 @@ function generateTableOfContents(totalChapters) {
     return toc;
 }
 
-function generateAllChapters(totalChapters) {
+function generateAllChapters(totalChapters, includeViewReferences = true) {
     let chaptersHTML = '';
     
     for (let i = 1; i <= totalChapters; i++) {
         try {
             const title = getChapterTitle(i);
             let content = getChapterContent(i);
+            
+            // Process content based on includeViewReferences flag
+            if (!includeViewReferences) {
+                content = removeViewReferences(content);
+            }
             
             // Process images in content to make them work in standalone HTML
             content = processImagesForDownload(content);
@@ -347,18 +381,54 @@ function generateAllChapters(totalChapters) {
     return chaptersHTML;
 }
 
+// Function to remove view references from content
+function removeViewReferences(content) {
+    // Remove view reference sections
+    content = content.replace(/<div class="view-reference">.*?<\/div>/gs, '');
+    
+    // Remove mentions of viewing and looking
+    content = content.replace(/shiko|shikoje|shikojnë|vëzhgo|vëzhgon|vëzhgojnë|shikim|shikimi|shikimit|shikimeve/gi, function(match) {
+        const replacements = {
+            'shiko': 'vërej',
+            'shikoje': 'vëreje',
+            'shikojnë': 'vërejnë',
+            'vëzhgo': 'konsidero',
+            'vëzhgon': 'konsideron',
+            'vëzhgojnë': 'konsiderojnë',
+            'shikim': 'vërejtje',
+            'shikimi': 'vërejtja',
+            'shikimit': 'vërejtjes',
+            'shikimeve': 'vërejtjeve'
+        };
+        return replacements[match.toLowerCase()] || match;
+    });
+    
+    // Remove eye-related metaphors and replace with more general terms
+    content = content.replace(/sy|sytë|syri|syve/gi, function(match) {
+        const replacements = {
+            'sy': 'vëmendje',
+            'sytë': 'vëmendjen',
+            'syri': 'vëmendja',
+            'syve': 'vëmendjes'
+        };
+        return replacements[match.toLowerCase()] || match;
+    });
+    
+    return content;
+}
+
 // Function to process images for standalone HTML download
 function processImagesForDownload(content) {
-    // Replace relative image paths with absolute paths
+    // Replace relative image paths with absolute paths - all images now in main imazhet folder
     content = content.replace(/src="imazhet\//g, 'src="./imazhet/');
-    content = content.replace(/src="imazhet-kap-51-111\//g, 'src="./imazhet-kap-51-111/');
+    content = content.replace(/src="imazhet-kap-51-111\//g, 'src="./imazhet/'); // Updated: all images moved to main folder
     
     // Add error handling for images
     content = content.replace(/<img([^>]+)>/g, (match, attributes) => {
         if (!attributes.includes('onerror=')) {
             const insertPos = attributes.lastIndexOf('"');
             if (insertPos !== -1) {
-                return `<img${attributes.slice(0, insertPos)}" onerror="this.style.display='none'; console.warn('Image failed to load:', this.src);">`;
+                return `<img${attributes.slice(0, insertPos)}" onerror="this.style.display='none'; console.warn('Image failed to load:', this.src);" onload="console.log('Image loaded:', this.src);">`;
             }
         }
         return match;
@@ -408,7 +478,7 @@ function showPrintInstructions() {
 
 // Subscribe to updates
 function subscribeUpdates() {
-    const email = document.getElementById('emailInput').value;
+    const email = document.getElementById('emailInput')?.value;
     if (email) {
         alert(`✅ Faleminderit! Emaili ${email} u regjistrua për updates.
         
@@ -425,4 +495,4 @@ function subscribeUpdates() {
     }
 }
 
-console.log('✅ Clean download script loaded successfully');
+console.log('✅ Enhanced download script loaded successfully with two versions support');

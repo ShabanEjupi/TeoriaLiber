@@ -181,20 +181,20 @@
             </p>
             </p>
             
-            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem; margin: 2rem 0;">
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2rem; margin: 2rem 0;">
                 <div style="background: rgba(255,255,255,0.1); padding: 2rem; border-radius: 15px; backdrop-filter: blur(10px);">
-                    <h4 style="color: white; margin-bottom: 1rem;">� Libri i Plotë HTML</h4>
-                    <p style="opacity: 0.9; margin-bottom: 1.5rem;">File HTML i kompletë që mund ta printoni si PDF nga browser-i</p>
-                    <button onclick="downloadBook()" style="background: white; color: #2E8B57; border: none; padding: 12px 24px; border-radius: 25px; cursor: pointer; font-weight: bold; font-size: 1rem;">
-                        Shkarko Librin e Plotë �
+                    <h4 style="color: white; margin-bottom: 1rem;">📖 Versioni i Plotë</h4>
+                    <p style="opacity: 0.9; margin-bottom: 1.5rem;">Libri komplet me të gjitha shikimet dhe referencat psikologjike</p>
+                    <button onclick="downloadBookWithViews()" style="background: white; color: #2E8B57; border: none; padding: 12px 24px; border-radius: 25px; cursor: pointer; font-weight: bold; font-size: 1rem;">
+                        Shkarko Me Shikime 👁️
                     </button>
                 </div>
                 
                 <div style="background: rgba(255,255,255,0.1); padding: 2rem; border-radius: 15px; backdrop-filter: blur(10px);">
-                    <h4 style="color: white; margin-bottom: 1rem;">� Kapituj të Veçantë</h4>
-                    <p style="opacity: 0.9; margin-bottom: 1.5rem;">Shkarkoni kapituj individual në format HTML</p>
-                    <button onclick="alert('Hapni ndonjë kapitull dhe klikoni butonin e shkarkimit!')" style="background: white; color: #2E8B57; border: none; padding: 12px 24px; border-radius: 25px; cursor: pointer; font-weight: bold; font-size: 1rem;">
-                        Shkarko Kapituj �
+                    <h4 style="color: white; margin-bottom: 1rem;">📚 Versioni i Thjeshtë</h4>
+                    <p style="opacity: 0.9; margin-bottom: 1.5rem;">Libri pa referencat e shikimeve - fokus në strategji dhe biznes</p>
+                    <button onclick="downloadBookWithoutViews()" style="background: white; color: #2E8B57; border: none; padding: 12px 24px; border-radius: 25px; cursor: pointer; font-weight: bold; font-size: 1rem;">
+                        Shkarko Pa Shikime 🎯
                     </button>
                 </div>
                 
@@ -393,7 +393,7 @@
                 </div>
                 <div>
                     <h4 style="color: white; margin-bottom: 1rem;">📊 Statistika</h4>
-                    <p>📖 800+ Faqe<br>📚 111 Kapituj Unikë<br>🎯 1000+ Strategji<br>💡 180+ AI Prompts<br>🔬 30+ Metodologji</p>
+                    <p>📖 800+ Faqe<br>📚 111 Kapituj Unikë<br>🎯 1000+ Strategji<br>💡 500+ AI Prompts dhe Strategji të Avancuara<br>🔬 30+ Metodologji<br>🎯 Metodologji të Ndryshme për Çdo Kapitull</p>
                 </div>
                 <div>
                     <h4 style="color: white; margin-bottom: 1rem;">🌐 Ndaj</h4>
@@ -420,23 +420,39 @@
     <!-- Load main script -->
     <script src="script.js"></script>
     
-    <!-- Fixed Complete Image Integration -->
-    <script src="fixed-image-integration.js"></script>
-    
     <!-- Image Auto-Fix for All Chapters -->
     <script src="image-auto-fix.js"></script>
     
-    <!-- Enhanced Download Fix for All Images -->
-    <script src="enhanced-download-fix.js"></script>
+    <!-- Image Verification and Testing -->
+    <script src="image-verification.js"></script>
     
     <!-- Clean Download Functionality -->
     <script src="download.js"></script>
     
-    <!-- Image Verification (for testing) -->
-    <script src="verify-images.js"></script>
-    
-    <!-- Test Images Script -->
-    <script src="test-images.js"></script>
+    <!-- Auto-run image integration after all scripts loaded -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            console.log('🚀 DOM loaded, starting image integration...');
+            
+            // Wait a bit for all scripts to initialize
+            setTimeout(function() {
+                if (typeof window.ensureAllImagesIntegrated === 'function') {
+                    console.log('🔧 Running comprehensive image integration...');
+                    window.ensureAllImagesIntegrated();
+                    
+                    // Run verification after integration
+                    setTimeout(function() {
+                        if (typeof window.verifyImageMapping === 'function') {
+                            console.log('🔍 Running image verification...');
+                            window.verifyImageMapping();
+                        }
+                    }, 2000);
+                } else {
+                    console.warn('⚠️ Image integration function not found');
+                }
+            }, 1500);
+        });
+    </script>
     
     <!-- Image Gallery Modal and Functionality -->
     <div id="imageModal" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.9); z-index: 10000; justify-content: center; align-items: center;">
@@ -495,14 +511,7 @@
                 });
             });
         });
-    </script>
-    <script src="script.js"></script>
-    <script src="fixed-image-integration.js"></script>
-    <script src="image-auto-fix.js"></script>
-    <script src="enhanced-download-fix.js"></script>
-    <script src="verify-images.js"></script>
-    <script src="test-images.js"></script>
-    <script>
+        
         // Set last updated date
         document.getElementById('lastUpdated').textContent = new Date().toLocaleDateString('sq-AL');
         
@@ -528,19 +537,6 @@
                 window.open(shareUrl, '_blank', 'width=600,height=400');
             }
         }
-        
-        // Auto-integrate images when page loads
-        window.addEventListener('load', function() {
-            setTimeout(() => {
-                if (typeof window.fixedImageIntegration !== 'undefined' && window.fixedImageIntegration.integrateAllChapterImages) {
-                    console.log('🚀 Auto-integrating images with fixed integration...');
-                    window.fixedImageIntegration.integrateAllChapterImages();
-                } else if (typeof window.ensureAllImagesIntegrated === 'function') {
-                    console.log('🚀 Auto-integrating images with backup method...');
-                    window.ensureAllImagesIntegrated();
-                }
-            }, 2000);
-        });
     </script>
 </body>
 </html>
