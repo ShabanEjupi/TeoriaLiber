@@ -420,14 +420,23 @@
     <!-- Load main script -->
     <script src="script.js"></script>
     
-    <!-- Clean Image Integration -->
-    <script src="image-integration.js"></script>
+    <!-- Fixed Complete Image Integration -->
+    <script src="fixed-image-integration.js"></script>
+    
+    <!-- Image Auto-Fix for All Chapters -->
+    <script src="image-auto-fix.js"></script>
+    
+    <!-- Enhanced Download Fix for All Images -->
+    <script src="enhanced-download-fix.js"></script>
     
     <!-- Clean Download Functionality -->
     <script src="download.js"></script>
     
     <!-- Image Verification (for testing) -->
     <script src="verify-images.js"></script>
+    
+    <!-- Test Images Script -->
+    <script src="test-images.js"></script>
     
     <!-- Image Gallery Modal and Functionality -->
     <div id="imageModal" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.9); z-index: 10000; justify-content: center; align-items: center;">
@@ -488,8 +497,11 @@
         });
     </script>
     <script src="script.js"></script>
-    <script src="enhanced-image-integration.js"></script>
+    <script src="fixed-image-integration.js"></script>
+    <script src="image-auto-fix.js"></script>
+    <script src="enhanced-download-fix.js"></script>
     <script src="verify-images.js"></script>
+    <script src="test-images.js"></script>
     <script>
         // Set last updated date
         document.getElementById('lastUpdated').textContent = new Date().toLocaleDateString('sq-AL');
@@ -520,9 +532,12 @@
         // Auto-integrate images when page loads
         window.addEventListener('load', function() {
             setTimeout(() => {
-                if (typeof integrateChapterImages === 'function') {
-                    console.log('🚀 Auto-integrating images...');
-                    integrateChapterImages();
+                if (typeof window.fixedImageIntegration !== 'undefined' && window.fixedImageIntegration.integrateAllChapterImages) {
+                    console.log('🚀 Auto-integrating images with fixed integration...');
+                    window.fixedImageIntegration.integrateAllChapterImages();
+                } else if (typeof window.ensureAllImagesIntegrated === 'function') {
+                    console.log('🚀 Auto-integrating images with backup method...');
+                    window.ensureAllImagesIntegrated();
                 }
             }, 2000);
         });

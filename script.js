@@ -8704,6 +8704,12 @@ function downloadBook() {
         // Use setTimeout to allow UI to update
         setTimeout(() => {
             try {
+                // Ensure all images are integrated before generating content
+                console.log('🔧 Ensuring all images are integrated before download...');
+                if (typeof window.ensureAllImagesIntegrated === 'function') {
+                    window.ensureAllImagesIntegrated();
+                }
+                
                 // Generate complete book content
                 let completeBook = generateCompleteBookContent();
                 
