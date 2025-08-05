@@ -4874,7 +4874,159 @@ def generate_counter_narrative(serbian_text):
         
         <h3>⚡ Lidershipi nën Presion</h3>
         
-        <p>Krizat janë momentet që bëjnë dallumin midis liderëve të vërtetë dhe atyre të rremë. Strategjitë për menaxhimin e krizave dhe dalljen më të fortë.</p>
+        <p>Krizat janë momentet që bëjnë dallumin midis liderëve të vërtetë dhe atyre të rremë. Në këto momente, çdo vendim që merr lideri mund të jetë vendimtar për të ardhmen e organizatës dhe njerëzve që ai udhëheq.</p>
+
+        <div class="highlight-box">
+            <h4>🎯 Parimet e Lidershipit në Krizë:</h4>
+            <ul>
+                <li><strong>Transparenca:</strong> Komunikim i hapur dhe i sinqertë me ekipin</li>
+                <li><strong>Vendosmëria:</strong> Marrja e vendimeve të shpejta por të menduar</li>
+                <li><strong>Empatie:</strong> Kuptimi i shqetësimeve të anëtarëve të ekipit</li>
+                <li><strong>Vizionari:</strong> Mbajtja e fokusit në objektivat afatgjata</li>
+                <li><strong>Rezilienca:</strong> Ruajtja e qetësisë nën presion të madh</li>
+            </ul>
+        </div>
+
+        <h3>🔥 Llojet e Krizave në Biznes</h3>
+        
+        <p>Për të qenë i përgatitur, një lider duhet të njihë llojet e ndryshme të krizave që mund të përballen:</p>
+
+        <h4>💰 Kriza Financiare</h4>
+        <p>Kur biznesi përballet me vështirësi të mëdha financiare, lideri duhet të veprojë me zgjuarsi:</p>
+        <ul>
+            <li>Analiza e menjëhershme e fluksit të parave</li>
+            <li>Riedikimi i prioriteteve të shpenzimeve</li>
+            <li>Negocimi me kreditorë dhe furnitorë</li>
+            <li>Gjetja e burimeve të reja të financimit</li>
+            <li>Komunikimi transparent me investitorët</li>
+        </ul>
+
+        <h4>👥 Kriza e Besimit</h4>
+        <p>Kur reputacioni i kompanisë është në rrezik:</p>
+        <ul>
+            <li>Pranimi i përgjegjësisë për gabimet</li>
+            <li>Korrigjimi i menjëhershëm i problemeve</li>
+            <li>Kompensimi i të dëmtuarve</li>
+            <li>Implementimi i masave parandaluese</li>
+            <li>Ndërtimi i ri i besimit me klientët</li>
+        </ul>
+
+        <h3>🛡️ Strategjitë e Mbrojtjes</h3>
+
+        <div class="islamic-quote">
+            "وَمَن يَتَوَكَّلْ عَلَى اللَّهِ فَهُوَ حَسْبُهُ"
+            <br><br>
+            "Dhe kush mbështetet te Allahu, Ai i mjafton atij." - Kurani, 65:3
+        </div>
+
+        <p>Një lider i suksesshëm duhet të jetë gjithmonë i përgatitur për krizat. Ja disa strategji parandaluese:</p>
+
+        <h4>📊 Planifikimi Strategjik</h4>
+        <ul>
+            <li><strong>Analiza e Rreziqeve:</strong> Identifikimi i të gjitha rreziqeve të mundshme</li>
+            <li><strong>Plani B dhe C:</strong> Zhvillimi i planeve alternative</li>
+            <li><strong>Rezervat Emergjente:</strong> Mbajtja e fondeve për raste urgjente</li>
+            <li><strong>Diversifikimi:</strong> Mos varësia nga një burim i vetëm</li>
+            <li><strong>Monitorimi Konstant:</strong> Përcjellja e treguesve të rëndësishëm</li>
+        </ul>
+
+        <h3>🎭 Psikologjia e Liderit në Krizë</h3>
+        
+        <p>Aspekti psikologjik është thelbësor për një lider në kohë krize:</p>
+
+        <h4>🧠 Menaxhimi i Stresit</h4>
+        <ul>
+            <li>Teknika të frymëmarrjes së thellë</li>
+            <li>Ushtrime fizike të rregullta</li>
+            <li>Meditimi dhe lutja</li>
+            <li>Gjumi i mjaftueshëm</li>
+            <li>Ushqyerja e shëndetshme</li>
+        </ul>
+
+        <h4>🎯 Ruajtja e Fokusit</h4>
+        <p>Në momentet e krizës, është e lehtë të humbësh fokusín:</p>
+        <ul>
+            <li>Përcaktimi i prioriteteve të qarta</li>
+            <li>Ndarja e problemeve të mëdha në pjesë të vogla</li>
+            <li>Delegimi efikas i detyrave</li>
+            <li>Mbajtja e meetingave të shkurtra dhe të fokusuar</li>
+            <li>Përdorimi i teknologjisë për organizim</li>
+        </ul>
+
+        <h3>📞 Komunikimi në Kohë Krize</h3>
+        
+        <p>Komunikimi i saktë është çelësi i suksesit në menaxhimin e krizave:</p>
+
+        <div class="highlight-box">
+            <h4>🗣️ Parimet e Komunikimit në Krizë:</h4>
+            <ul>
+                <li><strong>Shpejtësia:</strong> Jep informacion sa më shpejt</li>
+                <li><strong>Saktësia:</strong> Sigurohu që informacioni është i saktë</li>
+                <li><strong>Transparenca:</strong> Mos fshih fakte të rëndësishme</li>
+                <li><strong>Empatie:</strong> Trego kuptim për shqetësimet e të tjerëve</li>
+                <li><strong>Optimizmi i Realistische:</strong> Jep shpresë pa qenë i pavend</li>
+            </ul>
+        </div>
+
+        <h3>🚀 Dallja nga Kriza më të Fortë</h3>
+        
+        <p>Objektiví në krizë nuk është vetëm mbijetesa, por dallja më të fortë:</p>
+
+        <h4>💡 Mësimi nga Kriza</h4>
+        <ul>
+            <li>Analiza e shkaqeve që çuan në krizë</li>
+            <li>Identifikimi i gabimeve që u bënë</li>
+            <li>Zhvillimi i procedurave të reja</li>
+            <li>Trajnimi i ekipit për situata të ngjashme</li>
+            <li>Dokumentimi i eksperiencës për të ardhmen</li>
+        </ul>
+
+        <h4>🌟 Inovacioni gjatë Krizës</h4>
+        <p>Shumë nga inovacionet më të mëdha kanë lindur gjatë krizave:</p>
+        <ul>
+            <li>Gjetja e mënyrave të reja për të shërbyer klientët</li>
+            <li>Zhvillimi i produkteve ose shërbimeve të reja</li>
+            <li>Përmirësimi i proceseve të brendshme</li>
+            <li>Krijimi i partneriteteve të reja strategjike</li>
+            <li>Adoptimi i teknologjive të reja</li>
+        </ul>
+
+        <div class="islamic-quote">
+            "وَعَسَىٰ أَن تَكْرَهُوا شَيْئًا وَهُوَ خَيْرٌ لَّكُمْ"
+            <br><br>
+            "Dhe ndoshta ju urren diçka që është e mirë për ju." - Kurani, 2:216
+        </div>
+
+        <h3>📈 Case Study: COVID-19 dhe Bizneset</h3>
+        
+        <p>Pandemia e COVID-19 ishte një krizë globale që testoi të gjithë liderët. Bizneset që mbijetuan treguan karakteristika të caktuara:</p>
+
+        <div class="highlight-box">
+            <h4>🏆 Karakteristikat e Fituesve:</h4>
+            <ul>
+                <li><strong>Adaptueshmëria:</strong> U përshtatën shpejt me realitetin e ri</li>
+                <li><strong>Digjitalizimi:</strong> Adoptuan teknologjitë digjitale</li>
+                <li><strong>Kujdesi për Punëtorët:</strong> Mbajtën ekipin e tyre të sigurt</li>
+                <li><strong>Inovacioni:</strong> Krijuan produkte dhe shërbime të reja</li>
+                <li><strong>Komuniteti:</strong> Ndihmuan komunitetin e tyre</li>
+            </ul>
+        </div>
+
+        <h3>🎯 Mësimet Kryesore</h3>
+        
+        <p>Krizat janë pjesë e pashmangshme e jetës dhe biznesit. Lideri i vërtetë:</p>
+        <ul>
+            <li>Është gjithmonë i përgatitur për krizat</li>
+            <li>Menaxhon me qetësi dhe zgjuarsi</li>
+            <li>Mban komunikimin e hapur me ekipin</li>
+            <li>Mëson nga çdo krizë</li>
+            <li>Del më i fortë nga secila provë</li>
+        </ul>
+
+        <div class="highlight-box">
+            <h4>💪 Mesazhi Final:</h4>
+            <p>Kriza nuk është fundi i botës - është mundësi për të treguar se çfarë udhëheqësi i vërtetë je. Duke ruajtur qetësinë, duke komunikuar me transparencë dhe duke marrë vendime të mençura, mund ta kthesh çdo krizë në një mundësi për rritje dhe sukses.</p>
+        </div>
         `
     },
     
@@ -4885,7 +5037,224 @@ def generate_counter_narrative(serbian_text):
         
         <h3>🏗️ Nga Ide në Imperium</h3>
         
-        <p>Procesi sistematik i shkallëzimit të një biznesi nga një ide e thjeshtë deri në një korporatë ndërkombëtare.</p>
+        <p>Procesi i shkallëzimit të një biznesi nga një ide e thjeshtë deri në një korporatë ndërkombëtare është një udhëtim kompleks që kërkon planifikim strategjik, ekzekutim të përsosur dhe vizion afatgjatë.</p>
+
+        <div class="highlight-box">
+            <h4>🚀 Fazat e Shkallëzimit të Biznesit:</h4>
+            <ol>
+                <li><strong>Faza e Idesë:</strong> Konceptimi dhe validimi</li>
+                <li><strong>Faza e Startup-it:</strong> Lansimi dhe rritja e parë</li>
+                <li><strong>Faza e Rritjes:</strong> Ekspansioni dhe optimizimi</li>
+                <li><strong>Faza e Pjekurisë:</strong> Sistematizimi dhe profesionalizimi</li>
+                <li><strong>Faza e Ekspansionit:</strong> Hyrja në tregujen ndërkombëtar</li>
+                <li><strong>Faza e Imperiumit:</strong> Dominimi i tregut dhe diversifikimi</li>
+            </ol>
+        </div>
+
+        <h3>💡 Faza 1: Nga Idea në MVP (Minimum Viable Product)</h3>
+        
+        <p>Çdo imperium fillon me një ide. Sfida është ta kthesh atë ide në realitet:</p>
+
+        <h4>🔍 Validimi i Idesë</h4>
+        <ul>
+            <li><strong>Kërkimi i Tregut:</strong> Analizo nëse ekziston nevoja reale</li>
+            <li><strong>Konkurrenca:</strong> Studjo çfarë bëjnë të tjerët</li>
+            <li><strong>Intervistata me Klientët:</strong> Fol direkt me audiencën tënde</li>
+            <li><strong>Prototype:</strong> Krijo një version minimal për testim</li>
+            <li><strong>Feedback:</strong> Mbledh dhe analizo komentet</li>
+        </ul>
+
+        <div class="islamic-quote">
+            "وَقُل رَّبِّ زِدْنِي عِلْمًا"
+            <br><br>
+            "Dhe thuaj: Zoti im, shto mua dije!" - Kurani, 20:114
+        </div>
+
+        <h4>💰 Financimi Fillestar</h4>
+        <p>Gjej mënyrat për të financuar idenë tënde:</p>
+        <ul>
+            <li>Kursimet personale (Bootstrapping)</li>
+            <li>Familja dhe miqtë (Friends & Family)</li>
+            <li>Grantet dhe konkurset</li>
+            <li>Investitorët providencialë (Angel Investors)</li>
+            <li>Platformat e crowdfunding-ut</li>
+        </ul>
+
+        <h3>🚀 Faza 2: Startup Growth</h3>
+        
+        <p>Pasi të kesh validuar idenë, fillon punë e vërtetë e rritjes:</p>
+
+        <h4>📊 Product-Market Fit</h4>
+        <p>Kjo është faza më kritike - duhet të gjesh përputhjen e përsosur:</p>
+        <ul>
+            <li>Përmirëso produktin bazuar në feedback</li>
+            <li>Identifiko segmentin e klientëve më të përshtatshëm</li>
+            <li>Zhvillo strategjinë e marketing-ut</li>
+            <li>Krijon metrikat për matjen e suksesit</li>
+            <li>Optimalizo procesit e shitjes</li>
+        </ul>
+
+        <h4>👥 Ndërtimi i Ekipit</h4>
+        <p>Nuk mund ta bësh vetëm - duhet ekip i fortë:</p>
+
+        <div class="highlight-box">
+            <h4>🎯 Rolet Kryesore në Startup:</h4>
+            <ul>
+                <li><strong>CEO/Founder:</strong> Vizioni dhe drejtimi strategjik</li>
+                <li><strong>CTO:</strong> Zhvillimi teknologjik</li>
+                <li><strong>CMO:</strong> Marketing dhe marke</li>
+                <li><strong>CFO:</strong> Financat dhe operacionet</li>
+                <li><strong>Head of Sales:</strong> Rritja e të hyrave</li>
+                <li><strong>Head of HR:</strong> Talenti dhe kultura</li>
+            </ul>
+        </div>
+
+        <h3>📈 Faza 3: Rritja e Shpejtë (Scale-Up)</h3>
+        
+        <p>Kur ke gjetur product-market fit, është koha për shkallëzim:</p>
+
+        <h4>🎯 Strategjitë e Rritjes</h4>
+        <ul>
+            <li><strong>Marketing Automation:</strong> Automatizo proceset e marketing-ut</li>
+            <li><strong>Sales Funnel:</strong> Optimalizo rrugën e klientit</li>
+            <li><strong>Customer Success:</strong> Siguro që klientët janë të kënaqur</li>
+            <li><strong>Referral Programs:</strong> Klientët të sjellin klientë të tjerë</li>
+            <li><strong>Content Marketing:</strong> Krijo përmbajtje me vlerë</li>
+        </ul>
+
+        <h4>💡 Inovacioni Konstant</h4>
+        <p>Për të qendruar në krye, duhet të inovosh vazhdimisht:</p>
+        <ul>
+            <li>R&D (Research and Development) departament</li>
+            <li>Bashkëpunimi me universitetet</li>
+            <li>Investime në teknologji të reja</li>
+            <li>Eksperimentime me produkte të reja</li>
+            <li>Analiza e trendeve të tregut</li>
+        </ul>
+
+        <h3>🏢 Faza 4: Korporatizimi</h3>
+        
+        <p>Transformimi nga startup në korporatë kërkon ndryshime të mëdha:</p>
+
+        <h4>📋 Sistematizimi i Proceseve</h4>
+        <ul>
+            <li><strong>Standard Operating Procedures (SOPs):</strong> Procedura të standardizuara</li>
+            <li><strong>Quality Management:</strong> Kontrolli i cilësisë</li>
+            <li><strong>Compliance:</strong> Përputhshmëria me rregulloret</li>
+            <li><strong>Risk Management:</strong> Menaxhimi i rreziqeve</li>
+            <li><strong>Documentation:</strong> Dokumentimi i të gjitha proceseve</li>
+        </ul>
+
+        <h4>🎭 Ndryshimi i Kulturës</h4>
+        <p>Kultura e startup-it duhet të evolvojë:</p>
+
+        <div class="highlight-box">
+            <h4>🔄 Nga Startup në Korporatë:</h4>
+            <table style="width: 100%; border-collapse: collapse;">
+                <tr>
+                    <th style="border: 1px solid #ddd; padding: 8px; background-color: #f2f2f2;">Startup</th>
+                    <th style="border: 1px solid #ddd; padding: 8px; background-color: #f2f2f2;">Korporatë</th>
+                </tr>
+                <tr>
+                    <td style="border: 1px solid #ddd; padding: 8px;">Fleksibilitet i lartë</td>
+                    <td style="border: 1px solid #ddd; padding: 8px;">Strukture të qarta</td>
+                </tr>
+                <tr>
+                    <td style="border: 1px solid #ddd; padding: 8px;">Vendime të shpejta</td>
+                    <td style="border: 1px solid #ddd; padding: 8px;">Procese të menduara</td>
+                </tr>
+                <tr>
+                    <td style="border: 1px solid #ddd; padding: 8px;">Risk-taking</td>
+                    <td style="border: 1px solid #ddd; padding: 8px;">Risk management</td>
+                </tr>
+                <tr>
+                    <td style="border: 1px solid #ddd; padding: 8px;">Improvizim</td>
+                    <td style="border: 1px solid #ddd; padding: 8px;">Planifikim strategjik</td>
+                </tr>
+            </table>
+        </div>
+
+        <h3>🌍 Faza 5: Ekspansioni Ndërkombëtar</h3>
+        
+        <p>Hyrja në tregujen ndërkombëtar është hapi më i madh:</p>
+
+        <h4>🗺️ Strategjia e Ekspansionit</h4>
+        <ul>
+            <li><strong>Kërkimi i Tregut:</strong> Analizo tregjet e reja</li>
+            <li><strong>Lokalizimi:</strong> Përshtat produktin për kulturat e reja</li>
+            <li><strong>Partneritetet Lokale:</strong> Gjej partnerë në vende të reja</li>
+            <li><strong>Regulatory Compliance:</strong> Respekto ligjet lokale</li>
+            <li><strong>Supply Chain:</strong> Ndërto zinxhirin e furnizimit global</li>
+        </ul>
+
+        <h4>💼 Modelet e Hyrjes</h4>
+        <p>Ka disa mënyra për të hyrë në tregje të reja:</p>
+        <ul>
+            <li><strong>Export:</strong> Shitje direkte nga vendi amë</li>
+            <li><strong>Licensing:</strong> Dhënia e licensës partnerëve lokalë</li>
+            <li><strong>Franchising:</strong> Sistemi i frarkizës</li>
+            <li><strong>Joint Venture:</strong> Bashkëpunim me kompani lokale</li>
+            <li><strong>Direct Investment:</strong> Investim i drejtpërdrejtë</li>
+        </ul>
+
+        <h3>👑 Faza 6: Imperium dhe Diversifikim</h3>
+        
+        <p>Kur ke arritur dominimin në një treg, është koha për diversifikim:</p>
+
+        <h4>🎯 Strategjitë e Diversifikimit</h4>
+        <ul>
+            <li><strong>Horizontal:</strong> Produkte të reja për të njëjtin treg</li>
+            <li><strong>Vertikal:</strong> Kontrollo zinxhirin e vlerës</li>
+            <li><strong>Gjeografik:</strong> Ekspando në rajone të reja</li>
+            <li><strong>Konglomeratic:</strong> Hyr në industri të reja</li>
+        </ul>
+
+        <div class="islamic-quote">
+            "وَلَقَدْ مَكَّنَّاهُمْ فِيمَا إِن مَّكَّنَّاكُمْ فِيهِ"
+            <br><br>
+            "Dhe në të vërtetë, Ne u dhamë atyre fuqi në atë që ju kemi dhënë." - Kurani, 46:26
+        </div>
+
+        <h3>📊 Metrikat e Suksesit në Çdo Fazë</h3>
+        
+        <div class="highlight-box">
+            <h4>📈 KPI-të Kryesore:</h4>
+            <ul>
+                <li><strong>Startup:</strong> User growth, Revenue growth, Product-market fit</li>
+                <li><strong>Scale-up:</strong> Monthly Recurring Revenue (MRR), Customer Acquisition Cost (CAC)</li>
+                <li><strong>Korporatë:</strong> Market share, Profitability, ROI</li>
+                <li><strong>Imperium:</strong> Global presence, Diversification index, Brand value</li>
+            </ul>
+        </div>
+
+        <h3>⚠️ Rreziqet dhe Sfidat</h3>
+        
+        <p>Në secilën fazë ka rreziqe specifike:</p>
+
+        <h4>🚨 Gabimet e Zakonshme</h4>
+        <ul>
+            <li><strong>Rritja shumë e shpejtë:</strong> Humbja e kontrollit</li>
+            <li><strong>Mospërgatitja për sukses:</strong> Infrastruktura jo e mjaftueshme</li>
+            <li><strong>Humbja e fokusit:</strong> Diversifikimi i parakohshëm</li>
+            <li><strong>Neglektimi i kulturës:</strong> Humbja e identitetit</li>
+            <li><strong>Menaxhimi i dobët i cash flow:</strong> Probleme financiare</li>
+        </ul>
+
+        <h3>🎯 Mësimet Kryesore</h3>
+        
+        <p>Ndërtimi i një imperiumi biznesi kërkon:</p>
+        <ul>
+            <li>Vizion afatgjatë dhe durimin për ta realizuar</li>
+            <li>Përshtatje konstante me tregjet në ndryshim</li>
+            <li>Investim në njerëz dhe teknologji</li>
+            <li>Mbajtja e vlerave dhe kulturës së kompanisë</li>
+            <li>Guximi për të marrë rreziqe të kalkuluara</li>
+        </ul>
+
+        <div class="highlight-box">
+            <h4>💪 Mesazhi Final:</h4>
+            <p>Secili imperium fillon me një hap të vogël. Diferenca midis atyre që arrijnë sukses dhe atyre që dështojnë është në aftësinë për të planifikuar strategjikisht, për të ekzekutuar me përsosuri dhe për të qëndruar të përqendruar në vizionin afatgjatë. Mos u frikëso të ëndërrosh të mëdha - dhe më e rëndësishmja, vepro për t'i realizuar ato ëndërra.</p>
+        </div>
         `
     },
     
@@ -4896,7 +5265,285 @@ def generate_counter_narrative(serbian_text):
         
         <h3>👥 Investimi në Njerëz</h3>
         
-        <p>Strategjitë për identifikimin, zhvillimin dhe mentorimin e talenteve të reja. Krijimi i një kulture lidershipi.</p>
+        <p>Një nga shenjat më të qarta të një lideri të madh është aftësia për të krijuar liderë të tjerë. Mentorlaku nuk është vetëm dhënia e këshillave - është një investim strategjik në të ardhmen e organizatës dhe shoqërisë.</p>
+
+        <div class="highlight-box">
+            <h4>🎯 Pse Mentoring-u është Thelbësor:</h4>
+            <ul>
+                <li><strong>Trashëgimia:</strong> Siguron vazhdimësinë e vlerave dhe vizionit</li>
+                <li><strong>Inovacioni:</strong> Perspektivat e reja sjellin ide të freskëta</li>
+                <li><strong>Qëndrueshmëria:</strong> Organizata nuk varet nga një person</li>
+                <li><strong>Motivimi:</strong> Njerëzit ndihen të vlerësuar dhe të angazhuar</li>
+                <li><strong>Kthimi i Investimit:</strong> Liderët e mirë krijojnë vlerë afatgjate</li>
+            </ul>
+        </div>
+
+        <h3>🔍 Identifikimi i Talenteve të Reja</h3>
+        
+        <p>Para se të fillosh të mentorosh, duhet të identifikosh personat e duhur:</p>
+
+        <h4>⭐ Cilësitë e një Lideri të Ardhshëm</h4>
+        <ul>
+            <li><strong>Integriteti:</strong> Ndershmëria dhe qëndrueshmëria morale</li>
+            <li><strong>Kureshta Intelektuale:</strong> Dëshira për të mësuar gjithmonë</li>
+            <li><strong>Rezilienca:</strong> Aftësia për të përballuar vështirësitë</li>
+            <li><strong>Empatie:</strong> Kuptimi dhe kujdesi për të tjerët</li>
+            <li><strong>Vizioni:</strong> Aftësia për të parë më gjerë se e tashmja</li>
+            <li><strong>Iniciativa:</strong> Marrja e përgjegjësisë pa u kërkuar</li>
+            <li><strong>Komunikimi:</strong> Aftësia për të ndikuar dhe frymëzuar</li>
+        </ul>
+
+        <div class="islamic-quote">
+            "خَيْرُ النَّاسِ أَنفَعُهُمْ لِلنَّاسِ"
+            <br><br>
+            "Më të mirët e njerëzve janë ata që janë më të dobishëm për njerëzit." - Hadith
+        </div>
+
+        <h4>🎭 Llojet e Talenteve</h4>
+        <p>Ka lloje të ndryshme talentesh që mund të zhvillosh:</p>
+
+        <div class="highlight-box">
+            <h4>🎯 Profilet e Lidershipit:</h4>
+            <ul>
+                <li><strong>Vizionari:</strong> Sheh të ardhmen dhe frymëzon të tjerët</li>
+                <li><strong>Ekzekutuesi:</strong> Kthen planet në realitet</li>
+                <li><strong>Inovatori:</strong> Sjell ide dhe zgjidhje të reja</li>
+                <li><strong>Ndërmjetësi:</strong> Lidh njerëzit dhe krijon harmoni</li>
+                <li><strong>Analizuesi:</strong> Mendon thellë dhe vlerëson me kujdes</li>
+                <li><strong>Komunikatori:</strong> Përcjell mesazhet me efektivitet</li>
+            </ul>
+        </div>
+
+        <h3>🎓 Metodat e Mentoring-ut</h3>
+        
+        <p>Ka mënyra të ndryshme për të zhvilluar liderët e rinj:</p>
+
+        <h4>👨‍🏫 Mentoring-u Individual</h4>
+        <p>Përvoja një-me-një është më efektive:</p>
+        <ul>
+            <li><strong>Takime të Rregullta:</strong> Planifiko sesione javore ose mujore</li>
+            <li><strong>Objektiva të Qarta:</strong> Përcakto qëllimet e zhvillimit</li>
+            <li><strong>Feedback i Vazhdueshëm:</strong> Jep vlerësime konstruktive</li>
+            <li><strong>Sfida të Graduar:</strong> Jep detyra gjithnjë e më komplekse</li>
+            <li><strong>Reflektim:</strong> Diskuto eksperiencat dhe mësimet</li>
+        </ul>
+
+        <h4>👥 Mentoring-u në Grup</h4>
+        <p>Mësimi kolektiv ka përfitime unike:</p>
+        <ul>
+            <li>Shkëmbimi i perspektivave të ndryshme</li>
+            <li>Mësimi nga eksperiencat e njëri-tjetrit</li>
+            <li>Krijimi i një rrjeti mbështetës</li>
+            <li>Zhvillimi i aftësive të punës në ekip</li>
+            <li>Kostoja më e ulët për person</li>
+        </ul>
+
+        <h3>📚 Struktura e Programit të Mentoring-ut</h3>
+        
+        <div class="highlight-box">
+            <h4>🗓️ Plani 12-Mujor i Zhvillimit:</h4>
+            
+            <h5>Muajt 1-3: Themelimi</h5>
+            <ul>
+                <li>Vlerësimi i aftësive aktuale</li>
+                <li>Përcaktimi i objektivave</li>
+                <li>Krijimi i planit të zhvillimit</li>
+                <li>Fillimi i projekteve të vogla</li>
+            </ul>
+
+            <h5>Muajt 4-6: Rrítja</h5>
+            <ul>
+                <li>Marrja e përgjegjësive më të mëdha</li>
+                <li>Zhvillimi i aftësive specifike</li>
+                <li>Eksponimi ndaj situatave të reja</li>
+                <li>Feedback i vazhdueshëm</li>
+            </ul>
+
+            <h5>Muajt 7-9: Aplikimi</h5>
+            <ul>
+                <li>Drejtimi i projekteve të rëndësishme</li>
+                <li>Mentorimi i të tjerëve</li>
+                <li>Marrja e vendimeve strategjike</li>
+                <li>Reprezentimi i organizatës</li>
+            </ul>
+
+            <h5>Muajt 10-12: Perfeksionimi</h5>
+            <ul>
+                <li>Përgjegjësi të plota për rezultate</li>
+                <li>Zhvillimi i stilit personal të lidershipit</li>
+                <li>Përgatitja për role më të larta</li>
+                <li>Planifikimi i zhvillimit të ardhshëm</li>
+            </ul>
+        </div>
+
+        <h3>🛠️ Mjetet dhe Teknikat e Mentoring-ut</h3>
+        
+        <h4>📊 Vlerësimi dhe Feedback-u</h4>
+        <ul>
+            <li><strong>360-Degree Feedback:</strong> Vlerësim nga të gjitha drejtimet</li>
+            <li><strong>SWOT Analysis:</strong> Forcaret, dobësitë, mundësitë, kërcënimet</li>
+            <li><strong>Personality Tests:</strong> Myers-Briggs, DISC, StrengthsFinder</li>
+            <li><strong>Performance Reviews:</strong> Vlerësime të rregullta të performancës</li>
+            <li><strong>Self-Assessment:</strong> Autovlerësimi dhe reflektimi</li>
+        </ul>
+
+        <h4>🎯 Aktivitete Zhvillimore</h4>
+        <p>Eksperienca praktike është mësuese më e mirë:</p>
+        <ul>
+            <li><strong>Job Rotation:</strong> Eksponim ndaj roleve të ndryshme</li>
+            <li><strong>Special Projects:</strong> Projekte të veçanta për sfidë</li>
+            <li><strong>Cross-functional Teams:</strong> Punë me departamente të ndryshme</li>
+            <li><strong>Presentations:</strong> Prezantimes para ekipeve dhe drejtuesve</li>
+            <li><strong>External Assignments:</strong> Përgjegjësi jashtë organizatës</li>
+        </ul>
+
+        <h3>📖 Kurrikula e Lidershipit</h3>
+        
+        <div class="highlight-box">
+            <h4>📚 Kompetencat Kryesore për Zhvillim:</h4>
+            
+            <h5>🧠 Aftësitë Mendore</h5>
+            <ul>
+                <li>Mendimi strategjik dhe planifikimi</li>
+                <li>Zgjidhi probleme komplekse</li>
+                <li>Analizimi dhe vlerësimi kritik</li>
+                <li>Kreativiteti dhe inovacioni</li>
+                <li>Vendimmarrja nën presion</li>
+            </ul>
+
+            <h5>💗 Intelligjenca Emocionale</h5>
+            <ul>
+                <li>Vetëdijshmëria dhe vetëregulimi</li>
+                <li>Empatie dhe kuptimi social</li>
+                <li>Menaxhimi i konflikteve</li>
+                <li>Motivimi dhe frymëzimi i të tjerëve</li>
+                <li>Ndërtimi i marrëdhënieve</li>
+            </ul>
+
+            <h5>🗣️ Aftësitë Komunikuese</h5>
+            <ul>
+                <li>Foliat publik dhe prezantimet</li>
+                <li>Shkrimi përjondshë dhe raportimi</li>
+                <li>Dëgjimi aktiv dhe empatik</li>
+                <li>Negocimi dhe bindja</li>
+                <li>Komunikimi ndërkulturor</li>
+            </ul>
+
+            <h5>⚡ Ekzekutimi dhe Operacionet</h5>
+            <ul>
+                <li>Menaxhimi i projekteve</li>
+                <li>Delegimi efikas</li>
+                <li>Monitorimi dhe kontrolli</li>
+                <li>Optimizimi i proceseve</li>
+                <li>Menaxhimi i ndryshimeve</li>
+            </ul>
+        </div>
+
+        <h3>🎭 Roli i Mentorit</h3>
+        
+        <p>Si mentor, ke disa role të rëndësishme:</p>
+
+        <h4>🧭 Udhëheqësi</h4>
+        <ul>
+            <li>Trego drejtimin dhe vizionin</li>
+            <li>Jep shembull përmes veprimeve</li>
+            <li>Kryej proceset me ekspertizë</li>
+            <li>Ruaj standardet e larta</li>
+        </ul>
+
+        <h4>🎓 Mësuesi</h4>
+        <ul>
+            <li>Shpjego konceptet komplekse</li>
+            <li>Krijo mundësi mësimi</li>
+            <li>Jep burime dhe materiale</li>
+            <li>Vlerëso progresin</li>
+        </ul>
+
+        <h4>🏆 Trajneri</h4>
+        <ul>
+            <li>Zhvillo aftësi specifike</li>
+            <li>Jep ushtrime praktike</li>
+            <li>Korrigjo gabimet</li>
+            <li>Përforcو sjelljen pozitive</li>
+        </ul>
+
+        <h4>🤝 Këshilltari</h4>
+        <ul>
+            <li>Dëgjo shqetësimet dhe sfidat</li>
+            <li>Jep perspektivë dhe këshilla</li>
+            <li>Mbështet në momenten e vështira</li>
+            <li>Ndihmo në vendimmarrje</li>
+        </ul>
+
+        <div class="islamic-quote">
+            "مَن عَلَّمَ عِلْمًا فَلَهُ أَجْرُ مَن عَمِلَ بِهِ"
+            <br><br>
+            "Kush mëson dikujt diçka, ka shpërblimin e atij që e praktikon atë." - Hadith
+        </div>
+
+        <h3>🌱 Krijimi i Kulturës së Mentoring-ut</h3>
+        
+        <p>Mentoring-u nuk duhet të jetë vetëm përgjegjësi e lidershipit të lartë:</p>
+
+        <h4>🏢 Në Nivel Organizate</h4>
+        <ul>
+            <li><strong>Programet Formale:</strong> Strukture zyrtare mentoring-u</li>
+            <li><strong>Inkurajoí Informalë:</strong> Krijimi i mundësive spontane</li>
+            <li><strong>Shpërblimi:</strong> Vlerësimi i kontributit në zhvillimin e të tjerëve</li>
+            <li><strong>Resurset:</strong> Dhënia e kohës dhe mjeteve të nevojshme</li>
+            <li><strong>Modelimi:</strong> Lidershipi jep shembull</li>
+        </ul>
+
+        <h4>🌍 Në Nivel Shoqëror</h4>
+        <p>Ekstendo mentoring-un përtej organizatës:</p>
+        <ul>
+            <li>Programet e praktikantëve</li>
+            <li>Bashkëpunimi me universitetet</li>
+            <li>Mbështetja e startup-eve të reja</li>
+            <li>Aktivitete vullnetare në komunitet</li>
+            <li>Platformat online për mentoring</li>
+        </ul>
+
+        <h3>📊 Matja e Suksesit</h3>
+        
+        <div class="highlight-box">
+            <h4>📈 Metrikat e Efektivitetit:</h4>
+            <ul>
+                <li><strong>Avancimi i Karrierës:</strong> Sa persona avançohan në rolle më të larta</li>
+                <li><strong>Retentioni:</strong> Sa prej tyre qëndrojnë në organizatë</li>
+                <li><strong>Performanca:</strong> Përmirësimi i rezultateve të punës</li>
+                <li><strong>Kënaqësia:</strong> Niveli i kënaqësisë në punë</li>
+                <li><strong>Multiplikimi:</strong> Sa prej tyre bëhen mentorë vetë</li>
+                <li><strong>ROI:</strong> Kthimi i investimit në zhvillim</li>
+            </ul>
+        </div>
+
+        <h3>🚨 Sfidat dhe Gabimet e Zakonshme</h3>
+        
+        <h4>⚠️ Gabimet që Duhen Shmangur</h4>
+        <ul>
+            <li><strong>Micromanagement:</strong> Kontrolli i tepërt i çdo detaji</li>
+            <li><strong>One-size-fits-all:</strong> Trajtimi i të gjithëve njësoj</li>
+            <li><strong>Mungesa e Ρύθmës:</strong> Takime të parregullta ose të ngadalta</li>
+            <li><strong>Fokusi vetëm në Dobësitë:</strong> Neglizhimi i forcave</li>
+            <li><strong>Mungesa e Durimit:</strong> Pritja e rezultateve të shpejta</li>
+        </ul>
+
+        <h3>🎯 Mësimet Kryesore</h3>
+        
+        <p>Mentoring-u efektiv kërkon:</p>
+        <ul>
+            <li>Identifikimin e duhur të talenteve</li>
+            <li>Përcaktimin e qartë të objektivave</li>
+            <li>Angazhimin afatgjatë dhe të vazhdueshëm</li>
+            <li>Personalizimin e qasjës për secilin individ</li>
+            <li>Durim dhe besim në procesin e zhvillimit</li>
+        </ul>
+
+        <div class="highlight-box">
+            <h4>💪 Mesazhi Final:</h4>
+            <p>Trashëgimia më e madhe që mund të lësh si lider nuk janë fitimet që ke bërë apo projektet që ke përfunduar - është gjenerata e liderëve që ke zhvilluar. Investimi në njerëz është investimi më fitimprurës që mund të bësh, sepse ata do të vazhdojnë të krijojnë vlerë shumë kohë pasi ti të mos jesh më. Fillo sot të identifikosh dhe zhvillosh talentet e së nesërmes!</p>
+        </div>
         `
     },
     
@@ -4907,7 +5554,266 @@ def generate_counter_narrative(serbian_text):
         
         <h3>🔮 E Ardhmja Teknologjike</h3>
         
-        <p>Trendet teknologjike që do të dominojnë dekadën e ardhshme dhe si të pozicionoheni për sukses.</p>
+        <p>Dekada e ardhshme do të sjellë ndryshime revolucionare teknologjike që do të transformojnë çdo aspekt të jetës dhe biznesit. Për të qenë të suksesshëm në vitin 2030, duhet të fillosh të përgatitesh që tani.</p>
+
+        <div class="highlight-box">
+            <h4>🚀 Tendencat Kryesore Teknologjike 2025-2030:</h4>
+            <ul>
+                <li><strong>Artificial Intelligence (AI) + Machine Learning</strong></li>
+                <li><strong>Quantum Computing</strong></li>
+                <li><strong>Extended Reality (AR/VR/MR)</strong></li>
+                <li><strong>Blockchain dhe Web3</strong></li>
+                <li><strong>Internet of Things (IoT) 5G/6G</strong></li>
+                <li><strong>Biotechnology dhe Genetic Engineering</strong></li>
+                <li><strong>Autonomous Vehicles dhe Smart Cities</strong></li>
+                <li><strong>Green Technology dhe Sustainability</strong></li>
+            </ul>
+        </div>
+
+        <h3>🤖 Artificial Intelligence: Era e Re</h3>
+        
+        <p>AI nuk është më e ardhmja - është e tashmja. Deri në 2030, AI do të jetë integruar në çdo aspekt të biznesit:</p>
+
+        <h4>🧠 Aplikacionet e AI për Biznesin</h4>
+        <ul>
+            <li><strong>Customer Service:</strong> Chatbot-ë dhe asistentë virtualë të avancuar</li>
+            <li><strong>Predictive Analytics:</strong> Parashikimi i trendeve dhe sjelljes së klientëve</li>
+            <li><strong>Process Automation:</strong> Automatizimi i proceseve komplekse</li>
+            <li><strong>Decision Making:</strong> Mbështetje AI për vendimmarrjen strategjike</li>
+            <li><strong>Personalization:</strong> Përshtatja e produkteve dhe shërbimeve</li>
+            <li><strong>Quality Control:</strong> Inspektimi automatik i cilësisë</li>
+            <li><strong>Risk Assessment:</strong> Vlerësimi i rreziqeve në kohë reale</li>
+        </ul>
+
+        <div class="islamic-quote">
+            "وَعَلَّمَ آدَمَ الْأَسْمَاءَ كُلَّهَا"
+            <br><br>
+            "Dhe i mësoi Ademit të gjitha emrat." - Kurani, 2:31
+        </div>
+
+        <h4>💡 Si të Përgatitesh për AI</h4>
+        <p>Strategjitë për të përfituar nga AI në biznesin tënd:</p>
+
+        <div class="highlight-box">
+            <h4>📋 Plani i Implementimit të AI:</h4>
+            <ol>
+                <li><strong>Edukimi:</strong> Mëso bazat e AI dhe machine learning</li>
+                <li><strong>Data Strategy:</strong> Krijo një strategji për grumbullimin e të dhënave</li>
+                <li><strong>Pilot Projects:</strong> Fillo me projekte të vogla eksperimentale</li>
+                <li><strong>Partnerships:</strong> Bashkëpuno me kompani teknologjike</li>
+                <li><strong>Talent Acquisition:</strong> Rekruto specialistë AI</li>
+                <li><strong>Infrastructure:</strong> Investimenti në teknologji të përshtatshme</li>
+                <li><strong>Ethics Framework:</strong> Zhvillimi i kornizave etike</li>
+            </ol>
+        </div>
+
+        <h3>⚡ Quantum Computing: Revolutioni i Llogaritjeve</h3>
+        
+        <p>Kompjuterët quantum do të zgjedhin probleme që janë të pamundur sot:</p>
+
+        <h4>🔬 Mundësitë e Quantum Computing</h4>
+        <ul>
+            <li><strong>Cryptography:</strong> Enkriptimi i paprekshëm dhe thyerja e kodeve</li>
+            <li><strong>Drug Discovery:</strong> Zbulimi i barnave të reja</li>
+            <li><strong>Financial Modeling:</strong> Modelime komplekse financiare</li>
+            <li><strong>Weather Prediction:</strong> Parashikime shumë të sakta meteorologjike</li>
+            <li><strong>Optimization:</strong> Optimizimi i proceseve komplekse</li>
+            <li><strong>Materials Science:</strong> Dizajni i materialeve të reja</li>
+        </ul>
+
+        <h3>🥽 Extended Reality (XR): Botëat e Reja</h3>
+        
+        <p>Combinimi i realitetit virtual, augmented dhe mixed do të krijojë eksperienca të reja:</p>
+
+        <h4>🌐 Aplikacionet Biznesore të XR</h4>
+        <ul>
+            <li><strong>Remote Work:</strong> Mbledhje virtuale të përparme</li>
+            <li><strong>Training:</strong> Trajnim i sigurt në mjedise virtuale</li>
+            <li><strong>Design & Prototyping:</strong> Projektimi 3D interaktiv</li>
+            <li><strong>Customer Experience:</strong> Eksperienca immersive me produktet</li>
+            <li><strong>Marketing:</strong> Reklamimi që përvëlon të gjitha shqisat</li>
+            <li><strong>Healthcare:</strong> Operacione dhe trajnime mjekësore</li>
+        </ul>
+
+        <h3>🔗 Blockchain dhe Web3: Interneti i Decentralizuar</h3>
+        
+        <p>Web3 do të transformojë internetin nga një sistem i centralizuar në një ekosistem të decentralizuar:</p>
+
+        <div class="highlight-box">
+            <h4>💰 Mundësitë e Web3:</h4>
+            <ul>
+                <li><strong>DeFi (Decentralized Finance):</strong> Shërbime financiare pa bankat tradicionale</li>
+                <li><strong>NFTs dhe Digital Assets:</strong> Pronësia e vërtetë digjitale</li>
+                <li><strong>DAOs:</strong> Organizata të decentralizuara autonome</li>
+                <li><strong>Smart Contracts:</strong> Kontrata që ekzekutohen automatikisht</li>
+                <li><strong>Digital Identity:</strong> Identiteti i kontrolluar nga përdoruesi</li>
+                <li><strong>Creator Economy:</strong> Krijues që fitojnë direkt nga audienca</li>
+            </ul>
+        </div>
+
+        <h3>🌐 Internet of Things (IoT) dhe 5G/6G</h3>
+        
+        <p>Bota e lidhur kudo dhe gjithmonë:</p>
+
+        <h4>📱 Impakti i IoT dhe 5G/6G</h4>
+        <ul>
+            <li><strong>Smart Cities:</strong> Qytete inteligjente dhe efikase</li>
+            <li><strong>Industry 4.0:</strong> Fabrika të automatizuara plotësisht</li>
+            <li><strong>Connected Healthcare:</strong> Monitorimi i shëndetit në kohë reale</li>
+            <li><strong>Autonomous Vehicles:</strong> Vetura që komunikojnë me njëra-tjetrën</li>
+            <li><strong>Smart Homes:</strong> Shtëpi që adaptojnë në nevojat tona</li>
+            <li><strong>Agricultural Tech:</strong> Bujqësia e personalizuar</li>
+        </ul>
+
+        <h3>🧬 Biotechnology: Inxhinierimi i Jetës</h3>
+        
+        <p>Ndryshimet revolucionare në mjekësi dhe biologji:</p>
+
+        <h4>🔬 Tendencat në Bioteknologji</h4>
+        <ul>
+            <li><strong>Gene Editing (CRISPR):</strong> Korrigjimi i defekteve gjenetike</li>
+            <li><strong>Personalized Medicine:</strong> Mjekimi i personalizuar bazuar në DNA</li>
+            <li><strong>Regenerative Medicine:</strong> Rregenerimi i organeve</li>
+            <li><strong>Synthetic Biology:</strong> Krijimi i organizmave të reja</li>
+            <li><strong>Brain-Computer Interfaces:</strong> Lidhja direkte të trurit me kompjuterin</li>
+            <li><strong>Life Extension:</strong> Zgjatja e jetës njerëzore</li>
+        </ul>
+
+        <h3>🌱 Green Technology: E Ardhmja e Qëndrueshme</h3>
+        
+        <p>Teknologjia e gjelbër nuk është opsion - është nevojë:</p>
+
+        <div class="highlight-box">
+            <h4>♻️ Teknologjitë e Qëndrueshmërisë:</h4>
+            <ul>
+                <li><strong>Renewable Energy:</strong> Energji 100% e ripërtërishme</li>
+                <li><strong>Energy Storage:</strong> Batteritë e avancuara</li>
+                <li><strong>Carbon Capture:</strong> Kapja dhe ruajtja e CO2</li>
+                <li><strong>Green Hydrogen:</strong> Karburanti i së ardhmes</li>
+                <li><strong>Circular Economy:</strong> Ekonomia pa mbetje</li>
+                <li><strong>Sustainable Materials:</strong> Materiale biologjikisht të degradueshme</li>
+            </ul>
+        </div>
+
+        <h3>🚗 Autonomous Vehicles dhe Smart Cities</h3>
+        
+        <p>Transporti dhe qytetet do të transformohen plotësisht:</p>
+
+        <h4>🏙️ Qytetet e Së Ardhmes</h4>
+        <ul>
+            <li><strong>Traffic Optimization:</strong> Eliminimi i trafikut</li>
+            <li><strong>Energy Efficiency:</strong> Efikasiteti maksimal i energjisë</li>
+            <li><strong>Waste Management:</strong> Menaxhimi inteligjent i mbeturinave</li>
+            <li><strong>Air Quality:</strong> Monitorimi konstant i ajrit</li>
+            <li><strong>Public Safety:</strong> Siguria publike e përparme</li>
+            <li><strong>Citizen Services:</strong> Shërbime publike të personalizuara</li>
+        </ul>
+
+        <h3>📊 Si të Përgatitesh për 2030</h3>
+        
+        <div class="highlight-box">
+            <h4>🎯 Strategjia e Përgatitjes:</h4>
+            
+            <h5>📚 Edukimi Kontinues</h5>
+            <ul>
+                <li>Kurse online në teknologji të reja</li>
+                <li>Certifikate profesionale</li>
+                <li>Participimi në konferencat teknologjike</li>
+                <li>Leximi i hulumtimeve dhe trendeve</li>
+            </ul>
+
+            <h5>💼 Investimi Strategjik</h5>
+            <ul>
+                <li>Investime në kompani teknologjike</li>
+                <li>Crypto dhe blockchain assets</li>
+                <li>Green technology stocks</li>
+                <li>AI dhe quantum computing</li>
+            </ul>
+
+            <h5>🤝 Networking dhe Partnerships</h5>
+            <ul>
+                <li>Lidhje me startup-e teknologjike</li>
+                <li>Partnerships me universitete</li>
+                <li>Participimi në tech communities</li>
+                <li>Mentoring të entrepreneur-ëve të rinj</li>
+            </ul>
+
+            <h5>🏢 Transformimi i Biznesit</h5>
+            <ul>
+                <li>Digjitalizimi i proceseve</li>
+                <li>Adoptimi i cloud computing</li>
+                <li>Implementimi i AI tools</li>
+                <li>Zhvillimi i mobile-first strategy</li>
+            </ul>
+        </div>
+
+        <h3>⚠️ Rreziqet dhe Sfidat</h3>
+        
+        <p>Teknologjia sjell edhe rreziqe që duhen menaxhuar:</p>
+
+        <h4>🛡️ Cybersecurity</h4>
+        <ul>
+            <li>Sulmet më të sofistikuara kibernetike</li>
+            <li>Privatësia e të dhënave</li>
+            <li>Deep fake dhe misinformation</li>
+            <li>Quantum computing që thyen enkriptimet aktuale</li>
+        </ul>
+
+        <h4>👥 Impakti Social</h4>
+        <ul>
+            <li>Zhvendosja e vendeve të punës nga AI</li>
+            <li>Rritja e pabarazisë digjitale</li>
+            <li>Kontrolli i të dhënave nga big tech</li>
+            <li>Manipulimi i realitetit nga deepfake</li>
+        </ul>
+
+        <div class="islamic-quote">
+            "وَمَا أُوتِيتُم مِّنَ الْعِلْمِ إِلَّا قَلِيلًا"
+            <br><br>
+            "Dhe nuk ju është dhënë nga dija përveç pak." - Kurani, 17:85
+        </div>
+
+        <h3>🌟 Mundësitë për Kosovën dhe Shqipërinë</h3>
+        
+        <p>Vendet tona kanë mundësi unike për të shfrytëzuar teknologjinë:</p>
+
+        <div class="highlight-box">
+            <h4>🇦🇱 Avantazhet Konkurruese:</h4>
+            <ul>
+                <li><strong>Demografi të Rinj:</strong> Popullatë e re dhe e edukuar</li>
+                <li><strong>Tech Talent:</strong> Programues dhe inxhinjerë të aftë</li>
+                <li><strong>Kosto të Ulëta:</strong> Kosto competitive e zhvillimit</li>
+                <li><strong>Pozicioni Gjeografik:</strong> Ura midis Evropës dhe Azisë</li>
+                <li><strong>Gjuha Anglisht:</strong> Komunikimi me tregjet globale</li>
+                <li><strong>EU Integration:</strong> Qasja në tregun evropian</li>
+            </ul>
+        </div>
+
+        <h4>🚀 Sektorët me Potencial</h4>
+        <ul>
+            <li><strong>Software Development:</strong> Outsourcing i zhvillimit të software-it</li>
+            <li><strong>FinTech:</strong> Teknologji financiare për Ballkanin</li>
+            <li><strong>AgriTech:</strong> Modernizimi i bujqësisë</li>
+            <li><strong>Tourism Tech:</strong> Platform turistike innovative</li>
+            <li><strong>HealthTech:</strong> Zgjidhje shëndetësore digjitale</li>
+            <li><strong>EdTech:</strong> Platform edukative online</li>
+        </ul>
+
+        <h3>🎯 Mësimet Kryesore</h3>
+        
+        <p>Për të qenë të suksesshëm në 2030:</p>
+        <ul>
+            <li>Fillo përgatitjen që tani - teknologjia zhvillohet eksponencialisht</li>
+            <li>Investoni në edukim dhe aftësi të reja</li>
+            <li>Adoptoni teknologjinë gradualisht por në mënyrë të qëndrueshme</li>
+            <li>Mos harroni aspektin njerëzor - teknologjia duhet të shërbejë njerëzit</li>
+            <li>Mbani parasysh etikën dhe përgjegjësinë sociale</li>
+        </ul>
+
+        <div class="highlight-box">
+            <h4>💪 Mesazhi Final:</h4>
+            <p>E ardhmja nuk është diçka që na ndodh - është diçka që ne krijojmë. Teknologjia do të transformojë çdo aspekt të jetës deri në 2030, por ata që përgatiten dhe adoptojnë këto teknologji në mënyrë strategjike do të jenë fituesit. Fillo sot të investosh në të ardhmen teknologjike!</p>
+        </div>
         `
     },
     
@@ -4918,7 +5824,263 @@ def generate_counter_narrative(serbian_text):
         
         <h3>🌍 Ndryshimi i Botës përmes Biznesit</h3>
         
-        <p>Si të krijoni biznes që jo vetëm që sjell fitim, por edhe kontribuon pozitivisht në shoqëri dhe mjedis.</p>
+        <p>Era e kapitalizmit të papajtueshëm ka përfunduar. Bizneset e suksesshme të së ardhmes do të jenë ato që krijojnë vlerë jo vetëm për aksionarët, por edhe për shoqërinë dhe planetin. Ky është koncepti i "Conscious Capitalism" - kapitalizmit me ndërgjegje.</p>
+
+        <div class="highlight-box">
+            <h4>🎯 Parimet e Kapitalizmit me Ndërgjegje:</h4>
+            <ul>
+                <li><strong>Qëllimi i Lartë:</strong> Biznesi ka një mision përtej fitimit</li>
+                <li><strong>Stakeholder Orientation:</strong> Konsiderimi i të gjitha palëve të interesuara</li>
+                <li><strong>Lidershipi Conscious:</strong> Udhëheqje e bazuar në vlera</li>
+                <li><strong>Kultura Conscious:</strong> Mjedis pune që ngrit dhe frymëzon</li>
+            </ul>
+        </div>
+
+        <h3>💎 Qëllimi i Lartë: Beyond Profit</h3>
+        
+        <p>Çdo biznes i madh fillon me një qëllim - një "why" që është më i madh se thjesht bërja e parave:</p>
+
+        <h4>🌟 Gjetja e Qëllimit Tuaj</h4>
+        <ul>
+            <li><strong>Pse ekziston biznesi juaj?</strong> Çfarë problemi zgjidhni?</li>
+            <li><strong>Si bëni jetën më të mirë?</strong> Çfarë vlere krijoni për njerëzit?</li>
+            <li><strong>Cila është vizioni juaj?</strong> Si duket bota që dëshironi të krijoni?</li>
+            <li><strong>Cilat janë vlerat tuaja?</strong> Çfarë besojnë dhe mbrojnë?</li>
+        </ul>
+
+        <div class="islamic-quote">
+            "وَمَن أَحْيَاهَا فَكَأَنَّمَا أَحْيَا النَّاسَ جَمِيعًا"
+            <br><br>
+            "Dhe kush e shpëton atë, është sikur të ketë shpëtuar të gjithë njerëzit." - Kurani, 5:32
+        </div>
+
+        <h4>📚 Shembuj të Bizneseve me Qëllim</h4>
+        <p>Kompani që kanë integruar qëllimin në zemrën e biznesit:</p>
+
+        <div class="highlight-box">
+            <h4>🏆 Case Studies:</h4>
+            <ul>
+                <li><strong>Patagonia:</strong> "We're in business to save our home planet"</li>
+                <li><strong>TOMS Shoes:</strong> One for One model - për çdo blerje, dhuruan një</li>
+                <li><strong>Ben & Jerry's:</strong> Social mission integruar në biznes</li>
+                <li><strong>Unilever:</strong> Sustainable Living Plan</li>
+                <li><strong>Microsoft:</strong> "Empower every person and organization on the planet"</li>
+            </ul>
+        </div>
+
+        <h3>👥 Stakeholder Orientation: Të Gjithë Fitojnë</h3>
+        
+        <p>Bizneset tradicionale fokusoheshin vetëm në aksionarët. Bizneset conscious konsiderojnë të gjitha palët:</p>
+
+        <h4>🤝 Palët e Interesuara</h4>
+        <ul>
+            <li><strong>Klientët:</strong> Produktet dhe shërbimet që përmbushin nevojat reale</li>
+            <li><strong>Punonjësit:</strong> Mjedis pune i shëndetshëm dhe mbështetës</li>
+            <li><strong>Furnitorët:</strong> Marrëdhënie të ndërme dhe të drejta</li>
+            <li><strong>Komuniteti:</strong> Kontributi pozitiv në shoqëri</li>
+            <li><strong>Mjedisi:</strong> Praktika të qëndrueshme</li>
+            <li><strong>Aksionarët:</strong> Ritthimi i qëndrueshëm afatgjatë</li>
+        </ul>
+
+        <h3>🌱 Triple Bottom Line: People, Planet, Profit</h3>
+        
+        <p>Suksesi matet në tre dimensione:</p>
+
+        <h4>👥 People (Njerëzit)</h4>
+        <p>Ndikimi pozitiv në njerëzit dhe shoqërinë:</p>
+        <ul>
+            <li>Krijimi i vendeve të punës me cilësi</li>
+            <li>Zhvillimi i aftësive dhe karrierës së punonjësve</li>
+            <li>Sigurimi i produkteve dhe shërbimeve të sigurta</li>
+            <li>Përmirësimi i cilësisë së jetës në komunitet</li>
+            <li>Promovimi i diversitetit dhe inkluzionit</li>
+            <li>Mbështetja e arsimit dhe zhvillimit</li>
+        </ul>
+
+        <h4>🌍 Planet (Planeti)</h4>
+        <p>Mbrojtja dhe përmirësimi i mjedisit:</p>
+        <ul>
+            <li>Ulja e emetimeve të karbonit</li>
+            <li>Përdorimi i burimeve të ripërtërishme</li>
+            <li>Minimizimi i mbetjeve</li>
+            <li>Mbrojtja e biodiversitetit</li>
+            <li>Promovimi i ekonomisë cirkulare</li>
+            <li>Investimi në teknologji të gjelbra</li>
+        </ul>
+
+        <h4>💰 Profit (Fitimi)</h4>
+        <p>Qëndrueshmëria financiare afatgjate:</p>
+        <ul>
+            <li>Modele biznesi të qëndrueshme</li>
+            <li>Rritje afatgjate e vlerës</li>
+            <li>Menaxhimi i mençur i rreziqeve</li>
+            <li>Inovacioni dhe adaptueshmëria</li>
+            <li>Transparenca financiare</li>
+            <li>Investimi në R&D dhe zhvillim</li>
+        </ul>
+
+        <h3>🎭 ESG: Environmental, Social, Governance</h3>
+        
+        <p>ESG janë bërë standardi i ri për vlerësimin e kompanive:</p>
+
+        <div class="highlight-box">
+            <h4>📊 Kriteret ESG:</h4>
+            
+            <h5>🌿 Environmental (Mjedisi)</h5>
+            <ul>
+                <li>Carbon footprint dhe emetime</li>
+                <li>Përdorimi i energjisë dhe ujit</li>
+                <li>Menaxhimi i mbetjeve</li>
+                <li>Impakti në biodiversitet</li>
+                <li>Adaptimi ndaj ndryshimeve klimatike</li>
+            </ul>
+
+            <h5>👨‍👩‍👧‍👦 Social (Shoqëror)</h5>
+            <ul>
+                <li>Marrëdhëniet me punonjës</li>
+                <li>Diversiteti dhe inkluzioini</li>
+                <li>Shëndeti dhe siguria në punë</li>
+                <li>Marrëdhëniet me komunitetin</li>
+                <li>Të drejtat e njeriut</li>
+            </ul>
+
+            <h5>⚖️ Governance (Qeverisja)</h5>
+            <ul>
+                <li>Struktura e bordit të drejtorëve</li>
+                <li>Transparenca dhe llogaridhënia</li>
+                <li>Politikat anti-korrupsion</li>
+                <li>Etika biznesore</li>
+                <li>Menaxhimi i rreziqeve</li>
+            </ul>
+        </div>
+
+        <h3>💡 B-Corporations: Bizneset për të Mirën</h3>
+        
+        <p>B-Corp është një certifikim për bizneset që mbajnë standarde të larta sociale dhe mjedisore:</p>
+
+        <h4>🏅 Përfitimet e B-Corp Certification</h4>
+        <ul>
+            <li><strong>Besueshmëria:</strong> Kredibilitet i lartë tek konsumatorët</li>
+            <li><strong>Talenti:</strong> Tërheqja e punojvesve të motivuar</li>
+            <li><strong>Investitorët:</strong> Qasja në kapital impact</li>
+            <li><strong>Partnërshipet:</strong> Bashkëpunim me kompani të tjera conscious</li>
+            <li><strong>Media:</strong> Mbulim pozitiv nga media</li>
+        </ul>
+
+        <h3>🎯 Social Entrepreneurship</h3>
+        
+        <p>Ndërmarrësia sociale kombinon inovacionin biznesor me qëllimet sociale:</p>
+
+        <h4>🚀 Modelet e Social Enterprise</h4>
+        <ul>
+            <li><strong>Buy-One-Give-One:</strong> Për çdo blerje dhurohet një</li>
+            <li><strong>Employment Model:</strong> Punësimi i grupeve të margjinalizuara</li>
+            <li><strong>Fee-for-Service:</strong> Shërbime sociale me pagesë</li>
+            <li><strong>Low-Income Market:</strong> Produktet për tregjet me të ardhura të ulëta</li>
+            <li><strong>Cooperative Model:</strong> Pronësia kolektive e biznesit</li>
+        </ul>
+
+        <div class="islamic-quote">
+            "خَيْرُ النَّاسِ أَنفَعُهُمْ لِلنَّاسِ"
+            <br><br>
+            "Më të mirët e njerëzve janë ata që janë më të dobishëm për njerëzit." - Hadith
+        </div>
+
+        <h3>🌟 Impact Investing</h3>
+        
+        <p>Investimi me qëllim krijimin e ndikimit pozitiv social dhe mjedisor:</p>
+
+        <h4>💎 Sektorët e Impact Investing</h4>
+        <ul>
+            <li><strong>Healthcare:</strong> Qasja në kujdesin shëndetësor</li>
+            <li><strong>Education:</strong> Arsimi i cilësisë së lartë për të gjithë</li>
+            <li><strong>Financial Services:</strong> Inkluzioni financiar</li>
+            <li><strong>Agriculture:</strong> Siguria ushqimore dhe bujqësia e qëndrueshme</li>
+            <li><strong>Energy:</strong> Energjia e pastër dhe e përballueshme</li>
+            <li><strong>Housing:</strong> Strehimi i përballueshëm</li>
+        </ul>
+
+        <h3>📊 Matja e Impaktit Social</h3>
+        
+        <div class="highlight-box">
+            <h4>📈 Metrikat e Impaktit:</h4>
+            <ul>
+                <li><strong>Output Metrics:</strong> Sa njerëz keni shërbyer?</li>
+                <li><strong>Outcome Metrics:</strong> Çfarë ndryshimi keni bërë?</li>
+                <li><strong>Impact Metrics:</strong> Cila është ndryshimi afatgjatë?</li>
+                <li><strong>Social ROI:</strong> Vlera sociale per dollar të investuar</li>
+                <li><strong>SDG Alignment:</strong> Përshtatja me Objektivat e Zhvillimit të Qëndrueshëm</li>
+            </ul>
+        </div>
+
+        <h3>🇦🇱 Mundësitë për Kosovën dhe Shqipërinë</h3>
+        
+        <p>Vendet tona kanë mundësi unike për të krijuar biznes me impakt:</p>
+
+        <h4>🎯 Sektorët me Potencial</h4>
+        <ul>
+            <li><strong>Tourism i Qëndrueshëm:</strong> Turizmi që mbron mjedisin dhe kulturat</li>
+            <li><strong>AgriTech Social:</strong> Teknologji që mbështet fermerët e vegjël</li>
+            <li><strong>Education Technology:</strong> Platform që demokratizojnë arsimin</li>
+            <li><strong>Health Tech:</strong> Zgjidhje që përmirësojnë qasjen në shëndetësi</li>
+            <li><strong>Clean Energy:</strong> Energji e ripërtërishme për rajonin</li>
+            <li><strong>Circular Economy:</strong> Riciklimi dhe ripërdorimi i mbeturinave</li>
+        </ul>
+
+        <div class="highlight-box">
+            <h4>💡 Projektet Konkrete:</h4>
+            <ul>
+                <li><strong>Solar Coops:</strong> Kooperativa diellore për fshatrat</li>
+                <li><strong>Eco-Tourism Networks:</strong> Rrjete ekoturistike që mbrojnë natyrën</li>
+                <li><strong>Digital Education:</strong> Platform edukative në gjuhën shqipe</li>
+                <li><strong>Organic Food Chains:</strong> Zinxhirë ushqimesh organike</li>
+                <li><strong>Artisan Cooperatives:</strong> Kooperativa zanatedhënash</li>
+                <li><strong>Tech for Diaspora:</strong> Teknologji që lidh diasporën</li>
+            </ul>
+        </div>
+
+        <h3>🛠️ Si të Fillosh një Social Enterprise</h3>
+        
+        <h4>📋 Hapat për t'u Ndjekur</h4>
+        <ol>
+            <li><strong>Identifikoni Problemin:</strong> Çfarë problemi dëshironi të zgjidhni?</li>
+            <li><strong>Kërkimi i Tregut:</strong> Kush preket nga ky problem?</li>
+            <li><strong>Zhvilloni Modelin:</strong> Si do të krijoni vlerë sociale dhe financiare?</li>
+            <li><strong>Pilot Testing:</strong> Testoni idenë në shkallë të vogël</li>
+            <li><strong>Marrja e Fondeve:</strong> Gjeni investitorë impact</li>
+            <li><strong>Scaling:</strong> Zgjeroni impaktin</li>
+            <li><strong>Measuring:</strong> Matni ndikimin social</li>
+        </ol>
+
+        <h3>💰 Burimet e Financimit</h3>
+        
+        <p>Ka shumë mënyra për të financuar ndërmarrjet sociale:</p>
+
+        <h4>🏦 Llojet e Financimit</h4>
+        <ul>
+            <li><strong>Impact Investors:</strong> Investitorë që kërkojnë kthim dhe impakt</li>
+            <li><strong>Foundation Grants:</strong> Grante nga fondacionet</li>
+            <li><strong>Government Programs:</strong> Programet qeveritare</li>
+            <li><strong>Crowdfunding:</strong> Financimi nga publiku</li>
+            <li><strong>Social Impact Bonds:</strong> Obligacione të impaktit social</li>
+            <li><strong>Revenue-Based Financing:</strong> Financimi i bazuar në të ardhurat</li>
+        </ul>
+
+        <h3>🎯 Mësimet Kryesore</h3>
+        
+        <p>Biznesi me qëllim:</p>
+        <ul>
+            <li>Nuk është vetëm për bamirësi - është strategji biznesi e zgjuar</li>
+            <li>Tërheq talentë, klientë dhe investitorë më të mirë</li>
+            <li>Krijon avantazh konkurues të qëndrueshëm</li>
+            <li>Mbron kundër rreziqeve të reputacionit</li>
+            <li>Hapon mundësi të reja tregtare</li>
+        </ul>
+
+        <div class="highlight-box">
+            <h4>💪 Mesazhi Final:</h4>
+            <p>Era e biznesit që mendon vetëm për fitime ka përfunduar. E ardhmja i përket ndërmarrjeve që krijojnë vlerë për të gjithë stakeholder-ët. Kur kombinoni qëllimet e larta me praktikat e mira biznesi, jo vetëm që krijoni ndryshim pozitiv në botë, por gjithashtu ndërtoni biznes më të fortë dhe më të qëndrueshëm. Filloni sot të mendoni për qëllimin tuaj më të lartë!</p>
+        </div>
         `
     },
     
@@ -4936,33 +6098,464 @@ def generate_counter_narrative(serbian_text):
     97: {
         title: "Shqipëria 2030: Vizioni Kombëtar",
         content: `
-        <h2>Kapitulli 97: Një Dekadë Transformuese</h2>
+        <h2>Kapitulli 97: Shqipëria 2030 - Vizioni Kombëtar</h2>
         
-        <h3>🇦🇱 Shqipëria e Re</h3>
+        <h3>🇦🇱 Transformimi i Madh Kombëtar</h3>
         
-        <p>Vizioni për transformimin e Shqipërisë në një fuqi rajonale deri në vitin 2030.</p>
+        <p>Shqipëria ka potencialin për t'u bërë një nga vendet më të suksesshme të Ballkanit brenda dhjetë viteve të ardhshme. Megjithatë, kjo kërkon një transformim të plotë të mentalitetit, sistemeve dhe strategjive tona kombëtare.</p>
+
+        <div class="highlight-box">
+            <h4>🎯 Objektivat Strategjike 2030:</h4>
+            <ul>
+                <li><strong>Ekonomia Digjitale:</strong> 50% e GDP-së nga sektorët teknologjikë</li>
+                <li><strong>Turizmi Premium:</strong> 15 milion vizitorë vjetorë</li>
+                <li><strong>Edukimi Elitar:</strong> Universitete në top 500 botëror</li>
+                <li><strong>Infrastruktura e Avancuar:</strong> Lidhja të shpejta me gjithë Evropën</li>
+                <li><strong>Start-up Ecosystem:</strong> 10 unicorn-ë shqiptarë</li>
+            </ul>
+        </div>
+
+        <h3>💻 Revolucioni Digjital Shqiptar</h3>
+        
+        <p>Shqipëria duhet të bëhet "Estonia e Ballkanit" - një vend plotësisht i digjitalizuar me qeverisjen elektronike më të avancuar në rajon.</p>
+
+        <h4>🏛️ E-Governance 100%</h4>
+        <ul>
+            <li>Të gjitha shërbimet publike online brenda 24 orësh</li>
+            <li>Identiteti digjital për çdo qytetar</li>
+            <li>Blockchain për të gjitha dokumentet zyrtare</li>
+            <li>AI për automatizimin e proceseve biurokratike</li>
+            <li>Portali unik për bizneset dhe investitorët</li>
+        </ul>
+
+        <h3>� Turizmi i Së Ardhmes</h3>
+        
+        <p>Transformimi i turizmit nga sasi në cilësi - fokusi te eksperiencat premium dhe luksoze.</p>
+
+        <div class="highlight-box">
+            <h4>�️ Destinacionet Strategjike:</h4>
+            <ul>
+                <li><strong>Riviera Premium:</strong> Resorte 5-6 yje dhe marina luksoze</li>
+                <li><strong>Ekoturizmi i Alpeve:</strong> Aventura dhe wellness në natyrë</li>
+                <li><strong>Turizmi Kulturor:</strong> Itinerare të Ilirëve dhe Osmanëve</li>
+                <li><strong>Turizmi Gastronomik:</strong> Kulina shqiptare në nivel michelin</li>
+                <li><strong>Wellness Tourism:</strong> Terme dhe spa me standarde botërore</li>
+            </ul>
+        </div>
+
+        <h3>🎓 Sistemi Edukativ i Klasit Botëror</h3>
+        
+        <p>Krijimi i një sistemi edukativ që konkurron me vendet më të zhvilluara në botë.</p>
+
+        <h4>🏫 Reforma e Plotë Edukative</h4>
+        <ul>
+            <li>Kurrikula bazuar në aftësi të shekullit XXI</li>
+            <li>Gjuhët e huaja si prioritet (anglisht, gjermanisht, kinezisht)</li>
+            <li>STEM education me laboratorë të avancuar</li>
+            <li>Partneritete me universitete elite botërore</li>
+            <li>Shkolla private ndërkombëtare në çdo qytet të madh</li>
+        </ul>
+
+        <div class="islamic-quote">
+            "وَقُل رَّبِّ زِدْنِي عِلْمًا"
+            <br><br>
+            "Dhe thuaj: Zoti im, m'i shto dituritë!" - Kurani, 20:114
+        </div>
+
+        <h3>🚄 Infrastruktura e Së Ardhmes</h3>
+        
+        <p>Ndërtimi i infrastrukturës që do të bëjë Shqipërinë qendrën logjistike të Ballkanit.</p>
+
+        <h4>🛤️ Projektet Infrastrukturore</h4>
+        <ul>
+            <li>Hekurudha e shpejtë Tiranë-Durrës-Vlorë</li>
+            <li>Aeroporti i dytë ndërkombëtar në jug</li>
+            <li>Portet e thella për anijet e mëdha kontejnerësh</li>
+            <li>Rrjeti 5G dhe fiber optik në çdo fshat</li>
+            <li>Energjia 100% e rinovueshme</li>
+        </ul>
+
+        <h3>🏢 Ekosistemi i Start-up-eve</h3>
+        
+        <p>Krijimi i një mjedisi që do të prodhojë kompanitë teknologjike të së ardhmes.</p>
+
+        <div class="highlight-box">
+            <h4>🚀 Strategjia Start-up:</h4>
+            <ul>
+                <li><strong>Inkubatorët Teknologjikë:</strong> Në çdo qytet universitar</li>
+                <li><strong>Fondet e Investimit:</strong> 1 miliard euro për inovacionin</li>
+                <li><strong>Qendra e AI:</strong> Instituti Kombëtar i Inteligjencës Artificiale</li>
+                <li><strong>Taksim i Reduktuar:</strong> 0% taksë për start-up-et 3 vitet e para</li>
+                <li><strong>Viza Start-up:</strong> Përnähtimi i talenteve ndërkombëtare</li>
+            </ul>
+        </div>
+
+        <h3>🌍 Pozicionimi Gjeopolitik</h3>
+        
+        <p>Shqipëria si një aleat strategjik i rëndësishëm në rajon dhe botë.</p>
+
+        <h4>🤝 Marrëdhëniet Strategjike</h4>
+        <ul>
+            <li>Thellimi i marrëdhënieve me SHBA dhe BE</li>
+            <li>Partneritete ekonomike me Gjermaninë dhe Italinë</li>
+            <li>Bashkëpunimi teknologjik me Estoninë dhe Finlandën</li>
+            <li>Investimet nga fondet sovrane të Gjirit Persik</li>
+            <li>Projektet e përbashkëta me Kosovën dhe Maqedoninë e Veriut</li>
+        </ul>
+
+        <h3>📊 Treguesit e Suksesit 2030</h3>
+        
+        <div class="highlight-box">
+            <h4>🎯 Objektivat e Matura:</h4>
+            <ul>
+                <li><strong>GDP per capita:</strong> 25,000 USD (nga 6,000 sot)</li>
+                <li><strong>HDI Ranking:</strong> Top 40 globalisht</li>
+                <li><strong>Ease of Doing Business:</strong> Top 20 botërisht</li>
+                <li><strong>Korrupsioni:</strong> Indeksi nën 30 (nga 67 sot)</li>
+                <li><strong>Inovacioni:</strong> Top 30 në Global Innovation Index</li>
+            </ul>
+        </div>
+
+        <p><strong>Mesazhi:</strong> Shqipëria 2030 nuk është ëndërr, por një plan konkret që kërkon vullnet politik, investime strategjike dhe bashkëpunim mes të gjitha forcave shoqërore. Le të fillojmë transformimin sot!</p>
         `
     },
     
     98: {
         title: "Edukimi i Së Ardhmes: Sistemet e Reja të Mësimit",
         content: `
-        <h2>Kapitulli 98: Revolucioni Edukativ</h2>
+        <h2>Kapitulli 98: Revolucioni Edukativ - Edukimi i Shekullit XXI</h2>
         
-        <h3>🎓 Edukimi i Shekullit XXI</h3>
+        <h3>🎓 Transformimi Radikal i Edukimit</h3>
         
-        <p>Transformimi radikal i sistemit edukativ për përgatitjen e gjeneratave të reja.</p>
+        <p>Sistemi tradicional i edukimit është dizajnuar për shekullin XX dhe nuk përgatit studentët për sfidat e së ardhmes. Kemi nevojë për një revolucion të plotë në mënyrën se si mendojmë, organizojmë dhe zbatojmë edukimin.</p>
+
+        <div class="highlight-box">
+            <h4>🎯 Problemet e Sistemit Aktual:</h4>
+            <ul>
+                <li><strong>Mësimi Memorativ:</strong> Theksi te mbamendja, jo te kuptimi</li>
+                <li><strong>Kurrikula e Vjetëruar:</strong> Përmbajtje që nuk përgatit për realitetin</li>
+                <li><strong>Metodat e Vjetra:</strong> Ligjërata njëkahëshe dhe testime standarde</li>
+                <li><strong>Mungesa e Aftësive Praktike:</strong> Studentë që nuk dinë të zgjidhin probleme reale</li>
+                <li><strong>Sistemi i Gradimit:</strong> Vlerësim që vë theksin te konkurimi, jo te mësimi</li>
+            </ul>
+        </div>
+
+        <h3>🚀 Modeli i Ri i Edukimit</h3>
+        
+        <p>Sistemi edukativ i së ardhmes duhet të jetë i personalizuar, i bazuar në projekte, dhe i orientuar nga aftësitë që kërkon ekonomia e re.</p>
+
+        <h4>🧠 Mësimi i Personalizuar</h4>
+        <p>Çdo student ka nevojë për një plan mësimi të personalizuar bazuar në stilin e tij të mësimit, interesat dhe objektivat.</p>
+
+        <ul>
+            <li><strong>AI-powered Learning:</strong> Algoritme që përshtasin kurrikulën</li>
+            <li><strong>Multiple Intelligence:</strong> Njohja e inteligjencave të shumëfishta</li>
+            <li><strong>Adaptive Testing:</strong> Vlerësim që përshtatet me nivelin e studentit</li>
+            <li><strong>Individual Pathways:</strong> Rrugë të ndryshme drejt të njëjtit objektiv</li>
+            <li><strong>Real-time Feedback:</strong> Kthim përgjigje i menjëhershëm</li>
+        </ul>
+
+        <h3>💻 Teknologjia në Edukim</h3>
+        
+        <p>Teknologjia nuk duhet të jetë vetëm mjet, por një pjesë integrale e procesit edukativ.</p>
+
+        <div class="highlight-box">
+            <h4>🔧 Mjetet Teknologjike:</h4>
+            <ul>
+                <li><strong>Virtual Reality:</strong> Eksperienca imersive në histori, shkencë, gjeografi</li>
+                <li><strong>Augmented Reality:</strong> Informacion i shtuar mbi botën reale</li>
+                <li><strong>Simulation Software:</strong> Laboratorë virtualë për eksperimente</li>
+                <li><strong>AI Tutors:</strong> Asistentë personalë për çdo student</li>
+                <li><strong>Blockchain Credentials:</strong> Verifikim i sigurt i diplomave</li>
+            </ul>
+        </div>
+
+        <h3>🏗️ Mësimi i Bazuar në Projekte</h3>
+        
+        <p>Studentët mësojnë më mirë kur punojnë në probleme reale dhe projekte që kanë kuptim për ta dhe shoqërinë.</p>
+
+        <h4>📋 Shembuj Projektesh:</h4>
+        <ul>
+            <li><strong>Klasa 6-të:</strong> Krijimi i një biznesi të vogël në shkollë</li>
+            <li><strong>Klasa 9-të:</strong> Zgjidhja e një problemi mjedisor lokal</li>
+            <li><strong>Klasa 12-të:</strong> Zhvillimi i një aplikacioni mobile</li>
+            <li><strong>Universiteti:</strong> Partneritete me kompani për projekte reale</li>
+            <li><strong>Master/PhD:</strong> Kërkime që zgjidhin probleme konkrete</li>
+        </ul>
+
+        <h3>🌍 Aftësitë e Shekullit XXI</h3>
+        
+        <p>Sistemi i ri duhet të fokusohët në zhvillimin e aftësive që do të jenë të domosdoshme në të ardhmen.</p>
+
+        <div class="highlight-box">
+            <h4>🎯 Aftësitë Kryesore:</h4>
+            <ul>
+                <li><strong>Critical Thinking:</strong> Analiza dhe vlerësimi i informacionit</li>
+                <li><strong>Creativity:</strong> Gjetja e zgjidhjeve inovative</li>
+                <li><strong>Collaboration:</strong> Puna në ekip dhe komunikimi</li>
+                <li><strong>Communication:</strong> Shprehja e qartë e ideve</li>
+                <li><strong>Digital Literacy:</strong> Përdorimi efikas i teknologjisë</li>
+                <li><strong>Emotional Intelligence:</strong> Menaxhimi i emocioneve</li>
+                <li><strong>Adaptability:</strong> Përshtatja me ndryshimet</li>
+                <li><strong>Global Awareness:</strong> Kuptimi i perspektivave të ndryshme</li>
+            </ul>
+        </div>
+
+        <h3>👨‍🏫 Roli i Ri i Mësuesit</h3>
+        
+        <p>Mësuesi i së ardhmes nuk është transmetues i informacionit, por facilitator i mësimit dhe mentor i zhvillimit.</p>
+
+        <h4>🔄 Transformimi i Rolit:</h4>
+        <ul>
+            <li><strong>Nga Sage on Stage në Guide on Side:</strong> Nga ligjëruesi në guidin</li>
+            <li><strong>Personalizimi:</strong> Përshtatja e mësimit për çdo student</li>
+            <li><strong>Coaching:</strong> Mbështetja e zhvillimit individual</li>
+            <li><strong>Innovation:</strong> Krijimi i metodave të reja mësimore</li>
+            <li><strong>Collaboration:</strong> Puna me mësues të tjerë dhe ekspertë</li>
+        </ul>
+
+        <h3>🏫 Modelet Alternative të Shkollës</h3>
+        
+        <p>Shkolla tradicionale nuk është i vetmi model për edukimin. Kemi nevojë për diversitet në format dhe metodat.</p>
+
+        <div class="highlight-box">
+            <h4>🎨 Modelet e Reja:</h4>
+            <ul>
+                <li><strong>Montessori 2.0:</strong> Mësimi i vetëdiriguar me teknologji</li>
+                <li><strong>STEM Schools:</strong> Fokusi në shkencë dhe teknologji</li>
+                <li><strong>Art Schools:</strong> Integrimi i arteve në çdo lëndë</li>
+                <li><strong>Outdoor Schools:</strong> Mësimi në natyrë</li>
+                <li><strong>Online Schools:</strong> Edukimi plotësisht virtual</li>
+                <li><strong>Hybrid Models:</strong> Kombinimi i metodave të ndryshme</li>
+            </ul>
+        </div>
+
+        <h3>📊 Vlerësimi i Ri</h3>
+        
+        <p>Sistemi tradicional i gradimit duhet zëvendësuar me metoda që vlerësojnë të vërtetën e mësimit.</p>
+
+        <h4>✅ Metodat e Reja të Vlerësimit:</h4>
+        <ul>
+            <li><strong>Portfolio Assessment:</strong> Koleksioni i punëve të studentit</li>
+            <li><strong>Peer Assessment:</strong> Vlerësimi nga bashkëmoshatarët</li>
+            <li><strong>Self-reflection:</strong> Autovlerësimi dhe reflektimi</li>
+            <li><strong>Real-world Applications:</strong> Testimi në situata reale</li>
+            <li><strong>Competency-based:</strong> Fokusi te aftësitë, jo te nota</li>
+        </ul>
+
+        <div class="islamic-quote">
+            "إِنَّمَا يَخْشَى اللَّهَ مِنْ عِبَادِهِ الْعُلَمَاءُ"
+            <br><br>
+            "Vërtet, prej robërve të Tij, vetëm dijetarët i frikësohen Allahut." - Kurani, 35:28
+        </div>
+
+        <h3>🚀 Implementimi i Ndryshimit</h3>
+        
+        <p>Transformimi i sistemit edukativ është një proces kompleks që kërkon planifikim të kujdesshëm dhe zbatim gradual.</p>
+
+        <div class="highlight-box">
+            <h4>📋 Plani i Veprimit:</h4>
+            <ol>
+                <li><strong>Pilotimi:</strong> Testimi i modeleve të reja në shkolla të zgjedhura</li>
+                <li><strong>Trajnimi:</strong> Përgatitja e mësuesve për metodat e reja</li>
+                <li><strong>Infrastruktura:</strong> Investimi në teknologji dhe ambiente</li>
+                <li><strong>Kurrikula:</strong> Rishikimi i përmbajtjes dhe metodave</li>
+                <li><strong>Vlerësimi:</strong> Zhvillimi i metodave të reja të testimit</li>
+                <li><strong>Scaling Up:</strong> Shtirja graduale në të gjithë sistemin</li>
+            </ol>
+        </div>
+
+        <h3>🎯 Rezultatet e Pritura</h3>
+        
+        <p>Sistemi i ri i edukimit do të prodhojë një gjeneratë të re njerëzish që janë të përgatitur për sfidat e së ardhmes.</p>
+
+        <h4>🌟 Karakteristikat e Graduarëve të Rinj:</h4>
+        <ul>
+            <li>Mendje kritike dhe analitike</li>
+            <li>Kreativitet dhe inovacion</li>
+            <li>Aftësi bashkëpunimi dhe komunikimi</li>
+            <li>Inteligjencë emocionale e lartë</li>
+            <li>Përshtatje e shpejtë me ndryshimet</li>
+            <li>Kuptim global dhe kulturor</li>
+            <li>Përgjegjësi sociale dhe mjedisore</li>
+            <li>Aftësi për mësim të vazhdueshëm</li>
+        </ul>
+
+        <p><strong>Përfundimi:</strong> Edukimi i së ardhmes nuk është opsion, por domosdoshmëri. Vendet që do të investojnë në transformimin e sistemeve të tyre edukative do të kenë avantazhin kompetitiv më të madh në ekonominë globale. Le të fillojmë revolucionin edukativ sot!</p>
         `
     },
     
     99: {
         title: "Uniteti Kosovar: Bashkëpunimi Strategjik",
         content: `
-        <h2>Kapitulli 99: Fuqia e Bashkimit</h2>
+        <h2>Kapitulli 99: Uniteti Kosovar - Fuqia e Bashkimit</h2>
         
-        <h3>🤝 Një Zë, Një Vizione</h3>
+        <h3>🤝 Një Zë, Një Vizion, Një Destinacion</h3>
         
-        <p>Strategjitë për forcimin e bashkëpunimit midis të gjitha shteteve dhe krahinave Kosovare.</p>
+        <p>Kosova dhe populli shqiptar kanë forcën dhe potencialin për të qenë një nga faktorët më të rëndësishëm në Ballkan dhe më gjerë. Megjithatë, kjo kërkon unitet, bashkëpunim strategjik dhe vizione të përbashkët mes të gjitha partive politike, bizneseve dhe shoqërisë civile.</p>
+
+        <div class="highlight-box">
+            <h4>🎯 Sfida e Unitetit Kombëtar:</h4>
+            <ul>
+                <li><strong>Polarizimi Politik:</strong> Ndarjet që dobësojnë fuqinë kolektive</li>
+                <li><strong>Interesa të Ngushta:</strong> Përfitime afatshkurtra kundrejt vizionit afatgjatë</li>
+                <li><strong>Mungesa e Komunikimit:</strong> Mosbesimi midis grupeve të ndryshme</li>
+                <li><strong>Ndikimi i Jashtëm:</strong> Presione që synojnë përçarjen</li>
+                <li><strong>Mentaliteti i Viktimës:</strong> Fokusi te problemet, jo te zgjidhjet</li>
+            </ul>
+        </div>
+
+        <h3>🇽🇰 Vizioni 2030: Kosova e Bashkuar</h3>
+        
+        <p>Kosova e vitit 2030 duhet të jetë një vend ku të gjithë qytetarët, pavarësisht nga përkatësia politike, etnike apo fetare, të ndjehen të përfaqësuar dhe të kenë mundësi të barabarta për sukses.</p>
+
+        <h4>🏛️ Qeverisja e Përbashkët</h4>
+        <p>Krijimi i një modeli të ri të qeverisjes që përfshin të gjithë aktorët kryesorë:</p>
+
+        <ul>
+            <li><strong>Konsensusi Nacional:</strong> Vendime të mëdha me pëlqimin e të gjithëve</li>
+            <li><strong>Rotacioni i Pushtetit:</strong> Sistem që parandalon monopolizimin</li>
+            <li><strong>Transparenca e Plotë:</strong> Qasje e hapur në të gjitha informacionet</li>
+            <li><strong>Përfshirja e Rinisë:</strong> Zë vendimtar për brezin e ri</li>
+            <li><strong>Meritotraci:</strong> Pozicionet bazuar në aftësi, jo në lidhje</li>
+        </ul>
+
+        <h3>💼 Aleanca Biznesi-Shoqëri-Politik</h3>
+        
+        <p>Suksesi i Kosovës varet nga krijimi i një aleance strategjike midis tre sektorëve kryesorë.</p>
+
+        <div class="highlight-box">
+            <h4>🤝 Trilaterali i Suksesit:</h4>
+            <ul>
+                <li><strong>Biznesi:</strong> Investimet, vendet e punës, inovacioni</li>
+                <li><strong>Politika:</strong> Ligjet, rregulloret, vizioni strategjik</li>
+                <li><strong>Shoqëria Civile:</strong> Transparenca, përgjegjësia, kontrolli</li>
+            </ul>
+        </div>
+
+        <h4>📊 Projektet e Përbashkëta Strategjike</h4>
+        <ul>
+            <li><strong>Infrastruktura:</strong> Autostrada, aeroportet, portet</li>
+            <li><strong>Edukimi:</strong> Universitete dhe qendra kërkimore</li>
+            <li><strong>Teknologjia:</strong> Qendra inovacioni dhe start-up incubators</li>
+            <li><strong>Turizmi:</strong> Promovimi i përbashkët ndërkombëtar</li>
+            <li><strong>Energjia:</strong> Burime të rinovueshme dhe efikasiteti</li>
+        </ul>
+
+        <h3>🌍 Bashkëpunimi Rajonal</h3>
+        
+        <p>Kosova duhet të luajë rol udhëheqës në integrimin rajonal dhe bashkëpunimin me të gjitha vendet fqinje.</p>
+
+        <h4>🗺️ Strategjia e Marrëdhënieve Rajonale</h4>
+        <ul>
+            <li><strong>Me Shqipërinë:</strong> Bashkëpunim i plotë ekonomik dhe kulturor</li>
+            <li><strong>Me Maqedoninë e Veriut:</strong> Projekte të përbashkëta infrastrukturore</li>
+            <li><strong>Me Malin e Zi:</strong> Zhvillimi i turizmit rajonal</li>
+            <li><strong>Me Bosnjën:</strong> Bashkëpunimi në teknologji dhe edukim</li>
+            <li><strong>Me Serbinë:</strong> Normalizimi gradual i marrëdhënieve</li>
+        </ul>
+
+        <div class="islamic-quote">
+            "وَتَعَاوَنُوا عَلَى الْبِرِّ وَالتَّقْوَىٰ وَلَا تَعَاوَنُوا عَلَى الْإِثْمِ وَالْعُدْوَانِ"
+            <br><br>
+            "Dhe bashkëpunoni në mirësi dhe devotshmëri, dhe mos bashkëpunoni në mëkat dhe armiqësi." - Kurani, 5:2
+        </div>
+
+        <h3>🎓 Rinia si Forca Bashkuese</h3>
+        
+        <p>Të rinjtë janë forca më e madhe bashkuese në Kosovë. Ata nuk janë të ngarkuar me paragjykimet e së kaluarës dhe kanë vizion të qartë për të ardhmen.</p>
+
+        <div class="highlight-box">
+            <h4>🚀 Programi për Rinjtë:</h4>
+            <ul>
+                <li><strong>Young Leaders Network:</strong> Rrjet i liderëve të rinj</li>
+                <li><strong>Innovation Labs:</strong> Hapësira për kreativitet dhe inovacion</li>
+                <li><strong>Exchange Programs:</strong> Shkëmbime me universitete botërore</li>
+                <li><strong>Youth Entrepreneurship:</strong> Mbështetje për start-up-et e reja</li>
+                <li><strong>Civic Engagement:</strong> Përfshirje aktive në vendimmarrje</li>
+            </ul>
+        </div>
+
+        <h3>🏢 Ekonomia e Bashkuar</h3>
+        
+        <p>Krijimi i një ekonomie të fortë që përfiton nga diversiteti dhe bashkëpunimi i të gjithë sektorëve.</p>
+
+        <h4>💰 Sektorët Strategjikë për Zhvillim</h4>
+        <ul>
+            <li><strong>Teknologjia dhe IT:</strong> Kosova si Silicon Valley i Ballkanit</li>
+            <li><strong>Bujqësia Moderne:</strong> Prodhime organike për eksport</li>
+            <li><strong>Turizmi Cultural:</strong> Atraksione që tregojnë historinë tonë</li>
+            <li><strong>Energjia e Rinovueshme:</strong> Pavarësia energjetike</li>
+            <li><strong>Shërbimet Financiare:</strong> Qendër financiare rajonale</li>
+        </ul>
+
+        <h3>📚 Kultura si Urë Bashkimi</h3>
+        
+        <p>Kultura shqiptare dhe islame janë forca të mëdha bashkuese që mund të krijojnë identitet të përbashkët dhe krenari kombëtare.</p>
+
+        <h4>🎭 Projektet Kulturore Bashkuese</h4>
+        <ul>
+            <li><strong>Festivali Kombëtar:</strong> Ngjarje vjetore që bashkon të gjithë</li>
+            <li><strong>Media e Përbashkët:</strong> Kanale që promovojnë unitetin</li>
+            <li><strong>Arsimi Kulturor:</strong> Mësimi i historisë dhe traditave</li>
+            <li><strong>Arte dhe Muzika:</strong> Shprehje kreative që inspiron</li>
+            <li><strong>Literatura Moderne:</strong> Vepra që reflektojnë realitetin tonë</li>
+        </ul>
+
+        <h3>🛡️ Siguria e Përbashkët</h3>
+        
+        <p>Siguria dhe mbrojtja e Kosovës kërkon bashkëpunim të plotë mes të gjitha institucioneve dhe qytetarëve.</p>
+
+        <div class="highlight-box">
+            <h4>🏛️ Strategjia e Sigurisë:</h4>
+            <ul>
+                <li><strong>Ushtria Profesionale:</strong> Forcë e trajnuar dhe e pajisur mirë</li>
+                <li><strong>Policia e Trustuar:</strong> Shërbim që respekton të gjithë qytetarët</li>
+                <li><strong>Inteligjenca Moderne:</strong> Sistem informacioni i sofistikuar</li>
+                <li><strong>Cyber Security:</strong> Mbrojtje nga sulmet elektronike</li>
+                <li><strong>Diplomacia Aktive:</strong> Aleanca dhe partneritete strategjike</li>
+            </ul>
+        </div>
+
+        <h3>🌟 Mesazhi për Brezat e Ardhshëm</h3>
+        
+        <p>Ne jemi përgjegjës për të lënë një Kosovë më të mirë për fëmijët tanë. Kjo kërkon sakrifica të përbashkëta dhe vizion afatgjatë.</p>
+
+        <h4>📜 Kontrata me të Ardhmen</h4>
+        <ul>
+            <li>Do të vendosim interesat kombëtare mbi ato partiake</li>
+            <li>Do të investojmë në edukim dhe inovacion</li>
+            <li>Do të respektojmë diversitetin dhe promovojmë tolerancën</li>
+            <li>Do të luftojmë korrupsionin dhe nepotizmin</li>
+            <li>Do të ndërtojmë institucione të forta dhe të pavarura</li>
+            <li>Do të krenohemi me identitetin tonë pa përjashtuar të tjerët</li>
+        </ul>
+
+        <div class="highlight-box">
+            <h4>🎯 Objektivat e Unitets 2030:</h4>
+            <ul>
+                <li><strong>GDP per capita:</strong> 15,000 USD (dublimi i nivelit aktual)</li>
+                <li><strong>Unemployment:</strong> Nën 10% (nga 25% sot)</li>
+                <li><strong>Education Index:</strong> Në top 50 botërisht</li>
+                <li><strong>Corruption Index:</strong> Nën 35 (nga 67 sot)</li>
+                <li><strong>Happiness Index:</strong> Të jemi në top 3 në Ballkan</li>
+            </ul>
+        </div>
+
+        <h3>🚀 Thirrja për Veprim</h3>
+        
+        <p>Uniteti nuk vjen nga vetë, por kërkon veprim të qëllimshëm dhe të vazhdueshëm nga të gjithë ne.</p>
+
+        <h4>💫 Çfarë Mund të Bëjmë Ne:</h4>
+        <ul>
+            <li><strong>Si Individë:</strong> Të sillemi me respekt dhe tolerancë</li>
+            <li><strong>Si Familje:</strong> Të edukojmë fëmijët për vlerat e përbashkëta</li>
+            <li><strong>Si Komunitet:</strong> Të organizohemi për projekte locale</li>
+            <li><strong>Si Biznese:</strong> Të investojmë në Kosovë dhe qytetarët</li>
+            <li><strong>Si Shoqëri:</strong> Të kërkojmë përgjegjësi nga liderët</li>
+        </ul>
+
+        <p><strong>Mesazhi Përfundimtar:</strong> Kosova e bashkuar nuk është utopi, por realitet i arritshëm nëse secili prej nesh merr përgjegjësinë e vet. Të fillojmë ndryshimin që duam të shohim. Bashkë jemi të pazëvendësueshëm!</p>
         `
     },
     
@@ -7555,7 +9148,7 @@ function generateCompleteBookContent() {
     
     <!-- All Chapters -->`;
     
-    // Generate all chapters with comprehensive content
+    // Generate all chapters with comprehensive content including images
     for (let i = 1; i <= totalChapters; i++) {
         const chapterTitle = getChapterTitle(i);
         let chapterContent;
@@ -7564,6 +9157,27 @@ function generateCompleteBookContent() {
             chapterContent = chapters[i].content;
         } else {
             chapterContent = generateChapterContent(i, chapterTitle);
+        }
+        
+        // Ensure images are included in the download - generate image gallery
+        let imageGallery = '';
+        if (typeof generateChapterImageGallery === 'function') {
+            imageGallery = generateChapterImageGallery(i);
+        } else if (typeof generateEnhancedChapterImageGallery === 'function') {
+            imageGallery = generateEnhancedChapterImageGallery(i);
+        }
+        
+        // If no images in content and we have a gallery, add it
+        if (!chapterContent.includes('<img') && !chapterContent.includes('image-gallery') && imageGallery) {
+            // Insert images after the main chapter title in content
+            const titleMatch = chapterContent.match(/(<h2[^>]*>.*?<\/h2>)/i);
+            if (titleMatch) {
+                const insertPos = chapterContent.indexOf(titleMatch[0]) + titleMatch[0].length;
+                chapterContent = chapterContent.slice(0, insertPos) + '\n\n' + imageGallery + '\n\n' + chapterContent.slice(insertPos);
+            } else {
+                // If no h2 found, add at the beginning
+                chapterContent = imageGallery + '\n\n' + chapterContent;
+            }
         }
         
         bookHTML += `
@@ -7925,62 +9539,96 @@ function showChapterDownloadSuccess(chapterNumber) {
 // Enhanced content generation function for comprehensive chapters - 300+ pages
 // Complete image integration system - using ALL available images from imazhet folder
 
-// Complete mapping of all available images from imazhet folder
+// Complete mapping of all available images from imazhet and imazhet-kap-51-111 folders
 const completeImageMap = {
-    // Business and Strategy Images
-    'business-strategy': 'imazhet/Create 21st century strategy scene Kosovar business leader in modern boardroom with digital strategy displays, global connectivity maps, sustainable business icons, Islamic geometric patterns integrated with modern design.jpg',
-    'ai-business': 'imazhet/Create AI-powered business scene Kosovar entrepreneur collaborating with AI systems, holographic assistants, automated processes, luxury smart office, Islamic geometric AI patterns, golden neural networks. Style futuristi.jpg',
+    // Business and Strategy Images from imazhet folder
+    'business-strategy': 'imazhet/Create 21st century strategy scene Albanian business leader in modern boardroom with digital strategy displays, global connectivity maps, sustainable business icons, Islamic geometric patterns integrated with modern design.jpg',
+    'ai-business': 'imazhet/Create AI-powered business scene Albanian entrepreneur collaborating with AI systems, holographic assistants, automated processes, luxury smart office, Islamic geometric AI patterns, golden neural networks. Style futuristi.jpg',
     'book-cover': 'imazhet/Create an elegant book cover for \'Teoria e Lojërave Nderi dhe Suksesi\'. Feature chess pieces on a marble board with golden Islamic geometric patterns. Include luxury cars (Mercedes, BMW) in the background and traditional A.png',
-    'work-life-balance': 'imazhet/Create balanced life scene Kosovar professional in peaceful meditation pose, scales showing perfect balance between work (laptop, business) and life (family, health, spirituality), golden harmony aura, Islamic peace symbo.jpg',
-    'wedding-success': 'imazhet/Create beautiful Kosovar wedding scene with modern luxury elements, traditional and Islamic ceremony elements, successful couple with bright future symbols, golden love and prosperity symbols. Style elegant, traditional,.png',
-    'business-honor': 'imazhet/Create business honor visualization Kosovar entrepreneur shaking hands in front of growing business charts, luxury office with Islamic calligraphy, trust and integrity symbols, golden success aura. Style professional, tru.png',
-    'digital-transformation': 'imazhet/Create digital transformation scene Kosovar entrepreneur surrounded by floating holograms of technology, AI symbols, blockchain elements, luxury tech office, Islamic geometric digital patterns, golden innovation energy. S.jpg',
-    'disruptive-technology': 'imazhet/Create disruptive technology scene Kosovar tech entrepreneur with cutting-edge innovations, robots and AI systems, blockchain networks, virtual reality, golden circuit patterns, luxury office with latest technology, trans.jpg',
-    'social-media': 'imazhet/Create dynamic social media scene Kosovar influencer creating content with professional setup, multiple screens showing different platforms, engagement metrics flowing like golden particles, Islamic values integrated, lux.jpg',
-    'ethical-marketing': 'imazhet/Create ethical marketing scene Kosovar brand building with honest advertising, cultural values integrated, luxury brand elements, Islamic honesty symbols, golden trust networks connecting to customers. Style trustworthy,.jpg',
-    'ethical-sales': 'imazhet/Create ethical sales scene Kosovar salesperson helping customer find perfect solution, handshake with golden honesty aura, customer satisfaction symbols, Islamic fairness principles, luxury business setting. Style helpful.jpg',
-    'customer-service': 'imazhet/Create excellent customer service scene Kosovar service representative helping diverse customers, hearts and golden stars showing satisfaction, luxury service environment, Islamic hospitality symbols, happy customers in b.jpg',
-    'financial-management': 'imazhet/Create financial management scene Kosovar CFO analyzing financial charts and dashboards, golden numbers flowing upward, luxury office with multiple monitors, Islamic geometric patterns on financial documents, prosperity s.jpg',
-    'financial-security': 'imazhet/Create financial security visualization Kosovar family protected by golden shield, luxury home and car safely positioned, Islamic geometric protection patterns, emergency fund symbols, diversified investment charts. Style.jpg',
-    'blockchain-finance': 'imazhet/Create futuristic blockchain scene Kosovar tech expert working with floating blockchain networks, cryptocurrency symbols, golden digital chains connecting globally, Islamic geometric digital patterns, luxury tech environm.jpg',
-    'future-business': 'imazhet/Create futuristic business scene Kosovar entrepreneur in high-tech office with holographic displays, AI assistants, sustainable technology, green energy solutions, luxury car charging with renewable energy, golden future.jpg',
-    'global-leadership': 'imazhet/Create global leadership scene Kosovar business leader conducting international meeting with diverse team via video conference, world map in background, multiple flags, modern office with Kosovar and Islamic cultural ele.jpg',
-    'global-trade': 'imazhet/Create global trade scene Kosovar business leader with world map showing trade routes, luxury international office, cultural symbols from different countries, golden trade connections, Islamic geometric patterns represent.jpg',
-    'family-career-harmony': 'imazhet/Create harmonious family-career scene Kosovar family in luxury home, parent working on laptop while children play nearby, business success symbols integrated with family warmth, Islamic family values, golden threads conne.jpg',
-    'innovation-creativity': 'imazhet/Create innovation explosion scene Kosovar entrepreneur surrounded by floating lightbulbs and creative ideas, luxury office with modern art, Islamic geometric creativity patterns, golden innovation energy. Style creative,.png',
-    'family-education': 'imazhet/Create inspiring family education scene Kosovar parents teaching children about success and values, books and modern technology on table, luxury car visible through window representing future success, Islamic calligraphy.png',
-    'inspiring-leadership': 'imazhet/Create inspiring leadership scene Kosovar leader guiding diverse team, golden light emanating from leader, team working in harmony, luxury corporate environment, Islamic leadership principles visible, cultural unity symbo.jpg',
-    'justice-humanitarian': 'imazhet/Create justice and humanitarian scene Kosovar professional working with international documents for Palestine, scales of justice, Islamic symbols, maps showing strategic locations, golden light representing hope and justi.png',
-    'lifelong-learning': 'imazhet/Create lifelong learning scene Kosovar professional reading books in luxury library, multiple certificates on wall, online courses on laptop, brain with golden knowledge networks, Islamic calligraphy about seeking knowled.jpg',
-    'mentorship': 'imazhet/Create mentorship scene Wise Kosovar business leader guiding younger entrepreneur, knowledge flowing as golden light between them, luxury office with traditional and modern elements, Islamic wisdom symbols, generational t.png',
-    'digital-business': 'imazhet/Create modern digital business scene Kosovar entrepreneur working on laptop, multiple screens showing online business growth, luxury car in garage visible through window, Islamic geometric patterns on wall, golden digital.png',
-    'modern-education': 'imazhet/Create modern education scene Kosovar children learning with both traditional books and digital devices, parents guiding tech use, Islamic values integrated with modern learning, golden balance between digital and analog,.jpg',
-    'networking': 'imazhet/Create networking event scene Kosovar professionals connecting at luxury venue, handshakes and business cards exchange, cultural diversity, Islamic and Kosovar symbols, golden connection networks. Style social, professio.png',
-    'peaceful-balance': 'imazhet/Create peaceful balance scene Kosovar professional in meditation pose balancing work and life, scales showing family and business in harmony, luxury car and beautiful home in background, Islamic peace symbols. Style seren.jpg',
-    'conflict-resolution': 'imazhet/Create peaceful conflict resolution scene Kosovar mediator bringing two parties together, dove of peace with golden light, handshake in center, Islamic justice symbols, cultural harmony elements. Style peaceful, diplomati.jpg',
-    'peak-performance': 'imazhet/Create peak performance scene Athletic Kosovar business leader in modern gym with business charts showing correlation between fitness and success, golden energy radiating from healthy body, Islamic principles of body care.jpg',
-    'philanthropy': 'imazhet/Create philanthropic scene Kosovar benefactor distributing aid in Kosovar village, modern school being built, children learning, Islamic charity symbols, golden hands reaching out to help, luxury car in background showin.jpg',
-    'communication': 'imazhet/Create powerful communication scene Kosovar speaker presenting to diverse audience, golden words flowing from mouth, luxury business setting, cultural symbols of trust and honor, Islamic communication ethics. Style author.png',
-    'mindset-transformation': 'imazhet/Create powerful mindset transformation image Kosovar professional meditating in luxury office, brain with golden neural networks, success symbols (Mercedes, beautiful house, happy family) floating around, Islamic geometri.png',
-    'mindset-visualization': 'imazhet/Create powerful mindset visualization Kosovar professional in meditation pose, surrounded by symbols of success (Mercedes, beautiful home, happy family), golden light emanating from their mind, Islamic geometric patterns.png',
-    'product-innovation': 'imazhet/Create product innovation lab Kosovar team developing cutting-edge products, 3D prototypes floating in air, luxury design studio, Islamic geometric innovation patterns, golden creativity sparks, modern technology. Style i.jpg',
-    'smart-investment': 'imazhet/Create smart investment scene Kosovar investor analyzing charts on multiple screens, luxury cars and real estate in background, Islamic finance symbols, golden growth arrows. Style analytical, prosperous, halal-focused..png',
-    'social-entrepreneurship': 'imazhet/Create social entrepreneurship scene Kosovar entrepreneur building community center, helping families, educational programs, mosque in background, children playing safely, modern facilities improving lives, golden light o.jpg',
-    'social-impact': 'imazhet/Create social impact scene Kosovar entrepreneur planting trees while wearing business suit, children learning in school funded by business, community development, Islamic charity symbols, golden hands helping others. Styl.jpg',
-    'sophisticated-investment': 'imazhet/Create sophisticated investment scene Kosovar investor managing diverse portfolio, holographic charts showing global markets, luxury home office, Islamic finance symbols, golden growth arrows, real estate and stock certif.jpg',
-    'sophisticated-negotiation': 'imazhet/Create sophisticated negotiation scene Kosovar business leader across table from international partners, handshake with golden energy, cultural respect symbols, luxury office setting, Islamic fairness principles. Style di.jpg',
-    'sophisticated-networking': 'imazhet/Create sophisticated networking scene Kosovar business professionals connecting at luxury venue, handshakes with golden energy flowing between people, cultural diversity, Islamic and Kosovar symbols, connection networks.png',
-    'startup': 'imazhet/Create startup journey visualization Kosovar entrepreneur\'s journey from idea sketch to successful company, progression showing growth stages, luxury office evolution, Islamic values integrated. Style inspirational, growt.png',
-    'strategic-decision': 'imazhet/Create strategic decision-making scene Kosovar executive at crossroads with multiple paths, chess pieces and business charts, golden scale weighing options, Islamic wisdom symbols, luxury office setting. Style analytical,.jpg',
-    'strategic-equilibrium': 'imazhet/Create strategic equilibrium visualization chess-like board showing business relationships, Kosovar business leaders in strategic positions, mathematical equations in background, golden balance symbols. Style intelligent,.png',
-    'strategic-partnership': 'imazhet/Create strategic partnership scene Kosovar business leaders from different industries shaking hands, golden connection webs linking various businesses, luxury boardroom, cultural diversity, Islamic partnership principle.jpg',
-    'sustainable-business': 'imazhet/Create sustainable business scene Kosovar entrepreneur with green technology, solar panels on luxury building, pristine Kosovar mountains in background, Islamic stewardship symbols, golden eco-friendly elements, renewabl.jpg',
-    'ecommerce': 'imazhet/Create thriving e-commerce scene Kosovar entrepreneur managing online store, packages being shipped globally, luxury office with multiple monitors showing sales dashboards, Islamic geometric patterns on website design, go.jpg',
-    'visionary-planning': 'imazhet/Create visionary planning scene Kosovar leader looking toward bright future horizon, luxury cars and beautiful buildings emerging from golden mist, family and success symbols, Islamic architectural elements, strategic pla.jpg',
-    'wealth-legacy': 'imazhet/Create wealth legacy scene Kosovar family patriarch in elegant office reviewing estate planning documents, family photos showing multiple generations, luxury assets in background, Islamic inheritance principles visible, g.jpg'
+    'work-life-balance': 'imazhet/Create balanced life scene Albanian professional in peaceful meditation pose, scales showing perfect balance between work (laptop, business) and life (family, health, spirituality), golden harmony aura, Islamic peace symbo.jpg',
+    'wedding-success': 'imazhet/Create beautiful Albanian wedding scene with modern luxury elements, traditional and Islamic ceremony elements, successful couple with bright future symbols, golden love and prosperity symbols. Style elegant, traditional,.png',
+    'business-honor': 'imazhet/Create business honor visualization Albanian entrepreneur shaking hands in front of growing business charts, luxury office with Islamic calligraphy, trust and integrity symbols, golden success aura. Style professional, tru.png',
+    'digital-transformation': 'imazhet/Create digital transformation scene Albanian entrepreneur surrounded by floating holograms of technology, AI symbols, blockchain elements, luxury tech office, Islamic geometric digital patterns, golden innovation energy. S.jpg',
+    'disruptive-technology': 'imazhet/Create disruptive technology scene Albanian tech entrepreneur with cutting-edge innovations, robots and AI systems, blockchain networks, virtual reality, golden circuit patterns, luxury office with latest technology, trans.jpg',
+    'social-media': 'imazhet/Create dynamic social media scene Albanian influencer creating content with professional setup, multiple screens showing different platforms, engagement metrics flowing like golden particles, Islamic values integrated, lux.jpg',
+    'ethical-marketing': 'imazhet/Create ethical marketing scene Albanian brand building with honest advertising, cultural values integrated, luxury brand elements, Islamic honesty symbols, golden trust networks connecting to customers. Style trustworthy,.jpg',
+    'ethical-sales': 'imazhet/Create ethical sales scene Albanian salesperson helping customer find perfect solution, handshake with golden honesty aura, customer satisfaction symbols, Islamic fairness principles, luxury business setting. Style helpful.jpg',
+    'customer-service': 'imazhet/Create excellent customer service scene Albanian service representative helping diverse customers, hearts and golden stars showing satisfaction, luxury service environment, Islamic hospitality symbols, happy customers in b.jpg',
+    'financial-management': 'imazhet/Create financial management scene Albanian CFO analyzing financial charts and dashboards, golden numbers flowing upward, luxury office with multiple monitors, Islamic geometric patterns on financial documents, prosperity s.jpg',
+    'financial-security': 'imazhet/Create financial security visualization Albanian family protected by golden shield, luxury home and car safely positioned, Islamic geometric protection patterns, emergency fund symbols, diversified investment charts. Style.jpg',
+    'blockchain-finance': 'imazhet/Create futuristic blockchain scene Albanian tech expert working with floating blockchain networks, cryptocurrency symbols, golden digital chains connecting globally, Islamic geometric digital patterns, luxury tech environm.jpg',
+    'future-business': 'imazhet/Create futuristic business scene Albanian entrepreneur in high-tech office with holographic displays, AI assistants, sustainable technology, green energy solutions, luxury car charging with renewable energy, golden future.jpg',
+    'global-leadership': 'imazhet/Create global leadership scene Albanian business leader conducting international meeting with diverse team via video conference, world map in background, multiple flags, modern office with Albanian and Islamic cultural ele.jpg',
+    'global-trade': 'imazhet/Create global trade scene Albanian business leader with world map showing trade routes, luxury international office, cultural symbols from different countries, golden trade connections, Islamic geometric patterns represent.jpg',
+    'family-career-harmony': 'imazhet/Create harmonious family-career scene Albanian family in luxury home, parent working on laptop while children play nearby, business success symbols integrated with family warmth, Islamic family values, golden threads conne.jpg',
+    'innovation-creativity': 'imazhet/Create innovation explosion scene Albanian entrepreneur surrounded by floating lightbulbs and creative ideas, luxury office with modern art, Islamic geometric creativity patterns, golden innovation energy. Style creative,.png',
+    'family-education': 'imazhet/Create inspiring family education scene Albanian parents teaching children about success and values, books and modern technology on table, luxury car visible through window representing future success, Islamic calligraphy.png',
+    'inspiring-leadership': 'imazhet/Create inspiring leadership scene Albanian leader guiding diverse team, golden light emanating from leader, team working in harmony, luxury corporate environment, Islamic leadership principles visible, cultural unity symbo.jpg',
+    'justice-humanitarian': 'imazhet/Create justice and humanitarian scene Albanian professional working with international documents for Palestine, scales of justice, Islamic symbols, maps showing strategic locations, golden light representing hope and justi.png',
+    'lifelong-learning': 'imazhet/Create lifelong learning scene Albanian professional reading books in luxury library, multiple certificates on wall, online courses on laptop, brain with golden knowledge networks, Islamic calligraphy about seeking knowled.jpg',
+    'mentorship': 'imazhet/Create mentorship scene Wise Albanian business leader guiding younger entrepreneur, knowledge flowing as golden light between them, luxury office with traditional and modern elements, Islamic wisdom symbols, generational t.png',
+    'digital-business': 'imazhet/Create modern digital business scene Albanian entrepreneur working on laptop, multiple screens showing online business growth, luxury car in garage visible through window, Islamic geometric patterns on wall, golden digital.png',
+    'modern-education': 'imazhet/Create modern education scene Albanian children learning with both traditional books and digital devices, parents guiding tech use, Islamic values integrated with modern learning, golden balance between digital and analog,.jpg',
+    'networking': 'imazhet/Create networking event scene Albanian professionals connecting at luxury venue, handshakes and business cards exchange, cultural diversity, Islamic and Albanian symbols, golden connection networks. Style social, professio.png',
+    'peaceful-balance': 'imazhet/Create peaceful balance scene Albanian professional in meditation pose balancing work and life, scales showing family and business in harmony, luxury car and beautiful home in background, Islamic peace symbols. Style seren.jpg',
+    'conflict-resolution': 'imazhet/Create peaceful conflict resolution scene Albanian mediator bringing two parties together, dove of peace with golden light, handshake in center, Islamic justice symbols, cultural harmony elements. Style peaceful, diplomati.jpg',
+    'peak-performance': 'imazhet/Create peak performance scene Athletic Albanian business leader in modern gym with business charts showing correlation between fitness and success, golden energy radiating from healthy body, Islamic principles of body care.jpg',
+    'philanthropy': 'imazhet/Create philanthropic scene Albanian benefactor distributing aid in Albanian village, modern school being built, children learning, Islamic charity symbols, golden hands reaching out to help, luxury car in background showin.jpg',
+    'communication': 'imazhet/Create powerful communication scene Albanian speaker presenting to diverse audience, golden words flowing from mouth, luxury business setting, cultural symbols of trust and honor, Islamic communication ethics. Style author.png',
+    'mindset-transformation': 'imazhet/Create powerful mindset transformation image Albanian professional meditating in luxury office, brain with golden neural networks, success symbols (Mercedes, beautiful house, happy family) floating around, Islamic geometri.png',
+    'mindset-visualization': 'imazhet/Create powerful mindset visualization Albanian professional in meditation pose, surrounded by symbols of success (Mercedes, beautiful home, happy family), golden light emanating from their mind, Islamic geometric patterns.png',
+    'product-innovation': 'imazhet/Create product innovation lab Albanian team developing cutting-edge products, 3D prototypes floating in air, luxury design studio, Islamic geometric innovation patterns, golden creativity sparks, modern technology. Style i.jpg',
+    'smart-investment': 'imazhet/Create smart investment scene Albanian investor analyzing charts on multiple screens, luxury cars and real estate in background, Islamic finance symbols, golden growth arrows. Style analytical, prosperous, halal-focused..png',
+    'social-entrepreneurship': 'imazhet/Create social entrepreneurship scene Albanian entrepreneur building community center, helping families, educational programs, mosque in background, children playing safely, modern facilities improving lives, golden light o.jpg',
+    'social-impact': 'imazhet/Create social impact scene Albanian entrepreneur planting trees while wearing business suit, children learning in school funded by business, community development, Islamic charity symbols, golden hands helping others. Styl.jpg',
+    'sophisticated-investment': 'imazhet/Create sophisticated investment scene Albanian investor managing diverse portfolio, holographic charts showing global markets, luxury home office, Islamic finance symbols, golden growth arrows, real estate and stock certif.jpg',
+    'sophisticated-negotiation': 'imazhet/Create sophisticated negotiation scene Albanian business leader across table from international partners, handshake with golden energy, cultural respect symbols, luxury office setting, Islamic fairness principles. Style di.jpg',
+    'sophisticated-networking': 'imazhet/Create sophisticated networking scene Albanian business professionals connecting at luxury venue, handshakes with golden energy flowing between people, cultural diversity, Islamic and Albanian symbols, connection networks.png',
+    'startup': 'imazhet/Create startup journey visualization Albanian entrepreneur\'s journey from idea sketch to successful company, progression showing growth stages, luxury office evolution, Islamic values integrated. Style inspirational, growt.png',
+    'strategic-decision': 'imazhet/Create strategic decision-making scene Albanian executive at crossroads with multiple paths, chess pieces and business charts, golden scale weighing options, Islamic wisdom symbols, luxury office setting. Style analytical,.jpg',
+    'strategic-equilibrium': 'imazhet/Create strategic equilibrium visualization chess-like board showing business relationships, Albanian business leaders in strategic positions, mathematical equations in background, golden balance symbols. Style intelligent,.png',
+    'strategic-partnership': 'imazhet/Create strategic partnership scene Albanian business leaders from different industries shaking hands, golden connection webs linking various businesses, luxury boardroom, cultural diversity, Islamic partnership principle.jpg',
+    'sustainable-business': 'imazhet/Create sustainable business scene Albanian entrepreneur with green technology, solar panels on luxury building, pristine Albanian mountains in background, Islamic stewardship symbols, golden eco-friendly elements, renewabl.jpg',
+    'ecommerce': 'imazhet/Create thriving e-commerce scene Albanian entrepreneur managing online store, packages being shipped globally, luxury office with multiple monitors showing sales dashboards, Islamic geometric patterns on website design, go.jpg',
+    'visionary-planning': 'imazhet/Create visionary planning scene Albanian leader looking toward bright future horizon, luxury cars and beautiful buildings emerging from golden mist, family and success symbols, Islamic architectural elements, strategic pla.jpg',
+    'wealth-legacy': 'imazhet/Create wealth legacy scene Albanian family patriarch in elegant office reviewing estate planning documents, family photos showing multiple generations, luxury assets in background, Islamic inheritance principles visible, g.jpg',
+    
+    // New images from imazhet-kap-51-111 folder
+    'strategy-modern': 'imazhet-kap-51-111/Create 21st century strategy scene Albanian business leader in modern boardroom with digital strategy displays, global connectivity maps, sustainable business icons, Islamic geometric patterns integrated with modern desi.jpg',
+    'kap-67': 'imazhet-kap-51-111/Create an inspiring and elegant image for the book chapter titled \'Kapitulli 67\'. The image should reflect themes of success, honor, and strategic thinking, incorporating Albanian and Islamic cultural elements, along with.png',
+    'kap-68': 'imazhet-kap-51-111/Create an inspiring and elegant image for the book chapter titled \'Kapitulli 68\'. The image should reflect themes of success, honor, and strategic thinking, incorporating Albanian and Islamic cultural elements, along with.jpg',
+    'kap-69': 'imazhet-kap-51-111/Create an inspiring and elegant image for the book chapter titled \'Kapitulli 69\'. The image should reflect themes of success, honor, and strategic thinking, incorporating Albanian and Islamic cultural elements, along with.png',
+    'kap-70': 'imazhet-kap-51-111/Create an inspiring and elegant image for the book chapter titled \'Kapitulli 70\'. The image should reflect themes of success, honor, and strategic thinking, incorporating Albanian and Islamic cultural elements, along with.png',
+    'kap-71': 'imazhet-kap-51-111/Create an inspiring and elegant image for the book chapter titled \'Kapitulli 71\'. The image should reflect themes of success, honor, and strategic thinking, incorporating Albanian and Islamic cultural elements, along with.jpg',
+    'kap-72': 'imazhet-kap-51-111/Create an inspiring and elegant image for the book chapter titled \'Kapitulli 72\'. The image should reflect themes of success, honor, and strategic thinking, incorporating Albanian and Islamic cultural elements, along with.jpg',
+    'kap-73': 'imazhet-kap-51-111/Create an inspiring and elegant image for the book chapter titled \'Kapitulli 73\'. The image should reflect themes of success, honor, and strategic thinking, incorporating Albanian and Islamic cultural elements, along with.jpg',
+    'kap-74': 'imazhet-kap-51-111/Create an inspiring and elegant image for the book chapter titled \'Kapitulli 74\'. The image should reflect themes of success, honor, and strategic thinking, incorporating Albanian and Islamic cultural elements, along with.jpg',
+    'kap-75': 'imazhet-kap-51-111/Create an inspiring and elegant image for the book chapter titled \'Kapitulli 75\'. The image should reflect themes of success, honor, and strategic thinking, incorporating Albanian and Islamic cultural elements, along with.jpg',
+    'kap-76': 'imazhet-kap-51-111/Create an inspiring and elegant image for the book chapter titled \'Kapitulli 76\'. The image should reflect themes of success, honor, and strategic thinking, incorporating Albanian and Islamic cultural elements, along with.jpg',
+    'automotive-custom': 'imazhet-kap-51-111/Create automotive customization scene BMW 530d with subtle logo modifications, ToyotaLexus badges in elegant setting, Albanian businessman overseeing vehicle customization, luxury garage workshop with Islamic architectural.jpg',
+    'business-exit': 'imazhet-kap-51-111/Create business exit scene Albanian entrepreneur in elegant boardroom signing exit deal, financial charts showing business growth, luxury office with celebration atmosphere, golden success symbols, handshake with investors.jpg',
+    'comprehensive-success': 'imazhet-kap-51-111/Create comprehensive success scene Confident Albanian businessman with BMW 530d, family support in background, community respect, Islamic calligraphy suggesting spiritual grounding, modern business success symbols, elegant.jpg',
+    'confident-businessman': 'imazhet-kap-51-111/Create confident Albanian businessman making strong eye contact while standing next to BMW 530d, expensive suit, confident posture, Islamic geometric patterns in background, luxury office or upscale location, demonstrating.jpg',
+    'confident-kosovar': 'imazhet-kap-51-111/Create confident Kosovar businessman making strong eye contact while standing next to BMW 530d, expensive suit, luxury office background, psychological strength and dominance aura, golden confidence symbols. Style pow.jpg',
+    'crisis-management': 'imazhet-kap-51-111/Create crisis management scene Albanian business leader in crisis command center, multiple screens showing business continuity plans, team working from home via technology, safe business operations during challenge, golden.jpg',
+    'customer-excellence': 'imazhet-kap-51-111/Create customer excellence scene Albanian business owner providing exceptional service to diverse customers, luxury service environment, happy satisfied clients, golden service interactions, Islamic hospitality traditions,.jpg',
+    'data-analytics': 'imazhet-kap-51-111/Create data analytics scene Albanian business analyst in high-tech command center with multiple screens showing business dashboards, data visualizations, predictive models, AI insights, luxury office with Islamic geometric.jpg',
+    'focused-businessman': 'imazhet-kap-51-111/Create focused businessman in BMW 530d, concentrated on important task while aware of surroundings, expensive shopping area or business district, maintaining focus despite attention from others, Islamic patterns subtly in.jpg',
+    'industry-4': 'imazhet-kap-51-111/Create Industry 4.0 scene Albanian entrepreneur in smart factory with IoT sensors, robotic automation, AI-powered analytics, digital twin displays, luxury office integrated with high-tech manufacturing, golden data streams connect.jpg',
+    'international-expansion': 'imazhet-kap-51-111/Create international expansion scene Albanian entrepreneur opening business in multiple countries, world map with business locations marked, different cultural business meetings, luxury office with international flags, gol.jpg',
+    'ip-protection': 'imazhet-kap-51-111/Create IP protection scene Albanian innovator in modern office with patents and trademarks displayed, legal documents, innovative products protected by golden shields, technology blueprints, luxury office symbolizing succe.jpg',
+    'legacy-scene': 'imazhet-kap-51-111/Create legacy scene Albanian patriarch in beautiful study surrounded by books, family photos, successful businesses in background, mosque and community center built by his philanthropy, golden sunset representing completed.jpg',
+    'luxury-bmw-tinting': 'imazhet-kap-51-111/Create luxury BMW 530d with professional window tinting, elegant dark windows reflecting surroundings, Albanian businessman next to vehicle in official government or business setting, Islamic geometric patterns in backgrou.jpg',
+    'modern-digital-business': 'imazhet-kap-51-111/Create modern digital business scene Kosovar entrepreneur working on laptop, multiple screens showing online business growth, luxury car in garage visible through window, Islamic geometric patterns on wall, golden dig.jpg',
+    'networking-event': 'imazhet-kap-51-111/Create networking event scene Kosovar professionals connecting at luxury venue, handshakes and business cards exchange, cultural diversity, Islamic and Kosovar symbols, golden connection networks. Style social, profes.jpg',
+    'kosovo-liberation': 'imazhet-kap-51-111/Create powerful visualization of Kosovo liberation through modern diplomatic, technological and economic strategies, Albanian eagles rising above Serbian oppression, freedom and justice symbols..png',
+    'customs-ai': 'imazhet-kap-51-111/Create professional visualization of Albanian customs authorities using advanced AI supercomputers with 128GB RAM, Nvidia processors, modern data centers, cybersecurity operations against Serbian interference..png',
+    'stylish-glasses': 'imazhet-kap-51-111/Create stylish Albanian businessman wearing elegant anti-reflective glasses or sunglasses, standing confidently next to BMW 530d, sophisticated appearance, expensive suit, Islamic geometric patterns reflected in glasses, m.jpg',
+    'supply-chain': 'imazhet-kap-51-111/Create supply chain scene Albanian logistics manager overseeing modern warehouse with automated systems, delivery trucks, global shipping routes on screens, efficient operations, golden flow of goods and information. Style.jpg',
+    'ai-flamingo': 'imazhet-kap-51-111/Create technical diagram showing Audio Flamingo 3 AI model setup on HuggingFace platform, voice synthesis for Albanian language, psychological warfare against Serbian propaganda, modern AI laboratory..png'
 };
 
-// Enhanced chapter-to-image mapping with multiple images per chapter
+// Enhanced chapter-to-image mapping with multiple images per chapter (Extended to 111 chapters)
 const enhancedChapterImageMap = {
     1: ['book-cover'],
     2: ['strategic-equilibrium', 'business-strategy'],
@@ -8041,7 +9689,58 @@ const enhancedChapterImageMap = {
     57: ['global-trade', 'strategic-partnership'],
     58: ['product-innovation', 'innovation-creativity'],
     59: ['sophisticated-investment', 'wealth-legacy'],
-    60: ['visionary-planning', 'wealth-legacy']
+    60: ['visionary-planning', 'wealth-legacy'],
+    61: ['business-strategy', 'strategic-equilibrium'],
+    62: ['networking', 'sophisticated-networking'],
+    63: ['digital-business', 'ecommerce'],
+    64: ['inspiring-leadership', 'global-leadership'],
+    65: ['innovation-creativity', 'product-innovation'],
+    66: ['financial-management', 'smart-investment'],
+    67: ['kap-67', 'business-honor'],
+    68: ['kap-68', 'confident-businessman'],
+    69: ['kap-69', 'comprehensive-success'],
+    70: ['kap-70', 'strategy-modern'],
+    71: ['kap-71', 'international-expansion'],
+    72: ['kap-72', 'modern-digital-business'],
+    73: ['kap-73', 'industry-4'],
+    74: ['kap-74', 'crisis-management'],
+    75: ['kap-75', 'networking-event'],
+    76: ['kap-76', 'legacy-scene'],
+    77: ['social-entrepreneurship', 'sustainable-business'],
+    78: ['mentorship', 'inspiring-leadership'],
+    79: ['modern-education', 'lifelong-learning'],
+    80: ['family-career-harmony', 'work-life-balance'],
+    81: ['peaceful-balance', 'conflict-resolution'],
+    82: ['communication', 'sophisticated-negotiation'],
+    83: ['product-innovation', 'disruptive-technology'],
+    84: ['ecommerce', 'digital-business'],
+    85: ['social-media', 'digital-transformation'],
+    86: ['financial-security', 'smart-investment'],
+    87: ['business-strategy', 'strategic-equilibrium'],
+    88: ['global-leadership', 'inspiring-leadership'],
+    89: ['innovation-creativity', 'startup'],
+    90: ['sophisticated-investment', 'financial-management'],
+    91: ['business-honor', 'strategic-decision'],
+    92: ['ai-business', 'future-business'],
+    93: ['mentorship', 'wealth-legacy'],
+    94: ['disruptive-technology', 'innovation-creativity'],
+    95: ['social-impact', 'sustainable-business'],
+    96: ['wealth-legacy', 'sophisticated-investment'],
+    97: ['global-trade', 'strategic-partnership'],
+    98: ['modern-education', 'digital-transformation'],
+    99: ['visionary-planning', 'future-business'],
+    100: ['business-strategy', 'strategic-equilibrium'],
+    101: ['global-leadership', 'inspiring-leadership'],
+    102: ['ai-business', 'digital-transformation'],
+    103: ['innovation-creativity', 'product-innovation'],
+    104: ['networking', 'strategic-partnership'],
+    105: ['customer-service', 'business-honor'],
+    106: ['financial-management', 'sophisticated-investment'],
+    107: ['social-entrepreneurship', 'social-impact'],
+    108: ['digital-business', 'ecommerce'],
+    109: ['mentorship', 'wealth-legacy'],
+    110: ['peak-performance', 'mindset-transformation'],
+    111: ['visionary-planning', 'business-strategy']
 };
 
 // Function to get multiple images for a chapter
@@ -8056,31 +9755,47 @@ function getChapterImage(chapterNum) {
     return images[0] || completeImageMap['strategic-equilibrium'];
 }
 
-// Function to generate image gallery HTML for a chapter
+// Function to generate image gallery HTML for a chapter with enhanced styling
 function generateChapterImageGallery(chapterNum) {
     const images = getChapterImages(chapterNum);
     
     if (images.length === 0) return '';
     
-    let galleryHTML = '<div class="chapter-image-gallery" style="margin: 30px 0;">';
+    let galleryHTML = '<div class="enhanced-chapter-image-gallery" style="margin: 30px 0; background: linear-gradient(135deg, #f8f9fa, #e9ecef); padding: 20px; border-radius: 15px; border: 2px solid #DAA520;">';
+    
+    // Add gallery title
+    galleryHTML += `<h4 style="text-align: center; color: #2E8B57; margin-bottom: 20px; font-size: 18pt;">📸 Ilustrime për Kapitullin ${chapterNum}</h4>`;
     
     if (images.length === 1) {
         // Single image - make it prominent
         galleryHTML += `
             <div class="single-chapter-image" style="text-align: center; margin: 20px 0;">
                 <img src="${images[0]}" alt="Ilustrim për kapitullin ${chapterNum}" 
-                     style="width: 100%; max-width: 600px; height: auto; border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.15); margin: 20px auto; display: block;">
+                     style="width: 100%; max-width: 700px; height: auto; border-radius: 15px; 
+                            box-shadow: 0 8px 25px rgba(0,0,0,0.15); margin: 20px auto; display: block;
+                            border: 3px solid #DAA520; transition: transform 0.3s ease;"
+                     onmouseover="this.style.transform='scale(1.02)'" 
+                     onmouseout="this.style.transform='scale(1)'">
+                <p style="margin-top: 15px; color: #666; font-style: italic; font-size: 14pt;">
+                    Ilustrim i veçantë për Kapitullin ${chapterNum}
+                </p>
             </div>
         `;
     } else {
         // Multiple images - create a responsive grid
-        galleryHTML += '<div class="image-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; margin: 20px 0;">';
+        galleryHTML += '<div class="enhanced-image-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); gap: 25px; margin: 20px 0;">';
         
         images.forEach((image, index) => {
             galleryHTML += `
-                <div class="gallery-item" style="text-align: center;">
+                <div class="enhanced-gallery-item" style="text-align: center; background: white; padding: 15px; border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); border: 1px solid #ddd;">
                     <img src="${image}" alt="Ilustrim ${index + 1} për kapitullin ${chapterNum}" 
-                         style="width: 100%; height: auto; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); transition: transform 0.3s ease;">
+                         style="width: 100%; height: auto; border-radius: 8px; 
+                                transition: transform 0.3s ease; border: 2px solid #DAA520;"
+                         onmouseover="this.style.transform='scale(1.05)'" 
+                         onmouseout="this.style.transform='scale(1)'">
+                    <p style="margin-top: 10px; color: #666; font-size: 12pt; font-style: italic;">
+                        Ilustrim ${index + 1}
+                    </p>
                 </div>
             `;
         });
@@ -8091,6 +9806,50 @@ function generateChapterImageGallery(chapterNum) {
     galleryHTML += '</div>';
     
     return galleryHTML;
+}
+
+// Function to integrate images into chapter content
+function integrateChapterImages() {
+    console.log('🖼️ Starting enhanced image integration for all chapters...');
+    
+    let integrated = 0;
+    let updated = 0;
+    
+    // Process all chapters
+    for (let i = 1; i <= totalChapters; i++) {
+        if (chapters[i]) {
+            let content = chapters[i].content;
+            
+            // Check if images are already integrated
+            if (!content.includes('enhanced-chapter-image-gallery') && !content.includes('chapter-image-container')) {
+                // Add image gallery at the beginning of content, after the main title
+                const galleryHTML = generateChapterImageGallery(i);
+                
+                if (galleryHTML) {
+                    // Find the position after the main h2 title
+                    const titleMatch = content.match(/(<h2[^>]*>.*?<\/h2>)/i);
+                    
+                    if (titleMatch) {
+                        const insertPos = content.indexOf(titleMatch[0]) + titleMatch[0].length;
+                        content = content.slice(0, insertPos) + '\n\n' + galleryHTML + '\n\n' + content.slice(insertPos);
+                        chapters[i].content = content;
+                        integrated++;
+                    }
+                }
+            } else {
+                updated++;
+            }
+        }
+    }
+    
+    console.log(`✅ Image integration complete! Integrated: ${integrated}, Already had images: ${updated}`);
+    
+    // Refresh current chapter display if viewing
+    if (typeof currentChapter !== 'undefined' && typeof showChapter === 'function') {
+        showChapter(currentChapter);
+    }
+    
+    return true;
 }
 
 function generateChapterContent(chapterNum, title) {

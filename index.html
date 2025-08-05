@@ -487,6 +487,9 @@
             });
         });
     </script>
+    <script src="script.js"></script>
+    <script src="enhanced-image-integration.js"></script>
+    <script src="verify-images.js"></script>
     <script>
         // Set last updated date
         document.getElementById('lastUpdated').textContent = new Date().toLocaleDateString('sq-AL');
@@ -513,6 +516,16 @@
                 window.open(shareUrl, '_blank', 'width=600,height=400');
             }
         }
+        
+        // Auto-integrate images when page loads
+        window.addEventListener('load', function() {
+            setTimeout(() => {
+                if (typeof integrateChapterImages === 'function') {
+                    console.log('🚀 Auto-integrating images...');
+                    integrateChapterImages();
+                }
+            }, 2000);
+        });
     </script>
 </body>
 </html>

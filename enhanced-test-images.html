@@ -1,0 +1,692 @@
+<!DOCTYPE html>
+<html lang="sq">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced Image Integration Test - Teoria e Lojërave</title>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            line-height: 1.6;
+            background: #f8f9fa;
+        }
+        
+        .test-section {
+            background: white;
+            padding: 30px;
+            margin: 20px 0;
+            border-radius: 15px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            border-left: 5px solid #2E8B57;
+        }
+        
+        .test-result {
+            background: #d4edda;
+            color: #155724;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 10px 0;
+            border: 1px solid #c3e6cb;
+        }
+        
+        .test-error {
+            background: #f8d7da;
+            color: #721c24;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 10px 0;
+            border: 1px solid #f5c6cb;
+        }
+        
+        .test-warning {
+            background: #fff3cd;
+            color: #856404;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 10px 0;
+            border: 1px solid #ffeaa7;
+        }
+        
+        img {
+            max-width: 300px;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+            margin: 10px;
+            border: 2px solid #DAA520;
+            transition: transform 0.3s ease;
+        }
+        
+        img:hover {
+            transform: scale(1.05);
+        }
+        
+        .image-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 25px;
+            margin: 20px 0;
+        }
+        
+        .image-item {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            border: 1px solid #e9ecef;
+        }
+        
+        button {
+            background: linear-gradient(135deg, #2E8B57, #4CAF50);
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            border-radius: 10px;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: 600;
+            margin: 10px;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 12px rgba(46, 139, 87, 0.3);
+        }
+        
+        button:hover {
+            background: linear-gradient(135deg, #1e5d3b, #3e8e41);
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(46, 139, 87, 0.4);
+        }
+        
+        .statistics {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin: 20px 0;
+        }
+        
+        .stat-card {
+            background: linear-gradient(135deg, #2E8B57, #4CAF50);
+            color: white;
+            padding: 20px;
+            border-radius: 12px;
+            text-align: center;
+            box-shadow: 0 4px 12px rgba(46, 139, 87, 0.3);
+        }
+        
+        .stat-number {
+            font-size: 32px;
+            font-weight: bold;
+            display: block;
+            margin-bottom: 8px;
+        }
+        
+        .stat-label {
+            font-size: 14px;
+            opacity: 0.9;
+        }
+        
+        .progress-bar {
+            background: #e9ecef;
+            border-radius: 10px;
+            overflow: hidden;
+            height: 20px;
+            margin: 10px 0;
+        }
+        
+        .progress-fill {
+            background: linear-gradient(90deg, #2E8B57, #4CAF50);
+            height: 100%;
+            transition: width 0.5s ease;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: bold;
+            font-size: 12px;
+        }
+        
+        h1, h2, h3 {
+            color: #2E8B57;
+        }
+        
+        h1 {
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 32px;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body>
+    <h1>🧪 Enhanced Image Integration Test - Teoria e Lojërave</h1>
+    
+    <div class="test-section">
+        <h2>🎯 Quick Test Summary</h2>
+        <div class="statistics" id="quick-stats">
+            <div class="stat-card">
+                <span class="stat-number" id="total-images">-</span>
+                <div class="stat-label">Total Images Available</div>
+            </div>
+            <div class="stat-card">
+                <span class="stat-number" id="chapters-coverage">-</span>
+                <div class="stat-label">Chapters with Images</div>
+            </div>
+            <div class="stat-card">
+                <span class="stat-number" id="integration-status">-</span>
+                <div class="stat-label">Integration Status</div>
+            </div>
+        </div>
+        
+        <div class="progress-bar">
+            <div class="progress-fill" id="overall-progress" style="width: 0%">0%</div>
+        </div>
+    </div>
+    
+    <div class="test-section">
+        <h2>🔍 Image Accessibility Tests</h2>
+        <p>Testing if images from both folders are accessible and load correctly:</p>
+        
+        <button onclick="testImageAccessibility()">🚀 Test All Image Paths</button>
+        
+        <div id="image-accessibility-results"></div>
+    </div>
+    
+    <div class="test-section">
+        <h2>⚙️ Function Integration Tests</h2>
+        <p>Testing all image integration functions and their compatibility:</p>
+        
+        <button onclick="runAllFunctionTests()">🔧 Run Function Tests</button>
+        <button onclick="testChapterSpecificImages()">📖 Test Chapter-Specific Images</button>
+        <button onclick="testDownloadIntegration()">📥 Test Download Integration</button>
+        
+        <div id="function-test-results"></div>
+    </div>
+    
+    <div class="test-section">
+        <h2>📊 Complete Chapter Coverage Analysis</h2>
+        <p>Comprehensive analysis of image coverage for all 111 chapters:</p>
+        
+        <button onclick="analyzeCoverageComplete()">📈 Analyze All Chapters</button>
+        <button onclick="showMissingImages()">🔍 Find Missing Images</button>
+        <button onclick="validateImagePaths()">✅ Validate All Paths</button>
+        
+        <div id="coverage-analysis-results"></div>
+    </div>
+    
+    <div class="test-section">
+        <h2>🛠️ Integration Actions</h2>
+        <p>Perform integration actions and fixes:</p>
+        
+        <button onclick="performImageIntegration()">🔧 Integrate All Images</button>
+        <button onclick="verifyIntegration()">✅ Verify Integration</button>
+        <button onclick="fixMissingMappings()">🔨 Fix Missing Mappings</button>
+        
+        <div id="integration-actions-results"></div>
+    </div>
+    
+    <script src="script.js"></script>
+    <script src="enhanced-image-integration.js"></script>
+    
+    <script>
+        // Global test state
+        let testResults = {
+            totalImages: 0,
+            chaptersWithImages: 0,
+            totalChapters: 111,
+            integrationStatus: 'Unknown',
+            failedImages: [],
+            missingChapters: []
+        };
+        
+        // Update quick stats
+        function updateQuickStats() {
+            document.getElementById('total-images').textContent = testResults.totalImages;
+            document.getElementById('chapters-coverage').textContent = `${testResults.chaptersWithImages}/${testResults.totalChapters}`;
+            document.getElementById('integration-status').textContent = testResults.integrationStatus;
+            
+            const coverage = (testResults.chaptersWithImages / testResults.totalChapters) * 100;
+            const progressBar = document.getElementById('overall-progress');
+            progressBar.style.width = coverage + '%';
+            progressBar.textContent = coverage.toFixed(1) + '%';
+        }
+        
+        // Test image accessibility
+        function testImageAccessibility() {
+            const results = document.getElementById('image-accessibility-results');
+            results.innerHTML = '<h3>🔍 Testing Image Accessibility...</h3>';
+            
+            // Sample images to test
+            const testImages = [
+                {
+                    name: 'Book Cover (imazhet)',
+                    path: "imazhet/Create an elegant book cover for 'Teoria e Lojërave Nderi dhe Suksesi'. Feature chess pieces on a marble board with golden Islamic geometric patterns. Include luxury cars (Mercedes, BMW) in the background and traditional A.png"
+                },
+                {
+                    name: 'Business Strategy (imazhet)',
+                    path: "imazhet/Create 21st century strategy scene Albanian business leader in modern boardroom with digital strategy displays, global connectivity maps, sustainable business icons, Islamic geometric patterns integrated with modern design.jpg"
+                },
+                {
+                    name: 'Kapitulli 67 (imazhet-kap-51-111)',
+                    path: "imazhet-kap-51-111/Create an inspiring and elegant image for the book chapter titled 'Kapitulli 67'. The image should reflect themes of success, honor, and strategic thinking, incorporating Albanian and Islamic cultural elements, along with.png"
+                },
+                {
+                    name: 'Modern Strategy (imazhet-kap-51-111)',
+                    path: "imazhet-kap-51-111/Create 21st century strategy scene Albanian business leader in modern boardroom with digital strategy displays, global connectivity maps, sustainable business icons, Islamic geometric patterns integrated with modern desi.jpg"
+                },
+                {
+                    name: 'BMW Confident (imazhet-kap-51-111)',
+                    path: "imazhet-kap-51-111/Create confident Albanian businessman making strong eye contact while standing next to BMW 530d, expensive suit, confident posture, Islamic geometric patterns in background, luxury office or upscale location, demonstrating.jpg"
+                }
+            ];
+            
+            let loadedCount = 0;
+            let totalTests = testImages.length;
+            
+            const imageGrid = document.createElement('div');
+            imageGrid.className = 'image-grid';
+            
+            testImages.forEach((testImg, index) => {
+                const imageItem = document.createElement('div');
+                imageItem.className = 'image-item';
+                
+                const img = document.createElement('img');
+                img.src = testImg.path;
+                img.alt = testImg.name;
+                
+                const label = document.createElement('p');
+                label.innerHTML = `<strong>${testImg.name}</strong>`;
+                
+                const status = document.createElement('div');
+                status.id = `status-${index}`;
+                status.innerHTML = '🔄 Loading...';
+                
+                img.onload = () => {
+                    loadedCount++;
+                    status.innerHTML = '<div class="test-result">✅ Loaded Successfully</div>';
+                    updateAccessibilityProgress();
+                };
+                
+                img.onerror = () => {
+                    status.innerHTML = '<div class="test-error">❌ Failed to Load</div>';
+                    testResults.failedImages.push(testImg.name);
+                    updateAccessibilityProgress();
+                };
+                
+                imageItem.appendChild(label);
+                imageItem.appendChild(img);
+                imageItem.appendChild(status);
+                imageGrid.appendChild(imageItem);
+            });
+            
+            results.appendChild(imageGrid);
+            
+            function updateAccessibilityProgress() {
+                const currentTests = loadedCount + testResults.failedImages.length;
+                if (currentTests >= totalTests) {
+                    const summaryDiv = document.createElement('div');
+                    summaryDiv.className = loadedCount === totalTests ? 'test-result' : 'test-warning';
+                    summaryDiv.innerHTML = `
+                        <h4>📊 Accessibility Test Summary:</h4>
+                        <p>✅ Successfully loaded: ${loadedCount}/${totalTests}</p>
+                        <p>❌ Failed to load: ${testResults.failedImages.length}</p>
+                        <p><strong>Success Rate: ${(loadedCount/totalTests*100).toFixed(1)}%</strong></p>
+                    `;
+                    results.appendChild(summaryDiv);
+                }
+            }
+        }
+        
+        // Run all function tests
+        function runAllFunctionTests() {
+            const results = document.getElementById('function-test-results');
+            results.innerHTML = '<h3>⚙️ Running Function Tests...</h3>';
+            
+            const tests = [
+                { name: 'completeImageMap', test: () => typeof completeImageMap !== 'undefined' },
+                { name: 'enhancedChapterImageMap', test: () => typeof enhancedChapterImageMap !== 'undefined' },
+                { name: 'getChapterImages', test: () => typeof getChapterImages === 'function' },
+                { name: 'generateChapterImageGallery', test: () => typeof generateChapterImageGallery === 'function' },
+                { name: 'integrateChapterImages', test: () => typeof integrateChapterImages === 'function' },
+                { name: 'downloadBook', test: () => typeof downloadBook === 'function' },
+                { name: 'generateCompleteBookContent', test: () => typeof generateCompleteBookContent === 'function' }
+            ];
+            
+            let passedTests = 0;
+            
+            tests.forEach(test => {
+                try {
+                    if (test.test()) {
+                        results.innerHTML += `<div class="test-result">✅ ${test.name}: Available</div>`;
+                        passedTests++;
+                    } else {
+                        results.innerHTML += `<div class="test-error">❌ ${test.name}: Not available</div>`;
+                    }
+                } catch (error) {
+                    results.innerHTML += `<div class="test-error">❌ ${test.name}: Error - ${error.message}</div>`;
+                }
+            });
+            
+            // Count available images
+            if (typeof completeImageMap !== 'undefined') {
+                testResults.totalImages = Object.keys(completeImageMap).length;
+                results.innerHTML += `<div class="test-result">📊 Total images in mapping: ${testResults.totalImages}</div>`;
+            }
+            
+            // Test integration status
+            if (passedTests === tests.length) {
+                testResults.integrationStatus = 'Ready';
+                results.innerHTML += '<div class="test-result">🎉 All functions are available and ready!</div>';
+            } else {
+                testResults.integrationStatus = 'Partial';
+                results.innerHTML += '<div class="test-warning">⚠️ Some functions are missing. Integration may be incomplete.</div>';
+            }
+            
+            updateQuickStats();
+        }
+        
+        // Test chapter-specific images
+        function testChapterSpecificImages() {
+            const results = document.getElementById('function-test-results');
+            results.innerHTML += '<h3>📖 Testing Chapter-Specific Images...</h3>';
+            
+            if (typeof getChapterImages !== 'function') {
+                results.innerHTML += '<div class="test-error">❌ getChapterImages function not available</div>';
+                return;
+            }
+            
+            const testChapters = [1, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 91, 92, 99, 111];
+            let chaptersWithImages = 0;
+            
+            testChapters.forEach(chapterNum => {
+                try {
+                    const images = getChapterImages(chapterNum);
+                    if (images && images.length > 0) {
+                        chaptersWithImages++;
+                        results.innerHTML += `<div class="test-result">✅ Chapter ${chapterNum}: ${images.length} image(s) found</div>`;
+                    } else {
+                        results.innerHTML += `<div class="test-warning">⚠️ Chapter ${chapterNum}: No images found</div>`;
+                    }
+                } catch (error) {
+                    results.innerHTML += `<div class="test-error">❌ Chapter ${chapterNum}: Error - ${error.message}</div>`;
+                }
+            });
+            
+            results.innerHTML += `<div class="test-result">📊 Test Summary: ${chaptersWithImages}/${testChapters.length} test chapters have images</div>`;
+        }
+        
+        // Test download integration
+        function testDownloadIntegration() {
+            const results = document.getElementById('function-test-results');
+            results.innerHTML += '<h3>📥 Testing Download Integration...</h3>';
+            
+            if (typeof generateCompleteBookContent !== 'function') {
+                results.innerHTML += '<div class="test-error">❌ generateCompleteBookContent function not available</div>';
+                return;
+            }
+            
+            try {
+                const bookContent = generateCompleteBookContent();
+                if (bookContent && bookContent.length > 1000) {
+                    results.innerHTML += '<div class="test-result">✅ Book content generated successfully</div>';
+                    
+                    // Check for images in download content
+                    const imageMatches = bookContent.match(/<img[^>]*>/g) || [];
+                    const imageCount = imageMatches.length;
+                    
+                    if (imageCount > 0) {
+                        results.innerHTML += `<div class="test-result">✅ Found ${imageCount} images in download content</div>`;
+                    } else {
+                        results.innerHTML += '<div class="test-error">❌ No images found in download content</div>';
+                    }
+                    
+                    // Check for image galleries
+                    const galleryMatches = bookContent.match(/enhanced-chapter-image-gallery|chapter-image-gallery/g) || [];
+                    if (galleryMatches.length > 0) {
+                        results.innerHTML += `<div class="test-result">✅ Found ${galleryMatches.length} image galleries in download content</div>`;
+                    } else {
+                        results.innerHTML += '<div class="test-warning">⚠️ No image galleries found in download content</div>';
+                    }
+                    
+                } else {
+                    results.innerHTML += '<div class="test-error">❌ Book content generation failed or content too short</div>';
+                }
+            } catch (error) {
+                results.innerHTML += `<div class="test-error">❌ Download test error: ${error.message}</div>`;
+            }
+        }
+        
+        // Analyze complete coverage
+        function analyzeCoverageComplete() {
+            const results = document.getElementById('coverage-analysis-results');
+            results.innerHTML = '<h3>📊 Analyzing Complete Chapter Coverage...</h3>';
+            
+            if (typeof getChapterImages !== 'function') {
+                results.innerHTML += '<div class="test-error">❌ getChapterImages function not available</div>';
+                return;
+            }
+            
+            let chaptersWithImages = 0;
+            let chaptersWithoutImages = 0;
+            let chaptersWithErrors = 0;
+            let missingChapters = [];
+            
+            for (let i = 1; i <= 111; i++) {
+                try {
+                    const images = getChapterImages(i);
+                    if (images && images.length > 0) {
+                        chaptersWithImages++;
+                    } else {
+                        chaptersWithoutImages++;
+                        missingChapters.push(i);
+                    }
+                } catch (error) {
+                    chaptersWithErrors++;
+                    missingChapters.push(i);
+                }
+            }
+            
+            testResults.chaptersWithImages = chaptersWithImages;
+            testResults.missingChapters = missingChapters;
+            
+            const coverage = (chaptersWithImages / 111) * 100;
+            
+            const statisticsDiv = document.createElement('div');
+            statisticsDiv.className = 'statistics';
+            statisticsDiv.innerHTML = `
+                <div class="stat-card">
+                    <span class="stat-number">${chaptersWithImages}</span>
+                    <div class="stat-label">Chapters with Images</div>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-number">${chaptersWithoutImages}</span>
+                    <div class="stat-label">Missing Images</div>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-number">${chaptersWithErrors}</span>
+                    <div class="stat-label">Errors</div>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-number">${coverage.toFixed(1)}%</span>
+                    <div class="stat-label">Coverage</div>
+                </div>
+            `;
+            
+            results.appendChild(statisticsDiv);
+            
+            const progressBar = document.createElement('div');
+            progressBar.className = 'progress-bar';
+            progressBar.innerHTML = `<div class="progress-fill" style="width: ${coverage}%">${coverage.toFixed(1)}%</div>`;
+            results.appendChild(progressBar);
+            
+            if (coverage >= 90) {
+                results.innerHTML += '<div class="test-result">🎉 Excellent coverage! Most chapters have images.</div>';
+            } else if (coverage >= 70) {
+                results.innerHTML += '<div class="test-warning">⚠️ Good coverage, but some chapters are missing images.</div>';
+            } else {
+                results.innerHTML += '<div class="test-error">❌ Poor coverage. Many chapters are missing images.</div>';
+            }
+            
+            updateQuickStats();
+        }
+        
+        // Show missing images
+        function showMissingImages() {
+            const results = document.getElementById('coverage-analysis-results');
+            
+            if (testResults.missingChapters.length === 0) {
+                results.innerHTML += '<div class="test-result">✅ No missing chapters found. Run coverage analysis first.</div>';
+                return;
+            }
+            
+            results.innerHTML += '<h4>📋 Chapters Missing Images:</h4>';
+            
+            const chunkedMissing = [];
+            for (let i = 0; i < testResults.missingChapters.length; i += 10) {
+                chunkedMissing.push(testResults.missingChapters.slice(i, i + 10));
+            }
+            
+            chunkedMissing.forEach(chunk => {
+                results.innerHTML += `<div class="test-warning">Chapters: ${chunk.join(', ')}</div>`;
+            });
+        }
+        
+        // Validate image paths
+        function validateImagePaths() {
+            const results = document.getElementById('coverage-analysis-results');
+            results.innerHTML += '<h3>✅ Validating Image Paths...</h3>';
+            
+            if (typeof completeImageMap === 'undefined') {
+                results.innerHTML += '<div class="test-error">❌ completeImageMap not available</div>';
+                return;
+            }
+            
+            const imagePaths = Object.values(completeImageMap);
+            let validPaths = 0;
+            let invalidPaths = 0;
+            
+            const pathChecks = imagePaths.map(path => {
+                return new Promise((resolve) => {
+                    const img = new Image();
+                    img.onload = () => {
+                        validPaths++;
+                        resolve({ path, valid: true });
+                    };
+                    img.onerror = () => {
+                        invalidPaths++;
+                        resolve({ path, valid: false });
+                    };
+                    img.src = path;
+                });
+            });
+            
+            Promise.all(pathChecks).then(results => {
+                const validationResults = document.getElementById('coverage-analysis-results');
+                validationResults.innerHTML += `
+                    <div class="test-result">
+                        <h4>📊 Path Validation Results:</h4>
+                        <p>✅ Valid paths: ${validPaths}</p>
+                        <p>❌ Invalid paths: ${invalidPaths}</p>
+                        <p><strong>Validation rate: ${((validPaths / imagePaths.length) * 100).toFixed(1)}%</strong></p>
+                    </div>
+                `;
+                
+                if (invalidPaths > 0) {
+                    validationResults.innerHTML += '<h5>❌ Invalid paths:</h5>';
+                    results.filter(r => !r.valid).forEach(r => {
+                        validationResults.innerHTML += `<div class="test-error">• ${r.path}</div>`;
+                    });
+                }
+            });
+        }
+        
+        // Perform image integration
+        function performImageIntegration() {
+            const results = document.getElementById('integration-actions-results');
+            results.innerHTML = '<h3>🔧 Performing Image Integration...</h3>';
+            
+            if (typeof integrateChapterImages !== 'function') {
+                results.innerHTML += '<div class="test-error">❌ integrateChapterImages function not available</div>';
+                return;
+            }
+            
+            try {
+                const integrationResult = integrateChapterImages();
+                if (integrationResult) {
+                    results.innerHTML += '<div class="test-result">✅ Image integration completed successfully!</div>';
+                    testResults.integrationStatus = 'Complete';
+                } else {
+                    results.innerHTML += '<div class="test-warning">⚠️ Image integration completed with warnings</div>';
+                    testResults.integrationStatus = 'Partial';
+                }
+            } catch (error) {
+                results.innerHTML += `<div class="test-error">❌ Integration error: ${error.message}</div>`;
+                testResults.integrationStatus = 'Failed';
+            }
+            
+            updateQuickStats();
+        }
+        
+        // Verify integration
+        function verifyIntegration() {
+            const results = document.getElementById('integration-actions-results');
+            results.innerHTML += '<h3>✅ Verifying Integration...</h3>';
+            
+            if (typeof chapters === 'undefined') {
+                results.innerHTML += '<div class="test-error">❌ Chapters data not available</div>';
+                return;
+            }
+            
+            let integratedChapters = 0;
+            let nonIntegratedChapters = 0;
+            
+            for (let i = 1; i <= 111; i++) {
+                if (chapters[i] && chapters[i].content) {
+                    const content = chapters[i].content;
+                    if (content.includes('enhanced-chapter-image-gallery') || 
+                        content.includes('chapter-image-gallery') ||
+                        content.includes('<img')) {
+                        integratedChapters++;
+                    } else {
+                        nonIntegratedChapters++;
+                    }
+                }
+            }
+            
+            results.innerHTML += `
+                <div class="test-result">
+                    <h4>📊 Integration Verification:</h4>
+                    <p>✅ Chapters with integrated images: ${integratedChapters}</p>
+                    <p>⚠️ Chapters without integrated images: ${nonIntegratedChapters}</p>
+                    <p><strong>Integration rate: ${((integratedChapters / 111) * 100).toFixed(1)}%</strong></p>
+                </div>
+            `;
+        }
+        
+        // Fix missing mappings
+        function fixMissingMappings() {
+            const results = document.getElementById('integration-actions-results');
+            results.innerHTML += '<h3>🔨 Fixing Missing Mappings...</h3>';
+            
+            // This would require updating the mappings in the actual script
+            results.innerHTML += '<div class="test-warning">⚠️ This feature requires manual script updates</div>';
+            results.innerHTML += '<div class="test-result">📋 Recommendation: Update enhancedChapterImageMap to include all 111 chapters</div>';
+        }
+        
+        // Auto-run tests on page load
+        window.addEventListener('load', function() {
+            console.log('🧪 Enhanced Image Integration Test loaded');
+            
+            setTimeout(() => {
+                console.log('🚀 Auto-running initial tests...');
+                runAllFunctionTests();
+                
+                setTimeout(() => {
+                    analyzeCoverageComplete();
+                }, 1000);
+            }, 1000);
+        });
+    </script>
+</body>
+</html>

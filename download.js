@@ -1,5 +1,5 @@
 // Simple Download Script for Game Theory Book
-function downloadBook() {
+async function downloadBook() {
     console.log('📚 Starting book download...');
     
     // Check if chapters are loaded
@@ -12,6 +12,18 @@ function downloadBook() {
     if (typeof window.integrateChapterImages === 'function') {
         console.log('🖼️ Integrating images before download...');
         window.integrateChapterImages();
+        
+        // Wait a moment for images to be integrated
+        await new Promise(resolve => setTimeout(resolve, 1000));
+    }
+    
+    // Ensure images are auto-fixed for all chapters
+    if (typeof window.ensureAllImagesIntegrated === 'function') {
+        console.log('🔧 Running image auto-fix for all chapters...');
+        window.ensureAllImagesIntegrated();
+        
+        // Wait a moment for auto-fix to complete
+        await new Promise(resolve => setTimeout(resolve, 1000));
     }
 
     const statusDiv = document.createElement('div');
@@ -166,6 +178,12 @@ function generateCompleteBook() {
             display: block;
         }
         
+        .single-chapter-image img {
+            max-width: 600px;
+            width: 100%;
+            height: auto;
+        }
+        
         .islamic-quote {
             background: linear-gradient(135deg, #fef7e0 0%, #fef3c7 100%);
             padding: 1.5rem;
@@ -295,7 +313,10 @@ function generateAllChapters(totalChapters) {
     for (let i = 1; i <= totalChapters; i++) {
         try {
             const title = getChapterTitle(i);
-            const content = getChapterContent(i);
+            let content = getChapterContent(i);
+            
+            // Process images in content to make them work in standalone HTML
+            content = processImagesForDownload(content);
             
             chaptersHTML += `
     <div class="chapter">
@@ -324,6 +345,26 @@ function generateAllChapters(totalChapters) {
     }
     
     return chaptersHTML;
+}
+
+// Function to process images for standalone HTML download
+function processImagesForDownload(content) {
+    // Replace relative image paths with absolute paths
+    content = content.replace(/src="imazhet\//g, 'src="./imazhet/');
+    content = content.replace(/src="imazhet-kap-51-111\//g, 'src="./imazhet-kap-51-111/');
+    
+    // Add error handling for images
+    content = content.replace(/<img([^>]+)>/g, (match, attributes) => {
+        if (!attributes.includes('onerror=')) {
+            const insertPos = attributes.lastIndexOf('"');
+            if (insertPos !== -1) {
+                return `<img${attributes.slice(0, insertPos)}" onerror="this.style.display='none'; console.warn('Image failed to load:', this.src);">`;
+            }
+        }
+        return match;
+    });
+    
+    return content;
 }
 
 function getChapterTitle(chapterNumber) {
