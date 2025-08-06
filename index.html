@@ -4,11 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Teoria e Lojërave: Nderi dhe Suksesi - Libri i Plotë</title>
-    <meta name="description" content="Libër i plotë 800+ faqesh n                                  <img src="imazhet/Create modern digital business scene Albanian entrepreneur working on laptop, multiple screens showing online business growth, luxury car in garage visible through window, Islamic geometric patterns on wall, golden digital.png" 
-                         alt="Biznesi Dixhital Modern" 
-                         style="width: 100%; height: 250px; object-fit: cover;">  <img src="imazhet/Create business honor visualization Albanian entrepreneur shaking hands in front of growing business charts, luxury office with Islamic calligraphy, trust and integrity symbols, golden success aura. Style professional, tru.png" 
-                         alt="Nderi në Biznes - Sipërmarrës Shqiptar" 
-                         style="width: 100%; height: 250px; object-fit: cover;">qip për teorinë e lojërave me 111 kapituj të ndryshëm metodologjikisht. Çdo kapitull është unik: case studies, akademik, praktik, intervista, narrative, workshop. Fokusim në nder, sukses, pasuri halal, dhe vlera islame.">
+    <meta name="description" content="Libër i plotë 800+ faqesh në shqip për teorinë e lojërave me 111 kapituj të ndryshëm metodologjikisht. Çdo kapitull është unik: case studies, akademik, praktik, intervista, narrative, workshop. Fokusim në nder, sukses, pasuri halal, dhe vlera islame.">
     <meta name="keywords" content="teoria e lojërave, nder, sukses, biznes, Islam, Mercedes, pasuri, investime halal, martesa, networking, milioner, 111 kapituj, metodologji të ndryshme">
     <meta name="author" content="Game Theory Albania">
     
@@ -29,6 +25,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="chapter-improvements.css">
+    <link rel="stylesheet" href="chapter-fixes.css">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
     
     <!-- Google Analytics -->
@@ -408,6 +405,9 @@
     <!-- Load main script -->
     <script src="script-complete.js"></script>
     
+    <!-- Load clean script with fixes -->
+    <script src="script-clean.js"></script>
+    
     <!-- Clean Download Functionality -->
     <script src="download.js"></script>
     
@@ -418,6 +418,27 @@
     <script>
         document.addEventListener('DOMContentLoaded', function() {
             console.log('🚀 DOM loaded, website ready!');
+            
+            // Override showChapter to handle body class and footer
+            const originalShowChapter = window.showChapter;
+            if (originalShowChapter) {
+                window.showChapter = function(chapterNumber) {
+                    document.body.classList.add('reading-chapter');
+                    const footer = document.querySelector('footer');
+                    if (footer) footer.style.display = 'none';
+                    return originalShowChapter(chapterNumber);
+                };
+                
+                const originalGoBackToChapters = window.goBackToChapters;
+                if (originalGoBackToChapters) {
+                    window.goBackToChapters = function() {
+                        document.body.classList.remove('reading-chapter');
+                        const footer = document.querySelector('footer');
+                        if (footer) footer.style.display = 'block';
+                        return originalGoBackToChapters();
+                    };
+                }
+            }
         });
     </script>
     

@@ -1,0 +1,267 @@
+/* Additional CSS fixes for script-clean.js */
+
+/* Ensure book content appears above footer */
+#book-content {
+    position: relative !important;
+    z-index: 100 !important;
+    background-color: #ffffff !important;
+    min-height: 100vh !important;
+    padding: 20px !important;
+    margin-bottom: 50px !important;
+}
+
+/* Hide footer when reading chapters */
+body.reading-chapter footer {
+    display: none !important;
+}
+
+/* Chapter image styling */
+.chapter-image {
+    text-align: center;
+    margin: 30px 0;
+    padding: 20px;
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+.chapter-image img {
+    width: 100% !important;
+    max-width: 600px !important;
+    height: auto !important;
+    border-radius: 10px !important;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.15) !important;
+    transition: transform 0.3s ease !important;
+}
+
+.chapter-image img:hover {
+    transform: scale(1.02);
+}
+
+/* Enhanced content styling */
+.content-enhanced-notice {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 15px 20px;
+    border-radius: 10px;
+    margin: 20px 0;
+    font-weight: 500;
+    box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
+}
+
+/* Islamic quote styling */
+.islamic-quote {
+    background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+    color: white;
+    padding: 25px;
+    border-radius: 15px;
+    margin: 30px 0;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.8;
+    box-shadow: 0 8px 25px rgba(240, 147, 251, 0.3);
+    border-left: 5px solid #fff;
+}
+
+/* Highlight box styling */
+.highlight-box {
+    background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
+    padding: 25px;
+    border-radius: 15px;
+    margin: 25px 0;
+    border-left: 5px solid #28a745;
+    box-shadow: 0 8px 25px rgba(168, 237, 234, 0.3);
+}
+
+.highlight-box h4 {
+    color: #2c3e50;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+.highlight-box ul {
+    list-style: none;
+    padding: 0;
+}
+
+.highlight-box li {
+    padding: 8px 0;
+    border-bottom: 1px solid rgba(255,255,255,0.3);
+    font-size: 16px;
+}
+
+.highlight-box li:last-child {
+    border-bottom: none;
+}
+
+/* Chapter header improvements */
+.chapter-header {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 30px;
+    border-radius: 15px;
+    margin-bottom: 30px;
+    box-shadow: 0 10px 30px rgba(102, 126, 234, 0.3);
+}
+
+.chapter-header .back-btn {
+    background: rgba(255,255,255,0.2);
+    color: white;
+    border: 2px solid white;
+    padding: 10px 20px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 16px;
+}
+
+.chapter-header .back-btn:hover {
+    background: white;
+    color: #667eea;
+    transform: translateY(-2px);
+}
+
+.chapter-actions button {
+    background: rgba(255,255,255,0.2);
+    color: white;
+    border: 2px solid white;
+    padding: 10px 20px;
+    border-radius: 25px;
+    cursor: pointer;
+    margin: 0 5px;
+    transition: all 0.3s ease;
+    font-size: 14px;
+}
+
+.chapter-actions button:hover {
+    background: white;
+    color: #667eea;
+    transform: translateY(-2px);
+}
+
+/* Chapter content improvements */
+.chapter-content {
+    background: white;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    line-height: 1.8;
+    font-size: 16px;
+}
+
+.chapter-content h2 {
+    color: #2c3e50;
+    font-size: 28px;
+    margin-bottom: 25px;
+    border-bottom: 3px solid #667eea;
+    padding-bottom: 10px;
+}
+
+.chapter-content h3 {
+    color: #34495e;
+    font-size: 24px;
+    margin: 30px 0 20px 0;
+}
+
+.chapter-content p {
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+/* Key points styling */
+.key-points {
+    background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);
+    padding: 25px;
+    border-radius: 15px;
+    margin: 25px 0;
+    box-shadow: 0 8px 25px rgba(255, 236, 210, 0.4);
+}
+
+.key-points h3 {
+    color: #d35400;
+    margin-bottom: 15px;
+}
+
+.key-points ul {
+    list-style: none;
+    padding: 0;
+}
+
+.key-points li {
+    padding: 10px 0;
+    border-bottom: 1px solid rgba(255,255,255,0.3);
+    font-size: 16px;
+}
+
+.key-points li:last-child {
+    border-bottom: none;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    #book-content {
+        padding: 10px !important;
+    }
+    
+    .chapter-content {
+        padding: 20px;
+    }
+    
+    .chapter-image {
+        padding: 10px;
+    }
+    
+    .chapter-header {
+        padding: 20px;
+    }
+    
+    .islamic-quote,
+    .highlight-box,
+    .key-points {
+        padding: 15px;
+        margin: 15px 0;
+    }
+}
+
+/* Animation for smooth transitions */
+.chapter-content {
+    animation: fadeInUp 0.6s ease-out;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Print styles */
+@media print {
+    #book-content {
+        background: white !important;
+        box-shadow: none !important;
+        padding: 0 !important;
+    }
+    
+    .chapter-header .back-btn,
+    .chapter-actions {
+        display: none !important;
+    }
+    
+    .chapter-image img {
+        max-width: 100% !important;
+        page-break-inside: avoid;
+    }
+    
+    .islamic-quote,
+    .highlight-box,
+    .key-points {
+        page-break-inside: avoid;
+        box-shadow: none !important;
+        border: 1px solid #ccc;
+    }
+}
