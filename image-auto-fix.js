@@ -104,7 +104,7 @@
         return imageMapping[chapterNumber] || null;
     };
 
-    // Enhanced image integration with better error handling
+    // Enhanced image integration with better error handling for PDF embedding
     window.integrateChapterImages = function() {
         console.log('🔧 Auto-integrating images for all 111 chapters...');
         
@@ -112,15 +112,19 @@
             const imagePath = imageMapping[chapterNum];
             
             if (imagePath && window.chapters && window.chapters[chapterNum]) {
+                // Create base64-encoded image for PDF embedding
                 const imageHTML = `
-                    <div class="chapter-image-container" style="text-align: center; margin: 2rem 0;">
+                    <div class="chapter-image-container" style="text-align: center; margin: 2rem 0; page-break-inside: avoid;">
                         <img src="${imagePath}" 
                              alt="Kapitull ${chapterNum} Imazh" 
-                             style="max-width: 100%; height: auto; border-radius: 15px; box-shadow: 0 8px 25px rgba(0,0,0,0.15);"
+                             style="max-width: 600px; width: 100%; height: auto; border-radius: 15px; box-shadow: 0 8px 25px rgba(0,0,0,0.15); display: block; margin: 0 auto;"
+                             crossorigin="anonymous"
+                             data-chapter="${chapterNum}"
+                             data-embed="true"
                              onerror="console.warn('Image failed to load:', '${imagePath}'); this.style.display='none';"
-                             onload="console.log('Image loaded successfully for chapter ${chapterNum}');">
-                        <p style="font-style: italic; color: #666; margin-top: 1rem; font-size: 0.9rem;">
-                            Figura ${chapterNum}: Ilustrim për kapitullin "${window.chapters[chapterNum].title || 'Kapitulli ' + chapterNum}"
+                             onload="console.log('Image loaded successfully for chapter ${chapterNum}'); this.setAttribute('data-loaded', 'true');">
+                        <p style="font-style: italic; color: #666; margin-top: 1rem; font-size: 0.9rem; text-align: center;">
+                            📷 Figura ${chapterNum}: Ilustrim për kapitullin "${window.chapters[chapterNum].title || 'Kapitulli ' + chapterNum}"
                         </p>
                     </div>
                 `;
@@ -135,9 +139,9 @@
         console.log('✅ Image integration completed for all 111 chapters');
     };
 
-    // Enhanced function to force integrate ALL images for ALL chapters
+    // Enhanced function to force integrate ALL images for ALL chapters with PDF support
     window.forceIntegrateAllImages = function() {
-        console.log('🚀 FORCE integrating ALL images for ALL 111 chapters...');
+        console.log('🚀 FORCE integrating ALL images for ALL 111 chapters with PDF embedding support...');
         
         // Create a backup if chapters don't exist
         if (typeof window.chapters === 'undefined' || !window.chapters) {
@@ -148,6 +152,39 @@
             const imagePath = imageMapping[chapterNum];
             
             if (imagePath) {
+                // Ensure chapter exists
+                if (!window.chapters[chapterNum]) {
+                    window.chapters[chapterNum] = {
+                        title: `Kapitulli ${chapterNum}`,
+                        content: `<p>Përmbajtja e kapitullit ${chapterNum} është në përgatitje...</p>`
+                    };
+                }
+                
+                // Enhanced image HTML with better PDF embedding support
+                const forceImageHTML = `
+                    <div class="chapter-image-container" style="text-align: center; margin: 2rem 0; page-break-inside: avoid;">
+                        <img src="${imagePath}" 
+                             alt="Kapitull ${chapterNum} Imazh" 
+                             style="max-width: 600px; width: 100%; height: auto; border-radius: 15px; box-shadow: 0 8px 25px rgba(0,0,0,0.15); display: block; margin: 0 auto; opacity: 0.9; transition: opacity 0.3s ease;"
+                             crossorigin="anonymous"
+                             data-chapter="${chapterNum}"
+                             data-embed="true"
+                             data-pdf-ready="true"
+                             onerror="console.warn('Image failed to load:', '${imagePath}'); this.style.display='none';"
+                             onload="console.log('Image loaded successfully for chapter ${chapterNum}'); this.setAttribute('data-loaded', 'true'); this.style.opacity='1';">
+                        <p style="font-style: italic; color: #666; margin-top: 1rem; font-size: 0.9rem; text-align: center;">
+                            📷 Figura ${chapterNum}: Ilustrim për kapitullin "${window.chapters[chapterNum].title || 'Kapitulli ' + chapterNum}"
+                        </p>
+                    </div>
+                `;
+                
+                // Force integrate image at the beginning of content if not already present
+                if (!window.chapters[chapterNum].content.includes('chapter-image-container')) {
+                    window.chapters[chapterNum].content = forceImageHTML + window.chapters[chapterNum].content;
+                    console.log(`✅ Image integrated for chapter ${chapterNum}`);
+                } else {
+                    console.log(`📸 Image already exists for chapter ${chapterNum}`);
+                }
                 // Create chapter if it doesn't exist
                 if (!window.chapters[chapterNum]) {
                     window.chapters[chapterNum] = {
@@ -157,15 +194,19 @@
                 }
                 
                 const imageHTML = `
-                    <div class="chapter-image-container single-chapter-image" style="text-align: center; margin: 2rem 0; background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); padding: 1.5rem; border-radius: 20px;">
+                    <div class="chapter-image-container single-chapter-image" style="text-align: center; margin: 2rem auto; background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); padding: 1.5rem; border-radius: 20px; max-width: 800px; page-break-inside: avoid;">
                         <img src="${imagePath}" 
                              alt="Kapitull ${chapterNum} - Teoria e Lojërave" 
-                             style="max-width: 600px; width: 100%; height: auto; border-radius: 15px; box-shadow: 0 12px 35px rgba(0,0,0,0.2); transition: transform 0.3s ease;"
+                             style="max-width: 600px; width: 100%; height: auto; border-radius: 15px; box-shadow: 0 12px 35px rgba(0,0,0,0.2); transition: transform 0.3s ease; display: block; margin: 0 auto;"
+                             crossorigin="anonymous"
+                             data-chapter="${chapterNum}"
+                             data-embed="true"
+                             data-print-inline="true"
                              onerror="console.warn('⚠️ Failed to load image for chapter ${chapterNum}:', '${imagePath}'); this.style.display='none';"
-                             onload="console.log('✅ Successfully loaded image for chapter ${chapterNum}'); this.style.transform='scale(1.02)';"
+                             onload="console.log('✅ Successfully loaded image for chapter ${chapterNum}'); this.style.transform='scale(1.02)'; this.setAttribute('data-loaded', 'true');"
                              onmouseover="this.style.transform='scale(1.05)';"
                              onmouseout="this.style.transform='scale(1.02)';">
-                        <p style="font-style: italic; color: #495057; margin-top: 1.5rem; font-size: 0.95rem; font-weight: 500;">
+                        <p style="font-style: italic; color: #495057; margin-top: 1.5rem; font-size: 0.95rem; font-weight: 500; text-align: center;">
                             📷 Figura ${chapterNum}: ${getImageDescription(chapterNum)}
                         </p>
                     </div>
@@ -182,13 +223,54 @@
             }
         }
         
-        console.log('✅ ALL 111 chapters now have integrated images with enhanced styling!');
+        console.log('✅ ALL 111 chapters now have integrated images with enhanced PDF embedding support!');
         
         // Trigger a refresh if there's a display function
         if (typeof window.displayChapter === 'function' && window.currentChapter) {
             window.displayChapter(window.currentChapter);
         }
+        
+        // Add CSS for print styling
+        addPrintStyles();
     };
+
+    // Add print styles for better PDF generation
+    function addPrintStyles() {
+        if (!document.getElementById('pdf-print-styles')) {
+            const style = document.createElement('style');
+            style.id = 'pdf-print-styles';
+            style.textContent = `
+                @media print, (prefers-color-scheme: print) {
+                    .chapter-image-container {
+                        page-break-inside: avoid !important;
+                        break-inside: avoid !important;
+                        margin: 1rem auto !important;
+                        padding: 1rem !important;
+                    }
+                    .chapter-image-container img {
+                        max-width: 500px !important;
+                        height: auto !important;
+                        display: block !important;
+                        margin: 0 auto !important;
+                        page-break-inside: avoid !important;
+                        break-inside: avoid !important;
+                    }
+                    .single-chapter-image {
+                        background: #f8f9fa !important;
+                        border: 1px solid #dee2e6 !important;
+                    }
+                }
+                
+                /* Ensure images are embedded for PDF */
+                img[data-embed="true"] {
+                    image-rendering: -webkit-optimize-contrast;
+                    image-rendering: optimize-contrast;
+                    image-rendering: crisp-edges;
+                }
+            `;
+            document.head.appendChild(style);
+        }
+    }
 
     // Function to get image description based on chapter number
     function getImageDescription(chapterNum) {

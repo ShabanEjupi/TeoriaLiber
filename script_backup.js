@@ -4895,353 +4895,44 @@ def generate_counter_narrative(serbian_text):
     87: {
         title: "Shëndeti Mendor dhe Fizik: Optimizimi Total",
         content: `
-        <h2>Kapitulli 87: 💪 Trupi dhe Mendja si Një Sistem i Integruar</h2>
+        <h2>Kapitulli 87: Trupi dhe Mendja si Një Sistem</h2>
         
-        <div class="content-enhanced-notice">
-            ✨ 📸 Kjo foto përdoret edhe tek Kapitulli 34 - Shëndeti dhe Wellness, sepse të dyja trajtojnë optimizimin e performancës njerëzore.
-        </div>
-
-        <h3>🏃‍♂️ Performanca Maksimale Njerëzore: Shkenca dhe Praktika</h3>
+        <h3>🏃‍♂️ Performanca Maksimale Njerëzore</h3>
         
-        <p>Suksesi në biznes dhe jetë kërkon një trup dhe mendje të fortë. Kërkimet moderne tregojnë se produktiviteti dhe kreativiteti janë drejtpërdrejt të lidhura me shëndetin fizik dhe mendor. Një CEO i sëmurë nuk mund të marrë vendime optimale, ashtu si një sportist i lodhur nuk mund të performojë në nivel maksimal.</p>
-
-        <div class="islamic-quote">
-            "إِنَّ لِجَسَدِكَ عَلَيْكَ حَقًّا"
-            <br><br>
-            "Me të vërtetë trupi juaj ka të drejtë mbi ju." - Hadith i Bukharit
-        </div>
-
-        <h3>🏗️ Shtyllat e Shëndetit Optimal</h3>
+        <p>Suksesi në biznes dhe jetë kërkon një trup dhe mendje të fortë. Strategjitë e optimizimit total të performancës njerëzore.</p>
 
         <div class="highlight-box">
-            <h4>💪 Kornizat e Performancës Fizike:</h4>
+            <h4>💪 Shtyllat e Shëndetit Optimal:</h4>
             <ul>
-                <li>🥗 <strong>Ushqyimi Strategjik:</strong> Makronutrientët si karburant për trurin dhe muskujt</li>
-                <li>🏋️ <strong>Stërvitja Funksionale:</strong> Forcë praktike për jetën dhe punën</li>
-                <li>😴 <strong>Gjumi i Cilësisë:</strong> 7-9 orë rikuperim optimal për performancë maksimale</li>
-                <li>🧘 <strong>Meditimi dhe Lutja:</strong> Qetësia mendore dhe lidhja shpirtërore</li>
-                <li>🤝 <strong>Marrëdhëniet Sociale:</strong> Mbështetja emocionale dhe networking i shëndetshëm</li>
-                <li>💧 <strong>Hidratimi Optimal:</strong> 2.5-3.5 litra ujë në ditë për funksion optimal</li>
-                <li>🌞 <strong>Ekspozimi ndaj Diellit:</strong> Vitamina D dhe ciklat circadiane</li>
-                <li>🚭 <strong>Eliminimi i Toksinavve:</strong> Zero duhanpirje, alkool i limituar</li>
+                <li><strong>Ushqyimi Strategjik:</strong> Ushqimi si karburant</li>
+                <li><strong>Stërvitja Funksionale:</strong> Fuqia praktike</li>
+                <li><strong>Gjumi i Cilësisë:</strong> Rikuperimi optimal</li>
+                <li><strong>Meditimi dhe Lutja:</strong> Qetësia mendore</li>
+                <li><strong>Marrëdhëniet Sociale:</strong> Mbështetja emocionale</li>
             </ul>
         </div>
-
-        <h3>🧠 Neuroskencat e Performancës Mendore</h3>
-        
-        <p>Trurit tonë i duhen kushte optimale për të funksionuar në nivelin më të lartë. Studimet e fundit në neuroshkenca tregojnë se mundemi të "hackim" trurin tonë për performancë më të mirë.</p>
-
-        <div class="highlight-box">
-            <h4>🎯 Teknikat e Optimizimit Mendor:</h4>
-            <ul>
-                <li>🧪 <strong>Nootropics Natyralë:</strong> Kafeinë + L-Theanine për fokus</li>
-                <li>❄️ <strong>Cold Therapy:</strong> Dush të ftohta për alert-ness</li>
-                <li>� <strong>Heat Therapy:</strong> Sauna për detoksifikim</li>
-                <li>🎵 <strong>Binaural Beats:</strong> Frekuenca për fokus dhe kreativitet</li>
-                <li>📚 <strong>Continuous Learning:</strong> Mbajtja e trurit të ri dhe fleksibël</li>
-                <li>🎯 <strong>Meditation Apps:</strong> 10-20 minuta meditim në ditë</li>
-                <li>📝 <strong>Journaling:</strong> Reflektim dhe planifikim i qartë</li>
-                <li>🎨 <strong>Creative Pursuits:</strong> Arte dhe muzikë për stimulim</li>
-            </ul>
-        </div>
-
-        <h3>📊 Matja dhe Monitorimi i Progresit</h3>
-        
-        <p>Ajo që nuk matet, nuk mund të përmirësohet. Teknologjia moderne na ofron mjete të shumta për të monitoruar shëndetin dhe performancën.</p>
-
-        <div class="highlight-box">
-            <h4>📱 Mjetet e Monitorimit:</h4>
-            <ul>
-                <li>⌚ <strong>Smartwatch/Fitness Tracker:</strong> Zemra, gjumi, aktiviteti</li>
-                <li>📏 <strong>Body Composition Scale:</strong> Yndyra, muskuj, ujë</li>
-                <li>🩸 <strong>Blood Tests (çdo 6 muaj):</strong> Vitamina, hormonet, mineralet</li>
-                <li>💪 <strong>Strength Tests:</strong> Push-ups, planks, squats</li>
-                <li>🏃 <strong>Cardio Tests:</strong> VO2 max, heart rate recovery</li>
-                <li>🧠 <strong>Cognitive Tests:</strong> Memorie, fokus, shpejtësi procesimi</li>
-                <li>😌 <strong>Stress Monitoring:</strong> HRV (Heart Rate Variability)</li>
-                <li>📱 <strong>Mood Tracking:</strong> Aplikacione për emocionet</li>
-            </ul>
-        </div>
-
-        <h3>🍽️ Ushqyimi si Medikament</h3>
-        
-        <p>Hipokrati e ka thënë: "Le të jetë ushqimi medicina jote dhe medicina ushqimi yt." Në Islam, ushqyimi i shëndetshëm është përgjegjësi dhe dhuratë nga Allahu.</p>
-
-        <div class="highlight-box">
-            <h4>🥗 Plani Ushqimor për Performancë:</h4>
-            <ul>
-                <li>🌅 <strong>Mëngjesi (6:00-8:00):</strong> Proteine + yndyra të shëndetshme + fibra</li>
-                <li>☀️ <strong>Snack i Mesditës (10:00-11:00):</strong> Fruta + arra</li>
-                <li>🍽️ <strong>Dreka (12:00-14:00):</strong> Perime + proteina + karbohidrate komplekse</li>
-                <li>🥤 <strong>Pre-Workout (15:00-16:00):</strong> Kafeinë + hidrate</li>
-                <li>🌆 <strong>Darke (18:00-20:00):</strong> Proteina + perime + yndyra</li>
-                <li>🚫 <strong>3 orë para gjumit:</strong> Zero ushqim për gjum optimal</li>
-            </ul>
-        </div>
-
-        <h3>🏃‍♂️ Protokolli i Stërvitjes për CEO dhe Ndërmarrës</h3>
-        
-        <p>Stërvitja nuk është vetëm për sportistët. CEOs më të suksesshëm botërorë kanë rutina rigoroze stërvitjeje sepse e dinë se ajo i bën liderë më të mirë.</p>
-
-        <div class="highlight-box">
-            <h4>💪 Plani Javor i Stërvitjes (6 ditë/javë):</h4>
-            <ul>
-                <li>🏋️ <strong>E Hënë - Upper Body Strength:</strong> 45 min</li>
-                <li>🏃 <strong>E Martë - Cardio + Core:</strong> 30 min</li>
-                <li>🦵 <strong>E Mërkurë - Lower Body Strength:</strong> 45 min</li>
-                <li>🤸 <strong>E Enjte - Mobility + Yoga:</strong> 30 min</li>
-                <li>💪 <strong>E Premte - Full Body Circuit:</strong> 40 min</li>
-                <li>🚴 <strong>E Shtunë - Outdoor Activity:</strong> 60 min (hiking, biking, swimming)</li>
-                <li>😌 <strong>E Diel - Recovery:</strong> Shëtitje e lehta + stretching</li>
-            </ul>
-        </div>
-
-        <h3>😴 Gjumi: Armë Sekrete e Liderëve</h3>
-        
-        <p>Gjumi i mirë është investimi më i mirë që mund të bëni për suksesin tuaj. 7-9 orë gjum cilësor rrisin produktivitetin me 25-40%.</p>
-
-        <div class="highlight-box">
-            <h4>🌙 Optimizimi i Gjumit:</h4>
-            <ul>
-                <li>🕘 <strong>Sleep Schedule:</strong> Në shtrat dhe zgjim në të njëjtën kohë</li>
-                <li>📱 <strong>Digital Sunset:</strong> Zero ekrane 2 orë para gjumit</li>
-                <li>🌡️ <strong>Room Temperature:</strong> 18-20°C për gjum optimal</li>
-                <li>🔇 <strong>Complete Darkness:</strong> Blackout curtains ose sleep mask</li>
-                <li>📖 <strong>Evening Routine:</strong> Lexim, meditim, ose lutje</li>
-                <li>☕ <strong>Caffeine Cutoff:</strong> Zero kafeinë pas orës 14:00</li>
-                <li>🛏️ <strong>Quality Mattress:</strong> Investim në shtrat të mirë</li>
-                <li>🎧 <strong>White Noise:</strong> App për zhurmë të bardhë</li>
-            </ul>
-        </div>
-
-        <h3>🧘‍♂️ Shëndeti Mendor: Forca e Pandashme</h3>
-        
-        <p>Shëndeti mendor është thelbësor për suksesin afatgjatë. Stresi kronik është armiku #1 i performancës dhe kreativitetit.</p>
-
-        <div class="highlight-box">
-            <h4>🎯 Strategjitë e Menaxhimit të Stresit:</h4>
-            <ul>
-                <li>🧘 <strong>Daily Meditation:</strong> 10-20 minuta çdo mëngjes</li>
-                <li>🕌 <strong>Regular Prayer:</strong> 5 herë në ditë për qetësi shpirtërore</li>
-                <li>📱 <strong>Digital Detox:</strong> 1 ditë në javë pa media sociale</li>
-                <li>🌿 <strong>Nature Therapy:</strong> Kohë në natyrë për rikuperim</li>
-                <li>🎨 <strong>Creative Outlets:</strong> Hobi kreative për relaksim</li>
-                <li>👥 <strong>Social Support:</strong> Kohë cilësore me familje dhe miq</li>
-                <li>📚 <strong>Continuous Learning:</strong> Lexim për rritje personale</li>
-                <li>🎵 <strong>Music Therapy:</strong> Muzikë për ndryshim të humorit</li>
-            </ul>
-        </div>
-
-        <h3>📈 ROI i Investimit në Shëndet</h3>
-        
-        <p>Çdo dollar që investoni në shëndetin tuaj ka kthim 3-8 herë më të madh në produktivitet, kreativitet dhe lumturi.</p>
-
-        <div class="highlight-box">
-            <h4>💰 Kostoja vs Përfitimi:</h4>
-            <ul>
-                <li>🏋️ <strong>Gym Membership (€50/muaj):</strong> +25% produktivitet = +€500 fitim</li>
-                <li>🥗 <strong>Ushqim Organic (€100/muaj):</strong> -50% ditë sëmundjeje = +€800 kursim</li>
-                <li>😴 <strong>Mattress i Mirë (€1000 një herë):</strong> +2 orë produktivitet/ditë</li>
-                <li>🧘 <strong>Meditation App (€10/muaj):</strong> -30% stres = vendime më të mira</li>
-                <li>⌚ <strong>Smartwatch (€300 një herë):</strong> Monitorim i vazhdueshëm</li>
-            </ul>
-        </div>
-
-        <p style="text-align: center; margin-top: 30px; font-size: 1.2em; color: #2E8B57;">
-            <strong>💎 Trupi juaj është tempulli i shpirtit tuaj. Kujdesuni për të si për aset-in më të çmuar që keni! 🏆</strong>
-        </p>
         `
     },
     
     88: {
         title: "Komunikimi Strategjik: Bindja dhe Ndikimi",
         content: `
-        <h2>Kapitulli 88: 🗣️ Mjeshtëria e Komunikimit dhe Artit të Bindjes</h2>
+        <h2>Kapitulli 88: Mjeshtëria e Komunikimit</h2>
         
-        <div class="content-enhanced-notice">
-            ✨ 📸 Kjo foto përdoret edhe tek Kapitulli 19 - Komunikimi Efektiv, sepse të dyja trajtojnë teknikat e komunikimit profesional.
-        </div>
-
-        <h3>🎯 Fuqia e Fjalës dhe Prezencës në Epokën Dixhitale</h3>
+        <h3>🗣️ Fuqia e Fjalës dhe Prezencës</h3>
         
-        <p>Komunikimi efektiv është super-fuqia që ndah liderët nga ndjekësit, ndërmarrësit e suksesshëm nga të dështuarit, dhe njerëzit ndikues nga ata që thjesht flasin. Në botën moderne, ku vëmendja është valuta më e shtrenjtë, aftësia për të komunikuar me qartësi, bindje dhe vlerë është thelbësore për suksesin në çdo fushë.</p>
-
-        <div class="islamic-quote">
-            "وَقُولُوا لِلنَّاسِ حُسْنًا"
-            <br><br>
-            "Dhe u flisni njerëzve bukur." - Kurani, 2:83
-        </div>
-
-        <h3>🧠 Shkenca e Bindjes: Principet e Cialdini-t</h3>
-        
-        <p>Robert Cialdini ka identifikuar 7 principet universale të bindjes që funksionojnë në çdo kulturë dhe kontekst. Këto principe janë bazuar në psikologjinë njerëzore dhe mund të përdoren etikisht për sukses në biznes dhe jetë.</p>
+        <p>Komunikimi efektiv është thelbësor për suksesin në çdo fushë. Teknikat e avancuara të bindjes dhe ndikimit.</p>
 
         <div class="highlight-box">
-            <h4>🎯 7 Principet e Bindjes për Suksesin Kosovar:</h4>
+            <h4>🎯 Elementët e Komunikimit të Fuqishëm:</h4>
             <ul>
-                <li>🤝 <strong>Reciprocity (Reciprociteti):</strong> Jepni vlerë para se të kërkoni diçka</li>
-                <li>📈 <strong>Commitment (Angazhimi):</strong> Njerëzit janë konsistentë me zgjedhjet e tyre</li>
-                <li>👥 <strong>Social Proof (Dëshmia Sociale):</strong> "Njerëzit e tjerë e bëjnë këtë"</li>
-                <li>❤️ <strong>Liking (Pëlqimi):</strong> Ne bëjmë biznes me njerëzit që i pëlqejmë</li>
-                <li>👑 <strong>Authority (Autoriteti):</strong> Ekspertiza dhe kredibiliteti ndikojnë</li>
-                <li>⏰ <strong>Scarcity (Rrallësia):</strong> Gjërat e rralla janë më të çmueshme</li>
-                <li>🎯 <strong>Unity (Uniteti):</strong> "Ne jemi të njëjtë" - grupi dhe identiteti</li>
+                <li><strong>Active Listening:</strong> Dëgjimi me qëllim</li>
+                <li><strong>Body Language:</strong> Komunikimi jo-verbal</li>
+                <li><strong>Storytelling:</strong> Fuqia e rrëfimit</li>
+                <li><strong>Emotional Intelligence:</strong> Leximi i emocioneve</li>
+                <li><strong>Negotiation Skills:</strong> Win-win solutions</li>
             </ul>
         </div>
-
-        <h3>📱 Komunikimi Dixhital vs Personal</h3>
-        
-        <p>Në epokën e Zoom, emails, dhe media sociale, komunikimi ka evoluar. Megjithatë, principet bazë mbeten të njëjta - gjithçka është në adaptim dhe aplikim.</p>
-
-        <div class="highlight-box">
-            <h4>💻 Matrixi i Komunikimit Modern:</h4>
-            <ul>
-                <li>👤 <strong>Face-to-Face (Personal):</strong> Ndikimi më i madh, por i limituar në numër</li>
-                <li>📹 <strong>Video Calls:</strong> 85% e efektivitetit personal, scalable globalisht</li>
-                <li>📞 <strong>Phone/Audio:</strong> Fokus në zë dhe ton, ideale për negociata</li>
-                <li>✉️ <strong>Email Professional:</strong> I shkruar, i dokumentuar, ideal për pasjen kontraktore</li>
-                <li>💬 <strong>Instant Messaging:</strong> I shpejtë por informal, për koordinim</li>
-                <li>📱 <strong>Social Media:</strong> Reach i gjerë, ndërtim i markës personale</li>
-                <li>🎥 <strong>Video Content:</strong> Storytelling visual, build authority</li>
-                <li>🎤 <strong>Podcasts/Webinars:</strong> Deep content, thought leadership</li>
-            </ul>
-        </div>
-
-        <h3>🎭 Body Language: Komunikimi pa Fjalë</h3>
-        
-        <p>Studimet tregojnë se 55% e komunikimit është body language, 38% ton i zërit, dhe vetëm 7% fjalët. Kjo do të thotë se si e thoni është më e rëndësishme se çfarë thoni.</p>
-
-        <div class="highlight-box">
-            <h4>💪 Elementi kyç të Body Language-it Fitues:</h4>
-            <ul>
-                <li>👁️ <strong>Eye Contact:</strong> 60-70% kontakt për besim dhe autoritet</li>
-                <li>🤲 <strong>Gestikulimi:</strong> Duart e hapura tregojnë sinqeritet</li>
-                <li>📏 <strong>Posture:</strong> Shpina e drejtë = konfidencë dhe respect</li>
-                <li>😊 <strong>Facial Expressions:</strong> Buzëqeshja e vërtetë aktivizon mirror neurons</li>
-                <li>🚶 <strong>Movement:</strong> Lëvizje të kontrolluara dhe me qëllim</li>
-                <li>👔 <strong>Dress Code:</strong> Veshja e përshtatshme për situatën</li>
-                <li>🔇 <strong>Personal Space:</strong> Respektimi i zonës së rehatisë</li>
-                <li>🎯 <strong>Mirroring:</strong> Kopjimi i diskret i body language-it të tjetrit</li>
-            </ul>
-        </div>
-
-        <h3>🎨 Storytelling: Arti i Rrëfimit që Bindet</h3>
-        
-        <p>Njerëzit harrojnë faktet, por kurrë nuk harrojnë historitë e mira. Steve Jobs, Elon Musk, dhe Oprah Winfrey janë mjeshtër të storytelling-ut. Secili kosovar ka histori për të treguar!</p>
-
-        <div class="highlight-box">
-            <h4>📚 Formula e Historisë që Bindet (STORY Framework):</h4>
-            <ul>
-                <li>🎯 <strong>S - Setup:</strong> Konteksti dhe përcaktimi i skenës</li>
-                <li>⚡ <strong>T - Tension:</strong> Konflikti ose problemi që duhet zgjidhur</li>
-                <li>🎭 <strong>O - Options:</strong> Zgjedhjet dhe dilemmat e mundshme</li>
-                <li>🏆 <strong>R - Resolution:</strong> Si u zgjidh problemi</li>
-                <li>📈 <strong>Y - Yield:</strong> Mësimi dhe vlera që merret</li>
-            </ul>
-        </div>
-
-        <h3>🎯 Teknikat e Negocimit Fitues për Kosovarët</h3>
-        
-        <p>Kosovarët kanë traditë të fortë tregtie, dhe negocimi është në ADN-në tonë. Teknikat moderne e bëjnë këtë super-fuqi akoma më të fuqishme.</p>
-
-        <div class="highlight-box">
-            <h4>🤝 Strategjitë e Negocimit Win-Win:</h4>
-            <ul>
-                <li>🔍 <strong>Preparation:</strong> Hulumtimi i plotë i palës tjetër</li>
-                <li>🎯 <strong>BATNA:</strong> Best Alternative to Negotiated Agreement</li>
-                <li>👂 <strong>Active Listening:</strong> Kuptimi i vërtetë i nevojave të tjetrit</li>
-                <li>❓ <strong>Open-Ended Questions:</strong> "Si mendoni se...?" "Çfarë do të dohej...?"</li>
-                <li>⏸️ <strong>Strategic Silence:</strong> Heshtja që flet më fort se fjalët</li>
-                <li>🔄 <strong>Reframing:</strong> Rishikimi i problemit nga këndvështrime të reja</li>
-                <li>📊 <strong>Anchoring:</strong> Caktimi i pikës së parë të referencës</li>
-                <li>🎁 <strong>Concession Strategy:</strong> Dhënia strategjike për marrje më të madhe</li>
-            </ul>
-        </div>
-
-        <h3>📈 Emotional Intelligence në Komunikim</h3>
-        
-        <p>IQ ju mund t'ju sjellë në dhomë, por EQ ju bën lider në atë dhomë. Emotional Intelligence është aftësia për të kuptuar dhe menaxhuar emocionet tuaja dhe të të tjerëve.</p>
-
-        <div class="highlight-box">
-            <h4>🧠 4 Dimensionet e EQ-së për Komunikim Efektiv:</h4>
-            <ul>
-                <li>🪞 <strong>Self-Awareness:</strong> Kuptimi i emocioneve dhe reaksioneve tuaja</li>
-                <li>⚖️ <strong>Self-Management:</strong> Kontrollimi i emocioneve nën presion</li>
-                <li>👥 <strong>Social Awareness:</strong> Leximi i emocioneve të të tjerëve</li>
-                <li>🤝 <strong>Relationship Management:</strong> Ndikimi pozitiv në të tjerët</li>
-            </ul>
-        </div>
-
-        <h3>📱 Public Speaking në Epokën Dixhitale</h3>
-        
-        <p>Warren Buffett tha: "Aftësia për të folur publikisht vlen sa një diplomë universitare." Në epokën e TEDx, webinars, dhe live streaming, kjo është edhe më e vërtetë.</p>
-
-        <div class="highlight-box">
-            <h4>🎤 Formula për Fjalim të Fuqishëm:</h4>
-            <ul>
-                <li>🎯 <strong>Opening Hook:</strong> 30 sekondat e para vendosin gjithçka</li>
-                <li>📋 <strong>Rule of 3:</strong> 3 pika kryesore, jo më shumë</li>
-                <li>📊 <strong>Data + Story:</strong> Kombinimi i fakteve me emocione</li>
-                <li>👥 <strong>Audience Interaction:</strong> Pyetje retorike dhe engagement</li>
-                <li>🎬 <strong>Visual Aids:</strong> Slide të thjeshta por impaktuse</li>
-                <li>💪 <strong>Call to Action:</strong> Çfarë duhet të bëjnë pas fjalimit</li>
-                <li>🏁 <strong>Strong Closing:</strong> Përfundimi që mbetet në mendje</li>
-                <li>🎥 <strong>Recording Strategy:</strong> Përmbajtje që jetgjat në format dixhital</li>
-            </ul>
-        </div>
-
-        <h3>💼 Komunikimi në Biznes: Email, Meetings & Prezantime</h3>
-        
-        <p>Komunikimi i shkëlqyer në biznes është ndryshimi midis deal-it të fituar dhe të humbur, midis promovimit dhe stagnimit.</p>
-
-        <div class="highlight-box">
-            <h4>📧 Template për Email-in Perfekt Profesional:</h4>
-            <ul>
-                <li>📝 <strong>Subject Line:</strong> I qartë, specifik, actionable</li>
-                <li>👋 <strong>Greeting:</strong> Personal por profesional</li>
-                <li>🎯 <strong>Purpose:</strong> Arsyeja e email-it në paragrafin e parë</li>
-                <li>📋 <strong>Main Content:</strong> Bulleted, të organizuara, të shkurtra</li>
-                <li>⚡ <strong>Call to Action:</strong> Çfarë duhet të bëjë marrësi</li>
-                <li>🕐 <strong>Timeline:</strong> Kur duhet të përgjigjet ose të veprojë</li>
-                <li>🙏 <strong>Professional Closing:</strong> Faleminderit dhe nënshkrim</li>
-                <li>📎 <strong>Attachments:</strong> Të përmendura në tekst, emërtuar qartë</li>
-            </ul>
-        </div>
-
-        <h3>🌐 Ndërtimi i Markës Personale përmes Komunikimit</h3>
-        
-        <p>Në epokën dixhitale, secili është një markë. Si komunikoni online dhe offline ndërton ose shkatërron reputacionin tuaj.</p>
-
-        <div class="highlight-box">
-            <h4>🏗️ 5 Shtyllat e Markës Personale:</h4>
-            <ul>
-                <li>🎯 <strong>Consistency:</strong> Mesazhi i njëjtë në të gjitha platformat</li>
-                <li>💎 <strong>Authenticity:</strong> Jini të vërtetë, jo kopje e dikujt</li>
-                <li>📚 <strong>Expertise:</strong> Tregoni njohuritë dhe përvojën tuaj</li>
-                <li>❤️ <strong>Value-First:</strong> Jepni vlerë para se të kërkoni diçka</li>
-                <li>🔄 <strong>Engagement:</strong> Ndërveproni me audiencën tuaj</li>
-            </ul>
-        </div>
-
-        <h3>🎯 Komunikimi në Kriza dhe Situata të Vështira</h3>
-        
-        <p>Mënyra se si komunikoni në situata të vështira tregon karakterin dhe profesionalizmin tuaj. Krizat janë mundësi për të treguar lidershipin.</p>
-
-        <div class="highlight-box">
-            <h4>⚠️ Protokolli i Komunikimit në Krizë:</h4>
-            <ul>
-                <li>⚡ <strong>Speed:</strong> Komunikim i shpejtë për kontrollin e narrativës</li>
-                <li>💯 <strong>Honesty:</strong> Transparencë absolute, marrja e përgjegjësisë</li>
-                <li>❤️ <strong>Empathy:</strong> Kuptimi dhe simpatio për të prekurit</li>
-                <li>🔧 <strong>Action Plan:</strong> Hapa konkretë për zgjidhjen e problemit</li>
-                <li>📈 <strong>Follow-up:</strong> Update regular për progresin</li>
-                <li>📚 <strong>Learning:</strong> Mësimet e marra dhe përmirësimet</li>
-            </ul>
-        </div>
-
-        <p style="text-align: center; margin-top: 30px; font-size: 1.2em; color: #2E8B57;">
-            <strong>💎 Komunikimi është urë midis asaj që mendoni dhe asaj që arrihet. Ndërtoni ura të forta! 🌉</strong>
-        </p>
         `
     },
     
@@ -9610,124 +9301,107 @@ function showChapter(chapterNumber) {
 
 function showPlaceholderChapter(chapterNumber) {
     return `
-        <h2>📖 Kapitulli ${chapterNumber}: ${getChapterTitle(chapterNumber)}</h2>
-        
-        <div class="key-points">
-            <h3>🎯 Pikat kryesore të kapitullit:</h3>
-            <ul>
-                <li>📊 Analiza strategjike e temës "${getChapterTitle(chapterNumber)}"</li>
-                <li>💡 Zgjidhje praktike të bazuara në teorinë e lojërave</li>
-                <li>🕌 Integrimi i vlerave islame me praktikat moderne</li>
-                <li>📈 Strategji për sukses të qëndrueshëm dhe të nderuar</li>
-                <li>⚖️ Balancimi i fitimit material me vlerat shpirtërore</li>
-            </ul>
+        <h2>Kapitulli ${chapterNumber}: ${getChapterTitle(chapterNumber)}</h2>
+        <div class="ai-prompt-box">
+            <h4>🤖 Prompt për ChatGPT:</h4>
+            <p>"Create an inspiring and elegant image for the book chapter titled '${getChapterTitle(chapterNumber)}'. The image should reflect themes of success, honor, and strategic thinking, incorporating Kosovar and Islamic cultural elements, along with symbols of wealth like luxury cars and modern architecture. Style: sophisticated, aspirational, and professional."</p>
         </div>
-        
-        <p>📝 Ky kapitull është aktualisht në proces zhvillimi dhe do të përfshijë përmbajtje të pasur në tematikën <strong>"${getChapterTitle(chapterNumber)}"</strong>. Përmbajtja do të ofrojë strategji praktike dhe këshilla të bazuara në teorinë e lojërave dhe vlerat e nderit.</p>
-        
+        <p>Përmbajtja për këtë kapitull është duke u përgatitur dhe do të jetë e disponueshme së shpejti. Ky kapitull do të trajtojë në thellësi temën <strong>"${getChapterTitle(chapterNumber)}"</strong>, duke ofruar strategji praktike dhe këshilla të bazuara në teorinë e lojërave dhe vlerat e nderit.</p>
         <div class="highlight-box">
-            <h4>📚 Çfarë do të mësoni në këtë kapitull:</h4>
+            <h4>Çfarë do të mësoni në këtë kapitull:</h4>
             <ul>
-                <li>🎲 Strategji kyçe për zbatimin e parimeve të "${getChapterTitle(chapterNumber)}"</li>
-                <li>💼 Shembuj konkretë nga biznesmene të suksesshëm kosovarë</li>
-                <li>🤝 Lidhja midis kësaj teme dhe parimeve islame të biznesit</li>
-                <li>🎯 Hapa praktikë për aplikimin e mësimeve në jetën e përditshme</li>
-                <li>📊 Matje dhe monitorim i progresit tuaj</li>
+                <li>Strategji kyçe për të zbatuar parimet e '${getChapterTitle(chapterNumber)}'.</li>
+                <li>Shembuj konkretë nga jeta reale e biznesmenëve të suksesshëm Kosovarë.</li>
+                <li>Lidhja midis kësaj teme dhe parimeve islame të biznesit dhe jetës.</li>
+                <li>Hapa praktikë për të aplikuar këto mësime në jetën tuaj të përditshme për të arritur suksesin e nderuar.</li>
             </ul>
         </div>
-        
-        <div class="islamic-quote">
-            "وَمَن يَتَّقِ اللَّهَ يَجْعَل لَّهُ مَخْرَجًا"
-            <br><br>
-            "Dhe kushdo që i frikësohet Allahut, Ai do t'i hapë një rrugëdalje" - Kurani, 65:2
-        </div>
-        
-        <p>🙏 Faleminderit për durimin tuaj. Po punojmë me përkushtim për të sjellë përmbajtjen më cilësore dhe më të dobishme për ju.</p>
+        <p>Faleminderit për durimin tuaj. Ne po punojmë për të sjellë përmbajtjen më të mirë të mundshme për ju.</p>
     `;
 }
 
 function getChapterTitle(chapterNumber) {
     const titles = {
-        1: "Hyrje në Teorinë e Lojërave dhe Nderin",
-        2: "Nderi si Strategji Fitimprurëse në Biznes",
-        3: "Ekuilibri Nash dhe Marrëdhëniet Strategjike",
-        4: "Strategjitë e Investimit të Mençur",
-        5: "Marrëdhëniet dhe Networking Strategjik",
-        6: "Martesa si Investim Strategjik në Jetë",
-        7: "Ndërtimi i Biznesit të Parë: Nga Idea në Realitet",
-        8: "Psikologjia e Suksesit: Mentaliteti i Fituesit",
-        9: "Teknologjia dhe Biznesi Digjital",
-        10: "Edukimi i Fëmijëve për Sukses",
-        11: "Psikologjia e Suksesit dhe Mentaliteti Fitues",
-        12: "Rrjetëzimi Strategjik dhe Ndërtimi i Marrëdhënieve",
-        13: "Menaxhimi i Kohës dhe Produktiviteti Maksimal",
-        14: "Kriativiteti dhe Inovacioni në Biznes",
-        15: "Menaxhimi i Stresit dhe Ruajtja e Ekuilibrit",
-        16: "Komunikimi Efektiv dhe Bindja",
-        17: "Negocimi dhe Marrëveshjet Fitimprurëse",
-        18: "Lidershipi dhe Ndërtimi i Ekipeve",
-        19: "Menaxhimi i Konflikteve dhe Diplomacia",
-        20: "Vendimmarrja Strategjike",
-        21: "Planifikimi Afatgjatë dhe Vizioni",
-        22: "Menaxhimi i Rrezikut dhe Siguria Financiare",
-        23: "Inovacioni në Biznes dhe Transformimi Digjital",
-        24: "Marketing-u Etik dhe Ndërtimi i Markës",
-        25: "Shitjet me Integritet dhe Customer Success",
-        26: "Shërbimi ndaj Klientit dhe Loyaliteti",
-        27: "Zhvillimi i Produkteve dhe Menaxhimi i Inovacionit",
-        28: "Menaxhimi Financiar dhe Planifikimi Buxhetor",
-        29: "Investimet e Avancuara dhe Portfolio Management",
-        30: "Tregtia Ndërkombëtare dhe Globalizimi",
-        31: "Teknologjia Blockchain dhe Cryptocurrency",
-        32: "Artificial Intelligence në Biznes",
-        33: "Media Sociale dhe Marketing Digjital",
-        34: "E-commerce dhe Shitjet Online",
-        35: "Përgjegjësia Sociale dhe Impact Investing",
-        36: "Mjedisi dhe Biznesi i Qëndrueshëm",
-        37: "Edukimi i Vazhdueshëm dhe Zhvillimi Personal",
-        38: "Mentorshipi dhe Transferimi i Dijeve",
-        39: "Rrjetet Profesionale dhe Strategic Partnerships",
-        40: "Balanca Jetë-Punë dhe Wellness",
-        41: "Shëndeti dhe Performanca në Biznes",
-        42: "Familja dhe Karriera: Integrimi i Suksesshëm",
-        43: "Edukimi i Fëmijëve në Epokën Digjitale",
-        44: "Trashëgimia dhe Planifikimi i Pasarisë",
-        45: "Filantropinë Strategjike dhe Giving Back",
-        46: "Impakti në Komunitet dhe Social Entrepreneurship",
-        47: "Lidershipi Global dhe Cross-Cultural Management",
-        48: "E Ardhmja e Biznesit dhe Trendet Emergjente",
-        49: "Teknologjitë Emergjente dhe Disruption",
-        50: "Strategjitë për Shekullin 21",
-        51: "Sustainable Business Models",
-        52: "Crisis Management dhe Business Continuity",
-        53: "International Expansion dhe Market Entry",
-        54: "Digital Transformation dhe Industry 4.0",
-        55: "Data Analytics dhe Business Intelligence",
-        56: "Customer Experience dhe Service Excellence",
-        57: "Supply Chain Management dhe Logistics",
-        58: "Intellectual Property dhe Innovation Protection",
-        59: "Exit Strategies dhe Business Valuation",
-        60: "Vizioni dhe Misioni Jetësor: Trashëgimia Juaj",
-        61: "Jeta e Përditshme dhe Menaxhimi i Situatave Sociale",
-        62: "Strategjitë për Mbrojtjen nga Presioni Social",
+        1: "Hyrje në teorinë e lojërave dhe nderin",
+        2: "Nderi si strategji fitimprurëse në biznes",
+        3: "Ekuilibri Nash dhe marrëdhëniet strategjike",
+        4: "Strategjitë e investimit të mençur",
+        5: "Marrëdhëniet dhe networking strategjik",
+        6: "Martesa si investim strategjik në jetë",
+        7: "Ndërtimi i biznesit të parë: Nga idea në realitet",
+        8: "Psikologjia e suksesit: Mentaliteti i fituesit",
+        9: "Teknologjia dhe biznesi digjital",
+        10: "Edukimi i fëmijëve për sukses",
+        11: "Psikologjia e suksesit dhe mentaliteti fitues",
+        12: "Rrjetëzimi strategjik dhe ndërtimi i marrëdhënieve",
+        13: "Menaxhimi i kohës dhe produktiviteti maksimal",
+        14: "Kriativiteti dhe inovacioni në biznes",
+        15: "Menaxhimi i stresit dhe ruajtja e ekuilibrit",
+        16: "Komunikimi efektiv dhe bindja",
+        17: "Negocimi dhe marrëveshjet fitimprurëse",
+        18: "Lidershipi dhe ndërtimi i ekipeve",
+        19: "Menaxhimi i konflikteve dhe diplomacia",
+        20: "Vendimmarrja strategjike",
+        21: "Planifikimi afatgjatë dhe vizioni",
+        22: "Menaxhimi i rrezikut dhe siguria financiare",
+        23: "Inovacioni në biznes dhe transformimi digjital",
+        24: "Marketing-u etik dhe ndërtimi i markës",
+        25: "Shitjet me integritet dhe customer success",
+        26: "Shërbimi ndaj klientit dhe loyaliteti",
+        27: "Zhvillimi i produkteve dhe menaxhimi i inovacionit",
+        28: "Menaxhimi financiar dhe planifikimi buxhetor",
+        29: "Investimet e avancuara dhe menaxhimi i portofolit",
+        30: "Tregtia ndërkombëtare dhe globalizimi",
+        31: "Teknologjia blockchain dhe cryptocurrency",
+        32: "Inteligjenca artificiale në biznes",
+        33: "Media sociale dhe marketing digjital",
+        34: "E-commerce dhe shitjet online",
+        35: "Përgjegjësia sociale dhe impact investing",
+        36: "Mjedisi dhe biznesi i qëndrueshëm",
+        37: "Edukimi i vazhdueshëm dhe zhvillimi personal",
+        38: "Mentorshipi dhe transferimi i dijeve",
+        39: "Rrjetet profesionale dhe partneritetet strategjike",
+        40: "Balanca jetë-punë dhe wellness",
+        41: "Shëndeti dhe performanca në biznes",
+        42: "Familja dhe karriera: integrimi i suksesshëm",
+        43: "Edukimi i fëmijëve në epokën digjitale",
+        44: "Trashëgimia dhe planifikimi i pasurisë",
+        45: "Filantropinë strategjike dhe giving back",
+        46: "Impakti në komunitet dhe social entrepreneurship",
+        47: "Lidershipi global dhe cross-cultural management",
+        48: "E ardhmja e biznesit dhe trendet emergjente",
+        49: "Teknologjitë emergjente dhe disruption",
+        50: "Strategjitë për shekullin 21",
+        51: "Modelet e biznesit të qëndrueshëm",
+        52: "Menaxhimi i krizave dhe vazhdimësia e biznesit",
+        53: "Zgjerimi ndërkombëtar dhe hyrja në tregje të reja",
+        54: "Transformimi digjital dhe Industria 4.0",
+        55: "Analiza e të dhënave dhe Inteligjenca e Biznesit",
+        56: "Përvoja e Klientit dhe Ekselenca në Shërbim",
+        57: "Menaxhimi i Zinxhirëve të Furnizimit dhe Logjistika",
+        58: "Pronësia Intelektuale dhe Mbrojtja e Inovacionit",
+        59: "Exit strategies dhe business valuation",
+        60: "Vizioni dhe misioni jetësor: Trashëgimia juaj",
+        61: "Jeta e përditshme dhe menaxhimi i situatave sociale",
+        62: "Strategjitë për mbrojtjen nga presioni social",
         63: "Teknologjia AI dhe Llama Nemotron Super 49B v1.5",
-        64: "Përdorimi i Superkompjuterave dhe 128GB RAM",
+        64: "Përdorimi i superkompjuterave dhe 128GB RAM",
         65: "Audio Intelligence dhe Audio Flamingo 3",
-        66: "HuggingFace dhe Setup i Modeleve AI",
-        67: "Strategjitë kundër Serbisë: Superioritet Teknologjik",
-        68: "Mbrojtja e Kosovës përmes Inovacionit",
-        69: "Nvidia AI dhe Machine Learning për Strategji",
+        66: "HuggingFace dhe setup i modeleve AI",
+        67: "Strategjitë kundër Beogradit: Superioritet teknologjik",
+        68: "Mbrojtja e Republikës së Kosovës përmes inovacionit",
+        69: "Nvidia AI dhe Machine Learning për strategji",
         70: "Voice Processing dhe Audio AI Technologies",
-        71: "Cyber Warfare dhe Mbrojtja Digjitale",
-        72: "Dogana Inteligjente dhe Sisteme të Avancuara",
-        73: "Big Data dhe Surveillance për Siguri Kombëtare",
-        74: "Quantum Computing dhe E Ardhmja e Teknologjisë",
-        75: "Geopolitika Digjitale dhe Dominimi Teknologjik",
-        76: "Strategjitë e Luftës Informative",
-        77: "AI Ethics dhe Përdorimi i Përgjegjshëm",
-        78: "Robotika dhe Automatizimi i Mbrojtjes",
-        79: "Kripto-Siguria dhe Blockchain për Shtet",
-        80: "Vizioni 2030: Kosova si Fuqi Teknologjike Rajonale"
+        71: "Cyber Warfare dhe mbrojtja digjitale",
+        72: "Dogana inteligjente dhe sisteme të avancuara",
+        73: "Big Data dhe surveillance për siguri kombëtare",
+        74: "Quantum Computing dhe e ardhmja e teknologjisë",
+        75: "Geopolitika digjitale dhe dominimi teknologjik",
+        76: "Strategjitë e luftës informative",
+        77: "AI Ethics dhe përdorimi i përgjegjshëm",
+        78: "Robotika dhe automatizimi i mbrojtjes",
+        79: "Kripto-siguria dhe blockchain për Shtet",
+        80: "Vizioni 2030: Kosova si fuqi teknologjike rajonale"
     };
     
     return titles[chapterNumber] || `Tema ${chapterNumber}`;
@@ -10290,7 +9964,7 @@ function generateCompleteBookContent() {
     
     <div class="chapter-separator"></div>
     
-    <h1>🎯 Konkluzione të përgjithshme</h1>
+    <h1>🎯 Konkluzione të Përgjithshme</h1>
     
     <div class="islamic-quote">
         "وَقُل رَّبِّ زِدْنِي عِلْمًا"
@@ -10298,42 +9972,42 @@ function generateCompleteBookContent() {
         "Dhe thuaj: O Zoti im, shtomë dijen time!" - Kurani, 20:114
     </div>
     
-    <h3>🌟 Mesazhi përmbyllës</h3>
+    <h3>🌟 Mesazhi Përmbyllës</h3>
     <p>Nëpër këto 60 kapituj kemi udhëtuar së bashku nëpër botën e strategjisë së biznesit, duke mësuar se si të arrijmë suksesin pa sakrifikuar vlerat tona. Çelësi i suksesit të qëndrueshëm qëndron në integrimin e njohurive moderne me parimet e përjetshme të nderit dhe integritetit.</p>
     
     <div class="highlight-box">
-        <h4>🏆 Mesaje kyçe nga libri:</h4>
+        <h4>🏆 Mesaje Kyçe nga Libri:</h4>
         <ul>
-            <li><strong>Nderi është strategjia më fitimprurëse:</strong> Reputacioni i mirë hap më shumë dyer sesa çdo tjetër</li>
-            <li><strong>Vlerat Islame ndihmojnë në biznes:</strong> Principet fetare janë burim force dhe udhëzimi</li>
-            <li><strong>Suksesi kërkon durim:</strong> Rezultatet e qëndrueshme vijnë me kohë dhe punë</li>
-            <li><strong>Marrëdhëniet janë thelbësore:</strong> Askush nuk arrin sukses i vetëm</li>
-            <li><strong>Edukimi i vazhdueshëm:</strong> Botë ndryshon, ne duhet të ndryshojmë me të</li>
+            <li><strong>Nderi është Strategjia më Fitimprurëse:</strong> Reputacioni i mirë hap më shumë dyer sesa çdo tjetër</li>
+            <li><strong>Vlerat Islame Ndihmojnë në Biznes:</strong> Principet fetare janë burim force dhe udhëzimi</li>
+            <li><strong>Suksesi Kërkon Durim:</strong> Rezultatet e qëndrueshme vijnë me kohë dhe punë</li>
+            <li><strong>Marrëdhëniet janë Thelbësore:</strong> Askush nuk arrin sukses i vetëm</li>
+            <li><strong>Edukimi i Vazhdueshëm:</strong> Botë ndryshon, ne duhet të ndryshojmë me të</li>
         </ul>
     </div>
     
-    <h3>🚀 Hapat e ardhshëm</h3>
+    <h3>🚀 Hapat e Ardhshëm</h3>
     <p>Tani që keni lexuar këtë libër, koha është për veprim. Zgjidhni 3-5 strategji që ju duken më relevante dhe filloni implementimin menjëherë. Mbani shënime mbi progresin dhe mos kini frikë të eksperimentoni.</p>
     
     <div class="book-stats">
-        <h3 style="color: #2E8B57;">📈 Statistikat e suksesit</h3>
+        <h3 style="color: #2E8B57;">📈 Statistikat e Suksesit</h3>
         <p>Studimet tregojnë se lexuesit që aplikojnë strategjitë nga ky libër shënojnë:</p>
         <div class="stats-grid">
             <div class="stat-item">
                 <span class="stat-number">85%</span>
-                <div class="stat-label">Përmirësim në performancë</div>
+                <div class="stat-label">Përmirësim në Performance</div>
             </div>
             <div class="stat-item">
                 <span class="stat-number">67%</span>
-                <div class="stat-label">Rritje e të ardhurave</div>
+                <div class="stat-label">Rritje e të Ardhurave</div>
             </div>
             <div class="stat-item">
                 <span class="stat-number">92%</span>
-                <div class="stat-label">Më shumë kënaqësi në punë</div>
+                <div class="stat-label">Më Shumë Kënaqësi në Punë</div>
             </div>
             <div class="stat-item">
                 <span class="stat-number">78%</span>
-                <div class="stat-label">Balancë më e mirë jetë-punë</div>
+                <div class="stat-label">Balancë më e Mirë Jetë-Punë</div>
             </div>
         </div>
     </div>
@@ -10349,10 +10023,10 @@ function generateCompleteBookContent() {
     </div>
     
     <div style="text-align: center; margin-top: 50px; padding-top: 30px; border-top: 3px solid #DAA520; color: #666; font-size: 12pt;">
-        <p><strong>Teoria e lojërave: Nderi dhe suksesi</strong></p>
+        <p><strong>Teoria e Lojërave: Nderi dhe Suksesi</strong></p>
         <p>© 2025 - Të gjitha të drejtat të rezervuara</p>
         <p>Libër i plotë me 60 kapituj • 300+ faqe përmbajtje</p>
-    </div>  
+    </div>
     
 </body>
 </html>`;

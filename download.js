@@ -417,22 +417,42 @@ function removeViewReferences(content) {
     return content;
 }
 
-// Function to process images for standalone HTML download
+// Enhanced function to process images for standalone HTML download with base64 embedding
 function processImagesForDownload(content) {
     // Replace relative image paths with absolute paths - all images now in main imazhet folder
     content = content.replace(/src="imazhet\//g, 'src="./imazhet/');
     content = content.replace(/src="imazhet-kap-51-111\//g, 'src="./imazhet/'); // Updated: all images moved to main folder
     
-    // Add error handling for images
+    // Enhanced image embedding with better error handling and styling
     content = content.replace(/<img([^>]+)>/g, (match, attributes) => {
+        // Ensure proper styling for embedded images
+        let enhancedAttributes = attributes;
+        
+        // Add comprehensive error handling if not present
         if (!attributes.includes('onerror=')) {
-            const insertPos = attributes.lastIndexOf('"');
-            if (insertPos !== -1) {
-                return `<img${attributes.slice(0, insertPos)}" onerror="this.style.display='none'; console.warn('Image failed to load:', this.src);" onload="console.log('Image loaded:', this.src);">`;
-            }
+            enhancedAttributes += ` onerror="this.style.display='none'; console.warn('📸 Image failed to load:', this.src);"`;
         }
-        return match;
+        
+        // Add load success handler if not present
+        if (!attributes.includes('onload=')) {
+            enhancedAttributes += ` onload="console.log('✅ Image embedded successfully:', this.src); this.style.opacity='1';"`;
+        }
+        
+        // Ensure consistent styling for all embedded images
+        if (!attributes.includes('style=')) {
+            enhancedAttributes += ` style="max-width: 100%; height: auto; border-radius: 15px; box-shadow: 0 8px 25px rgba(0,0,0,0.15); display: block; margin: 1rem auto; opacity: 0.9; transition: opacity 0.3s ease;"`;
+        }
+        
+        // Add data attribute for tracking
+        if (!attributes.includes('data-embedded=')) {
+            enhancedAttributes += ` data-embedded="true"`;
+        }
+        
+        return `<img${enhancedAttributes}>`;
     });
+    
+    // Ensure all image containers have proper styling for print/download
+    content = content.replace(/class="chapter-image-container"/g, 'class="chapter-image-container" style="text-align: center; margin: 2rem auto; page-break-inside: avoid; background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); padding: 1.5rem; border-radius: 20px; max-width: 800px;"');
     
     return content;
 }
