@@ -711,7 +711,7 @@ const chapters = {
     },
 
     14: {
-        title: "Kriativiteti dhe Inovacioni në Biznes",
+        title: "Kreativiteti dhe Inovacioni në Biznes",
         content: `
         <h2>Kapitulli 14: Kreativiteti dhe Inovacioni në Biznes</h2>
         
