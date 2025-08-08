@@ -4,11 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Teoria e Lojërave: Nderi dhe Suksesi - Libri i Plotë</title>
-    <meta name="description" content="Libër i plotë 800+ faqesh në shqip për teorinë e lojërave me 111 kapituj të ndryshëm metodologjikisht. Çdo kapitull është unik: case studies, akad    <!-- Load single clean script to avoid conflicts -->
-    <script src="script-main-clean.js"></script>
+    <meta name="description" content="Libër i plotë 800+ faqesh në shqip për teorinë e lojërave me 111 kapituj të ndryshëm metodologjikisht. Çdo kapitull është unik: case studies, akad    <!-- Load complete script with all 111 chapters -->
+    <script src="script-complete.js"></script>
     
     <!-- Image auto-fix and integration -->
-    <script src="image-auto-fix-clean.js"></script>ervista, narrative, workshop. Fokusim në nder, sukses, pasuri halal, dhe vlera islame.">
+    <script src="image-auto-fix.js"></script>
+    
+    <!-- Download functionality -->
+    <script src="download.js"></script>ervista, narrative, workshop. Fokusim në nder, sukses, pasuri halal, dhe vlera islame.">
     <meta name="keywords" content="teoria e lojërave, nder, sukses, biznes, Islam, Mercedes, pasuri, investime halal, martesa, networking, milioner, 111 kapituj, metodologji të ndryshme">
     <meta name="author" content="Game Theory Albania">
     
@@ -27,10 +30,8 @@
     <meta property="twitter:image" content="https://teoria-lojrave-shqip.netlify.app/book-cover.jpg">
     
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="islamic-theme.css">
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="chapter-improvements.css">
-    <link rel="stylesheet" href="chapter-fixes.css">
-    <link rel="stylesheet" href="navigation-style-override.css">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
     
     <!-- Google Analytics -->
@@ -121,8 +122,8 @@
                 <!-- Chapters will be populated by JavaScript -->
             </div>
 
-            <div style="text-align: center; margin-top: 3rem; padding: 2rem; background: linear-gradient(135deg, #2E8B5710, #00640010); border-radius: 15px;">
-                <h3 style="color: #2E8B57; margin-bottom: 1rem;">📈 Objektivi Juaj për 2025-2030</h3>
+            <div style="text-align: center; margin-top: 3rem; padding: 2rem; background: linear-gradient(135deg, rgba(0, 168, 89, 0.1), rgba(30, 77, 60, 0.1)); border-radius: 15px;">
+                <h3 style="color: #00a859; margin-bottom: 1rem;">📈 Objektivi Juaj për 2025-2030</h3>
                 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; margin: 2rem 0;">
                     <div style="padding: 1rem; background: white; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
                         <strong>🎯 Viti 1-2</strong><br>
@@ -177,22 +178,18 @@
         </div>
     </section>
 
-    <section id="download" style="padding: 5rem 0; background: linear-gradient(135deg, #2E8B57 0%, #006400 100%); color: white;">
+    <section id="download" style="padding: 5rem 0; background: linear-gradient(135deg, #00a859 0%, #1e4d3c 100%); color: white;">
         <div class="container" style="text-align: center;">
             <h2 style="color: white; margin-bottom: 2rem;">📥 Shkarkoni Librin Komplet</h2>
             <p style="font-size: 1.3rem; margin-bottom: 3rem; opacity: 0.9;">
-                <p style="text-align: center; font-size: 1.2rem; margin-bottom: 3rem; color: #666;">
-                <p style="font-size: 1.3rem; margin-bottom: 3rem; opacity: 0.9;">
                 800+ faqe, 111 kapituj me metodologji unike, mijëra strategji praktike - e gjitha në dispozicion tani!
-            </p>
-            </p>
             </p>
             
             <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2rem; margin: 2rem 0;">
                 <div style="background: rgba(255,255,255,0.1); padding: 2rem; border-radius: 15px; backdrop-filter: blur(10px);">
                     <h4 style="color: white; margin-bottom: 1rem;">📖 Versioni i Plotë</h4>
                     <p style="opacity: 0.9; margin-bottom: 1.5rem;">Libri komplet me të gjitha shikimet dhe referencat psikologjike</p>
-                    <button onclick="downloadBookWithViews()" style="background: white; color: #2E8B57; border: none; padding: 12px 24px; border-radius: 25px; cursor: pointer; font-weight: bold; font-size: 1rem;">
+                    <button onclick="downloadBookWithViews()" style="background: white; color: #00a859; border: none; padding: 12px 24px; border-radius: 25px; cursor: pointer; font-weight: bold; font-size: 1rem;">
                         Shkarko Me Shikime 👁️
                     </button>
                 </div>
@@ -200,7 +197,7 @@
                 <div style="background: rgba(255,255,255,0.1); padding: 2rem; border-radius: 15px; backdrop-filter: blur(10px);">
                     <h4 style="color: white; margin-bottom: 1rem;">📚 Versioni i Thjeshtë</h4>
                     <p style="opacity: 0.9; margin-bottom: 1.5rem;">Libri pa referencat e shikimeve - fokus në strategji dhe biznes</p>
-                    <button onclick="downloadBookWithoutViews()" style="background: white; color: #2E8B57; border: none; padding: 12px 24px; border-radius: 25px; cursor: pointer; font-weight: bold; font-size: 1rem;">
+                    <button onclick="downloadBookWithoutViews()" style="background: white; color: #00a859; border: none; padding: 12px 24px; border-radius: 25px; cursor: pointer; font-weight: bold; font-size: 1rem;">
                         Shkarko Pa Shikime 🎯
                     </button>
                 </div>
@@ -208,7 +205,7 @@
                 <div style="background: rgba(255,255,255,0.1); padding: 2rem; border-radius: 15px; backdrop-filter: blur(10px);">
                     <h4 style="color: white; margin-bottom: 1rem;">🖨️ Si të Printoni PDF</h4>
                     <p style="opacity: 0.9; margin-bottom: 1.5rem;">Udhëzime për printim profesional si PDF</p>
-                    <button onclick="showPrintInstructions()" style="background: white; color: #2E8B57; border: none; padding: 12px 24px; border-radius: 25px; cursor: pointer; font-weight: bold; font-size: 1rem;">
+                    <button onclick="showPrintInstructions()" style="background: white; color: #00a859; border: none; padding: 12px 24px; border-radius: 25px; cursor: pointer; font-weight: bold; font-size: 1rem;">
                         Udhëzime Print 🎯
                     </button>
                 </div>
@@ -233,7 +230,7 @@
                 <p style="opacity: 0.9; margin-bottom: 1.5rem;">Merrni njoftimet e para për kapituj të rinj dhe përmirësime</p>
                 <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
                     <input type="email" placeholder="Emaili juaj..." style="padding: 12px 20px; border: none; border-radius: 25px; flex: 1; max-width: 300px;" id="emailInput">
-                    <button onclick="subscribeUpdates()" style="background: white; color: #2E8B57; border: none; padding: 12px 24px; border-radius: 25px; cursor: pointer; font-weight: bold;">
+                    <button onclick="subscribeUpdates()" style="background: white; color: #00a859; border: none; padding: 12px 24px; border-radius: 25px; cursor: pointer; font-weight: bold;">
                         Regjistrohu 📧
                     </button>
                 </div>

@@ -1,0 +1,465 @@
+/* Islamic & Qaba Inspired Styles - Green and Blue Theme */
+/* Inspired by the sacred colors of Islam and the holy Kaaba */
+
+:root {
+    /* Primary Islamic Colors */
+    --qaba-black: #1a1a1a;
+    --mecca-gold: #c9a96e;
+    --islamic-green: #00a859;
+    --deep-forest: #1e4d3c;
+    --light-sage: #e8f5f0;
+    --prophet-blue: #2e6a9e;
+    --sky-blue: #87ceeb;
+    --pure-white: #ffffff;
+    --peace-gray: #f8f9fa;
+    --wisdom-dark: #2d3748;
+    
+    /* Gradients inspired by Islamic art */
+    --kaaba-gradient: linear-gradient(135deg, var(--qaba-black) 0%, var(--wisdom-dark) 100%);
+    --paradise-gradient: linear-gradient(135deg, var(--islamic-green) 0%, var(--deep-forest) 100%);
+    --sky-gradient: linear-gradient(135deg, var(--prophet-blue) 0%, var(--sky-blue) 100%);
+    --gold-gradient: linear-gradient(135deg, var(--mecca-gold) 0%, #daa520 100%);
+}
+
+/* Body and General Styles */
+body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    line-height: 1.7;
+    color: var(--wisdom-dark);
+    background: var(--pure-white);
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation with Islamic theme */
+.navbar {
+    background: var(--paradise-gradient);
+    padding: 1rem 0;
+    box-shadow: 0 4px 20px rgba(0, 168, 89, 0.2);
+}
+
+.nav-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar h1 {
+    color: var(--pure-white);
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.nav-menu {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 2rem;
+}
+
+.nav-menu a {
+    color: var(--pure-white);
+    text-decoration: none;
+    font-weight: 500;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.nav-menu a:hover {
+    background: rgba(255, 255, 255, 0.2);
+    transform: translateY(-2px);
+}
+
+/* Hero section with Islamic inspiration */
+.hero {
+    background: var(--sky-gradient);
+    color: var(--pure-white);
+    padding: 6rem 0;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><defs><pattern id="islamic" patternUnits="userSpaceOnUse" width="20" height="20"><path d="M10,0 L20,10 L10,20 L0,10 Z" fill="rgba(255,255,255,0.1)"/><circle cx="10" cy="10" r="2" fill="rgba(201,169,110,0.3)"/></pattern></defs><rect width="100" height="100" fill="url(%23islamic)"/></svg>');
+    opacity: 0.3;
+}
+
+.hero-content {
+    position: relative;
+    z-index: 2;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+.hero h1 {
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+    font-weight: 800;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+}
+
+.hero .subtitle {
+    font-size: 1.4rem;
+    opacity: 0.95;
+    margin-bottom: 1rem;
+}
+
+.hero button {
+    background: var(--mecca-gold);
+    color: var(--qaba-black);
+    border: none;
+    padding: 1.2rem 2.5rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 2rem;
+    box-shadow: 0 8px 25px rgba(201, 169, 110, 0.4);
+}
+
+.hero button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 12px 35px rgba(201, 169, 110, 0.6);
+    background: #daa520;
+}
+
+/* Container and layout */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+/* Highlight boxes with Islamic theme */
+.highlight-box {
+    background: var(--light-sage);
+    padding: 2rem;
+    margin: 2rem 0;
+    border-radius: 15px;
+    border-left: 4px solid var(--islamic-green);
+    box-shadow: 0 4px 15px rgba(0, 168, 89, 0.1);
+}
+
+.highlight-box h4 {
+    color: var(--deep-forest);
+    margin-top: 0;
+    font-weight: 700;
+}
+
+/* Islamic quotes styling */
+.islamic-quote {
+    background: var(--gold-gradient);
+    padding: 2rem;
+    margin: 2rem 0;
+    border-radius: 15px;
+    color: var(--qaba-black);
+    text-align: center;
+    direction: rtl;
+    font-style: italic;
+    font-weight: 500;
+    box-shadow: 0 8px 25px rgba(201, 169, 110, 0.3);
+    position: relative;
+}
+
+.islamic-quote::before {
+    content: '☪';
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: var(--islamic-green);
+    color: var(--pure-white);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+}
+
+/* Chapters section */
+.chapters {
+    padding: 5rem 0;
+    background: var(--peace-gray);
+}
+
+.chapters h2 {
+    text-align: center;
+    color: var(--deep-forest);
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+    font-weight: 800;
+}
+
+/* Chapter grid */
+.chapter-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+.chapter-card {
+    background: var(--pure-white);
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 168, 89, 0.1);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border: 2px solid transparent;
+}
+
+.chapter-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 30px rgba(0, 168, 89, 0.2);
+    border-color: var(--islamic-green);
+}
+
+.chapter-number {
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: var(--islamic-green);
+    margin-bottom: 1rem;
+}
+
+.chapter-title {
+    color: var(--deep-forest);
+    margin-bottom: 1rem;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+.chapter-excerpt {
+    color: var(--wisdom-dark);
+    margin-bottom: 1.5rem;
+    line-height: 1.6;
+}
+
+.chapter-stats {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.chapter-stats span {
+    background: var(--light-sage);
+    color: var(--deep-forest);
+    padding: 0.3rem 0.8rem;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 500;
+}
+
+/* Filter buttons */
+.filter-btn {
+    background: var(--pure-white);
+    color: var(--islamic-green);
+    border: 2px solid var(--islamic-green);
+    padding: 0.8rem 1.5rem;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    margin: 0.5rem;
+}
+
+.filter-btn:hover,
+.filter-btn.active {
+    background: var(--islamic-green);
+    color: var(--pure-white);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(0, 168, 89, 0.3);
+}
+
+/* Book content area */
+.book-content {
+    padding: 4rem 0;
+    background: var(--pure-white);
+}
+
+#chapter-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+#chapter-content h2 {
+    color: var(--deep-forest);
+    border-bottom: 3px solid var(--islamic-green);
+    padding-bottom: 1rem;
+    margin-bottom: 2rem;
+}
+
+#chapter-content h3 {
+    color: var(--islamic-green);
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+/* Navigation buttons */
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3rem;
+    padding: 2rem;
+    background: var(--peace-gray);
+    border-radius: 15px;
+}
+
+.navigation button {
+    background: var(--paradise-gradient);
+    color: var(--pure-white);
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.navigation button:hover:not(:disabled) {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(0, 168, 89, 0.3);
+}
+
+.navigation button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+#current-chapter-display {
+    font-weight: 700;
+    color: var(--deep-forest);
+    font-size: 1.1rem;
+}
+
+/* Chapter images */
+.chapter-image-container {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.chapter-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+}
+
+/* View references */
+.view-reference {
+    background: linear-gradient(135deg, var(--prophet-blue) 0%, var(--sky-blue) 100%);
+    color: var(--pure-white);
+    border-radius: 10px;
+    padding: 1.5rem;
+    margin: 2rem 0;
+    font-style: italic;
+}
+
+/* Quote boxes for testimonials */
+.quote-box {
+    background: var(--pure-white);
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 168, 89, 0.1);
+    border-left: 4px solid var(--mecca-gold);
+    margin-bottom: 2rem;
+}
+
+.quote-box p {
+    margin-bottom: 1rem;
+    font-style: italic;
+    color: var(--wisdom-dark);
+    line-height: 1.6;
+}
+
+.quote-box strong {
+    color: var(--islamic-green);
+    font-weight: 700;
+}
+
+/* Gallery cards */
+.gallery-card {
+    background: var(--pure-white);
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 168, 89, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.gallery-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 40px rgba(0, 168, 89, 0.2);
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .nav-container {
+        flex-direction: column;
+        gap: 1rem;
+    }
+    
+    .nav-menu {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1rem;
+    }
+    
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+    
+    .hero .subtitle {
+        font-size: 1.2rem;
+    }
+    
+    .chapter-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .navigation {
+        flex-direction: column;
+        gap: 1rem;
+    }
+}
+
+/* Print styles */
+@media print {
+    .navbar, .navigation, .filter-btn {
+        display: none;
+    }
+    
+    body {
+        font-size: 12pt;
+        line-height: 1.4;
+        color: black;
+    }
+    
+    .hero, .highlight-box, .islamic-quote, .view-reference {
+        background: white !important;
+        color: black !important;
+        border: 1px solid #ccc;
+    }
+    
+    .chapter-card {
+        break-inside: avoid;
+        margin-bottom: 1rem;
+    }
+}
