@@ -6926,7 +6926,7 @@ function showChapter(chapterNumber) {
             </div>
             
             <div class="chapter-content">
-                ${showPlaceholderChapter ? showPlaceholderChapter(chapterNumber) : generateChapterContent(chapterNumber, getChapterTitle(chapterNumber))}
+                ${generateChapterContent(chapterNumber, getChapterTitle(chapterNumber))}
             </div>
         `;
     }
